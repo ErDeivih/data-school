@@ -1,0 +1,11 @@
+{
+  "name": "data-school",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Academia de datos: catálogo curado de recursos enlazados, resumidos y comprobados.",
+  "scripts": {
+    "test": "node --test \"tools/**/*.test.mjs\"",
+    "check:links": "node tools/check-links.mjs"
+  }
+}

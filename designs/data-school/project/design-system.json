@@ -1,0 +1,25 @@
+{
+  "v": 3,
+  "layout": "files",
+  "createdOnFiles": {
+    "v": 1,
+    "at": "2026-11-04T13:16:51Z"
+  },
+  "title": "Data School",
+  "namespace": "DataSchool",
+  "libraries": [],
+  "sections": {},
+  "groups": [],
+  "assetGroups": {},
+  "blobs": {},
+  "docs": {
+    "readme": "project/README.md",
+    "sections": []
+  },
+  "lastChange": {
+    "by": "David",
+    "at": "2026-11-04T13:16:51Z",
+    "via": "DeepSeek Harness",
+    "note": "Sistema mínimo inicial: paleta semántica con semáforo de estados de fuente, tipografía editorial de sistema y escalas 4px. Sin componentes todavía."
+  }
+}
