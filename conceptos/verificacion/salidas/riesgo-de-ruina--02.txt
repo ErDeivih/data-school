@@ -1,0 +1,2 @@
+riesgo   2%  ruina  0.00%  caida del 50%  0.31%
+riesgo  10%  ruina 11.83%  caida del 50% 35.11%

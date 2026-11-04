@@ -1,0 +1,4 @@
+grupos devueltos: 2
+primera region: norte
+total de la primera: 230.0
+total de la segunda: 50.0

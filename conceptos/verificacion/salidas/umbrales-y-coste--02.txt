@@ -1,0 +1,3 @@
+umbral teorico  0.0148
+umbral empirico 0.0150
+coste minimo    2862 EUR

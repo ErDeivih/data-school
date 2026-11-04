@@ -1,0 +1,3 @@
+sha256, 20000 intentos:    34.6 ms  (0.002 ms por intento)
+scrypt, 1 intento:        115.0 ms  (115.0 ms por intento)
+un atacante prueba 66369 veces mas rapido con sha256

@@ -1,0 +1,3 @@
+gato-perro: 0.998
+coche-moto: 0.95
+gato-coche: -0.038

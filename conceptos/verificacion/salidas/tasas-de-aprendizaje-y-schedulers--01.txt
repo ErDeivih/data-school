@@ -1,0 +1,6 @@
+paso    0  lr 0.000000
+paso   50  lr 0.000150
+paso  100  lr 0.000300
+paso  300  lr 0.000265
+paso  600  lr 0.000124
+paso 1000  lr 0.000000

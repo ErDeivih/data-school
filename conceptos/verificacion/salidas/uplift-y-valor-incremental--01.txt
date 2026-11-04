@@ -1,0 +1,6 @@
+tasa tratados 0.50  tasa control 0.25
+diferencia directa  0.25
+media de z          [ 0.  -0.5]
+uplift              0.25
+J por subgrupo      [0.5  0.67]
+uplift subgrupo frio 0.50

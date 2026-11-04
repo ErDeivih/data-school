@@ -1,0 +1,6 @@
+parametros conv : 448
+parametros densa: 49168
+veces menos     : 110
+S=1 -> 32
+S=2 -> 16
+campo receptivo: 5

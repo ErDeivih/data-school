@@ -1,0 +1,2 @@
+antes de validar: 0.867
+dentro del pipe : 0.417

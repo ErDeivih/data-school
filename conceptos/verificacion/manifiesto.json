@@ -1,0 +1,5678 @@
+[
+  {
+    "concepto": "como-estudiar",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "como-estudiar--01.py"
+  },
+  {
+    "concepto": "como-estudiar",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "como-estudiar--02.py"
+  },
+  {
+    "concepto": "como-leer-un-paper",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "como-leer-un-paper--01.py"
+  },
+  {
+    "concepto": "como-leer-un-paper",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "como-leer-un-paper--02.py"
+  },
+  {
+    "concepto": "escribir-tarjetas-de-repaso",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "escribir-tarjetas-de-repaso--01.py"
+  },
+  {
+    "concepto": "escribir-tarjetas-de-repaso",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "escribir-tarjetas-de-repaso--02.py"
+  },
+  {
+    "concepto": "hacer-preguntas-buenas",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "hacer-preguntas-buenas--01.py"
+  },
+  {
+    "concepto": "hacer-preguntas-buenas",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "hacer-preguntas-buenas--02.py"
+  },
+  {
+    "concepto": "leer-documentacion-oficial",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "leer-documentacion-oficial--01.py"
+  },
+  {
+    "concepto": "leer-documentacion-oficial",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "leer-documentacion-oficial--02.py"
+  },
+  {
+    "concepto": "mapa-del-portal",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "mapa-del-portal--01.py"
+  },
+  {
+    "concepto": "notacion-matematica",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "notacion-matematica--01.py"
+  },
+  {
+    "concepto": "notacion-matematica",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "notacion-matematica--02.py"
+  },
+  {
+    "concepto": "pedir-ayuda-tecnica",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "pedir-ayuda-tecnica--01.py"
+  },
+  {
+    "concepto": "pedir-ayuda-tecnica",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "pedir-ayuda-tecnica--02.py"
+  },
+  {
+    "concepto": "practicar-con-datos-reales",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "practicar-con-datos-reales--01.py"
+  },
+  {
+    "concepto": "practicar-con-datos-reales",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "practicar-con-datos-reales--02.py"
+  },
+  {
+    "concepto": "tomar-notas-tecnicas",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "tomar-notas-tecnicas--01.py"
+  },
+  {
+    "concepto": "tomar-notas-tecnicas",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "tomar-notas-tecnicas--02.py"
+  },
+  {
+    "concepto": "usar-ia-para-aprender",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "usar-ia-para-aprender--01.py"
+  },
+  {
+    "concepto": "usar-ia-para-aprender",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "usar-ia-para-aprender--02.py"
+  },
+  {
+    "concepto": "asimetria-y-curtosis",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "asimetria-y-curtosis--01.py"
+  },
+  {
+    "concepto": "asimetria-y-curtosis",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "asimetria-y-curtosis--02.py"
+  },
+  {
+    "concepto": "autovalores-y-autovectores",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "autovalores-y-autovectores--01.py"
+  },
+  {
+    "concepto": "autovalores-y-autovectores",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "autovalores-y-autovectores--02.py"
+  },
+  {
+    "concepto": "autovalores-y-autovectores",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "autovalores-y-autovectores--03.py"
+  },
+  {
+    "concepto": "convexidad",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "convexidad--01.py"
+  },
+  {
+    "concepto": "convexidad",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "convexidad--02.py"
+  },
+  {
+    "concepto": "convexidad",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "convexidad--03.py"
+  },
+  {
+    "concepto": "correlacion-pearson-spearman",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "correlacion-pearson-spearman--01.py"
+  },
+  {
+    "concepto": "correlacion-pearson-spearman",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "correlacion-pearson-spearman--02.py"
+  },
+  {
+    "concepto": "correlacion-pearson-spearman",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "correlacion-pearson-spearman--03.py"
+  },
+  {
+    "concepto": "covarianza-y-correlacion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "covarianza-y-correlacion--01.py"
+  },
+  {
+    "concepto": "covarianza-y-correlacion",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "covarianza-y-correlacion--02.py"
+  },
+  {
+    "concepto": "cuantiles-y-percentiles",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "cuantiles-y-percentiles--01.py"
+  },
+  {
+    "concepto": "cuantiles-y-percentiles",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "cuantiles-y-percentiles--02.py"
+  },
+  {
+    "concepto": "cuantiles-y-percentiles",
+    "bloque": 3,
+    "lenguaje": "sql",
+    "fichero": "cuantiles-y-percentiles--03.sql"
+  },
+  {
+    "concepto": "derivadas-parciales-y-gradiente",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "derivadas-parciales-y-gradiente--01.py"
+  },
+  {
+    "concepto": "derivadas-parciales-y-gradiente",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "derivadas-parciales-y-gradiente--02.py"
+  },
+  {
+    "concepto": "derivadas-y-reglas",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "derivadas-y-reglas--01.py"
+  },
+  {
+    "concepto": "derivadas-y-reglas",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "derivadas-y-reglas--02.py"
+  },
+  {
+    "concepto": "descomposicion-svd",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "descomposicion-svd--01.py"
+  },
+  {
+    "concepto": "descomposicion-svd",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "descomposicion-svd--02.py"
+  },
+  {
+    "concepto": "determinante-rango-invertibilidad",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "determinante-rango-invertibilidad--01.py"
+  },
+  {
+    "concepto": "determinante-rango-invertibilidad",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "determinante-rango-invertibilidad--02.py"
+  },
+  {
+    "concepto": "distribucion-normal-multivariante",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "distribucion-normal-multivariante--01.py"
+  },
+  {
+    "concepto": "distribucion-normal-multivariante",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "distribucion-normal-multivariante--02.py"
+  },
+  {
+    "concepto": "distribuciones-continuas",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "distribuciones-continuas--01.py"
+  },
+  {
+    "concepto": "distribuciones-continuas",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "distribuciones-continuas--02.py"
+  },
+  {
+    "concepto": "distribuciones-discretas",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "distribuciones-discretas--01.py"
+  },
+  {
+    "concepto": "distribuciones-discretas",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "distribuciones-discretas--02.py"
+  },
+  {
+    "concepto": "entropia-e-informacion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "entropia-e-informacion--01.py"
+  },
+  {
+    "concepto": "entropia-e-informacion",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "entropia-e-informacion--02.py"
+  },
+  {
+    "concepto": "entropia-e-informacion",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "entropia-e-informacion--03.py"
+  },
+  {
+    "concepto": "escalares-vectores-matrices",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "escalares-vectores-matrices--01.py"
+  },
+  {
+    "concepto": "escalares-vectores-matrices",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "escalares-vectores-matrices--02.py"
+  },
+  {
+    "concepto": "independencia-y-condicionamiento",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "independencia-y-condicionamiento--01.py"
+  },
+  {
+    "concepto": "independencia-y-condicionamiento",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "independencia-y-condicionamiento--02.py"
+  },
+  {
+    "concepto": "independencia-y-condicionamiento",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "independencia-y-condicionamiento--03.py"
+  },
+  {
+    "concepto": "integrales",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "integrales--01.py"
+  },
+  {
+    "concepto": "integrales",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "integrales--02.py"
+  },
+  {
+    "concepto": "jacobiano-y-hessiano",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "jacobiano-y-hessiano--01.py"
+  },
+  {
+    "concepto": "jacobiano-y-hessiano",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "jacobiano-y-hessiano--02.py"
+  },
+  {
+    "concepto": "ley-de-los-grandes-numeros",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "ley-de-los-grandes-numeros--01.py"
+  },
+  {
+    "concepto": "ley-de-los-grandes-numeros",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "ley-de-los-grandes-numeros--02.py"
+  },
+  {
+    "concepto": "limites-y-continuidad",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "limites-y-continuidad--01.py"
+  },
+  {
+    "concepto": "limites-y-continuidad",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "limites-y-continuidad--02.py"
+  },
+  {
+    "concepto": "limites-y-continuidad",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "limites-y-continuidad--03.py"
+  },
+  {
+    "concepto": "logaritmos-y-escalas-logaritmicas",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "logaritmos-y-escalas-logaritmicas--01.py"
+  },
+  {
+    "concepto": "logaritmos-y-escalas-logaritmicas",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "logaritmos-y-escalas-logaritmicas--02.py"
+  },
+  {
+    "concepto": "medidas-de-centralidad",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "medidas-de-centralidad--01.py"
+  },
+  {
+    "concepto": "medidas-de-centralidad",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "medidas-de-centralidad--02.py"
+  },
+  {
+    "concepto": "medidas-de-dispersion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "medidas-de-dispersion--01.py"
+  },
+  {
+    "concepto": "medidas-de-dispersion",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "medidas-de-dispersion--02.py"
+  },
+  {
+    "concepto": "medidas-de-dispersion",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "medidas-de-dispersion--03.py"
+  },
+  {
+    "concepto": "momentos-y-cumulantes",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "momentos-y-cumulantes--01.py"
+  },
+  {
+    "concepto": "momentos-y-cumulantes",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "momentos-y-cumulantes--02.py"
+  },
+  {
+    "concepto": "norma-y-distancias",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "norma-y-distancias--01.py"
+  },
+  {
+    "concepto": "norma-y-distancias",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "norma-y-distancias--02.py"
+  },
+  {
+    "concepto": "operaciones-matriciales",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "operaciones-matriciales--01.py"
+  },
+  {
+    "concepto": "operaciones-matriciales",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "operaciones-matriciales--02.py"
+  },
+  {
+    "concepto": "optimizacion-con-restricciones",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "optimizacion-con-restricciones--01.py"
+  },
+  {
+    "concepto": "optimizacion-con-restricciones",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "optimizacion-con-restricciones--02.py"
+  },
+  {
+    "concepto": "precision-y-error-numerico",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "precision-y-error-numerico--01.py"
+  },
+  {
+    "concepto": "precision-y-error-numerico",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "precision-y-error-numerico--02.py"
+  },
+  {
+    "concepto": "precision-y-error-numerico",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "precision-y-error-numerico--03.py"
+  },
+  {
+    "concepto": "probabilidad-axiomas",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "probabilidad-axiomas--01.py"
+  },
+  {
+    "concepto": "probabilidad-axiomas",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "probabilidad-axiomas--02.py"
+  },
+  {
+    "concepto": "probabilidad-axiomas",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "probabilidad-axiomas--03.py"
+  },
+  {
+    "concepto": "probabilidad-condicional",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "probabilidad-condicional--01.py"
+  },
+  {
+    "concepto": "probabilidad-condicional",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "probabilidad-condicional--02.py"
+  },
+  {
+    "concepto": "producto-punto-y-similitud",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "producto-punto-y-similitud--01.py"
+  },
+  {
+    "concepto": "producto-punto-y-similitud",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "producto-punto-y-similitud--02.py"
+  },
+  {
+    "concepto": "regla-de-la-cadena",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "regla-de-la-cadena--01.py"
+  },
+  {
+    "concepto": "regla-de-la-cadena",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "regla-de-la-cadena--02.py"
+  },
+  {
+    "concepto": "teorema-central-del-limite",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "teorema-central-del-limite--01.py"
+  },
+  {
+    "concepto": "teorema-central-del-limite",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "teorema-central-del-limite--02.py"
+  },
+  {
+    "concepto": "teorema-de-bayes",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "teorema-de-bayes--01.py"
+  },
+  {
+    "concepto": "teorema-de-bayes",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "teorema-de-bayes--02.py"
+  },
+  {
+    "concepto": "transformaciones-lineales",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "transformaciones-lineales--01.py"
+  },
+  {
+    "concepto": "transformaciones-lineales",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "transformaciones-lineales--02.py"
+  },
+  {
+    "concepto": "valor-esperado",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "valor-esperado--01.py"
+  },
+  {
+    "concepto": "valor-esperado",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "valor-esperado--02.py"
+  },
+  {
+    "concepto": "variable-aleatoria",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "variable-aleatoria--01.py"
+  },
+  {
+    "concepto": "variable-aleatoria",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "variable-aleatoria--02.py"
+  },
+  {
+    "concepto": "varianza-y-desviacion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "varianza-y-desviacion--01.py"
+  },
+  {
+    "concepto": "varianza-y-desviacion",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "varianza-y-desviacion--02.py"
+  },
+  {
+    "concepto": "z-score-y-estandarizacion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "z-score-y-estandarizacion--01.py"
+  },
+  {
+    "concepto": "z-score-y-estandarizacion",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "z-score-y-estandarizacion--02.py"
+  },
+  {
+    "concepto": "z-score-y-estandarizacion",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "z-score-y-estandarizacion--03.py"
+  },
+  {
+    "concepto": "ab-testing",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "ab-testing--01.py"
+  },
+  {
+    "concepto": "ab-testing",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "ab-testing--02.py"
+  },
+  {
+    "concepto": "anova",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "anova--01.py"
+  },
+  {
+    "concepto": "anova",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "anova--02.py"
+  },
+  {
+    "concepto": "bootstrap",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "bootstrap--01.py"
+  },
+  {
+    "concepto": "bootstrap",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "bootstrap--02.py"
+  },
+  {
+    "concepto": "causalidad-vs-correlacion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "causalidad-vs-correlacion--01.py"
+  },
+  {
+    "concepto": "causalidad-vs-correlacion",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "causalidad-vs-correlacion--02.py"
+  },
+  {
+    "concepto": "chi-cuadrado",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "chi-cuadrado--01.py"
+  },
+  {
+    "concepto": "chi-cuadrado",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "chi-cuadrado--02.py"
+  },
+  {
+    "concepto": "chi-cuadrado",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "chi-cuadrado--03.py"
+  },
+  {
+    "concepto": "confusores-y-dag",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "confusores-y-dag--01.py"
+  },
+  {
+    "concepto": "confusores-y-dag",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "confusores-y-dag--02.py"
+  },
+  {
+    "concepto": "contraste-de-hipotesis",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "contraste-de-hipotesis--01.py"
+  },
+  {
+    "concepto": "contraste-de-hipotesis",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "contraste-de-hipotesis--02.py"
+  },
+  {
+    "concepto": "datos-agrupados-y-errores-tipicos",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "datos-agrupados-y-errores-tipicos--01.py"
+  },
+  {
+    "concepto": "datos-agrupados-y-errores-tipicos",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "datos-agrupados-y-errores-tipicos--02.py"
+  },
+  {
+    "concepto": "disenos-factoriales-e-interacciones",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "disenos-factoriales-e-interacciones--01.py"
+  },
+  {
+    "concepto": "disenos-factoriales-e-interacciones",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "disenos-factoriales-e-interacciones--02.py"
+  },
+  {
+    "concepto": "errores-tipo-i-ii-y-potencia",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "errores-tipo-i-ii-y-potencia--01.py"
+  },
+  {
+    "concepto": "errores-tipo-i-ii-y-potencia",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "errores-tipo-i-ii-y-potencia--02.py"
+  },
+  {
+    "concepto": "estimacion-bayesiana-map",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "estimacion-bayesiana-map--01.py"
+  },
+  {
+    "concepto": "estimacion-bayesiana-map",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "estimacion-bayesiana-map--02.py"
+  },
+  {
+    "concepto": "estimadores-y-propiedades",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "estimadores-y-propiedades--01.py"
+  },
+  {
+    "concepto": "estimadores-y-propiedades",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "estimadores-y-propiedades--02.py"
+  },
+  {
+    "concepto": "inferencia-causal-metodos",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "inferencia-causal-metodos--01.py"
+  },
+  {
+    "concepto": "inferencia-causal-metodos",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "inferencia-causal-metodos--02.py"
+  },
+  {
+    "concepto": "inferencia-causal-metodos",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "inferencia-causal-metodos--03.py"
+  },
+  {
+    "concepto": "intervalos-de-confianza",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "intervalos-de-confianza--01.py"
+  },
+  {
+    "concepto": "intervalos-de-confianza",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "intervalos-de-confianza--02.py"
+  },
+  {
+    "concepto": "maxima-verosimilitud",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "maxima-verosimilitud--01.py"
+  },
+  {
+    "concepto": "maxima-verosimilitud",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "maxima-verosimilitud--02.py"
+  },
+  {
+    "concepto": "missing-data",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "missing-data--01.py"
+  },
+  {
+    "concepto": "missing-data",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "missing-data--02.py"
+  },
+  {
+    "concepto": "multiplicidad-y-fdr",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "multiplicidad-y-fdr--01.py"
+  },
+  {
+    "concepto": "multiplicidad-y-fdr",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "multiplicidad-y-fdr--02.py"
+  },
+  {
+    "concepto": "p-valor",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "p-valor--01.py"
+  },
+  {
+    "concepto": "p-valor",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "p-valor--02.py"
+  },
+  {
+    "concepto": "p-valor",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "p-valor--03.py"
+  },
+  {
+    "concepto": "poblacion-y-muestra",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "poblacion-y-muestra--01.py"
+  },
+  {
+    "concepto": "poblacion-y-muestra",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "poblacion-y-muestra--02.py"
+  },
+  {
+    "concepto": "pruebas-de-equivalencia-y-no-inferioridad",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "pruebas-de-equivalencia-y-no-inferioridad--01.py"
+  },
+  {
+    "concepto": "pruebas-de-equivalencia-y-no-inferioridad",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "pruebas-de-equivalencia-y-no-inferioridad--02.py"
+  },
+  {
+    "concepto": "remuestreo-y-permutacion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "remuestreo-y-permutacion--01.py"
+  },
+  {
+    "concepto": "remuestreo-y-permutacion",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "remuestreo-y-permutacion--02.py"
+  },
+  {
+    "concepto": "sesgo-varianza-mse",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "sesgo-varianza-mse--01.py"
+  },
+  {
+    "concepto": "sesgo-varianza-mse",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "sesgo-varianza-mse--02.py"
+  },
+  {
+    "concepto": "tamano-del-efecto",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "tamano-del-efecto--01.py"
+  },
+  {
+    "concepto": "tamano-del-efecto",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "tamano-del-efecto--02.py"
+  },
+  {
+    "concepto": "tamano-muestral",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "tamano-muestral--01.py"
+  },
+  {
+    "concepto": "tamano-muestral",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "tamano-muestral--02.py"
+  },
+  {
+    "concepto": "test-t",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "test-t--01.py"
+  },
+  {
+    "concepto": "test-t",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "test-t--02.py"
+  },
+  {
+    "concepto": "tests-no-parametricos",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "tests-no-parametricos--01.py"
+  },
+  {
+    "concepto": "tests-no-parametricos",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "tests-no-parametricos--02.py"
+  },
+  {
+    "concepto": "apis-y-peticiones-http",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "apis-y-peticiones-http--01.py"
+  },
+  {
+    "concepto": "apis-y-peticiones-http",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "apis-y-peticiones-http--02.py"
+  },
+  {
+    "concepto": "apis-y-peticiones-http",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "apis-y-peticiones-http--03.py"
+  },
+  {
+    "concepto": "arrow-y-formatos-columnares",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "arrow-y-formatos-columnares--01.py"
+  },
+  {
+    "concepto": "arrow-y-formatos-columnares",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "arrow-y-formatos-columnares--02.py"
+  },
+  {
+    "concepto": "arrow-y-formatos-columnares",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "arrow-y-formatos-columnares--03.py"
+  },
+  {
+    "concepto": "calidad-de-datos",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "calidad-de-datos--01.py"
+  },
+  {
+    "concepto": "calidad-de-datos",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "calidad-de-datos--02.py"
+  },
+  {
+    "concepto": "clases-y-objetos",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "clases-y-objetos--01.py"
+  },
+  {
+    "concepto": "clases-y-objetos",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "clases-y-objetos--02.py"
+  },
+  {
+    "concepto": "comprensiones-y-generadores",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "comprensiones-y-generadores--01.py"
+  },
+  {
+    "concepto": "comprensiones-y-generadores",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "comprensiones-y-generadores--02.py"
+  },
+  {
+    "concepto": "comprensiones-y-generadores",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "comprensiones-y-generadores--03.py"
+  },
+  {
+    "concepto": "datos-que-no-caben-en-memoria",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "datos-que-no-caben-en-memoria--01.py"
+  },
+  {
+    "concepto": "datos-que-no-caben-en-memoria",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "datos-que-no-caben-en-memoria--02.py"
+  },
+  {
+    "concepto": "datos-que-no-caben-en-memoria",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "datos-que-no-caben-en-memoria--03.py"
+  },
+  {
+    "concepto": "entorno-python",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "entorno-python--01.py"
+  },
+  {
+    "concepto": "entorno-python",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "entorno-python--02.py"
+  },
+  {
+    "concepto": "errores-y-depuracion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "errores-y-depuracion--01.py"
+  },
+  {
+    "concepto": "errores-y-depuracion",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "errores-y-depuracion--02.py"
+  },
+  {
+    "concepto": "errores-y-depuracion",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "errores-y-depuracion--03.py"
+  },
+  {
+    "concepto": "fechas-y-horas",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "fechas-y-horas--01.py"
+  },
+  {
+    "concepto": "fechas-y-horas",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "fechas-y-horas--02.py"
+  },
+  {
+    "concepto": "ficheros-y-encoding",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "ficheros-y-encoding--01.py"
+  },
+  {
+    "concepto": "ficheros-y-encoding",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "ficheros-y-encoding--02.py"
+  },
+  {
+    "concepto": "ficheros-y-encoding",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "ficheros-y-encoding--03.py"
+  },
+  {
+    "concepto": "ficheros-y-encoding",
+    "bloque": 4,
+    "lenguaje": "python",
+    "fichero": "ficheros-y-encoding--04.py"
+  },
+  {
+    "concepto": "funciones-y-modulos",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "funciones-y-modulos--01.py"
+  },
+  {
+    "concepto": "funciones-y-modulos",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "funciones-y-modulos--02.py"
+  },
+  {
+    "concepto": "gestores-de-contexto",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "gestores-de-contexto--01.py"
+  },
+  {
+    "concepto": "gestores-de-contexto",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "gestores-de-contexto--02.py"
+  },
+  {
+    "concepto": "gestores-de-contexto",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "gestores-de-contexto--03.py"
+  },
+  {
+    "concepto": "git-para-datos",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "git-para-datos--01.py"
+  },
+  {
+    "concepto": "git-para-datos",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "git-para-datos--02.py"
+  },
+  {
+    "concepto": "git-para-datos",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "git-para-datos--03.py"
+  },
+  {
+    "concepto": "json-y-datos-anidados",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "json-y-datos-anidados--01.py"
+  },
+  {
+    "concepto": "json-y-datos-anidados",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "json-y-datos-anidados--02.py"
+  },
+  {
+    "concepto": "notebooks-vs-scripts",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "notebooks-vs-scripts--01.py"
+  },
+  {
+    "concepto": "notebooks-vs-scripts",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "notebooks-vs-scripts--02.py"
+  },
+  {
+    "concepto": "notebooks-vs-scripts",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "notebooks-vs-scripts--03.py"
+  },
+  {
+    "concepto": "numpy-broadcasting",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "numpy-broadcasting--01.py"
+  },
+  {
+    "concepto": "numpy-broadcasting",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "numpy-broadcasting--02.py"
+  },
+  {
+    "concepto": "numpy-broadcasting",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "numpy-broadcasting--03.py"
+  },
+  {
+    "concepto": "numpy-fundamentos",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "numpy-fundamentos--01.py"
+  },
+  {
+    "concepto": "numpy-fundamentos",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "numpy-fundamentos--02.py"
+  },
+  {
+    "concepto": "numpy-fundamentos",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "numpy-fundamentos--03.py"
+  },
+  {
+    "concepto": "pandas-agrupaciones-y-joins",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "pandas-agrupaciones-y-joins--01.py"
+  },
+  {
+    "concepto": "pandas-agrupaciones-y-joins",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "pandas-agrupaciones-y-joins--02.py"
+  },
+  {
+    "concepto": "pandas-agrupaciones-y-joins",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "pandas-agrupaciones-y-joins--03.py"
+  },
+  {
+    "concepto": "pandas-fundamentos",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "pandas-fundamentos--01.py"
+  },
+  {
+    "concepto": "pandas-fundamentos",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "pandas-fundamentos--02.py"
+  },
+  {
+    "concepto": "pandas-fundamentos",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "pandas-fundamentos--03.py"
+  },
+  {
+    "concepto": "perfilado-de-datos",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "perfilado-de-datos--01.py"
+  },
+  {
+    "concepto": "perfilado-de-datos",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "perfilado-de-datos--02.py"
+  },
+  {
+    "concepto": "polars",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "polars--01.py"
+  },
+  {
+    "concepto": "polars",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "polars--02.py"
+  },
+  {
+    "concepto": "polars",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "polars--03.py"
+  },
+  {
+    "concepto": "reformar-tablas-ancho-y-largo",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "reformar-tablas-ancho-y-largo--01.py"
+  },
+  {
+    "concepto": "reformar-tablas-ancho-y-largo",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "reformar-tablas-ancho-y-largo--02.py"
+  },
+  {
+    "concepto": "reformar-tablas-ancho-y-largo",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "reformar-tablas-ancho-y-largo--03.py"
+  },
+  {
+    "concepto": "regex-y-limpieza-de-texto",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "regex-y-limpieza-de-texto--01.py"
+  },
+  {
+    "concepto": "regex-y-limpieza-de-texto",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "regex-y-limpieza-de-texto--02.py"
+  },
+  {
+    "concepto": "scraping-etico",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "scraping-etico--01.py"
+  },
+  {
+    "concepto": "scraping-etico",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "scraping-etico--02.py"
+  },
+  {
+    "concepto": "scripts-ejecutables-y-argumentos",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "scripts-ejecutables-y-argumentos--01.py"
+  },
+  {
+    "concepto": "scripts-ejecutables-y-argumentos",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "scripts-ejecutables-y-argumentos--02.py"
+  },
+  {
+    "concepto": "scripts-ejecutables-y-argumentos",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "scripts-ejecutables-y-argumentos--03.py"
+  },
+  {
+    "concepto": "series-temporales-en-pandas",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "series-temporales-en-pandas--01.py"
+  },
+  {
+    "concepto": "series-temporales-en-pandas",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "series-temporales-en-pandas--02.py"
+  },
+  {
+    "concepto": "series-temporales-en-pandas",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "series-temporales-en-pandas--03.py"
+  },
+  {
+    "concepto": "sql-agregaciones-y-group-by",
+    "bloque": 1,
+    "lenguaje": "sql",
+    "fichero": "sql-agregaciones-y-group-by--01.sql"
+  },
+  {
+    "concepto": "sql-agregaciones-y-group-by",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "sql-agregaciones-y-group-by--02.py"
+  },
+  {
+    "concepto": "sql-indices-y-planes",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "sql-indices-y-planes--01.py"
+  },
+  {
+    "concepto": "sql-indices-y-planes",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "sql-indices-y-planes--02.py"
+  },
+  {
+    "concepto": "sql-joins",
+    "bloque": 1,
+    "lenguaje": "sql",
+    "fichero": "sql-joins--01.sql"
+  },
+  {
+    "concepto": "sql-joins",
+    "bloque": 2,
+    "lenguaje": "sql",
+    "fichero": "sql-joins--02.sql"
+  },
+  {
+    "concepto": "sql-joins",
+    "bloque": 3,
+    "lenguaje": "sql",
+    "fichero": "sql-joins--03.sql"
+  },
+  {
+    "concepto": "sql-joins",
+    "bloque": 4,
+    "lenguaje": "sql",
+    "fichero": "sql-joins--04.sql"
+  },
+  {
+    "concepto": "sql-joins",
+    "bloque": 5,
+    "lenguaje": "sql",
+    "fichero": "sql-joins--05.sql"
+  },
+  {
+    "concepto": "sql-modelado-y-normalizacion",
+    "bloque": 1,
+    "lenguaje": "sql",
+    "fichero": "sql-modelado-y-normalizacion--01.sql"
+  },
+  {
+    "concepto": "sql-modelado-y-normalizacion",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "sql-modelado-y-normalizacion--02.py"
+  },
+  {
+    "concepto": "sql-select-y-filtros",
+    "bloque": 1,
+    "lenguaje": "sql",
+    "fichero": "sql-select-y-filtros--01.sql"
+  },
+  {
+    "concepto": "sql-select-y-filtros",
+    "bloque": 2,
+    "lenguaje": "sql",
+    "fichero": "sql-select-y-filtros--02.sql"
+  },
+  {
+    "concepto": "sql-select-y-filtros",
+    "bloque": 3,
+    "lenguaje": "sql",
+    "fichero": "sql-select-y-filtros--03.sql"
+  },
+  {
+    "concepto": "sql-select-y-filtros",
+    "bloque": 4,
+    "lenguaje": "sql",
+    "fichero": "sql-select-y-filtros--04.sql"
+  },
+  {
+    "concepto": "sql-select-y-filtros",
+    "bloque": 5,
+    "lenguaje": "sql",
+    "fichero": "sql-select-y-filtros--05.sql"
+  },
+  {
+    "concepto": "sql-subconsultas-y-cte",
+    "bloque": 1,
+    "lenguaje": "sql",
+    "fichero": "sql-subconsultas-y-cte--01.sql"
+  },
+  {
+    "concepto": "sql-subconsultas-y-cte",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "sql-subconsultas-y-cte--02.py"
+  },
+  {
+    "concepto": "sql-ventanas",
+    "bloque": 1,
+    "lenguaje": "sql",
+    "fichero": "sql-ventanas--01.sql"
+  },
+  {
+    "concepto": "sql-ventanas",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "sql-ventanas--02.py"
+  },
+  {
+    "concepto": "testing-con-pytest",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "testing-con-pytest--01.py"
+  },
+  {
+    "concepto": "testing-con-pytest",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "testing-con-pytest--02.py"
+  },
+  {
+    "concepto": "testing-con-pytest",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "testing-con-pytest--03.py"
+  },
+  {
+    "concepto": "tipado-y-linters",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "tipado-y-linters--01.py"
+  },
+  {
+    "concepto": "tipado-y-linters",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "tipado-y-linters--02.py"
+  },
+  {
+    "concepto": "tipado-y-linters",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "tipado-y-linters--03.py"
+  },
+  {
+    "concepto": "tipos-y-estructuras-python",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "tipos-y-estructuras-python--01.py"
+  },
+  {
+    "concepto": "tipos-y-estructuras-python",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "tipos-y-estructuras-python--02.py"
+  },
+  {
+    "concepto": "transacciones-y-bloqueos",
+    "bloque": 1,
+    "lenguaje": "sql",
+    "fichero": "transacciones-y-bloqueos--01.sql"
+  },
+  {
+    "concepto": "transacciones-y-bloqueos",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "transacciones-y-bloqueos--02.py"
+  },
+  {
+    "concepto": "vectorizacion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "vectorizacion--01.py"
+  },
+  {
+    "concepto": "vectorizacion",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "vectorizacion--02.py"
+  },
+  {
+    "concepto": "vectorizacion",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "vectorizacion--03.py"
+  },
+  {
+    "concepto": "vistas-y-copias",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "vistas-y-copias--01.py"
+  },
+  {
+    "concepto": "vistas-y-copias",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "vistas-y-copias--02.py"
+  },
+  {
+    "concepto": "vistas-y-copias",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "vistas-y-copias--03.py"
+  },
+  {
+    "concepto": "visualizacion-estadistica",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "visualizacion-estadistica--01.py"
+  },
+  {
+    "concepto": "visualizacion-estadistica",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "visualizacion-estadistica--02.py"
+  },
+  {
+    "concepto": "visualizacion-estadistica",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "visualizacion-estadistica--03.py"
+  },
+  {
+    "concepto": "visualizacion-estadistica",
+    "bloque": 4,
+    "lenguaje": "python",
+    "fichero": "visualizacion-estadistica--04.py"
+  },
+  {
+    "concepto": "visualizacion-matplotlib",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "visualizacion-matplotlib--01.py"
+  },
+  {
+    "concepto": "visualizacion-matplotlib",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "visualizacion-matplotlib--02.py"
+  },
+  {
+    "concepto": "visualizacion-matplotlib",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "visualizacion-matplotlib--03.py"
+  },
+  {
+    "concepto": "visualizacion-matplotlib",
+    "bloque": 4,
+    "lenguaje": "python",
+    "fichero": "visualizacion-matplotlib--04.py"
+  },
+  {
+    "concepto": "airflow-dagster-prefect",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "airflow-dagster-prefect--01.py"
+  },
+  {
+    "concepto": "almacenamiento-de-objetos",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "almacenamiento-de-objetos--01.py"
+  },
+  {
+    "concepto": "almacenamiento-de-objetos",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "almacenamiento-de-objetos--02.py"
+  },
+  {
+    "concepto": "arquitectura-medallion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "arquitectura-medallion--01.py"
+  },
+  {
+    "concepto": "arquitectura-medallion",
+    "bloque": 2,
+    "lenguaje": "sql",
+    "fichero": "arquitectura-medallion--02.sql"
+  },
+  {
+    "concepto": "backfill-y-reproceso",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "backfill-y-reproceso--01.py"
+  },
+  {
+    "concepto": "backfill-y-reproceso",
+    "bloque": 2,
+    "lenguaje": "sql",
+    "fichero": "backfill-y-reproceso--02.sql"
+  },
+  {
+    "concepto": "batch-vs-streaming",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "batch-vs-streaming--01.py"
+  },
+  {
+    "concepto": "batch-vs-streaming",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "batch-vs-streaming--02.py"
+  },
+  {
+    "concepto": "bi-y-consumo",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "bi-y-consumo--01.py"
+  },
+  {
+    "concepto": "calidad-y-slas",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "calidad-y-slas--01.py"
+  },
+  {
+    "concepto": "calidad-y-slas",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "calidad-y-slas--02.py"
+  },
+  {
+    "concepto": "capa-semantica-y-metricas",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "capa-semantica-y-metricas--01.py"
+  },
+  {
+    "concepto": "capa-semantica-y-metricas",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "capa-semantica-y-metricas--02.py"
+  },
+  {
+    "concepto": "catalogo-y-linaje",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "catalogo-y-linaje--01.py"
+  },
+  {
+    "concepto": "catalogo-y-linaje",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "catalogo-y-linaje--02.py"
+  },
+  {
+    "concepto": "ciclo-de-vida-del-dato",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "ciclo-de-vida-del-dato--01.py"
+  },
+  {
+    "concepto": "ciclo-de-vida-del-dato",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "ciclo-de-vida-del-dato--02.py"
+  },
+  {
+    "concepto": "compresion-y-codificacion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "compresion-y-codificacion--01.py"
+  },
+  {
+    "concepto": "compresion-y-codificacion",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "compresion-y-codificacion--02.py"
+  },
+  {
+    "concepto": "contratos-de-datos",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "contratos-de-datos--01.py"
+  },
+  {
+    "concepto": "control-de-acceso-por-fila-y-columna",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "control-de-acceso-por-fila-y-columna--01.py"
+  },
+  {
+    "concepto": "control-de-acceso-por-fila-y-columna",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "control-de-acceso-por-fila-y-columna--02.py"
+  },
+  {
+    "concepto": "coste-y-optimizacion",
+    "bloque": 1,
+    "lenguaje": "sql",
+    "fichero": "coste-y-optimizacion--01.sql"
+  },
+  {
+    "concepto": "coste-y-optimizacion",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "coste-y-optimizacion--02.py"
+  },
+  {
+    "concepto": "coste-y-optimizacion",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "coste-y-optimizacion--03.py"
+  },
+  {
+    "concepto": "data-lake",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "data-lake--01.py"
+  },
+  {
+    "concepto": "data-lake",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "data-lake--02.py"
+  },
+  {
+    "concepto": "data-mesh",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "data-mesh--01.py"
+  },
+  {
+    "concepto": "data-vault",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "data-vault--01.py"
+  },
+  {
+    "concepto": "data-warehouse",
+    "bloque": 1,
+    "lenguaje": "sql",
+    "fichero": "data-warehouse--01.sql"
+  },
+  {
+    "concepto": "data-warehouse",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "data-warehouse--02.py"
+  },
+  {
+    "concepto": "datos-de-mercado-y-acciones-corporativas",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "datos-de-mercado-y-acciones-corporativas--01.py"
+  },
+  {
+    "concepto": "datos-de-mercado-y-acciones-corporativas",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "datos-de-mercado-y-acciones-corporativas--02.py"
+  },
+  {
+    "concepto": "datos-de-mercado-y-acciones-corporativas",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "datos-de-mercado-y-acciones-corporativas--03.py"
+  },
+  {
+    "concepto": "dbt-y-transformacion",
+    "bloque": 1,
+    "lenguaje": "sql",
+    "fichero": "dbt-y-transformacion--01.sql"
+  },
+  {
+    "concepto": "docker-para-datos",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "docker-para-datos--01.py"
+  },
+  {
+    "concepto": "duckdb-y-analitica-local",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "duckdb-y-analitica-local--01.py"
+  },
+  {
+    "concepto": "duckdb-y-analitica-local",
+    "bloque": 2,
+    "lenguaje": "sql",
+    "fichero": "duckdb-y-analitica-local--02.sql"
+  },
+  {
+    "concepto": "esquema-estrella-y-copo",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "esquema-estrella-y-copo--01.py"
+  },
+  {
+    "concepto": "esquema-estrella-y-copo",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "esquema-estrella-y-copo--02.py"
+  },
+  {
+    "concepto": "etl-vs-elt",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "etl-vs-elt--01.py"
+  },
+  {
+    "concepto": "etl-vs-elt",
+    "bloque": 2,
+    "lenguaje": "sql",
+    "fichero": "etl-vs-elt--02.sql"
+  },
+  {
+    "concepto": "evolucion-de-esquema",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "evolucion-de-esquema--01.py"
+  },
+  {
+    "concepto": "feature-store",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "feature-store--01.py"
+  },
+  {
+    "concepto": "feature-store",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "feature-store--02.py"
+  },
+  {
+    "concepto": "gobierno-y-privacidad",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "gobierno-y-privacidad--01.py"
+  },
+  {
+    "concepto": "gobierno-y-privacidad",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "gobierno-y-privacidad--02.py"
+  },
+  {
+    "concepto": "hechos-y-dimensiones",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "hechos-y-dimensiones--01.py"
+  },
+  {
+    "concepto": "hechos-y-dimensiones",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "hechos-y-dimensiones--02.py"
+  },
+  {
+    "concepto": "iac-y-terraform",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "iac-y-terraform--01.py"
+  },
+  {
+    "concepto": "idempotencia-y-reintentos",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "idempotencia-y-reintentos--01.py"
+  },
+  {
+    "concepto": "idempotencia-y-reintentos",
+    "bloque": 2,
+    "lenguaje": "sql",
+    "fichero": "idempotencia-y-reintentos--02.sql"
+  },
+  {
+    "concepto": "ingesta-incremental-y-cdc",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "ingesta-incremental-y-cdc--01.py"
+  },
+  {
+    "concepto": "ingesta-incremental-y-cdc",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "ingesta-incremental-y-cdc--02.py"
+  },
+  {
+    "concepto": "kafka-y-colas",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "kafka-y-colas--01.py"
+  },
+  {
+    "concepto": "kafka-y-colas",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "kafka-y-colas--02.py"
+  },
+  {
+    "concepto": "kubernetes-basico",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "kubernetes-basico--01.py"
+  },
+  {
+    "concepto": "lakehouse-y-table-formats",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "lakehouse-y-table-formats--01.py"
+  },
+  {
+    "concepto": "lakehouse-y-table-formats",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "lakehouse-y-table-formats--02.py"
+  },
+  {
+    "concepto": "lambda-y-kappa",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "lambda-y-kappa--01.py"
+  },
+  {
+    "concepto": "mlops-y-cicd-de-modelos",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "mlops-y-cicd-de-modelos--01.py"
+  },
+  {
+    "concepto": "mlops-y-cicd-de-modelos",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "mlops-y-cicd-de-modelos--02.py"
+  },
+  {
+    "concepto": "modelado-dimensional",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "modelado-dimensional--01.py"
+  },
+  {
+    "concepto": "modelado-dimensional",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "modelado-dimensional--02.py"
+  },
+  {
+    "concepto": "modelado-dimensional",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "modelado-dimensional--03.py"
+  },
+  {
+    "concepto": "monitorizacion-de-drift",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "monitorizacion-de-drift--01.py"
+  },
+  {
+    "concepto": "monitorizacion-de-drift",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "monitorizacion-de-drift--02.py"
+  },
+  {
+    "concepto": "monitorizacion-de-drift",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "monitorizacion-de-drift--03.py"
+  },
+  {
+    "concepto": "normalizacion-vs-desnormalizacion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "normalizacion-vs-desnormalizacion--01.py"
+  },
+  {
+    "concepto": "normalizacion-vs-desnormalizacion",
+    "bloque": 2,
+    "lenguaje": "sql",
+    "fichero": "normalizacion-vs-desnormalizacion--02.sql"
+  },
+  {
+    "concepto": "nubes-y-servicios-gestionados",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "nubes-y-servicios-gestionados--01.py"
+  },
+  {
+    "concepto": "nubes-y-servicios-gestionados",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "nubes-y-servicios-gestionados--02.py"
+  },
+  {
+    "concepto": "observabilidad-de-datos",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "observabilidad-de-datos--01.py"
+  },
+  {
+    "concepto": "observabilidad-de-datos",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "observabilidad-de-datos--02.py"
+  },
+  {
+    "concepto": "oltp-vs-olap",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "oltp-vs-olap--01.py"
+  },
+  {
+    "concepto": "orquestacion-y-dag",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "orquestacion-y-dag--01.py"
+  },
+  {
+    "concepto": "orquestacion-y-dag",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "orquestacion-y-dag--02.py"
+  },
+  {
+    "concepto": "parquet-avro-orc",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "parquet-avro-orc--01.py"
+  },
+  {
+    "concepto": "parquet-avro-orc",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "parquet-avro-orc--02.py"
+  },
+  {
+    "concepto": "particionado-y-clustering",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "particionado-y-clustering--01.py"
+  },
+  {
+    "concepto": "particionado-y-clustering",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "particionado-y-clustering--02.py"
+  },
+  {
+    "concepto": "reconciliacion-y-pruebas",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "reconciliacion-y-pruebas--01.py"
+  },
+  {
+    "concepto": "registros-rechazados-y-cuarentena",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "registros-rechazados-y-cuarentena--01.py"
+  },
+  {
+    "concepto": "registros-rechazados-y-cuarentena",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "registros-rechazados-y-cuarentena--02.py"
+  },
+  {
+    "concepto": "reverse-etl",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "reverse-etl--01.py"
+  },
+  {
+    "concepto": "scd-dimensiones-cambiantes",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "scd-dimensiones-cambiantes--01.py"
+  },
+  {
+    "concepto": "scd-dimensiones-cambiantes",
+    "bloque": 2,
+    "lenguaje": "sql",
+    "fichero": "scd-dimensiones-cambiantes--02.sql"
+  },
+  {
+    "concepto": "spark-fundamentos",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "spark-fundamentos--01.py"
+  },
+  {
+    "concepto": "spark-joins-y-skew",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "spark-joins-y-skew--01.py"
+  },
+  {
+    "concepto": "spark-particiones-y-shuffle",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "spark-particiones-y-shuffle--01.py"
+  },
+  {
+    "concepto": "spark-particiones-y-shuffle",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "spark-particiones-y-shuffle--02.py"
+  },
+  {
+    "concepto": "streaming-tiempo-real",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "streaming-tiempo-real--01.py"
+  },
+  {
+    "concepto": "streaming-tiempo-real",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "streaming-tiempo-real--02.py"
+  },
+  {
+    "concepto": "ventanas-y-watermarks",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "ventanas-y-watermarks--01.py"
+  },
+  {
+    "concepto": "ventanas-y-watermarks",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "ventanas-y-watermarks--02.py"
+  },
+  {
+    "concepto": "analisis-de-supervivencia",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "analisis-de-supervivencia--01.py"
+  },
+  {
+    "concepto": "analisis-de-supervivencia",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "analisis-de-supervivencia--02.py"
+  },
+  {
+    "concepto": "anomalias-en-series-temporales",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "anomalias-en-series-temporales--01.py"
+  },
+  {
+    "concepto": "arima-sarima",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "arima-sarima--01.py"
+  },
+  {
+    "concepto": "arima-sarima",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "arima-sarima--02.py"
+  },
+  {
+    "concepto": "autocorrelacion-acf-pacf",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "autocorrelacion-acf-pacf--01.py"
+  },
+  {
+    "concepto": "autocorrelacion-acf-pacf",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "autocorrelacion-acf-pacf--02.py"
+  },
+  {
+    "concepto": "desbalanceo-de-clases",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "desbalanceo-de-clases--01.py"
+  },
+  {
+    "concepto": "desbalanceo-de-clases",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "desbalanceo-de-clases--02.py"
+  },
+  {
+    "concepto": "desbalanceo-de-clases",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "desbalanceo-de-clases--03.py"
+  },
+  {
+    "concepto": "descomposicion-stl",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "descomposicion-stl--01.py"
+  },
+  {
+    "concepto": "descomposicion-stl",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "descomposicion-stl--02.py"
+  },
+  {
+    "concepto": "diagnostico-de-residuos",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "diagnostico-de-residuos--01.py"
+  },
+  {
+    "concepto": "diagnostico-de-residuos",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "diagnostico-de-residuos--02.py"
+  },
+  {
+    "concepto": "distribuciones-en-datos-reales",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "distribuciones-en-datos-reales--01.py"
+  },
+  {
+    "concepto": "distribuciones-en-datos-reales",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "distribuciones-en-datos-reales--02.py"
+  },
+  {
+    "concepto": "distribuciones-en-datos-reales",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "distribuciones-en-datos-reales--03.py"
+  },
+  {
+    "concepto": "eda-pasos",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "eda-pasos--01.py"
+  },
+  {
+    "concepto": "eda-pasos",
+    "bloque": 2,
+    "lenguaje": "sql",
+    "fichero": "eda-pasos--02.sql"
+  },
+  {
+    "concepto": "encoding-de-categoricas",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "encoding-de-categoricas--01.py"
+  },
+  {
+    "concepto": "encoding-de-categoricas",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "encoding-de-categoricas--02.py"
+  },
+  {
+    "concepto": "encoding-de-categoricas",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "encoding-de-categoricas--03.py"
+  },
+  {
+    "concepto": "escalado-y-transformacion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "escalado-y-transformacion--01.py"
+  },
+  {
+    "concepto": "escalado-y-transformacion",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "escalado-y-transformacion--02.py"
+  },
+  {
+    "concepto": "escalado-y-transformacion",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "escalado-y-transformacion--03.py"
+  },
+  {
+    "concepto": "estacionariedad",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "estacionariedad--01.py"
+  },
+  {
+    "concepto": "estacionariedad",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "estacionariedad--02.py"
+  },
+  {
+    "concepto": "frecuencia-y-agregacion-temporal",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "frecuencia-y-agregacion-temporal--01.py"
+  },
+  {
+    "concepto": "frecuencia-y-agregacion-temporal",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "frecuencia-y-agregacion-temporal--02.py"
+  },
+  {
+    "concepto": "fuga-de-datos",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "fuga-de-datos--01.py"
+  },
+  {
+    "concepto": "fuga-de-datos",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "fuga-de-datos--02.py"
+  },
+  {
+    "concepto": "fuga-de-datos",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "fuga-de-datos--03.py"
+  },
+  {
+    "concepto": "garch-volatilidad",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "garch-volatilidad--01.py"
+  },
+  {
+    "concepto": "garch-volatilidad",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "garch-volatilidad--02.py"
+  },
+  {
+    "concepto": "hmm-regimenes",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "hmm-regimenes--01.py"
+  },
+  {
+    "concepto": "hmm-regimenes",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "hmm-regimenes--02.py"
+  },
+  {
+    "concepto": "imputacion-de-datos",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "imputacion-de-datos--01.py"
+  },
+  {
+    "concepto": "imputacion-de-datos",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "imputacion-de-datos--02.py"
+  },
+  {
+    "concepto": "imputacion-de-datos",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "imputacion-de-datos--03.py"
+  },
+  {
+    "concepto": "ingenieria-de-features",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "ingenieria-de-features--01.py"
+  },
+  {
+    "concepto": "ingenieria-de-features",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "ingenieria-de-features--02.py"
+  },
+  {
+    "concepto": "ingenieria-de-features",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "ingenieria-de-features--03.py"
+  },
+  {
+    "concepto": "outliers-y-deteccion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "outliers-y-deteccion--01.py"
+  },
+  {
+    "concepto": "outliers-y-deteccion",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "outliers-y-deteccion--02.py"
+  },
+  {
+    "concepto": "outliers-y-deteccion",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "outliers-y-deteccion--03.py"
+  },
+  {
+    "concepto": "prediccion-con-incertidumbre",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "prediccion-con-incertidumbre--01.py"
+  },
+  {
+    "concepto": "prevision-a-varios-pasos",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "prevision-a-varios-pasos--01.py"
+  },
+  {
+    "concepto": "pronosticos-de-referencia-y-mase",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "pronosticos-de-referencia-y-mase--01.py"
+  },
+  {
+    "concepto": "pronosticos-de-referencia-y-mase",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "pronosticos-de-referencia-y-mase--02.py"
+  },
+  {
+    "concepto": "prophet-y-modelos-modernos",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "prophet-y-modelos-modernos--01.py"
+  },
+  {
+    "concepto": "seleccion-de-features",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "seleccion-de-features--01.py"
+  },
+  {
+    "concepto": "seleccion-de-features",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "seleccion-de-features--02.py"
+  },
+  {
+    "concepto": "seleccion-de-features",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "seleccion-de-features--03.py"
+  },
+  {
+    "concepto": "series-jerarquicas",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "series-jerarquicas--01.py"
+  },
+  {
+    "concepto": "series-temporales-componentes",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "series-temporales-componentes--01.py"
+  },
+  {
+    "concepto": "series-temporales-componentes",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "series-temporales-componentes--02.py"
+  },
+  {
+    "concepto": "suavizado-exponencial",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "suavizado-exponencial--01.py"
+  },
+  {
+    "concepto": "suavizado-exponencial",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "suavizado-exponencial--02.py"
+  },
+  {
+    "concepto": "test-adf-kpss",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "test-adf-kpss--01.py"
+  },
+  {
+    "concepto": "test-adf-kpss",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "test-adf-kpss--02.py"
+  },
+  {
+    "concepto": "validacion-temporal",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "validacion-temporal--01.py"
+  },
+  {
+    "concepto": "validacion-temporal",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "validacion-temporal--02.py"
+  },
+  {
+    "concepto": "aprendizaje-activo",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "aprendizaje-activo--01.py"
+  },
+  {
+    "concepto": "aprendizaje-semi-supervisado",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "aprendizaje-semi-supervisado--01.py"
+  },
+  {
+    "concepto": "aprendizaje-semi-supervisado",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "aprendizaje-semi-supervisado--02.py"
+  },
+  {
+    "concepto": "arboles-de-decision",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "arboles-de-decision--01.py"
+  },
+  {
+    "concepto": "arboles-de-decision",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "arboles-de-decision--02.py"
+  },
+  {
+    "concepto": "automl",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "automl--01.py"
+  },
+  {
+    "concepto": "bagging-y-random-forest",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "bagging-y-random-forest--01.py"
+  },
+  {
+    "concepto": "bagging-y-random-forest",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "bagging-y-random-forest--02.py"
+  },
+  {
+    "concepto": "bandits-y-decision-secuencial",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "bandits-y-decision-secuencial--01.py"
+  },
+  {
+    "concepto": "bandits-y-decision-secuencial",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "bandits-y-decision-secuencial--02.py"
+  },
+  {
+    "concepto": "calibracion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "calibracion--01.py"
+  },
+  {
+    "concepto": "calibracion",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "calibracion--02.py"
+  },
+  {
+    "concepto": "calibracion",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "calibracion--03.py"
+  },
+  {
+    "concepto": "clustering-jerarquico",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "clustering-jerarquico--01.py"
+  },
+  {
+    "concepto": "clustering-jerarquico",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "clustering-jerarquico--02.py"
+  },
+  {
+    "concepto": "datos-geoespaciales",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "datos-geoespaciales--01.py"
+  },
+  {
+    "concepto": "datos-geoespaciales",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "datos-geoespaciales--02.py"
+  },
+  {
+    "concepto": "dbscan-y-hdbscan",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "dbscan-y-hdbscan--01.py"
+  },
+  {
+    "concepto": "dbscan-y-hdbscan",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "dbscan-y-hdbscan--02.py"
+  },
+  {
+    "concepto": "deteccion-de-anomalias",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "deteccion-de-anomalias--01.py"
+  },
+  {
+    "concepto": "deteccion-de-anomalias",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "deteccion-de-anomalias--02.py"
+  },
+  {
+    "concepto": "entrenamiento-frente-a-inferencia",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "entrenamiento-frente-a-inferencia--01.py"
+  },
+  {
+    "concepto": "entrenamiento-frente-a-inferencia",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "entrenamiento-frente-a-inferencia--02.py"
+  },
+  {
+    "concepto": "etiquetas-y-techo-del-modelo",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "etiquetas-y-techo-del-modelo--01.py"
+  },
+  {
+    "concepto": "etiquetas-y-techo-del-modelo",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "etiquetas-y-techo-del-modelo--02.py"
+  },
+  {
+    "concepto": "etiquetas-y-techo-del-modelo",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "etiquetas-y-techo-del-modelo--03.py"
+  },
+  {
+    "concepto": "fairness-y-equidad",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "fairness-y-equidad--01.py"
+  },
+  {
+    "concepto": "fairness-y-equidad",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "fairness-y-equidad--02.py"
+  },
+  {
+    "concepto": "glm-y-logistica",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "glm-y-logistica--01.py"
+  },
+  {
+    "concepto": "glm-y-logistica",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "glm-y-logistica--02.py"
+  },
+  {
+    "concepto": "gmm",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "gmm--01.py"
+  },
+  {
+    "concepto": "gmm",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "gmm--02.py"
+  },
+  {
+    "concepto": "gradient-boosting",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "gradient-boosting--01.py"
+  },
+  {
+    "concepto": "gradient-boosting",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "gradient-boosting--02.py"
+  },
+  {
+    "concepto": "importancia-de-variables",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "importancia-de-variables--01.py"
+  },
+  {
+    "concepto": "interpretabilidad-shap",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "interpretabilidad-shap--01.py"
+  },
+  {
+    "concepto": "interpretabilidad-shap",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "interpretabilidad-shap--02.py"
+  },
+  {
+    "concepto": "k-means",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "k-means--01.py"
+  },
+  {
+    "concepto": "k-means",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "k-means--02.py"
+  },
+  {
+    "concepto": "knn",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "knn--01.py"
+  },
+  {
+    "concepto": "knn",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "knn--02.py"
+  },
+  {
+    "concepto": "maldicion-de-la-dimensionalidad",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "maldicion-de-la-dimensionalidad--01.py"
+  },
+  {
+    "concepto": "maldicion-de-la-dimensionalidad",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "maldicion-de-la-dimensionalidad--02.py"
+  },
+  {
+    "concepto": "matriz-de-confusion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "matriz-de-confusion--01.py"
+  },
+  {
+    "concepto": "matriz-de-confusion",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "matriz-de-confusion--02.py"
+  },
+  {
+    "concepto": "metricas-de-clasificacion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "metricas-de-clasificacion--01.py"
+  },
+  {
+    "concepto": "metricas-de-clasificacion",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "metricas-de-clasificacion--02.py"
+  },
+  {
+    "concepto": "metricas-de-clustering",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "metricas-de-clustering--01.py"
+  },
+  {
+    "concepto": "metricas-de-clustering",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "metricas-de-clustering--02.py"
+  },
+  {
+    "concepto": "metricas-de-clustering",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "metricas-de-clustering--03.py"
+  },
+  {
+    "concepto": "metricas-de-ranking",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "metricas-de-ranking--01.py"
+  },
+  {
+    "concepto": "metricas-de-ranking",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "metricas-de-ranking--02.py"
+  },
+  {
+    "concepto": "metricas-de-regresion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "metricas-de-regresion--01.py"
+  },
+  {
+    "concepto": "metricas-de-regresion",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "metricas-de-regresion--02.py"
+  },
+  {
+    "concepto": "naive-bayes",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "naive-bayes--01.py"
+  },
+  {
+    "concepto": "naive-bayes",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "naive-bayes--02.py"
+  },
+  {
+    "concepto": "paradigmas-de-aprendizaje",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "paradigmas-de-aprendizaje--01.py"
+  },
+  {
+    "concepto": "pca",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "pca--01.py"
+  },
+  {
+    "concepto": "pca",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "pca--02.py"
+  },
+  {
+    "concepto": "pipelines-de-ml",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "pipelines-de-ml--01.py"
+  },
+  {
+    "concepto": "pipelines-de-ml",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "pipelines-de-ml--02.py"
+  },
+  {
+    "concepto": "precision-recall-y-pr",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "precision-recall-y-pr--01.py"
+  },
+  {
+    "concepto": "precision-recall-y-pr",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "precision-recall-y-pr--02.py"
+  },
+  {
+    "concepto": "procesamiento-de-texto-clasico",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "procesamiento-de-texto-clasico--01.py"
+  },
+  {
+    "concepto": "procesamiento-de-texto-clasico",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "procesamiento-de-texto-clasico--02.py"
+  },
+  {
+    "concepto": "recomendadores",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "recomendadores--01.py"
+  },
+  {
+    "concepto": "recomendadores",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "recomendadores--02.py"
+  },
+  {
+    "concepto": "reglas-de-asociacion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "reglas-de-asociacion--01.py"
+  },
+  {
+    "concepto": "reglas-de-asociacion",
+    "bloque": 2,
+    "lenguaje": "sql",
+    "fichero": "reglas-de-asociacion--02.sql"
+  },
+  {
+    "concepto": "regresion-lineal",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "regresion-lineal--01.py"
+  },
+  {
+    "concepto": "regresion-lineal",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "regresion-lineal--02.py"
+  },
+  {
+    "concepto": "regularizacion-l1-l2",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "regularizacion-l1-l2--01.py"
+  },
+  {
+    "concepto": "regularizacion-l1-l2",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "regularizacion-l1-l2--02.py"
+  },
+  {
+    "concepto": "roc-auc",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "roc-auc--01.py"
+  },
+  {
+    "concepto": "roc-auc",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "roc-auc--02.py"
+  },
+  {
+    "concepto": "roc-auc",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "roc-auc--03.py"
+  },
+  {
+    "concepto": "seleccion-de-hiperparametros",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "seleccion-de-hiperparametros--01.py"
+  },
+  {
+    "concepto": "sesgo-varianza",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "sesgo-varianza--01.py"
+  },
+  {
+    "concepto": "sesgo-varianza",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "sesgo-varianza--02.py"
+  },
+  {
+    "concepto": "stacking-y-blending",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "stacking-y-blending--01.py"
+  },
+  {
+    "concepto": "stacking-y-blending",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "stacking-y-blending--02.py"
+  },
+  {
+    "concepto": "supuestos-de-la-regresion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "supuestos-de-la-regresion--01.py"
+  },
+  {
+    "concepto": "supuestos-de-la-regresion",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "supuestos-de-la-regresion--02.py"
+  },
+  {
+    "concepto": "svm",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "svm--01.py"
+  },
+  {
+    "concepto": "svm",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "svm--02.py"
+  },
+  {
+    "concepto": "train-val-test",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "train-val-test--01.py"
+  },
+  {
+    "concepto": "train-val-test",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "train-val-test--02.py"
+  },
+  {
+    "concepto": "tsne-y-umap",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "tsne-y-umap--01.py"
+  },
+  {
+    "concepto": "tsne-y-umap",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "tsne-y-umap--02.py"
+  },
+  {
+    "concepto": "umbrales-y-coste",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "umbrales-y-coste--01.py"
+  },
+  {
+    "concepto": "umbrales-y-coste",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "umbrales-y-coste--02.py"
+  },
+  {
+    "concepto": "uplift-y-valor-incremental",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "uplift-y-valor-incremental--01.py"
+  },
+  {
+    "concepto": "validacion-cruzada",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "validacion-cruzada--01.py"
+  },
+  {
+    "concepto": "validacion-cruzada",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "validacion-cruzada--02.py"
+  },
+  {
+    "concepto": "xgboost-lightgbm-catboost",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "xgboost-lightgbm-catboost--01.py"
+  },
+  {
+    "concepto": "xgboost-lightgbm-catboost",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "xgboost-lightgbm-catboost--02.py"
+  },
+  {
+    "concepto": "aprendizaje-por-refuerzo",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "aprendizaje-por-refuerzo--01.py"
+  },
+  {
+    "concepto": "aprendizaje-por-refuerzo",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "aprendizaje-por-refuerzo--02.py"
+  },
+  {
+    "concepto": "atencion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "atencion--01.py"
+  },
+  {
+    "concepto": "atencion",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "atencion--02.py"
+  },
+  {
+    "concepto": "autoencoders-y-vae",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "autoencoders-y-vae--01.py"
+  },
+  {
+    "concepto": "autoencoders-y-vae",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "autoencoders-y-vae--02.py"
+  },
+  {
+    "concepto": "cnn",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "cnn--01.py"
+  },
+  {
+    "concepto": "cnn",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "cnn--02.py"
+  },
+  {
+    "concepto": "cuantizacion-y-destilacion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "cuantizacion-y-destilacion--01.py"
+  },
+  {
+    "concepto": "cuantizacion-y-destilacion",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "cuantizacion-y-destilacion--02.py"
+  },
+  {
+    "concepto": "depuracion-de-redes",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "depuracion-de-redes--01.py"
+  },
+  {
+    "concepto": "depuracion-de-redes",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "depuracion-de-redes--02.py"
+  },
+  {
+    "concepto": "depuracion-de-redes",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "depuracion-de-redes--03.py"
+  },
+  {
+    "concepto": "dropout-y-regularizacion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "dropout-y-regularizacion--01.py"
+  },
+  {
+    "concepto": "dropout-y-regularizacion",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "dropout-y-regularizacion--02.py"
+  },
+  {
+    "concepto": "embeddings",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "embeddings--01.py"
+  },
+  {
+    "concepto": "embeddings",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "embeddings--02.py"
+  },
+  {
+    "concepto": "evaluacion-de-modelos-generativos",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "evaluacion-de-modelos-generativos--01.py"
+  },
+  {
+    "concepto": "evaluacion-de-modelos-generativos",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "evaluacion-de-modelos-generativos--02.py"
+  },
+  {
+    "concepto": "exportar-y-servir-modelos",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "exportar-y-servir-modelos--01.py"
+  },
+  {
+    "concepto": "exportar-y-servir-modelos",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "exportar-y-servir-modelos--02.py"
+  },
+  {
+    "concepto": "fine-tuning-y-lora",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "fine-tuning-y-lora--01.py"
+  },
+  {
+    "concepto": "fine-tuning-y-lora",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "fine-tuning-y-lora--02.py"
+  },
+  {
+    "concepto": "funciones-de-activacion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "funciones-de-activacion--01.py"
+  },
+  {
+    "concepto": "funciones-de-activacion",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "funciones-de-activacion--02.py"
+  },
+  {
+    "concepto": "funciones-de-perdida",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "funciones-de-perdida--01.py"
+  },
+  {
+    "concepto": "funciones-de-perdida",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "funciones-de-perdida--02.py"
+  },
+  {
+    "concepto": "gan",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "gan--01.py"
+  },
+  {
+    "concepto": "gan",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "gan--02.py"
+  },
+  {
+    "concepto": "gnn",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "gnn--01.py"
+  },
+  {
+    "concepto": "gnn",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "gnn--02.py"
+  },
+  {
+    "concepto": "gpu-y-rendimiento",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "gpu-y-rendimiento--01.py"
+  },
+  {
+    "concepto": "gpu-y-rendimiento",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "gpu-y-rendimiento--02.py"
+  },
+  {
+    "concepto": "grafos-computacionales-y-autograd",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "grafos-computacionales-y-autograd--01.py"
+  },
+  {
+    "concepto": "grafos-computacionales-y-autograd",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "grafos-computacionales-y-autograd--02.py"
+  },
+  {
+    "concepto": "inicializacion-de-pesos",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "inicializacion-de-pesos--01.py"
+  },
+  {
+    "concepto": "inicializacion-de-pesos",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "inicializacion-de-pesos--02.py"
+  },
+  {
+    "concepto": "modelos-de-difusion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "modelos-de-difusion--01.py"
+  },
+  {
+    "concepto": "modelos-de-difusion",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "modelos-de-difusion--02.py"
+  },
+  {
+    "concepto": "normalizacion-por-lotes",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "normalizacion-por-lotes--01.py"
+  },
+  {
+    "concepto": "normalizacion-por-lotes",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "normalizacion-por-lotes--02.py"
+  },
+  {
+    "concepto": "optimizadores",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "optimizadores--01.py"
+  },
+  {
+    "concepto": "optimizadores",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "optimizadores--02.py"
+  },
+  {
+    "concepto": "perceptron-y-mlp",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "perceptron-y-mlp--01.py"
+  },
+  {
+    "concepto": "perceptron-y-mlp",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "perceptron-y-mlp--02.py"
+  },
+  {
+    "concepto": "pytorch-fundamentos",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "pytorch-fundamentos--01.py"
+  },
+  {
+    "concepto": "pytorch-fundamentos",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "pytorch-fundamentos--02.py"
+  },
+  {
+    "concepto": "q-learning-y-policy-gradient",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "q-learning-y-policy-gradient--01.py"
+  },
+  {
+    "concepto": "q-learning-y-policy-gradient",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "q-learning-y-policy-gradient--02.py"
+  },
+  {
+    "concepto": "reproducibilidad-del-entrenamiento",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "reproducibilidad-del-entrenamiento--01.py"
+  },
+  {
+    "concepto": "reproducibilidad-del-entrenamiento",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "reproducibilidad-del-entrenamiento--02.py"
+  },
+  {
+    "concepto": "retropropagacion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "retropropagacion--01.py"
+  },
+  {
+    "concepto": "retropropagacion",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "retropropagacion--02.py"
+  },
+  {
+    "concepto": "rnn-lstm-gru",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "rnn-lstm-gru--01.py"
+  },
+  {
+    "concepto": "rnn-lstm-gru",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "rnn-lstm-gru--02.py"
+  },
+  {
+    "concepto": "seguimiento-de-experimentos",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "seguimiento-de-experimentos--01.py"
+  },
+  {
+    "concepto": "seguimiento-de-experimentos",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "seguimiento-de-experimentos--02.py"
+  },
+  {
+    "concepto": "sobreajuste-en-redes",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "sobreajuste-en-redes--01.py"
+  },
+  {
+    "concepto": "sobreajuste-en-redes",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "sobreajuste-en-redes--02.py"
+  },
+  {
+    "concepto": "tasas-de-aprendizaje-y-schedulers",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "tasas-de-aprendizaje-y-schedulers--01.py"
+  },
+  {
+    "concepto": "tasas-de-aprendizaje-y-schedulers",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "tasas-de-aprendizaje-y-schedulers--02.py"
+  },
+  {
+    "concepto": "tokenizacion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "tokenizacion--01.py"
+  },
+  {
+    "concepto": "tokenizacion",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "tokenizacion--02.py"
+  },
+  {
+    "concepto": "transfer-learning",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "transfer-learning--01.py"
+  },
+  {
+    "concepto": "transfer-learning",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "transfer-learning--02.py"
+  },
+  {
+    "concepto": "transformers",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "transformers--01.py"
+  },
+  {
+    "concepto": "transformers",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "transformers--02.py"
+  },
+  {
+    "concepto": "agentes-y-herramientas",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "agentes-y-herramientas--01.py"
+  },
+  {
+    "concepto": "agentes-y-herramientas",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "agentes-y-herramientas--02.py"
+  },
+  {
+    "concepto": "alucinaciones-y-limites",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "alucinaciones-y-limites--01.py"
+  },
+  {
+    "concepto": "alucinaciones-y-limites",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "alucinaciones-y-limites--02.py"
+  },
+  {
+    "concepto": "bases-de-datos-vectoriales",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "bases-de-datos-vectoriales--01.py"
+  },
+  {
+    "concepto": "bases-de-datos-vectoriales",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "bases-de-datos-vectoriales--02.py"
+  },
+  {
+    "concepto": "chunking-y-embeddings",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "chunking-y-embeddings--01.py"
+  },
+  {
+    "concepto": "chunking-y-embeddings",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "chunking-y-embeddings--02.py"
+  },
+  {
+    "concepto": "como-funciona-un-llm",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "como-funciona-un-llm--01.py"
+  },
+  {
+    "concepto": "como-funciona-un-llm",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "como-funciona-un-llm--02.py"
+  },
+  {
+    "concepto": "coste-y-latencia",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "coste-y-latencia--01.py"
+  },
+  {
+    "concepto": "coste-y-latencia",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "coste-y-latencia--02.py"
+  },
+  {
+    "concepto": "economia-de-la-inferencia-propia",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "economia-de-la-inferencia-propia--01.py"
+  },
+  {
+    "concepto": "economia-de-la-inferencia-propia",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "economia-de-la-inferencia-propia--02.py"
+  },
+  {
+    "concepto": "economia-de-la-inferencia-propia",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "economia-de-la-inferencia-propia--03.py"
+  },
+  {
+    "concepto": "evaluacion-de-llms",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "evaluacion-de-llms--01.py"
+  },
+  {
+    "concepto": "evaluacion-de-llms",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "evaluacion-de-llms--02.py"
+  },
+  {
+    "concepto": "fine-tuning-vs-rag",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "fine-tuning-vs-rag--01.py"
+  },
+  {
+    "concepto": "instruccion-y-alineamiento",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "instruccion-y-alineamiento--01.py"
+  },
+  {
+    "concepto": "instruccion-y-alineamiento",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "instruccion-y-alineamiento--02.py"
+  },
+  {
+    "concepto": "mcp-y-servidores-de-herramientas",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "mcp-y-servidores-de-herramientas--01.py"
+  },
+  {
+    "concepto": "mcp-y-servidores-de-herramientas",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "mcp-y-servidores-de-herramientas--02.py"
+  },
+  {
+    "concepto": "mcp-y-servidores-de-herramientas",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "mcp-y-servidores-de-herramientas--03.py"
+  },
+  {
+    "concepto": "modelos-multimodales",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "modelos-multimodales--01.py"
+  },
+  {
+    "concepto": "modelos-multimodales",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "modelos-multimodales--02.py"
+  },
+  {
+    "concepto": "modelos-multimodales",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "modelos-multimodales--03.py"
+  },
+  {
+    "concepto": "motores-de-inferencia-para-llms",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "motores-de-inferencia-para-llms--01.py"
+  },
+  {
+    "concepto": "motores-de-inferencia-para-llms",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "motores-de-inferencia-para-llms--02.py"
+  },
+  {
+    "concepto": "motores-de-inferencia-para-llms",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "motores-de-inferencia-para-llms--03.py"
+  },
+  {
+    "concepto": "observabilidad-de-llms",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "observabilidad-de-llms--01.py"
+  },
+  {
+    "concepto": "observabilidad-de-llms",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "observabilidad-de-llms--02.py"
+  },
+  {
+    "concepto": "observabilidad-de-llms",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "observabilidad-de-llms--03.py"
+  },
+  {
+    "concepto": "preentrenamiento-y-escalado",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "preentrenamiento-y-escalado--01.py"
+  },
+  {
+    "concepto": "preentrenamiento-y-escalado",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "preentrenamiento-y-escalado--02.py"
+  },
+  {
+    "concepto": "privacidad-y-datos-en-llms",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "privacidad-y-datos-en-llms--01.py"
+  },
+  {
+    "concepto": "prompting",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "prompting--01.py"
+  },
+  {
+    "concepto": "rag-arquitectura",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "rag-arquitectura--01.py"
+  },
+  {
+    "concepto": "rag-arquitectura",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "rag-arquitectura--02.py"
+  },
+  {
+    "concepto": "reranking",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "reranking--01.py"
+  },
+  {
+    "concepto": "reranking",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "reranking--02.py"
+  },
+  {
+    "concepto": "seguridad-y-prompt-injection",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "seguridad-y-prompt-injection--01.py"
+  },
+  {
+    "concepto": "structured-output",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "structured-output--01.py"
+  },
+  {
+    "concepto": "structured-output",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "structured-output--02.py"
+  },
+  {
+    "concepto": "ventanas-de-contexto",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "ventanas-de-contexto--01.py"
+  },
+  {
+    "concepto": "ventanas-de-contexto",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "ventanas-de-contexto--02.py"
+  },
+  {
+    "concepto": "algoritmos-de-ejecucion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "algoritmos-de-ejecucion--01.py"
+  },
+  {
+    "concepto": "algoritmos-de-ejecucion",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "algoritmos-de-ejecucion--02.py"
+  },
+  {
+    "concepto": "alpha-decay",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "alpha-decay--01.py"
+  },
+  {
+    "concepto": "alpha-decay",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "alpha-decay--02.py"
+  },
+  {
+    "concepto": "alpha-y-beta",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "alpha-y-beta--01.py"
+  },
+  {
+    "concepto": "alpha-y-beta",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "alpha-y-beta--02.py"
+  },
+  {
+    "concepto": "arbitraje-estadistico",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "arbitraje-estadistico--01.py"
+  },
+  {
+    "concepto": "arbitraje-estadistico",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "arbitraje-estadistico--02.py"
+  },
+  {
+    "concepto": "backtesting-por-eventos",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "backtesting-por-eventos--01.py"
+  },
+  {
+    "concepto": "backtesting-por-eventos",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "backtesting-por-eventos--02.py"
+  },
+  {
+    "concepto": "backtesting-vectorizado",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "backtesting-vectorizado--01.py"
+  },
+  {
+    "concepto": "backtesting-vectorizado",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "backtesting-vectorizado--02.py"
+  },
+  {
+    "concepto": "cointegracion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "cointegracion--01.py"
+  },
+  {
+    "concepto": "cointegracion",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "cointegracion--02.py"
+  },
+  {
+    "concepto": "construccion-de-carteras",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "construccion-de-carteras--01.py"
+  },
+  {
+    "concepto": "construccion-de-carteras",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "construccion-de-carteras--02.py"
+  },
+  {
+    "concepto": "criterio-de-kelly",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "criterio-de-kelly--01.py"
+  },
+  {
+    "concepto": "criterio-de-kelly",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "criterio-de-kelly--02.py"
+  },
+  {
+    "concepto": "curva-de-tipos-y-descuento",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "curva-de-tipos-y-descuento--01.py"
+  },
+  {
+    "concepto": "curva-de-tipos-y-descuento",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "curva-de-tipos-y-descuento--02.py"
+  },
+  {
+    "concepto": "curva-de-tipos-y-descuento",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "curva-de-tipos-y-descuento--03.py"
+  },
+  {
+    "concepto": "data-snooping-y-multiple-testing",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "data-snooping-y-multiple-testing--01.py"
+  },
+  {
+    "concepto": "data-snooping-y-multiple-testing",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "data-snooping-y-multiple-testing--02.py"
+  },
+  {
+    "concepto": "diferenciacion-fraccional",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "diferenciacion-fraccional--01.py"
+  },
+  {
+    "concepto": "diferenciacion-fraccional",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "diferenciacion-fraccional--02.py"
+  },
+  {
+    "concepto": "factores-y-fama-french",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "factores-y-fama-french--01.py"
+  },
+  {
+    "concepto": "factores-y-fama-french",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "factores-y-fama-french--02.py"
+  },
+  {
+    "concepto": "generacion-de-senales",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "generacion-de-senales--01.py"
+  },
+  {
+    "concepto": "generacion-de-senales",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "generacion-de-senales--02.py"
+  },
+  {
+    "concepto": "hurst-y-memoria",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "hurst-y-memoria--01.py"
+  },
+  {
+    "concepto": "hurst-y-memoria",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "hurst-y-memoria--02.py"
+  },
+  {
+    "concepto": "latencia-y-ejecucion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "latencia-y-ejecucion--01.py"
+  },
+  {
+    "concepto": "latencia-y-ejecucion",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "latencia-y-ejecucion--02.py"
+  },
+  {
+    "concepto": "markowitz-y-frontera",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "markowitz-y-frontera--01.py"
+  },
+  {
+    "concepto": "markowitz-y-frontera",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "markowitz-y-frontera--02.py"
+  },
+  {
+    "concepto": "maximo-drawdown",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "maximo-drawdown--01.py"
+  },
+  {
+    "concepto": "maximo-drawdown",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "maximo-drawdown--02.py"
+  },
+  {
+    "concepto": "meta-labeling",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "meta-labeling--01.py"
+  },
+  {
+    "concepto": "meta-labeling",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "meta-labeling--02.py"
+  },
+  {
+    "concepto": "metricas-de-riesgo",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "metricas-de-riesgo--01.py"
+  },
+  {
+    "concepto": "metricas-de-riesgo",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "metricas-de-riesgo--02.py"
+  },
+  {
+    "concepto": "metricas-de-riesgo",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "metricas-de-riesgo--03.py"
+  },
+  {
+    "concepto": "microestructura-de-mercado",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "microestructura-de-mercado--01.py"
+  },
+  {
+    "concepto": "momentum",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "momentum--01.py"
+  },
+  {
+    "concepto": "momentum",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "momentum--02.py"
+  },
+  {
+    "concepto": "mql5-y-metatrader",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "mql5-y-metatrader--01.py"
+  },
+  {
+    "concepto": "mql5-y-metatrader",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "mql5-y-metatrader--02.py"
+  },
+  {
+    "concepto": "order-book-y-spread",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "order-book-y-spread--01.py"
+  },
+  {
+    "concepto": "pairs-trading",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "pairs-trading--01.py"
+  },
+  {
+    "concepto": "pairs-trading",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "pairs-trading--02.py"
+  },
+  {
+    "concepto": "paper-trading",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "paper-trading--01.py"
+  },
+  {
+    "concepto": "protocolo-fix",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "protocolo-fix--01.py"
+  },
+  {
+    "concepto": "protocolo-fix",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "protocolo-fix--02.py"
+  },
+  {
+    "concepto": "prueba-de-fondeo",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "prueba-de-fondeo--01.py"
+  },
+  {
+    "concepto": "prueba-de-fondeo",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "prueba-de-fondeo--02.py"
+  },
+  {
+    "concepto": "psicologia-del-trading",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "psicologia-del-trading--01.py"
+  },
+  {
+    "concepto": "psicologia-del-trading",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "psicologia-del-trading--02.py"
+  },
+  {
+    "concepto": "purged-kfold",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "purged-kfold--01.py"
+  },
+  {
+    "concepto": "purged-kfold",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "purged-kfold--02.py"
+  },
+  {
+    "concepto": "quantconnect-y-lean",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "quantconnect-y-lean--01.py"
+  },
+  {
+    "concepto": "quantconnect-y-lean",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "quantconnect-y-lean--02.py"
+  },
+  {
+    "concepto": "que-es-un-mercado",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "que-es-un-mercado--01.py"
+  },
+  {
+    "concepto": "ratio-de-sharpe",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "ratio-de-sharpe--01.py"
+  },
+  {
+    "concepto": "ratio-de-sharpe",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "ratio-de-sharpe--02.py"
+  },
+  {
+    "concepto": "rebalanceo",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "rebalanceo--01.py"
+  },
+  {
+    "concepto": "rebalanceo",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "rebalanceo--02.py"
+  },
+  {
+    "concepto": "regimenes-de-mercado",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "regimenes-de-mercado--01.py"
+  },
+  {
+    "concepto": "regimenes-de-mercado",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "regimenes-de-mercado--02.py"
+  },
+  {
+    "concepto": "retornos-logaritmicos",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "retornos-logaritmicos--01.py"
+  },
+  {
+    "concepto": "retornos-logaritmicos",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "retornos-logaritmicos--02.py"
+  },
+  {
+    "concepto": "reversion-a-la-media",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "reversion-a-la-media--01.py"
+  },
+  {
+    "concepto": "reversion-a-la-media",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "reversion-a-la-media--02.py"
+  },
+  {
+    "concepto": "riesgo-de-ruina",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "riesgo-de-ruina--01.py"
+  },
+  {
+    "concepto": "riesgo-de-ruina",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "riesgo-de-ruina--02.py"
+  },
+  {
+    "concepto": "risk-parity-y-hrp",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "risk-parity-y-hrp--01.py"
+  },
+  {
+    "concepto": "risk-parity-y-hrp",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "risk-parity-y-hrp--02.py"
+  },
+  {
+    "concepto": "sample-weights",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "sample-weights--01.py"
+  },
+  {
+    "concepto": "sample-weights",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "sample-weights--02.py"
+  },
+  {
+    "concepto": "sesgo-de-mirar-al-futuro",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "sesgo-de-mirar-al-futuro--01.py"
+  },
+  {
+    "concepto": "sesgo-de-mirar-al-futuro",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "sesgo-de-mirar-al-futuro--02.py"
+  },
+  {
+    "concepto": "sesgo-de-supervivencia",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "sesgo-de-supervivencia--01.py"
+  },
+  {
+    "concepto": "sesgo-de-supervivencia",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "sesgo-de-supervivencia--02.py"
+  },
+  {
+    "concepto": "sharpe-deflactado",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "sharpe-deflactado--01.py"
+  },
+  {
+    "concepto": "sharpe-deflactado",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "sharpe-deflactado--02.py"
+  },
+  {
+    "concepto": "simulacion-de-monte-carlo",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "simulacion-de-monte-carlo--01.py"
+  },
+  {
+    "concepto": "simulacion-de-monte-carlo",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "simulacion-de-monte-carlo--02.py"
+  },
+  {
+    "concepto": "slippage-y-comisiones",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "slippage-y-comisiones--01.py"
+  },
+  {
+    "concepto": "slippage-y-comisiones",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "slippage-y-comisiones--02.py"
+  },
+  {
+    "concepto": "sortino-y-calmar",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "sortino-y-calmar--01.py"
+  },
+  {
+    "concepto": "sortino-y-calmar",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "sortino-y-calmar--02.py"
+  },
+  {
+    "concepto": "sortino-y-calmar",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "sortino-y-calmar--03.py"
+  },
+  {
+    "concepto": "tamano-de-posicion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "tamano-de-posicion--01.py"
+  },
+  {
+    "concepto": "tamano-de-posicion",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "tamano-de-posicion--02.py"
+  },
+  {
+    "concepto": "tick-data-y-ohlcv",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "tick-data-y-ohlcv--01.py"
+  },
+  {
+    "concepto": "tick-data-y-ohlcv",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "tick-data-y-ohlcv--02.py"
+  },
+  {
+    "concepto": "triple-barrera",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "triple-barrera--01.py"
+  },
+  {
+    "concepto": "triple-barrera",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "triple-barrera--02.py"
+  },
+  {
+    "concepto": "validacion-combinatoria-cpcv",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "validacion-combinatoria-cpcv--01.py"
+  },
+  {
+    "concepto": "validacion-combinatoria-cpcv",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "validacion-combinatoria-cpcv--02.py"
+  },
+  {
+    "concepto": "var-y-cvar",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "var-y-cvar--01.py"
+  },
+  {
+    "concepto": "var-y-cvar",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "var-y-cvar--02.py"
+  },
+  {
+    "concepto": "var-y-cvar",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "var-y-cvar--03.py"
+  },
+  {
+    "concepto": "vectorbt-backtrader-zipline",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "vectorbt-backtrader-zipline--01.py"
+  },
+  {
+    "concepto": "venta-en-corto-mecanica",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "venta-en-corto-mecanica--01.py"
+  },
+  {
+    "concepto": "venta-en-corto-mecanica",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "venta-en-corto-mecanica--02.py"
+  },
+  {
+    "concepto": "volatilidad-realizada",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "volatilidad-realizada--01.py"
+  },
+  {
+    "concepto": "volatilidad-realizada",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "volatilidad-realizada--02.py"
+  },
+  {
+    "concepto": "aleatoriedad-y-muestreo",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "aleatoriedad-y-muestreo--01.py"
+  },
+  {
+    "concepto": "aleatoriedad-y-muestreo",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "aleatoriedad-y-muestreo--02.py"
+  },
+  {
+    "concepto": "algoritmos-de-aproximacion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "algoritmos-de-aproximacion--01.py"
+  },
+  {
+    "concepto": "algoritmos-de-aproximacion",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "algoritmos-de-aproximacion--02.py"
+  },
+  {
+    "concepto": "algoritmos-de-aproximacion",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "algoritmos-de-aproximacion--03.py"
+  },
+  {
+    "concepto": "algoritmos-de-join",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "algoritmos-de-join--01.py"
+  },
+  {
+    "concepto": "algoritmos-de-join",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "algoritmos-de-join--02.py"
+  },
+  {
+    "concepto": "algoritmos-de-join",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "algoritmos-de-join--03.py"
+  },
+  {
+    "concepto": "algoritmos-de-streaming",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "algoritmos-de-streaming--01.py"
+  },
+  {
+    "concepto": "algoritmos-de-streaming",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "algoritmos-de-streaming--02.py"
+  },
+  {
+    "concepto": "algoritmos-greedy",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "algoritmos-greedy--01.py"
+  },
+  {
+    "concepto": "algoritmos-greedy",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "algoritmos-greedy--02.py"
+  },
+  {
+    "concepto": "algoritmos-greedy",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "algoritmos-greedy--03.py"
+  },
+  {
+    "concepto": "analisis-amortizado",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "analisis-amortizado--01.py"
+  },
+  {
+    "concepto": "analisis-amortizado",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "analisis-amortizado--02.py"
+  },
+  {
+    "concepto": "arboles-balanceados",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "arboles-balanceados--01.py"
+  },
+  {
+    "concepto": "arboles-balanceados",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "arboles-balanceados--02.py"
+  },
+  {
+    "concepto": "arboles-binarios",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "arboles-binarios--01.py"
+  },
+  {
+    "concepto": "arboles-binarios",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "arboles-binarios--02.py"
+  },
+  {
+    "concepto": "arboles-binarios",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "arboles-binarios--03.py"
+  },
+  {
+    "concepto": "arrays-y-listas",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "arrays-y-listas--01.py"
+  },
+  {
+    "concepto": "arrays-y-listas",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "arrays-y-listas--02.py"
+  },
+  {
+    "concepto": "arrays-y-listas",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "arrays-y-listas--03.py"
+  },
+  {
+    "concepto": "arreglos-de-cache-y-lineas-de-cache",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "arreglos-de-cache-y-lineas-de-cache--01.py"
+  },
+  {
+    "concepto": "arreglos-de-cache-y-lineas-de-cache",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "arreglos-de-cache-y-lineas-de-cache--02.py"
+  },
+  {
+    "concepto": "bfs-y-dfs",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "bfs-y-dfs--01.py"
+  },
+  {
+    "concepto": "bfs-y-dfs",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "bfs-y-dfs--02.py"
+  },
+  {
+    "concepto": "bfs-y-dfs",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "bfs-y-dfs--03.py"
+  },
+  {
+    "concepto": "bloom-filters",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "bloom-filters--01.py"
+  },
+  {
+    "concepto": "busqueda-binaria",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "busqueda-binaria--01.py"
+  },
+  {
+    "concepto": "busqueda-binaria",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "busqueda-binaria--02.py"
+  },
+  {
+    "concepto": "busqueda-binaria",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "busqueda-binaria--03.py"
+  },
+  {
+    "concepto": "caminos-minimos",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "caminos-minimos--01.py"
+  },
+  {
+    "concepto": "caminos-minimos",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "caminos-minimos--02.py"
+  },
+  {
+    "concepto": "caminos-minimos",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "caminos-minimos--03.py"
+  },
+  {
+    "concepto": "complejidad-asintotica",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "complejidad-asintotica--01.py"
+  },
+  {
+    "concepto": "complejidad-asintotica",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "complejidad-asintotica--02.py"
+  },
+  {
+    "concepto": "compresion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "compresion--01.py"
+  },
+  {
+    "concepto": "compresion",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "compresion--02.py"
+  },
+  {
+    "concepto": "compresion",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "compresion--03.py"
+  },
+  {
+    "concepto": "concurrencia-algoritmica",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "concurrencia-algoritmica--01.py"
+  },
+  {
+    "concepto": "concurrencia-algoritmica",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "concurrencia-algoritmica--02.py"
+  },
+  {
+    "concepto": "concurrencia-algoritmica",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "concurrencia-algoritmica--03.py"
+  },
+  {
+    "concepto": "divide-y-venceras",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "divide-y-venceras--01.py"
+  },
+  {
+    "concepto": "divide-y-venceras",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "divide-y-venceras--02.py"
+  },
+  {
+    "concepto": "divide-y-venceras",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "divide-y-venceras--03.py"
+  },
+  {
+    "concepto": "grafos-representacion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "grafos-representacion--01.py"
+  },
+  {
+    "concepto": "grafos-representacion",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "grafos-representacion--02.py"
+  },
+  {
+    "concepto": "grafos-representacion",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "grafos-representacion--03.py"
+  },
+  {
+    "concepto": "grafos-representacion",
+    "bloque": 4,
+    "lenguaje": "python",
+    "fichero": "grafos-representacion--04.py"
+  },
+  {
+    "concepto": "heaps-y-prioridad",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "heaps-y-prioridad--01.py"
+  },
+  {
+    "concepto": "heaps-y-prioridad",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "heaps-y-prioridad--02.py"
+  },
+  {
+    "concepto": "heaps-y-prioridad",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "heaps-y-prioridad--03.py"
+  },
+  {
+    "concepto": "indices-y-busqueda-en-texto",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "indices-y-busqueda-en-texto--01.py"
+  },
+  {
+    "concepto": "indices-y-busqueda-en-texto",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "indices-y-busqueda-en-texto--02.py"
+  },
+  {
+    "concepto": "indices-y-busqueda-en-texto",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "indices-y-busqueda-en-texto--03.py"
+  },
+  {
+    "concepto": "map-reduce",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "map-reduce--01.py"
+  },
+  {
+    "concepto": "map-reduce",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "map-reduce--02.py"
+  },
+  {
+    "concepto": "np-completitud",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "np-completitud--01.py"
+  },
+  {
+    "concepto": "np-completitud",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "np-completitud--02.py"
+  },
+  {
+    "concepto": "np-completitud",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "np-completitud--03.py"
+  },
+  {
+    "concepto": "optimizacion-matematica",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "optimizacion-matematica--01.py"
+  },
+  {
+    "concepto": "optimizacion-matematica",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "optimizacion-matematica--02.py"
+  },
+  {
+    "concepto": "optimizacion-matematica",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "optimizacion-matematica--03.py"
+  },
+  {
+    "concepto": "ordenacion-externa",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "ordenacion-externa--01.py"
+  },
+  {
+    "concepto": "ordenacion-externa",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "ordenacion-externa--02.py"
+  },
+  {
+    "concepto": "ordenacion-externa",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "ordenacion-externa--03.py"
+  },
+  {
+    "concepto": "ordenacion-externa",
+    "bloque": 4,
+    "lenguaje": "python",
+    "fichero": "ordenacion-externa--04.py"
+  },
+  {
+    "concepto": "ordenacion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "ordenacion--01.py"
+  },
+  {
+    "concepto": "ordenacion",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "ordenacion--02.py"
+  },
+  {
+    "concepto": "ordenacion",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "ordenacion--03.py"
+  },
+  {
+    "concepto": "pilas-y-colas",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "pilas-y-colas--01.py"
+  },
+  {
+    "concepto": "pilas-y-colas",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "pilas-y-colas--02.py"
+  },
+  {
+    "concepto": "pilas-y-colas",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "pilas-y-colas--03.py"
+  },
+  {
+    "concepto": "programacion-dinamica",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "programacion-dinamica--01.py"
+  },
+  {
+    "concepto": "programacion-dinamica",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "programacion-dinamica--02.py"
+  },
+  {
+    "concepto": "programacion-dinamica",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "programacion-dinamica--03.py"
+  },
+  {
+    "concepto": "recursion-y-backtracking",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "recursion-y-backtracking--01.py"
+  },
+  {
+    "concepto": "recursion-y-backtracking",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "recursion-y-backtracking--02.py"
+  },
+  {
+    "concepto": "recursion-y-backtracking",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "recursion-y-backtracking--03.py"
+  },
+  {
+    "concepto": "tablas-hash",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "tablas-hash--01.py"
+  },
+  {
+    "concepto": "tablas-hash",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "tablas-hash--02.py"
+  },
+  {
+    "concepto": "tries",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "tries--01.py"
+  },
+  {
+    "concepto": "tries",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "tries--02.py"
+  },
+  {
+    "concepto": "tries",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "tries--03.py"
+  },
+  {
+    "concepto": "union-find",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "union-find--01.py"
+  },
+  {
+    "concepto": "union-find",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "union-find--02.py"
+  },
+  {
+    "concepto": "union-find",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "union-find--03.py"
+  },
+  {
+    "concepto": "accesibilidad",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "accesibilidad--01.py"
+  },
+  {
+    "concepto": "apis-rest",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "apis-rest--01.py"
+  },
+  {
+    "concepto": "apis-rest",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "apis-rest--02.py"
+  },
+  {
+    "concepto": "arquitectura-de-aplicaciones",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "arquitectura-de-aplicaciones--01.py"
+  },
+  {
+    "concepto": "arquitectura-de-aplicaciones",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "arquitectura-de-aplicaciones--02.py"
+  },
+  {
+    "concepto": "arquitectura-de-aplicaciones",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "arquitectura-de-aplicaciones--03.py"
+  },
+  {
+    "concepto": "autenticacion-y-autorizacion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "autenticacion-y-autorizacion--01.py"
+  },
+  {
+    "concepto": "autenticacion-y-autorizacion",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "autenticacion-y-autorizacion--02.py"
+  },
+  {
+    "concepto": "autenticacion-y-autorizacion",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "autenticacion-y-autorizacion--03.py"
+  },
+  {
+    "concepto": "cache-y-redis",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "cache-y-redis--01.py"
+  },
+  {
+    "concepto": "cache-y-redis",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "cache-y-redis--02.py"
+  },
+  {
+    "concepto": "cache-y-redis",
+    "bloque": 3,
+    "lenguaje": "sql",
+    "fichero": "cache-y-redis--03.sql"
+  },
+  {
+    "concepto": "cap-y-consistencia",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "cap-y-consistencia--01.py"
+  },
+  {
+    "concepto": "cap-y-consistencia",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "cap-y-consistencia--02.py"
+  },
+  {
+    "concepto": "cap-y-consistencia",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "cap-y-consistencia--03.py"
+  },
+  {
+    "concepto": "ci-cd",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "ci-cd--01.py"
+  },
+  {
+    "concepto": "ci-cd",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "ci-cd--02.py"
+  },
+  {
+    "concepto": "code-review",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "code-review--01.py"
+  },
+  {
+    "concepto": "code-review",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "code-review--02.py"
+  },
+  {
+    "concepto": "colas-y-mensajeria",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "colas-y-mensajeria--01.py"
+  },
+  {
+    "concepto": "colas-y-mensajeria",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "colas-y-mensajeria--02.py"
+  },
+  {
+    "concepto": "concurrencia-async-hilos-procesos",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "concurrencia-async-hilos-procesos--01.py"
+  },
+  {
+    "concepto": "concurrencia-async-hilos-procesos",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "concurrencia-async-hilos-procesos--02.py"
+  },
+  {
+    "concepto": "concurrencia-async-hilos-procesos",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "concurrencia-async-hilos-procesos--03.py"
+  },
+  {
+    "concepto": "concurrencia-async-hilos-procesos",
+    "bloque": 4,
+    "lenguaje": "python",
+    "fichero": "concurrencia-async-hilos-procesos--04.py"
+  },
+  {
+    "concepto": "consenso-y-replicacion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "consenso-y-replicacion--01.py"
+  },
+  {
+    "concepto": "consenso-y-replicacion",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "consenso-y-replicacion--02.py"
+  },
+  {
+    "concepto": "consenso-y-replicacion",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "consenso-y-replicacion--03.py"
+  },
+  {
+    "concepto": "contenedores",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "contenedores--01.py"
+  },
+  {
+    "concepto": "contenedores",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "contenedores--02.py"
+  },
+  {
+    "concepto": "copias-de-seguridad-y-recuperacion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "copias-de-seguridad-y-recuperacion--01.py"
+  },
+  {
+    "concepto": "copias-de-seguridad-y-recuperacion",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "copias-de-seguridad-y-recuperacion--02.py"
+  },
+  {
+    "concepto": "copias-de-seguridad-y-recuperacion",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "copias-de-seguridad-y-recuperacion--03.py"
+  },
+  {
+    "concepto": "exactamente-una-vez",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "exactamente-una-vez--01.py"
+  },
+  {
+    "concepto": "exactamente-una-vez",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "exactamente-una-vez--02.py"
+  },
+  {
+    "concepto": "fastapi",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "fastapi--01.py"
+  },
+  {
+    "concepto": "fastapi",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "fastapi--02.py"
+  },
+  {
+    "concepto": "gestion-de-memoria",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "gestion-de-memoria--01.py"
+  },
+  {
+    "concepto": "gestion-de-memoria",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "gestion-de-memoria--02.py"
+  },
+  {
+    "concepto": "gestion-de-memoria",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "gestion-de-memoria--03.py"
+  },
+  {
+    "concepto": "git-avanzado",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "git-avanzado--01.py"
+  },
+  {
+    "concepto": "graphql-y-grpc",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "graphql-y-grpc--01.py"
+  },
+  {
+    "concepto": "graphql-y-grpc",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "graphql-y-grpc--02.py"
+  },
+  {
+    "concepto": "idempotencia-en-apis",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "idempotencia-en-apis--01.py"
+  },
+  {
+    "concepto": "idempotencia-en-apis",
+    "bloque": 2,
+    "lenguaje": "sql",
+    "fichero": "idempotencia-en-apis--02.sql"
+  },
+  {
+    "concepto": "incidentes-y-postmortem",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "incidentes-y-postmortem--01.py"
+  },
+  {
+    "concepto": "incidentes-y-postmortem",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "incidentes-y-postmortem--02.py"
+  },
+  {
+    "concepto": "incidentes-y-postmortem",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "incidentes-y-postmortem--03.py"
+  },
+  {
+    "concepto": "logging-y-trazas",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "logging-y-trazas--01.py"
+  },
+  {
+    "concepto": "logging-y-trazas",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "logging-y-trazas--02.py"
+  },
+  {
+    "concepto": "logging-y-trazas",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "logging-y-trazas--03.py"
+  },
+  {
+    "concepto": "metricas-y-alertas",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "metricas-y-alertas--01.py"
+  },
+  {
+    "concepto": "metricas-y-alertas",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "metricas-y-alertas--02.py"
+  },
+  {
+    "concepto": "metricas-y-alertas",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "metricas-y-alertas--03.py"
+  },
+  {
+    "concepto": "patrones-de-diseno",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "patrones-de-diseno--01.py"
+  },
+  {
+    "concepto": "patrones-de-diseno",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "patrones-de-diseno--02.py"
+  },
+  {
+    "concepto": "principios-solid",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "principios-solid--01.py"
+  },
+  {
+    "concepto": "principios-solid",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "principios-solid--02.py"
+  },
+  {
+    "concepto": "privacidad-y-gdpr",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "privacidad-y-gdpr--01.py"
+  },
+  {
+    "concepto": "privacidad-y-gdpr",
+    "bloque": 2,
+    "lenguaje": "sql",
+    "fichero": "privacidad-y-gdpr--02.sql"
+  },
+  {
+    "concepto": "refactorizacion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "refactorizacion--01.py"
+  },
+  {
+    "concepto": "refactorizacion",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "refactorizacion--02.py"
+  },
+  {
+    "concepto": "rendimiento-y-perfilado",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "rendimiento-y-perfilado--01.py"
+  },
+  {
+    "concepto": "rendimiento-y-perfilado",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "rendimiento-y-perfilado--02.py"
+  },
+  {
+    "concepto": "rendimiento-y-perfilado",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "rendimiento-y-perfilado--03.py"
+  },
+  {
+    "concepto": "resiliencia-de-servicios",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "resiliencia-de-servicios--01.py"
+  },
+  {
+    "concepto": "resiliencia-de-servicios",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "resiliencia-de-servicios--02.py"
+  },
+  {
+    "concepto": "resiliencia-de-servicios",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "resiliencia-de-servicios--03.py"
+  },
+  {
+    "concepto": "secretos-y-configuracion",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "secretos-y-configuracion--01.py"
+  },
+  {
+    "concepto": "secretos-y-configuracion",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "secretos-y-configuracion--02.py"
+  },
+  {
+    "concepto": "secretos-y-configuracion",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "secretos-y-configuracion--03.py"
+  },
+  {
+    "concepto": "seguridad-owasp",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "seguridad-owasp--01.py"
+  },
+  {
+    "concepto": "seguridad-owasp",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "seguridad-owasp--02.py"
+  },
+  {
+    "concepto": "sesgo-y-etica-en-datos",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "sesgo-y-etica-en-datos--01.py"
+  },
+  {
+    "concepto": "sistemas-distribuidos-bases",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "sistemas-distribuidos-bases--01.py"
+  },
+  {
+    "concepto": "sistemas-distribuidos-bases",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "sistemas-distribuidos-bases--02.py"
+  },
+  {
+    "concepto": "sistemas-distribuidos-bases",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "sistemas-distribuidos-bases--03.py"
+  },
+  {
+    "concepto": "tdd",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "tdd--01.py"
+  },
+  {
+    "concepto": "tdd",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "tdd--02.py"
+  },
+  {
+    "concepto": "testing-piramide",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "testing-piramide--01.py"
+  },
+  {
+    "concepto": "testing-piramide",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "testing-piramide--02.py"
+  },
+  {
+    "concepto": "dashboards",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "dashboards--01.py"
+  },
+  {
+    "concepto": "dashboards",
+    "bloque": 2,
+    "lenguaje": "sql",
+    "fichero": "dashboards--02.sql"
+  },
+  {
+    "concepto": "documentacion-tecnica",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "documentacion-tecnica--01.py"
+  },
+  {
+    "concepto": "entrevistas-de-datos",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "entrevistas-de-datos--01.py"
+  },
+  {
+    "concepto": "entrevistas-de-datos",
+    "bloque": 2,
+    "lenguaje": "sql",
+    "fichero": "entrevistas-de-datos--02.sql"
+  },
+  {
+    "concepto": "escribir-un-informe",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "escribir-un-informe--01.py"
+  },
+  {
+    "concepto": "especializacion-y-carrera",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "especializacion-y-carrera--01.py"
+  },
+  {
+    "concepto": "etica-profesional",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "etica-profesional--01.py"
+  },
+  {
+    "concepto": "etica-profesional",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "etica-profesional--02.py"
+  },
+  {
+    "concepto": "etica-profesional",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "etica-profesional--03.py"
+  },
+  {
+    "concepto": "freelance-y-consultoria",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "freelance-y-consultoria--01.py"
+  },
+  {
+    "concepto": "freelance-y-consultoria",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "freelance-y-consultoria--02.py"
+  },
+  {
+    "concepto": "metricas-de-producto",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "metricas-de-producto--01.py"
+  },
+  {
+    "concepto": "metricas-de-producto",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "metricas-de-producto--02.py"
+  },
+  {
+    "concepto": "metricas-de-producto",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "metricas-de-producto--03.py"
+  },
+  {
+    "concepto": "open-source",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "open-source--01.py"
+  },
+  {
+    "concepto": "open-source",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "open-source--02.py"
+  },
+  {
+    "concepto": "portfolio-y-proyectos",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "portfolio-y-proyectos--01.py"
+  },
+  {
+    "concepto": "presentaciones",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "presentaciones--01.py"
+  },
+  {
+    "concepto": "priorizar-y-planificar",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "priorizar-y-planificar--01.py"
+  },
+  {
+    "concepto": "priorizar-y-planificar",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "priorizar-y-planificar--02.py"
+  },
+  {
+    "concepto": "priorizar-y-planificar",
+    "bloque": 3,
+    "lenguaje": "python",
+    "fichero": "priorizar-y-planificar--03.py"
+  },
+  {
+    "concepto": "storytelling-con-datos",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "storytelling-con-datos--01.py"
+  },
+  {
+    "concepto": "visualizacion-honesta",
+    "bloque": 1,
+    "lenguaje": "python",
+    "fichero": "visualizacion-honesta--01.py"
+  },
+  {
+    "concepto": "visualizacion-honesta",
+    "bloque": 2,
+    "lenguaje": "python",
+    "fichero": "visualizacion-honesta--02.py"
+  }
+]

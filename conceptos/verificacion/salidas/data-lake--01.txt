@@ -1,0 +1,4 @@
+bytes en JSON por lineas: 152889
+bytes en columnar: 68923
+columnar mas pequeno: True
+gzip baja de la mitad: True

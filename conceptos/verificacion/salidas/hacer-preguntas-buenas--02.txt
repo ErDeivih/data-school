@@ -1,0 +1,3 @@
+media por pedido : 29.0
+media por cliente: 48.33
+pedidos por cliente: {'A': 3, 'B': 1, 'C': 1}

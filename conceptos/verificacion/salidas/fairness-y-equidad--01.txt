@@ -1,0 +1,3 @@
+tasa de seleccion  A 0.397  B 0.254  brecha 0.143
+exhaustividad      A 0.953  B 0.950  brecha 0.003
+falsas alarmas     A 0.159  B 0.159  brecha 0.001

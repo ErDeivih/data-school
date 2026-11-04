@@ -1,0 +1,3 @@
+concatenando: 1 filas (esperabamos 0)
+con parametro: 0 filas
+usuario real  : [('ana@ejemplo.es', 'admin')]

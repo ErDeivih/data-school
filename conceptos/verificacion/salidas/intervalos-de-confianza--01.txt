@@ -1,0 +1,4 @@
+media muestral  166.7
+desv muestral   6.62
+cobertura empirica 0.948
+anchura del intervalo 7.01

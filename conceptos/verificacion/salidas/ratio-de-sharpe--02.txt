@@ -1,0 +1,3 @@
+n=  12  Sharpe mensual +0.17  error tipico ±0.29  anual +0.57
+n=  60  Sharpe mensual +0.21  error tipico ±0.13  anual +0.71
+n= 240  Sharpe mensual +0.02  error tipico ±0.06  anual +0.06

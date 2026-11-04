@@ -1,0 +1,4 @@
+0.206  fragmento 1
+0.074  fragmento 0
+0.000  fragmento 2
+mejor fragmento: 1

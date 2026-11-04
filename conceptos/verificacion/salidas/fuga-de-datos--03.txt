@@ -1,0 +1,2 @@
+R2 con KFold barajado    0.81
+R2 con cortes temporales -1.54

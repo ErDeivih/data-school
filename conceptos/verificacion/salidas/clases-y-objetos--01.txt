@@ -1,0 +1,3 @@
+lo que devuelve ingresar: None
+saldo de ana: 150.0  saldo de luis: 100.0
+la clase de ana: Cuenta

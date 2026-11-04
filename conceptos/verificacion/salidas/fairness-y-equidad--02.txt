@@ -1,0 +1,2 @@
+objetivo 0.325  umbral A 0.56  umbral B 0.46
+exhaustividad A 0.897  B 0.974

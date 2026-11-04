@@ -1,0 +1,3 @@
+techo teorico   0.9750
+techo empirico  0.9752
+acuerdo con la verdad  0.9753

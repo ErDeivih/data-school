@@ -1,0 +1,4 @@
+mejor t de 1000 estrategias sin alpha: 3.14
+p-valor sin ajustar: 0.00169
+t esperado del maximo por azar: 3.72
+t exigido por Bonferroni: 4.06

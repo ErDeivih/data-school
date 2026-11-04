@@ -1,0 +1,4 @@
+media           5.450
+error tipico    0.201
+t critico       2.365
+IC 95 %         [4.975, 5.925]

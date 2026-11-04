@@ -1,0 +1,5 @@
+autovalores del hessiano: [ 0.3431 11.6569]
+todos positivos        : True
+q en el punto critico  : 0.0
+q en (1, -1)           : 2.0
+q en (-2, 1)           : 1.0

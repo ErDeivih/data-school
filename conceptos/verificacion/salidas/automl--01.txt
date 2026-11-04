@@ -1,0 +1,3 @@
+split 0: CV del ganador +0.033   R2 en test +0.166   mediana de las 100 -0.027
+split 1: CV del ganador +0.126   R2 en test +0.178   mediana de las 100 +0.097
+split 2: CV del ganador +0.040   R2 en test +0.152   mediana de las 100 +0.005

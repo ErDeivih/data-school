@@ -1,0 +1,3 @@
+tamano REST: 165 caracteres
+tamano GraphQL: 10 caracteres
+sobra: 16.5 veces mas datos

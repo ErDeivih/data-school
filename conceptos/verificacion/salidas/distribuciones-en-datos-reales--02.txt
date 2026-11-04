@@ -1,0 +1,4 @@
+media global: 1.352
+media de los que visitan: 3.621
+proporcion de ceros: 0.627
+varianza: 4.311

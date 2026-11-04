@@ -1,0 +1,8 @@
+d_k por cabeza: 64
+atencion      : 1048576
+FFN           : 2097152
+bloque entero : 3147776
+n de cruce    : 2048
+n= 512:    8.0 MiB
+n=1024:   32.0 MiB
+n=2048:  128.0 MiB

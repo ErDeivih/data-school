@@ -1,0 +1,4 @@
+m=20 contrastes, alfa=0.05
+sin ajustar: 11
+Bonferroni : 3
+Benjamini-Hochberg: 8

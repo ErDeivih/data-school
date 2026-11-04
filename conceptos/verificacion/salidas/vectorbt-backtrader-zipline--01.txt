@@ -1,0 +1,4 @@
+ventanas             [2, 3, 4]
+una a una (bucle)    [-0.0393, -0.0099, -0.0099]
+de golpe (matriz)    [-0.0393, -0.0099, -0.0099]
+coinciden            True

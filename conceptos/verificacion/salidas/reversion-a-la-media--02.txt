@@ -1,0 +1,2 @@
+revierte pnl +1.1429  operaciones  43  pnl/operacion +0.02658
+pasea    pnl +0.0870  operaciones  36  pnl/operacion +0.00242

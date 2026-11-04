@@ -1,0 +1,2 @@
+suave   final +19.5%  caida  0.00%  volatilidad 0.52%
+brusca  final +24.3%  caida 19.00%  volatilidad 10.27%

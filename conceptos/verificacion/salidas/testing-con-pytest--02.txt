@@ -1,0 +1,1 @@
+lanza ValueError: hay importes negativos en el lote

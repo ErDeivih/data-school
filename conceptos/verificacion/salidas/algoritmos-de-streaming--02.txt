@@ -1,0 +1,4 @@
+real b=300  estimado b=323
+real c=7    estimado c=19
+real a=50   estimado a=64
+contadores usados: 256

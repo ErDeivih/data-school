@@ -1,0 +1,4 @@
+mediana   1,210,000
+MAD       15,000
+z robusto -35.1
+caida del 5 % -> z -2.72

@@ -1,0 +1,3 @@
+con un numero  : 5.0
+con una cadena : 2525
+falla en la puerta: precio debe ser numerico, llego str

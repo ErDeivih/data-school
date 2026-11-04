@@ -1,0 +1,4 @@
+salto     1 B:  64 elementos por linea,     1.0 bytes traidos por elemento
+salto    16 B:   4 elementos por linea,    16.0 bytes traidos por elemento
+salto    64 B:   1 elementos por linea,    64.0 bytes traidos por elemento
+salto  4096 B:   1 elementos por linea,    64.0 bytes traidos por elemento

@@ -1,0 +1,3 @@
+ciudad | pedidos | con_importe | facturado | ticket_medio
+Sevilla | 2 | 2 | 425.00 | 212.5
+Madrid | 2 | 2 | 225.00 | 112.5

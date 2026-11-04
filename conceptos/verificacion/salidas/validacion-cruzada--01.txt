@@ -1,0 +1,5 @@
+KFold: positivos por pliegue 21.7 8.3 10.0 16.7 15.0
+Stratified: positivos por pliegue 13.3 13.3 15.0 15.0 15.0
+GroupKFold: positivos por pliegue 21.7 20.0 10.0 11.7 8.3
+clientes compartidos con KFold: 140
+clientes compartidos con GroupKFold: 0

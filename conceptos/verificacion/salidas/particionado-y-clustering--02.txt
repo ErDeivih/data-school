@@ -1,0 +1,4 @@
+solo por fecha: 2872.8 MB por particion
+por fecha y hora: 119.7 MB por particion
+por fecha y cliente: 0.57 MB por particion
+ficheros con fecha y cliente: 7300000

@@ -1,0 +1,2 @@
+esperado 500, conseguido: 500 (carrera: se pierden sumas)
+con bloqueo, conseguido: 500

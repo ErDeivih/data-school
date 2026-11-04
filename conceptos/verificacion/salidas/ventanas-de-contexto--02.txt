@@ -1,0 +1,2 @@
+elegidos: doc3#12, doc1#04, doc2#09
+tokens usados 1650 de 2000  descartados 2

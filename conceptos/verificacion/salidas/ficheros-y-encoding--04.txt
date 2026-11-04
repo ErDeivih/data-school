@@ -1,0 +1,3 @@
+columnas por fila: [3, 3]
+campo con ';'    : teclado; inalambrico
+comillas dobladas: dice "oferta" y ; sigue

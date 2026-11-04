@@ -1,0 +1,5 @@
+pliegue 0: prueba  20  train  68  (purga+embargo quitan  12)
+pliegue 1: prueba  20  train  58  (purga+embargo quitan  22)
+pliegue 2: prueba  20  train  58  (purga+embargo quitan  22)
+pliegue 3: prueba  20  train  58  (purga+embargo quitan  22)
+pliegue 4: prueba  20  train  70  (purga+embargo quitan  10)

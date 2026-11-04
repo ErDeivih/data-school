@@ -1,0 +1,4 @@
+de 0 a 2: 4
+de 0 a 3: 6
+de 1 a 3: 3
+de 3 a 0: inf

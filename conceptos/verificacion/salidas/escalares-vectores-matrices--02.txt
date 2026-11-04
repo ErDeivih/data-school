@@ -1,0 +1,6 @@
+media por columna: [ 39.5 168.5  70. ]
+suma por fila:     [273 287 292 260]
+forma traspuesta: (3, 4)
+fila 1 de la traspuesta: [34 51 28 45]
+forma de un vector 1D: (3,)
+como columna: (3, 1)

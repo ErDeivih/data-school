@@ -1,0 +1,2 @@
+chi2 6.48  p 0.0109
+proporcion observada 0.5090

@@ -1,0 +1,3 @@
+n = 1000
+comparaciones con build-heap: 1982
+comparaciones insertando uno a uno: 7987

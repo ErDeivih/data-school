@@ -1,0 +1,4 @@
+pesos             [0.5814, 0.4186]
+retorno cartera   0.1419
+volatilidad       0.1362
+Sharpe            1.0414

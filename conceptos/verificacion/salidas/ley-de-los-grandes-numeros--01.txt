@@ -1,0 +1,6 @@
+n=    10  media = 2.8000  error = 0.7000
+n=   100  media = 3.6700  error = 0.1700
+n=  1000  media = 3.5740  error = 0.0740
+n=100000  media = 3.4985  error = 0.0015
+error con n = 10     = 0.7000
+error con n = 100000 = 0.0015

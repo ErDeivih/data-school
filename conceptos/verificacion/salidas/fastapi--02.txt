@@ -1,0 +1,2 @@
+misma peticion, 3 usos: True -> 1 apertura
+dependencia no cacheada: 3 aperturas

@@ -1,0 +1,4 @@
+IC medio antes del corte +0.0514
+IC medio despues         -0.0046
+IC medio ultimos 200     -0.0078
+diferencia antes-despues +0.0560

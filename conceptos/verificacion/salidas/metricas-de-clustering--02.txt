@@ -1,0 +1,6 @@
+k=1  logW   1.746  gap -0.398  s 0.109
+k=2  logW   1.088  gap  0.455  s 0.141
+k=3  logW  -0.374  gap  1.763  s 0.129
+k=4  logW  -0.311  gap  1.549  s 0.131
+k=5  logW  -0.226  gap  1.468  s 0.079
+regla del gap: k = 3

@@ -1,0 +1,3 @@
+riesgo 0.5%:    500 EUR  esperanza  175.0 EUR/op  ops al objetivo  34.3  perdidas que caben al dia 6  desde el maximo 12
+riesgo 1.0%:   1000 EUR  esperanza  350.0 EUR/op  ops al objetivo  17.1  perdidas que caben al dia 3  desde el maximo 6
+riesgo 2.0%:   2000 EUR  esperanza  700.0 EUR/op  ops al objetivo   8.6  perdidas que caben al dia 1  desde el maximo 3

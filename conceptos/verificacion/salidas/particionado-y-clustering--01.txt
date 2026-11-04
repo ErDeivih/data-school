@@ -1,0 +1,5 @@
+particiones por fecha: 1460
+GB por particion: 2.81
+porcentaje leido en un dia: 0.0685
+coste sin podar: 20.0 USD
+coste podando: 0.014 USD

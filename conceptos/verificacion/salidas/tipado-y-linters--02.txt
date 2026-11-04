@@ -1,0 +1,5 @@
+Pedido(id=7, importe=100.0, descuento=0.15, etiquetas=[])
+total: 85.0
+total sin descuento: 50.0
+acepta texto sin quejarse: 100.0
+convertido a numero: 101.0

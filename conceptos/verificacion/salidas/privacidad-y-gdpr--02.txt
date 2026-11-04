@@ -1,0 +1,2 @@
+usuario | eventos_conservados
+u2 | 1

@@ -1,0 +1,6 @@
+nominal compra : 4900.0
+comision compra: 4.9
+comision venta : 5.02
+beneficio bruto: 120.0
+beneficio neto : 110.08
+coste sobre bruto: 8.3 %

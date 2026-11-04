@@ -1,0 +1,7 @@
+SUBE     scripts/limpieza.py
+IGNORADO  ventas.parquet
+IGNORADO  datos/ventas.csv
+IGNORADO  datos/referencia.csv
+IGNORADO  .env
+referencia.csv con 'datos/': IGNORADO
+referencia.csv con 'datos/*': SUBE

@@ -1,0 +1,6 @@
+unidades totales  : 6
+importe total     : 162.25
+pedidos distintos : 2
+ticket medio      : 81.12
+precio por unidad : 27.04
+filas contadas    : 3 no son pedidos

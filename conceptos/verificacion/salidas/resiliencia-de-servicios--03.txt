@@ -1,0 +1,5 @@
+tres dependencias en serie: 0.98802
+horas de degradacion al mes: 8.6
+1 replica(s) al 99 %: 0.990000
+2 replica(s) al 99 %: 0.999900
+3 replica(s) al 99 %: 0.999999

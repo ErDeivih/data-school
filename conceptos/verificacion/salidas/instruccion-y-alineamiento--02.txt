@@ -1,0 +1,4 @@
+margen +0.070  perdida 0.6588
+log-ratios (+0.5, -0.2)  margen +0.070  perdida 0.6588
+log-ratios (+0.2, +0.9)  margen -0.070  perdida 0.7288
+log-ratios (-0.3, -0.1)  margen -0.020  perdida 0.7032

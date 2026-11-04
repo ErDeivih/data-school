@@ -1,0 +1,3 @@
+varianza de los completos 10.00
+varianza tras imputar     6.67
+desviacion tras imputar   2.58

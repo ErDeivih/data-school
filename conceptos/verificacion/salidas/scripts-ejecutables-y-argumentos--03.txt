@@ -1,0 +1,7 @@
+la ruta por partes: ('datos', 'ventas', '2026-01.csv')
+solo el nombre: 2026-01.csv
+sin extension: 2026-01
+cambiando la extension: 2026-01.parquet
+codigo con limite 0: 2
+codigo con un fichero que no existe: 1
+el planificador solo mira si es cero: True

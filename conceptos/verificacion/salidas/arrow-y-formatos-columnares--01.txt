@@ -1,0 +1,4 @@
+[('pais', 'string'), ('importe', 'double')]
+3 2
+[1.5, 2.5, None]
+1

@@ -1,0 +1,3 @@
+cliente | total | pedidos | pedido_medio
+Luis | 500 | 2 | 188.33
+Marta | 400 | 1 | 188.33

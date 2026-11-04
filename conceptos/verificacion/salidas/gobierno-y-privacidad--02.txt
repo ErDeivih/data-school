@@ -1,0 +1,2 @@
+recuperado del hash sin sal: 34521
+mismo valor con sal: 72ceabaf4ad3

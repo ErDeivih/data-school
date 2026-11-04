@@ -1,0 +1,5 @@
+sin cache            0.4095 EUR
+con cache            0.3690 EUR
+con cache y 30k docs 0.0990 EUR
+ahorro de la cache   10 %
+1000 consultas al dia con cache: 11070 EUR al mes

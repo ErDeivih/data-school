@@ -1,0 +1,5 @@
+pico         mes  3    11200
+fondo        mes  6     9500
+caida maxima 15.18%
+duracion     6 meses
+recuperacion 17.89%

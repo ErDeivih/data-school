@@ -1,0 +1,3 @@
+media general 55.25  efecto temperatura -1.5  efecto catalizador +0.5
+interaccion (diferencia de diferencias) +15.0
+efecto de la temperatura con catalizador antiguo +6.0  con el nuevo -9.0

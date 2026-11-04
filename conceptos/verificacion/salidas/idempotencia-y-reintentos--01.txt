@@ -1,0 +1,2 @@
+append  filas 6  suma 1050
+upsert  filas 2  suma 350

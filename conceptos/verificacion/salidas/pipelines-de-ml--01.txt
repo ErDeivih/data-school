@@ -1,0 +1,4 @@
+sin pipeline: 0.967
+con pipeline: 0.975
+pasos: ['imputar', 'escalar', 'reducir', 'modelo']
+accuracy en entrenamiento: 1.0

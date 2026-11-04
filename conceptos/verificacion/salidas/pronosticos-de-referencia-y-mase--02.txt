@@ -1,0 +1,6 @@
+escala 1.6667
+MASE del ingenuo 1.0
+sMAPE si me paso: 0.4
+sMAPE si me quedo corto: 0.6667
+MAPE con un cero: inf
+denominador del MASE: 2.25

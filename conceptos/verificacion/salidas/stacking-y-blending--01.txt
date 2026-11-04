@@ -1,0 +1,2 @@
+AUC del metamodelo sobre Z fuera de muestra 0.904
+AUC del metamodelo sobre Z en muestra      1.000

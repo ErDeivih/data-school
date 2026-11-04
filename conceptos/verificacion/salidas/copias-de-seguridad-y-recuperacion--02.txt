@@ -1,0 +1,10 @@
+1 copia(s) -> probabilidad de perderlo todo: 1e-02
+2 copia(s) -> probabilidad de perderlo todo: 1e-04
+3 copia(s) -> probabilidad de perderlo todo: 1e-06
+4 copia(s) -> probabilidad de perderlo todo: 1e-08
+1.00 incidentes/ano,  3000 pedidos perdidos -> 150000 EUR/ano
+1.00 incidentes/ano,    10 pedidos perdidos -> 30400 EUR/ano
+0.20 incidentes/ano,  3000 pedidos perdidos -> 30000 EUR/ano
+0.20 incidentes/ano,    10 pedidos perdidos -> 6080 EUR/ano
+0.05 incidentes/ano,  3000 pedidos perdidos -> 7500 EUR/ano
+0.05 incidentes/ano,    10 pedidos perdidos -> 1520 EUR/ano

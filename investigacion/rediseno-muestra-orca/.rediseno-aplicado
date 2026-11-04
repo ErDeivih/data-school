@@ -1,0 +1,3 @@
+Rediseño 2026-11 aplicado en sitio/app.js, sitio/estilo.css y generar.mjs.
+Este marcador hace que _probar-rediseno-capturas.mjs capture la fase «after».
+No borrar mientras la evidencia after siga siendo la vigente.

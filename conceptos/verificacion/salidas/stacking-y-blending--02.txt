@@ -1,0 +1,3 @@
+logistica L2   AUC entrenamiento 0.886   AUC prueba 0.900   diferencia -0.015
+knn k=1        AUC entrenamiento 1.000   AUC prueba 0.750   diferencia +0.250
+knn k=3        AUC entrenamiento 0.936   AUC prueba 0.836   diferencia +0.100

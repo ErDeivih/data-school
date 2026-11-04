@@ -1,0 +1,2 @@
+rectangulo 2x3: 20
+cuadrado de lado 2: 16

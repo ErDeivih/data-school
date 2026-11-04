@@ -1,0 +1,3 @@
+z_alfa 1.960  z_beta 0.842
+n por rama 16577
+dias a 2000 visitas/dia 16.6

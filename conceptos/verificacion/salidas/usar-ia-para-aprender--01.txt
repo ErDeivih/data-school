@@ -1,0 +1,4 @@
+pandas .std()       2.13809
+numpy  .std()       2.00000
+numpy  .std(ddof=1) 2.13809
+se llevan           6.9%

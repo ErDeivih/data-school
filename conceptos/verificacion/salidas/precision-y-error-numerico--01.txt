@@ -1,0 +1,5 @@
+0.1 + 0.2          0.30000000000000004
+igual que 0.3      False
+diferencia         5.55e-17
+con tolerancia     True
+epsilon maquina    2.22e-16

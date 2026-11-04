@@ -1,0 +1,6 @@
+valor de la cartera: 130000.0
+peso de la bolsa: 0.6923
+desvio en puntos porcentuales: 9.2
+notional que cambia de manos: 12000.0
+coste del rebalanceo: 12.0
+en porcentaje de la cartera: 0.0092

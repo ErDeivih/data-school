@@ -1,0 +1,3 @@
+contenedor de 1000 elementos (bytes): 8056
+un entero suelto (bytes): 28
+8 bytes por puntero, 1000 punteros: 8056

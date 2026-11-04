@@ -1,0 +1,9 @@
+t=0  cerrado     llamada -> fallo
+t=1  cerrado     llamada -> fallo
+t=2  cerrado     llamada -> fallo
+t=3  cerrado     llamada -> fallo
+t=4  abierto     llamada -> fallo
+t=5  abierto     peticion rechazada sin llamar
+t=6  cerrado     llamada -> ok
+t=7  cerrado     llamada -> ok
+t=8  cerrado     llamada -> ok

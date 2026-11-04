@@ -1,0 +1,5 @@
+varianza realizada  1.250e-05
+volatilidad diaria  0.003536
+volatilidad anual   0.0561
+retorno del dia     +0.0010
+ese retorno al cuadrado 1.000e-06

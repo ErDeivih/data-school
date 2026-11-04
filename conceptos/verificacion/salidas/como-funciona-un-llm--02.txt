@@ -1,0 +1,5 @@
+embedding            38,597,376
+posiciones           786,432
+atencion + MLP       7,080,960 por capa
+total                124,355,328
+factor al duplicar d: 4

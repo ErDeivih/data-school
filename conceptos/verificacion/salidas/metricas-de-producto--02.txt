@@ -1,0 +1,7 @@
+churn 8 % -> base estable 50000 usuarios, LTV 50 EUR
+churn 6 % -> base estable 66667 usuarios, LTV 67 EUR
+churn 5 % -> base estable 80000 usuarios, LTV 80 EUR
+subir altas un 20 %: 80000
+bajar el churn a 5 %: 80000
+quick ratio 2.40
+quick ratio 1.00

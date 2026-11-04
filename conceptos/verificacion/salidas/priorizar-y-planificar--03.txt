@@ -1,0 +1,4 @@
+capacidad planificable: 35 personas-dia de 50
+4 tareas -> p50 24, p80 27 personas-dia, cabe en el sprint el 100 % de las veces
+5 tareas -> p50 30, p80 34 personas-dia, cabe en el sprint el 89 % de las veces
+6 tareas -> p50 36, p80 40 personas-dia, cabe en el sprint el 46 % de las veces

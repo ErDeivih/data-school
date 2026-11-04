@@ -1,0 +1,26 @@
+@@ -1183,11 +1183,11 @@
+   <header id="barra-superior">
+     <a href="#/" class="marca-titulo"><span class="marca-sigla">T</span> Tramario</a>
+     <nav class="barra-nav" aria-label="Secciones">
+-      <a href="#/pendientes">Pendientes</a>
+-      <a href="#/plan">Plan</a>
+-      <a href="#/ayuda">Método</a>
+-      <a href="#/glosario">Glosario</a>
++      <a href="#/">Hoy</a>
++      <a href="#/plan">Ruta</a>
++      <a href="#/repaso">Repaso</a>
+       <a href="#/progreso">Progreso</a>
++      <a href="#/buscar">Buscar</a>
+     </nav>
+     <div class="barra-acciones">
+       <button type="button" id="boton-tema" aria-label="Cambiar entre tema claro y oscuro" aria-pressed="false" title="Tema claro u oscuro">
+@@ -1286,7 +1286,8 @@
+      manda el menú horizontal, y dos navegaciones a la vez sobran. El relleno inferior con
+      env(safe-area-inset-bottom) es para que no quede debajo del gesto del sistema en iOS. -->
+ <nav class="barra-inferior" id="barra-inferior" aria-label="Secciones principales">
+-  <a href="#/plan"><span aria-hidden="true">§</span>Plan</a>
++  <a href="#/"><span aria-hidden="true">◉</span>Hoy</a>
++  <a href="#/plan"><span aria-hidden="true">§</span>Ruta</a>
+   <a href="#/repaso"><span aria-hidden="true">◈</span>Repaso</a>
+   <a href="#/progreso"><span aria-hidden="true">▤</span>Progreso</a>
+   <a href="#/buscar"><span aria-hidden="true">⌕</span>Buscar</a>

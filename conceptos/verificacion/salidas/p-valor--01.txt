@@ -1,0 +1,3 @@
+p bilateral  0.0414
+p unilateral 0.0207
+casos con 15 o mas caras: 21700 de 1048576

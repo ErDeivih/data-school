@@ -1,0 +1,3 @@
+bajista 0.0000
+Sortino inf
+sin meses malos el ratio no es enorme: es indefinido

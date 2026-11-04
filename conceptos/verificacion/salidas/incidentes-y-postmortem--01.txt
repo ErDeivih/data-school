@@ -1,0 +1,4 @@
+MTTD  minutos: 3
+MTTM  minutos: 35
+MTTR  minutos: 65
+impacto usuarios: 68 minutos

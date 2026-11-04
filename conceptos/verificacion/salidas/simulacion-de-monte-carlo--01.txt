@@ -1,0 +1,8 @@
+total de la muestra +6R
+resultado del orden real +12.22%
+caida del orden real 2.04%
+mediana final +12.22%
+percentil 5   -2.38%
+caida mediana 3.96%
+caida p95     7.87%
+acaba en perdidas 11.27%

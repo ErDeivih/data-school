@@ -1,0 +1,7 @@
+tabla densa: 60.0 MB
+one-hot por palabra: 195.3125 KiB
+todas one-hot: 10.0 GB
+fila recuperada: [0.8, 0.2, 0.1, 0.0]
+coseno one-hot: 0.0
+coseno denso  : 0.984
+coseno ajeno  : 0.012

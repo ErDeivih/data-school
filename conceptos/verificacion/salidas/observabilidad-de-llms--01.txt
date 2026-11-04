@@ -1,0 +1,8 @@
+traza   exito   reintentos   latencia_ms
+    0   True             1          2536
+    1   True             1          2990
+    2   True             1          3209
+p50 de latencia: 2643 ms
+p95 de latencia: 5312 ms
+exito: 0.918
+media 2559 ms   p95 - p50: 2668 ms

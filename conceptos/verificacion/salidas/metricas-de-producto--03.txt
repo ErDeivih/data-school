@@ -1,0 +1,8 @@
+            metrica  efecto direccion    lectura
+ retencion_semana_4   0.018      sube     mejora
+ingreso_por_usuario   0.002      sube sin cambio
+       latencia_p95   0.150      baja    empeora
+    tickets_soporte   0.060      baja    empeora
+la metrica norte mejora: True
+los guardarrailes aguantan: False
+decision: no lanzar: la latencia se come la mejora

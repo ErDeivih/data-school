@@ -1,0 +1,6 @@
+tarea media                  300,000 filas
+peor tarea sin salting    48,180,000 filas
+factor de desequilibrio        160.6x
+peor tarea con salting       930,000 filas
+mejora del peor caso            51.8x
+replica del lado pequeno       1,280 MB

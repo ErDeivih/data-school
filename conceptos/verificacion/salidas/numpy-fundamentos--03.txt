@@ -1,0 +1,5 @@
+bucle sobre lista  64 ms
+bucle indexando    163 ms
+numpy              0.97 ms
+mismo resultado: True
+[-126]

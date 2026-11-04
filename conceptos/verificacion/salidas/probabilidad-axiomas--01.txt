@@ -1,0 +1,6 @@
+P(E)              0.5
+P(P)              0.4
+P(E y P)          0.2
+P(E o P)          0.7
+sumar sin restar  0.9
+regla de la suma  0.7

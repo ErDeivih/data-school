@@ -1,0 +1,2 @@
+    un solo modo  KL(p_g||p_d)= 0.693  KL(p_d||p_g)=  12.175
+ancha y centrada  KL(p_g||p_d)= 1.909  KL(p_d||p_g)=   0.800

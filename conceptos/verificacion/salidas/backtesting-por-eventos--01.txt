@@ -1,0 +1,3 @@
+venta de 400 -> cola delante   0  ejecutado 100 de 500
+venta de 250 -> cola delante   0  ejecutado 350 de 500
+parcial: 350 de 500 (70%)

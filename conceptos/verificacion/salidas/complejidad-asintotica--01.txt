@@ -1,0 +1,3 @@
+elementos en la lista  524288
+comparaciones lineal   450001
+comparaciones binaria  19

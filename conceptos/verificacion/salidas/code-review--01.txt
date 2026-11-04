@@ -1,0 +1,3 @@
+linea 2: argumento por defecto mutable en anade
+linea 9: except sin tipo de excepcion
+avisos: 2

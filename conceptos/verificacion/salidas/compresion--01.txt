@@ -1,0 +1,5 @@
+codigos: {'A': '0', 'B': '110', 'C': '100', 'D': '101', 'R': '111'}
+bits con Huffman: 23
+bits con 3 bits fijos: 33
+entropia: 2.04 bits/simbolo
+media Huffman: 2.09 bits/simbolo

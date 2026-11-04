@@ -1,0 +1,2 @@
+lista, 10000 elementos: 49995000
+deque, 10000 elementos: 10000

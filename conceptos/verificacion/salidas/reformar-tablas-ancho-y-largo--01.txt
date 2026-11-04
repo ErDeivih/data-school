@@ -1,0 +1,5 @@
+(3, 4) (9, 3)
+['ene', 'ene', 'ene', 'feb', 'feb', 'feb', 'mar', 'mar', 'mar']
+450
+450
+int64

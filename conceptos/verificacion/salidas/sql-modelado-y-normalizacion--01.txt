@@ -1,0 +1,3 @@
+nombre | ciudad | lineas | total
+Luis | Bilbao | 2 | 385.00
+Ana | Valencia | 2 | 65.00

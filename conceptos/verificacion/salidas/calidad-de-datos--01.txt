@@ -1,0 +1,1 @@
+filas 8  completitud 88%  unicidad 88%  validez 75%  coherencia 88%

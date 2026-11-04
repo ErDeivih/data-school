@@ -1,0 +1,2 @@
+altura dibujada  honesto 1.03  recortado 3.00
+eje por defecto llega a 98.91

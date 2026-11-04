@@ -1,0 +1,3 @@
+t= 10  tamano con vol total 7.6  con vol solo-pasado 25.6
+t=150  tamano con vol total 7.6  con vol solo-pasado 8.5
+dias con tamano distinto mas del 20 %: 134 de 160

@@ -1,0 +1,3 @@
+clave m-77: procesada cobros 1
+clave m-77: ignorada  cobros 1
+clave m-31: procesada cobros 2

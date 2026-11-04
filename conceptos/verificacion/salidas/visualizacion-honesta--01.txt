@@ -1,0 +1,11 @@
+gravedad tratamiento  tasa
+    leve           A   0.9
+    leve           B   0.8
+   grave           A   0.5
+   grave           B   0.4
+
+agregado:
+             exitos  casos      tasa
+tratamiento                         
+A                29     50  0.580000
+B                84    110  0.763636

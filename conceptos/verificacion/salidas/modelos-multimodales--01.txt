@@ -1,0 +1,10 @@
+lado  troceado  rejilla  tokens
+ 224        16   14x14      196
+ 336        16   21x21      441
+ 448        16   28x28      784
+ 672        16   42x42     1764
+1008        16   63x63     3969
+mismo lado, distinto troceado:
+  parche de  8 px -> 126x126 =  15876 tokens
+  parche de 16 px ->  63x63  =   3969 tokens
+  parche de 32 px ->  32x32  =   1024 tokens

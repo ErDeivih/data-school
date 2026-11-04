@@ -1,0 +1,4 @@
+AUC       0.920
+TPR       0.900
+FPR       0.050
+precision 0.1538

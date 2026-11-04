@@ -1,0 +1,6 @@
+  AAA    50.0 millones  fuera
+  BBB    40.8 millones  fuera
+  CCC   205.0 millones  pasa
+  DDD    85.5 millones  pasa
+  EEE   139.5 millones  pasa
+elegidos para el universo: ['CCC', 'EEE']

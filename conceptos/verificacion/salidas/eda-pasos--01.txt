@@ -1,0 +1,5 @@
+filas, columnas: (8, 5)
+pedidos distintos: 8
+nulos en importe: 1
+canales distintos: 3
+importe minimo: 9.99

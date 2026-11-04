@@ -1,0 +1,5 @@
+forma (filas, columnas): (4, 3)
+elemento fila 2, col 3: 71
+una fila (persona 1): [ 34 171  68]
+una columna (peso): [68 71 84 57]
+numero de valores: 12

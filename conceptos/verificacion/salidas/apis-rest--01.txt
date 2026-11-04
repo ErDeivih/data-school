@@ -1,0 +1,4 @@
+GET /v1/pedidos?limite=100&offset=0 -> 100 items, desde el id 1 hasta el 100
+GET /v1/pedidos?limite=100&offset=100 -> 100 items, desde el id 101 hasta el 200
+GET /v1/pedidos?limite=50&offset=200 ->  50 items, desde el id 201 hasta el 250
+peticiones necesarias: 3

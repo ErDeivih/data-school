@@ -1,0 +1,3 @@
+contexto corto             primer token      58 ms   total    6058 ms
+contexto largo             primer token     290 ms   total    6290 ms
+contexto largo con cache   primer token      83 ms   total    6083 ms

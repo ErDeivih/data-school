@@ -1,0 +1,7 @@
+media aritmetica mensual 0.0067
+media log mensual 0.0041
+mitad varianza -0.0026
+riqueza mediana 1.6520
+riqueza media 2.2326
+tasa anualizada 0.0515
+exp(mu)-1 0.0833

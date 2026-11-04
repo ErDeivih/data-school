@@ -1,0 +1,4 @@
+P(seis)           0.1667
+P(par)            0.5
+P(seis y par)     0.1667
+P(seis sabiendo par) 0.3333

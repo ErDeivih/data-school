@@ -1,0 +1,3 @@
+suma con duplicado : 354
+suma tras deduplicar: 300
+{'Madrid': 185, 'Sevilla': 115}

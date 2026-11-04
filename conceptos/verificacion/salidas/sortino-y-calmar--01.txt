@@ -1,0 +1,6 @@
+volatilidad         0.0339
+bajista (n = 6)    0.0220
+bajista (k = 2)    0.0381
+Sharpe anual        0.51
+Sortino anual / n   0.79
+Sortino anual / k   0.45

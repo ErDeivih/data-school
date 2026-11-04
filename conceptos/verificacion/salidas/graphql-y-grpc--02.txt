@@ -1,0 +1,4 @@
+campo 1 valor      42 -> 2 bytes: [8, 42]
+campo 2 valor   40000 -> 4 bytes: [16, 192, 184, 2]
+campo 3 valor 9000000 -> 5 bytes: [24, 192, 168, 165, 4]
+el mismo numero en JSON ocupa tambien el nombre del campo y las comillas

@@ -1,0 +1,13 @@
+32 bits ->  26.08 GiB de pesos   NO CABE en la tarjeta
+16 bits ->  13.04 GiB de pesos   cabe
+ 8 bits ->   6.52 GiB de pesos   cabe
+ 4 bits ->   3.26 GiB de pesos   cabe
+contexto   4000 -> cache de  1.95 GiB por secuencia
+contexto  16000 -> cache de  7.81 GiB por secuencia
+contexto  32000 -> cache de 15.62 GiB por secuencia
+16 bits, contexto   4000 -> margen  8.96 GiB, caben 4 secuencias
+16 bits, contexto  16000 -> margen  8.96 GiB, caben 1 secuencias
+ 8 bits, contexto   4000 -> margen 15.48 GiB, caben 7 secuencias
+ 8 bits, contexto  16000 -> margen 15.48 GiB, caben 1 secuencias
+ 4 bits, contexto   4000 -> margen 18.74 GiB, caben 9 secuencias
+ 4 bits, contexto  16000 -> margen 18.74 GiB, caben 2 secuencias

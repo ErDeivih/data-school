@@ -1,0 +1,4 @@
+1 idea(s) en la tarjeta -> P = 0.900   repasos hasta acertar = 1.11
+2 idea(s) en la tarjeta -> P = 0.810   repasos hasta acertar = 1.23
+4 idea(s) en la tarjeta -> P = 0.656   repasos hasta acertar = 1.52
+8 idea(s) en la tarjeta -> P = 0.430   repasos hasta acertar = 2.32

@@ -1,0 +1,5 @@
+lista: 8448728
+generador: 200
+primeros tres: [0, 1, 4]
+categorias: ['pan', 'vino']
+pan: [3.5, 2.0]

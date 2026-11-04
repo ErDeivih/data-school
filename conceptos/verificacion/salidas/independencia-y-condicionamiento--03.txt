@@ -1,0 +1,4 @@
+P(ingreso)         0.19
+P(A y B | ingreso) 0.0526
+P(A|ing)*P(B|ing) 0.277
+son independientes: False

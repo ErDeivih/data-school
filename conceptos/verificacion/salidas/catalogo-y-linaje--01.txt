@@ -1,0 +1,3 @@
+impacto: ['dim_cliente', 'fact_ventas', 'informe_margen', 'int_pedidos', 'stg_clientes']
+nodos afectados: 5
+origenes: ['dim_cliente', 'fact_ventas', 'int_pedidos', 'raw_clientes', 'raw_pedidos', 'stg_clientes']

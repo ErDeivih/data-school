@@ -1,0 +1,4 @@
+n =  25  potencia 0.239
+n = 126  potencia 0.801
+n para potencia 0,80: 126
+n para potencia 0,90: 169

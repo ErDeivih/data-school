@@ -1,0 +1,5 @@
+precision@3 A 0.6667
+recall@3 A    0.667
+AP A 0.7556  AP B 0.5000
+MAP 0.6278
+MRR 0.7500

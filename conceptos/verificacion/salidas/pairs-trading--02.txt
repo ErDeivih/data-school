@@ -1,0 +1,2 @@
+con stop 2,5 operaciones  12  bruto +0.2128  neto +0.2080  peor racha -0.0122
+sin stop     operaciones  12  bruto +0.2395  neto +0.2347  peor racha -0.0229

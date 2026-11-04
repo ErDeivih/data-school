@@ -1,0 +1,10 @@
+coste mediano por consulta: 0.0206 EUR
+coste del p95: 0.0346 EUR
+el p95 cuesta 1.68 veces la mediana
+factura del dia: 10.37 EUR
+la cola del 5 % mas caro se lleva: 0.0917
+la cola del 5 % mas caro cuesta de media: 0.038 EUR por consulta
+la mitad mas barata de la factura cabe en 321 consultas
+entrada    8.31 EUR al dia   80.2%
+cache      0.18 EUR al dia    1.7%
+salida     1.88 EUR al dia   18.1%

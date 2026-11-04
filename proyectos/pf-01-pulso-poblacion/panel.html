@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="es">
+<meta charset="utf-8" />
+<title>PF-01 · El pulso de dos economías</title>
+<style>
+  body { font-family: Georgia, serif; margin: 2rem auto; max-width: 46rem; color: #1a1a1a; line-height: 1.5; }
+  h1 { font-size: 1.9rem; margin-bottom: .2rem; }
+  .nota { color: #555; font-size: .85rem; }
+  .grafico { width: 100%; height: auto; margin: 1.5rem 0; }
+  .titulo-grafico { font-size: 13px; font-weight: bold; }
+  .etiqueta { font-size: 12px; }
+  .valor { font-size: 10px; fill: #444; }
+  table { border-collapse: collapse; width: 100%; margin-top: 1rem; font-size: .9rem; }
+  th, td { border-bottom: 1px solid #ddd; padding: .35rem .5rem; text-align: right; }
+  th:first-child, td:first-child { text-align: left; }
+  footer { margin-top: 2rem; font-size: .8rem; color: #666; }
+</style>
+<h1>El pulso de cinco economías</h1>
+<p class="nota">Población y PIB per cápita, 2000 frente a 2023. Fuente: Banco Mundial (CC BY 4.0),
+descargado el 2026-11-02 con <code>ingerir.py</code>.</p>
+<svg viewBox="0 0 640 260" role="img" aria-label="Población" class="grafico">
+<text x="0" y="16" class="titulo-grafico">Población (personas)</text>
+<text x="0" y="46" class="etiqueta">Alemania</text>
+<rect x="110" y="34" width="424" height="11" fill="#8a8f98" rx="2" />
+<text x="536" y="44" class="valor">82,211,508</text>
+<rect x="110" y="48" width="430" height="11" fill="#1d6f5c" rx="2" />
+<text x="542" y="58" class="valor">83,287,273</text>
+<text x="0" y="90" class="etiqueta">Francia</text>
+<rect x="110" y="78" width="314" height="11" fill="#8a8f98" rx="2" />
+<text x="426" y="88" class="valor">60,918,661</text>
+<rect x="110" y="92" width="352" height="11" fill="#1d6f5c" rx="2" />
+<text x="464" y="102" class="valor">68,372,286</text>
+<text x="0" y="134" class="etiqueta">Italia</text>
+<rect x="110" y="122" width="293" height="11" fill="#8a8f98" rx="2" />
+<text x="405" y="132" class="valor">56,942,108</text>
+<rect x="110" y="136" width="304" height="11" fill="#1d6f5c" rx="2" />
+<text x="416" y="146" class="valor">58,984,216</text>
+<text x="0" y="178" class="etiqueta">España</text>
+<rect x="110" y="166" width="209" height="11" fill="#8a8f98" rx="2" />
+<text x="321" y="176" class="valor">40,567,864</text>
+<rect x="110" y="180" width="249" height="11" fill="#1d6f5c" rx="2" />
+<text x="361" y="190" class="valor">48,352,528</text>
+<text x="0" y="222" class="etiqueta">Portugal</text>
+<rect x="110" y="210" width="53" height="11" fill="#8a8f98" rx="2" />
+<text x="165" y="220" class="valor">10,289,898</text>
+<rect x="110" y="224" width="54" height="11" fill="#1d6f5c" rx="2" />
+<text x="166" y="234" class="valor">10,578,174</text>
+</svg>
+<svg viewBox="0 0 640 260" role="img" aria-label="PIB per cápita" class="grafico">
+<text x="0" y="16" class="titulo-grafico">PIB per cápita (USD corrientes)</text>
+<text x="0" y="46" class="etiqueta">Alemania</text>
+<rect x="110" y="34" width="187" height="11" fill="#8a8f98" rx="2" />
+<text x="299" y="44" class="valor">23,926</text>
+<rect x="110" y="48" width="430" height="11" fill="#1d6f5c" rx="2" />
+<text x="542" y="58" class="valor">54,777</text>
+<text x="0" y="90" class="etiqueta">Francia</text>
+<rect x="110" y="78" width="175" height="11" fill="#8a8f98" rx="2" />
+<text x="287" y="88" class="valor">22,341</text>
+<rect x="110" y="92" width="350" height="11" fill="#1d6f5c" rx="2" />
+<text x="462" y="102" class="valor">44,700</text>
+<text x="0" y="134" class="etiqueta">Italia</text>
+<rect x="110" y="122" width="158" height="11" fill="#8a8f98" rx="2" />
+<text x="270" y="132" class="valor">20,190</text>
+<rect x="110" y="136" width="308" height="11" fill="#1d6f5c" rx="2" />
+<text x="420" y="146" class="valor">39,280</text>
+<text x="0" y="178" class="etiqueta">España</text>
+<rect x="110" y="166" width="115" height="11" fill="#8a8f98" rx="2" />
+<text x="227" y="176" class="valor">14,743</text>
+<rect x="110" y="180" width="262" height="11" fill="#1d6f5c" rx="2" />
+<text x="374" y="190" class="valor">33,493</text>
+<text x="0" y="222" class="etiqueta">Portugal</text>
+<rect x="110" y="210" width="90" height="11" fill="#8a8f98" rx="2" />
+<text x="202" y="220" class="valor">11,526</text>
+<rect x="110" y="224" width="216" height="11" fill="#1d6f5c" rx="2" />
+<text x="328" y="234" class="valor">27,635</text>
+</svg>
+<h2>Renta por persona</h2>
+<table>
+  <thead><tr><th>País</th><th>2000</th><th>2023</th><th>Cambio</th></tr></thead>
+  <tbody>
+<tr><td>Alemania</td><td>23,926</td><td>54,777</td><td>+128.9 %</td></tr>
+<tr><td>Francia</td><td>22,341</td><td>44,700</td><td>+100.1 %</td></tr>
+<tr><td>Italia</td><td>20,190</td><td>39,280</td><td>+94.6 %</td></tr>
+<tr><td>España</td><td>14,743</td><td>33,493</td><td>+127.2 %</td></tr>
+<tr><td>Portugal</td><td>11,526</td><td>27,635</td><td>+139.8 %</td></tr>
+  </tbody>
+</table>
+<footer>Dos indicadores no son una economía: falta inflación, paro y PPA. El panel dice lo que
+dicen los datos, ni más ni menos.</footer>
+</html>

@@ -1,0 +1,5 @@
+(2, 3)
+[4.0, nan, 6.0]
+1 6
+Index contains duplicate entries, cannot reshape
+[2.0, 2.0, 3.0]

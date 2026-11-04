@@ -1,0 +1,4 @@
+beta       1.40
+alpha      +0.20 %/mes
+R2         0.925
+t de alpha 0.50

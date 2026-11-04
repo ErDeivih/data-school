@@ -1,0 +1,4 @@
+probabilidad esperada: 0.020
+minima observada: 0.008
+maxima observada: 0.035
+media observada:  0.020

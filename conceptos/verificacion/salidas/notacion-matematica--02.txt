@@ -1,0 +1,2 @@
+E[X] = 10.0   media muestral = 10.002
+sigma = 2.0   s = 2.001

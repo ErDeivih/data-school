@@ -1,0 +1,4 @@
+varianza minima pesos 0.820 y 0.180  mu 8.72%  sigma 14.31%
+tangente pesos 0.625 y 0.375  mu 9.50%  sigma 15.12%
+Sharpe tangente 0.496
+Sharpe de A 0.400 y de B 0.400

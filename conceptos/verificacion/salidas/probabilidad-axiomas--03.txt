@@ -1,0 +1,7 @@
+axioma 1, todas >= 0 : True
+axioma 2, suma = 1   : 1.0
+P(par)               : 0.5
+P(multiplo de 3)     : 0.3333
+P(par y multiplo 3)  : 0.1667
+P(par o multiplo 3)  : 0.6667
+complementario       : 0.5

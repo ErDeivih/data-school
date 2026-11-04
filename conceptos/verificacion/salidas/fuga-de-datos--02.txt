@@ -1,0 +1,4 @@
+media usada con fuga 204
+media usada sin fuga 5
+prueba con fuga 2.00
+prueba sin fuga 444.08

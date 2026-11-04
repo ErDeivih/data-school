@@ -1,0 +1,2 @@
+phi estimado          0.8917
+vida media (periodos) 6.05

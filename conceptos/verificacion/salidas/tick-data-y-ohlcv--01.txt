@@ -1,0 +1,5 @@
+minuto  apertura  maximo  minimo  cierre  volumen
+09:00    100.00  100.02   99.98  100.01     1040
+09:01    100.05  100.05  100.03  100.03      295
+09:02    100.07  100.09  100.04  100.09     1040
+operaciones agregadas: 9 volumen total: 2375

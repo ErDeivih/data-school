@@ -1,0 +1,3 @@
+umbral 0.9  positivos   2  recall 0.10  precision 1.00
+umbral 0.5  positivos  24  recall 0.50  precision 0.42
+umbral 0.1  positivos  85  recall 0.90  precision 0.21

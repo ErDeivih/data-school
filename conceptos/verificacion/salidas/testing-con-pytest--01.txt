@@ -1,0 +1,3 @@
+filas de entrada: 3
+filas de salida : 2
+euros: [10.5, 0.0]

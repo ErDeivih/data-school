@@ -1,0 +1,3 @@
+filas leidas: 3
+filas sin segmento: 2
+columnas del esquema: id,ciudad,segmento

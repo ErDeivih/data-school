@@ -1,0 +1,5 @@
+covarianza: [[2.5, 4.975], [4.975, 9.927]]
+autovalores: [0.0054, 12.4216]
+suma de autovalores: 12.427
+varianza total (traza): 12.427
+varianza del primero: 0.9996

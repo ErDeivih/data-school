@@ -1,0 +1,4 @@
+bytes totales   100
+body length     9=78
+checksum        168
+8=FIX.4.4|9=78|35=D|49=CLIENTE|56=BOLSA|34=7|11=ORD-1|55=BBVA|54=1|38=1000|40=2|44=9.85|59=0|10=168|

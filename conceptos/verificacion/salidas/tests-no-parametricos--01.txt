@@ -1,0 +1,4 @@
+t de Welch -0.62  p 0.5533
+U 8.0  p exacta 0.0104
+P(B > A) 0.875
+desplazamiento +19.0

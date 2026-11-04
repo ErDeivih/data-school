@@ -1,0 +1,4 @@
+tras leer-modificar-escribir: 550
+tras sumar dentro del UPDATE: 700
+la segunda sesion no puede escribir: OperationalError
+tras el rollback: 700

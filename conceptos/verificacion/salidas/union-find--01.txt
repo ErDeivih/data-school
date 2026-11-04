@@ -1,0 +1,6 @@
+representantes al inicio: [0, 1, 2, 3, 4, 5]
+tras 0-1 y 2-3: [0, 0, 2, 2, 4, 5] conjuntos 4
+tras unir 1 y 3: [0, 0, 0, 2, 4, 5] conjuntos 3
+mismo grupo (0, 3): True
+mismo grupo (0, 4): False
+padre tras find(3): [0, 0, 0, 0, 4, 5]

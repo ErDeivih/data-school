@@ -1,0 +1,5 @@
+FLOPs           0.537 GFLOP
+pesos          16.0 MiB
+intensidad     32.0 FLOP/byte
+lote  1: 0.50 FLOP/byte
+lote 64: 32.00 FLOP/byte

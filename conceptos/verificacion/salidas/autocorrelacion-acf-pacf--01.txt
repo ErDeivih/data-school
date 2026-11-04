@@ -1,0 +1,4 @@
+media 4.0  suma de cuadrados 10.0
+numerador del retardo 1 -1.0
+acf retardos 0..3 [ 1.  -0.1  0.4 -0.4]
+banda del 95% 0.8

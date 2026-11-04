@@ -1,0 +1,5 @@
+rho 0.0  sigma 14.14%  Sharpe 0.707
+rho 0.2  sigma 15.49%  Sharpe 0.645
+rho 0.6  sigma 17.89%  Sharpe 0.559
+rho 1.0  sigma 20.00%  Sharpe 0.500
+tres estrategias sigma 13.66%  Sharpe 0.732

@@ -1,0 +1,6 @@
+grupo  candidatos  seleccionados  tasa  impacto
+    A        1000            420  0.42 1.000000
+    B         400            120  0.30 0.714286
+impacto dispar minimo: 0.71
+regla del 80 %: NO se cumple
+personas de diferencia: 120

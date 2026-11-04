@@ -1,0 +1,2 @@
+diferencia bruta -2,000
+diferencia ajustada +3,000

@@ -1,0 +1,4 @@
+media de largo plazo 10.0
+pronostico h=1: 11.500
+pronostico h=2: 10.750
+pronostico h=3: 10.375

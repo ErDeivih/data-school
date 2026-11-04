@@ -1,0 +1,5 @@
+umbral 0.95  alertas  1  FP  0  FN  3  coste    600
+umbral 0.75  alertas  3  FP  2  FN  3  coste    606
+umbral 0.50  alertas  6  FP  3  FN  1  coste    209
+umbral 0.25  alertas 10  FP  6  FN  0  coste     18
+umbral 0.00  alertas 12  FP  8  FN  0  coste     24

@@ -1,0 +1,4 @@
+Kelly completo 6.25x
+medio Kelly    3.12x
+volatilidad anual al Kelly completo 86.60%
+con cuota 2:1 la fraccion seria 0.33

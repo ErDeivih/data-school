@@ -1,0 +1,6 @@
+      directa: 14 dias
+ con contexto: 14 dias
+  reformulada: 14 dias
+  con presion: 30 dias
+respuestas distintas: 2 -> [14, 30]
+estable: False

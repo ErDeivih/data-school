@@ -1,0 +1,92 @@
+﻿# Medicion de los cinco origenes - 2026-11-04
+
+Origen | Ficheros | MB
+---|---|---
+1. aprender (portal vivo) | 7478 | 271,41
+2. data-school-import | 13 | 0,07
+3. Orca equipo-ia | 4833 | 138,62
+4. preview-data | 4 | 1,2
+5. data-school | 100 | 0,2
+
+## 1. Portal vivo (aprender)
+
+Conceptos por fase (.md) y comparacion con el archivo de Orca:
+
+Fase | Aprender .md | Orca .md | Delta
+---|---|---|---
+f00 | 14 | 11 | 3
+f01 | 41 | 39 | 2
+f02 | 26 | 26 | 0
+f03 | 42 | 41 | 1
+f04 | 61 | 54 | 7
+f05 | 29 | 29 | 0
+f06 | 49 | 49 | 0
+f07 | 33 | 33 | 0
+f08 | 22 | 22 | 0
+f09 | 61 | 54 | 7
+f10 | 32 | 32 | 0
+f11 | 34 | 34 | 0
+f12 | 15 | 14 | 1
+**Total** | **459** | **438** | **21**
+
+- Fases: 13 (f00..f12)
+- Conceptos con bloque de codigo: 459 de 459
+- Bloques :::figura en los conceptos: 349
+
+### Datasets
+
+- CSV en web/datos/datasets: 10
+- CSV dentro de proyectos/: 3
+- CSV en el archivo de Orca: 6
+- De los 6 CSV de Orca, identicos en la viva: 6
+
+### Figuras y recursos
+
+- Scripts de figura (.py) en figuras/: 350
+- Cache de bytecode (.pyc) en figuras/: 351
+- SVG servidos en web/figuras/: 370
+- SVG en recursos/figuras/: 369
+- Recursos totales (origen): 370 ; en Orca: 370
+
+### Verificacion (codigo ejecutado)
+
+- Aprender: 913 .py, 33 .sql, 946 salidas .txt
+- Orca: 913 .py, 33 .sql, 0 salidas .txt
+
+### Proyectos, documentacion y especificaciones
+
+- Proyectos completos en proyectos/: 2
+- Documentacion (docs/): 174 ; en Orca: 302
+- Especificaciones: 21 ; en Orca: 21
+- Web (web/): 441 ; en Orca: 437
+
+### Identidad de ficheros compartidos con Orca (hash)
+
+- Conceptos: iguales=438 distintos=0 solo-en-Orca=0
+- Scripts de figura: iguales=350 distintos=0
+- Recursos: iguales=370 distintos=0
+
+## 2. data-school-import
+
+- Ficheros: 13 (0.07 MB)
+- FUENTES.md: 16282 bytes
+- Herramientas: 2
+- Diseno: 5
+
+## 3. Archivo de Orca (equipo-ia)
+
+- Ficheros: 4833 (138.62 MB)
+- Conceptos .md: 438; fases: 13; CSV: 6; scripts de figura: 350; recursos: 370
+- Documentos exclusivos de Orca (docs/diseno): 168 ficheros, 16.08 MB
+- Modulos web exclusivos: 1 (assets/actividades.js)
+
+## 4. preview-data
+
+- Ficheros: 4 (1.2 MB)
+- Contenido: base SQLite de la vista previa (servicio opofuente) + log; sin ficheros de contenido de datos/IA
+
+## 5. data-school (esta carpeta, antes de la consolidacion)
+
+- Ficheros (sin .git): 0
+- Carpetas vacias: 
+

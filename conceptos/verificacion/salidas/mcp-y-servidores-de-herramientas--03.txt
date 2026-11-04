@@ -1,0 +1,6 @@
+ 3 aplicaciones y  3 sistemas ->    9 conectores sin protocolo,   6 con MCP
+ 5 aplicaciones y  8 sistemas ->   40 conectores sin protocolo,  13 con MCP
+10 aplicaciones y 20 sistemas ->  200 conectores sin protocolo,  30 con MCP
+ 3x 3: 1.5 veces menos piezas
+ 5x 8: 3.1 veces menos piezas
+10x20: 6.7 veces menos piezas

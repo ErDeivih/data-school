@@ -1,0 +1,3 @@
+10 graficos guardados: 1200 KB
+con 5 graficos: 600 KB
+y cada reejecucion los reescribe enteros: True

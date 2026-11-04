@@ -1,0 +1,3 @@
+VaR  95%    1974 EUR 1.97%
+CVaR 95%    2475 EUR 2.48%
+CVaR / VaR 1.25

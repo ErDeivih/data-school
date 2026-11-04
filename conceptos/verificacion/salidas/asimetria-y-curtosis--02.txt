@@ -1,0 +1,4 @@
+n   20: entre -2.01 y +2.04
+n  200: entre -0.58 y +0.59
+n 2000: entre -0.19 y +0.18
+ejemplo: -4.47

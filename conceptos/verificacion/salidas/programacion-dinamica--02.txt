@@ -1,0 +1,3 @@
+valor optimo: 7
+objetos elegidos: [0, 1]
+estados evaluados: 24

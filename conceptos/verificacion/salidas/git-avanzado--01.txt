@@ -1,0 +1,5 @@
+commits en el historial: 64
+sondas realizadas: 6
+secuencia: [31, 47, 39, 43, 41, 40]
+primer commit malo: 41
+con busqueda lineal: 42

@@ -1,0 +1,2 @@
+Bonferroni sobreviven 1 con umbral 0.0050
+BH sobreviven 4 con umbral 0.0200

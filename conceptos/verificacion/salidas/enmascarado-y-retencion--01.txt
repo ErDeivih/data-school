@@ -1,0 +1,4 @@
+ecc0d61f9031 ecc0d61f9031 680352772cac
+grupos 3
+k minimo 1
+filas unicas 1

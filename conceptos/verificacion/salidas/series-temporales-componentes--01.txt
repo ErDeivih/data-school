@@ -1,0 +1,5 @@
+mes 0  101.0
+mes 3  115.0
+mes 6  113.0
+mes 12 125.0
+tendencia recuperada True

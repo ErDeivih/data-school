@@ -1,0 +1,4 @@
+tasa antes 3.2%  tasa despues 3.5%
+cambio relativo +7.7%
+diferencia observada 1 conversion, error tipico 1.28%
+cambio creible: False

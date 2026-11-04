@@ -1,0 +1,4 @@
+criticos ADF (constante): -3.43 (1%)  -2.86 (5%)  -2.57 (10%)
+criticos KPSS (nivel):     0.739 (1%)   0.463 (5%)   0.347 (10%)
+ paseo aleatorio  ADF -0.81   KPSS 1.450
+    ruido blanco  ADF -11.78   KPSS 0.279

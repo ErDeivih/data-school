@@ -1,0 +1,6 @@
+spread en pb : 2.0
+imbalance 1  : 0.1429
+imbalance 3  : 0.1591
+precio medio : 50.0283
+impacto en pb: 3.66
+sin ejecutar : 0

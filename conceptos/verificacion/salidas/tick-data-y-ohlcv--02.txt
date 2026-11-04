@@ -1,0 +1,4 @@
+barras por tiempo : 29
+barras por volumen: 59
+desv. por tiempo  : 0.2245
+desv. por volumen : 0.1475

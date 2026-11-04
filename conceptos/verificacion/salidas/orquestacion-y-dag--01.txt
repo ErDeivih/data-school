@@ -1,0 +1,10 @@
+extraer_clientes   inicio   0  fin  12
+extraer_pedidos    inicio   0  fin  35
+limpiar_clientes   inicio  12  fin  16
+limpiar_pedidos    inicio  35  fin  43
+cargar_dimension   inicio  16  fin  19
+cargar_hechos      inicio  43  fin  49
+validar_totales    inicio  49  fin  51
+tareas ordenadas: 7
+duracion sumando todo: 70
+duracion del DAG: 51

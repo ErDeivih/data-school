@@ -1,0 +1,4 @@
+media de los que responden      2825
+mediana de los que responden    1550
+media tras imputar con media   2825
+media tras imputar con mediana 2400

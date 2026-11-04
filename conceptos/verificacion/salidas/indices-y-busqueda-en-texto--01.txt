@@ -1,0 +1,4 @@
+postings de 'gato': ['d1', 'd3']
+postings de 'come': ['d1', 'd2']
+terminos distintos: 9
+documentos con ['gato', 'perro'] : ['d3']

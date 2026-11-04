@@ -1,0 +1,4 @@
+GET   x2 -> ('pendiente', 1) ('pendiente', 1)
+PUT   x2 -> ('enviado', 2) ('enviado', 2)
+DELETE x2 -> 204 204
+version final: 3

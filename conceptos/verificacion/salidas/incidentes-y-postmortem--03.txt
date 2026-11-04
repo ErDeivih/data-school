@@ -1,0 +1,6 @@
+acciones totales: 3
+cerradas: 0
+hay acciones sin dueno: False
+  #1 abierta                          revertir el ultimo despliegue antes de depurar
+  #2 abierta                          alerta de tasa de error en la pasarela
+  #3 caducada: reprogramar o borrar   boton de revertir en el primer nivel del panel

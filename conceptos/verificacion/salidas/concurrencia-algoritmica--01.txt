@@ -1,0 +1,3 @@
+incrementos pedidos: 2
+valor final: 1
+se ha perdido un incremento: True

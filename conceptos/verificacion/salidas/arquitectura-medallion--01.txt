@@ -1,0 +1,4 @@
+bronce   1,000,000 filas
+plata      997,000 filas   (-0.3% duplicadas)
+validas    985,000 filas   (-1.2% sin importe)
+oro: facturado 4,925,000.00 EUR

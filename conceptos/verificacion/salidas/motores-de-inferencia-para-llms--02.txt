@@ -1,0 +1,11 @@
+16 bits:  14.5 ms por token ->   69.0 tokens por segundo
+4 bits:   3.6 ms por token ->  276.1 tokens por segundo
+lote  tiempo_por_token  tokens_por_segundo_del_conjunto
+   1             16.7                          60.0
+   2             18.8                         106.3
+   4             23.2                         172.7
+   8             31.8                         251.4
+  16             49.2                         325.5
+  lote  4 ->  7.80 GiB de cache
+  lote  8 -> 15.60 GiB de cache
+  lote 16 -> 31.20 GiB de cache

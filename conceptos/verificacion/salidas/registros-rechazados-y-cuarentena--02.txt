@@ -1,0 +1,8 @@
+pedido_id  unidades
+       P1         2
+       P2         1
+       P3         3
+       P4         4
+       P5         1
+       P6         7
+filas tras el reproceso: 6

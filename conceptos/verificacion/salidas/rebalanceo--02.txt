@@ -1,0 +1,4 @@
+        politica  valor final  vol mensual  caida max   ops    coste
+ sin rebalancear      143,979       0.0153     0.0504     0     0.00
+           anual      142,149       0.0142     0.0426     5    12.64
+     umbral 5 pp      142,942       0.0142     0.0404     2    14.48

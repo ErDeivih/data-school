@@ -1,0 +1,5 @@
+permutaciones: 720
+altura minima: 2
+altura maxima: 5
+altura media: 3.27
+degenerados (altura 5): 32

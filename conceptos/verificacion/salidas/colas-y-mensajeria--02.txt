@@ -1,0 +1,4 @@
+primera entrega: procesado
+reintento:      duplicado ignorado
+veces contabilizado el pedido 251: 1
+mensajes vistos: 1

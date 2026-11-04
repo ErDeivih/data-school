@@ -1,0 +1,3 @@
+huella original       4be22d82cce0b8c4
+huella con un cambio  0c46a8447de41818
+coinciden             False

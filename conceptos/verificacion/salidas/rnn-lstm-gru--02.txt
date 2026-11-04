@@ -1,0 +1,5 @@
+RNN : 620
+LSTM: 2480
+GRU : 1860
+GRU/LSTM: 0.75
+norma del estado: 1.3989

@@ -1,0 +1,4 @@
+encontrados: 50 y 50
+buscar en la lista      268.9 ms
+buscar en el conjunto   0.055 ms
+mejora: 4889 x  (O(n) frente a O(1))

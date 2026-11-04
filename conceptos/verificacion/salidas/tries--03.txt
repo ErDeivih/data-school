@@ -1,0 +1,4 @@
+prefijo en trie:     1.4 us
+prefijo en hash:  6212.3 us
+el trie es mas rapido: True
+cuantas palabras empiezan igual: 10

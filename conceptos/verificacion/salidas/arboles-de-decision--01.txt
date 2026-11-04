@@ -1,0 +1,4 @@
+nodo [6, 6]    gini 0.5000  entropia 1.0000
+nodo [2, 4]    gini 0.4444  entropia 0.9183
+nodo [1, 5]    gini 0.2778  entropia 0.6500
+nodo [0, 6]    gini 0.0000  entropia 0.0000

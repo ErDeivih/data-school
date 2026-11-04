@@ -1,0 +1,8 @@
+ano  1  z 0.025  DF 0.9756  VA    29.27
+ano  2  z 0.028  DF 0.9463  VA    28.39
+ano  3  z 0.030  DF 0.9151  VA    27.45
+ano  4  z 0.032  DF 0.8816  VA    26.45
+ano  5  z 0.036  DF 0.8379  VA   863.05
+precio con la curva:  974.61
+precio con el 3 %:    1000.00
+error por simplificar: 2.60 %

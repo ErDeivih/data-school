@@ -1,0 +1,3 @@
+     8 particiones ->    2,560.0 MB por tarea
+   200 particiones ->      102.4 MB por tarea
+ 10000 particiones ->        2.0 MB por tarea

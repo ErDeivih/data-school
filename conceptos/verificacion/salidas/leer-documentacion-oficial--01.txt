@@ -1,0 +1,6 @@
+parametros  : ['right', 'how', 'on', 'left_on', 'right_on', 'left_index', 'right_index', 'sort', 'suffixes', 'copy', 'indicator', 'validate']
+por defecto : inner
+obligatorios: ['right']
+resumen     : Merge DataFrame or named Series objects with a database-style join.
+dict.update : ValueError
+docstring   : D.update([E, ]**F) -> None.  Update D from mapping/iterable E and F.

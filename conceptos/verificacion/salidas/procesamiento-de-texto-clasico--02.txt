@@ -1,0 +1,4 @@
+unigramas: ['buena', 'es', 'la', 'no', 'pelicula']
+recuento de cada frase: [[1, 1, 1, 0, 1], [1, 1, 1, 1, 1]]
+variables con bigramas: 10
+aparece 'pelicula no': True

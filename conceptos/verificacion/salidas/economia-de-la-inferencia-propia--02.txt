@@ -1,0 +1,10 @@
+1.157
+10.00%
+API   0.50 EUR/M  ->        300 EUR al mes
+API   1.00 EUR/M  ->        600 EUR al mes
+API   3.00 EUR/M  ->      1,800 EUR al mes
+API  15.00 EUR/M  ->      9,000 EUR al mes
+propio, 1 GPU            ->      1,800 EUR al mes
+propio, 2 GPUs (pico)    ->      3,600 EUR al mes
+0.1
+0.3333333333333333

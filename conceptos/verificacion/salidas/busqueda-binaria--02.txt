@@ -1,0 +1,5 @@
+primera posicion del 1: 4
+tras el ultimo 1:     7
+cuantos unos hay: 3
+donde iria el 3: 8
+y el 9: 9

@@ -1,0 +1,3 @@
+ventas por ciudad      : {'Madrid': 72.4, 'Bilbao': 89.85}
+devoluciones por ciudad: {'Madrid': 12.5, 'Bilbao': 9.99}
+tasa de devolucion     : 0.1386

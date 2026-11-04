@@ -1,0 +1,2 @@
+camino A: retorno final +4.0%  primera barrera en t=2  etiqueta +1
+camino B: retorno final +4.0%  primera barrera en t=2  etiqueta -1

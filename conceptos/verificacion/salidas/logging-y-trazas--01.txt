@@ -1,0 +1,4 @@
+lineas emitidas: 2
+niveles: ['INFO', 'WARNING']
+mensajes: ['cobro aceptado', 'reintento de pasarela']
+campos del segundo: {'intento': 2, 'pedido': 8412}

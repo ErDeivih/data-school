@@ -1,0 +1,4 @@
+paso | saldo_a | saldo_b
+tras el rollback | 500.00 | 300.00
+tras el commit | 300.00 | 500.00
+sin transaccion | 100.00 | 500.00

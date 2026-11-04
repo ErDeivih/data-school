@@ -1,0 +1,4 @@
+cinco pares: [0, 2, 4, 6, 8]
+leido: {'a': 1, 'b': 2, 'c': 3}
+primera vuelta: [0, 1, 2]
+segunda vuelta: []

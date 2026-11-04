@@ -1,0 +1,2 @@
+minimiza cuadrados: 3057
+minimiza absolutos: 2100

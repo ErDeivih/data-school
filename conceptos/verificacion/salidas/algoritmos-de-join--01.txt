@@ -1,0 +1,5 @@
+bucle anidado: 15 comparaciones
+hash join: 5 busquedas
+sort-merge: 7 comparaciones
+los tres dan lo mismo: True
+filas del resultado: 5

@@ -1,0 +1,5 @@
+det(A): 5.0
+rango(A): 2
+solucion: [1.0, 3.0]
+A @ x   : [5.0, 10.0]
+rango(B): 1

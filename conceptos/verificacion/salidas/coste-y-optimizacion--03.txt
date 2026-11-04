@@ -1,0 +1,4 @@
+GB al mes barriendo todo:   5760
+GB al mes leyendo 3 de 24: 720
+factor de reduccion:       8.0
+ahorro mensual: 25.2

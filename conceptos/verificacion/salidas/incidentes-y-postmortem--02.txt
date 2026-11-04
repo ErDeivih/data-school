@@ -1,0 +1,4 @@
+pagos caido                  SEV1  avisar: guardia + responsable  cada 30 min
+informes lentos              SEV2  avisar: guardia                cada 1 h
+un cliente sin acceso        SEV3  avisar: horario laboral        cada fin de dia
+error de datos corregido     SEV1  avisar: guardia + responsable  cada 30 min

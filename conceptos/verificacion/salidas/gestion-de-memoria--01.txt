@@ -1,0 +1,4 @@
+lista de enteros     6.9 MiB
+array de numpy       1.5 MiB
+serie de pandas      1.5 MiB
+factor lista/array 4.5 x

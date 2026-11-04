@@ -1,0 +1,4 @@
+cola 13 de 250 dias
+VaR  95%    1250 EUR 1.25%
+CVaR 95%    2469 EUR 2.47%
+CVaR / VaR 1.98

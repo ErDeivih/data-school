@@ -1,0 +1,2 @@
+hash modulo, de 4 a 5 nodos: 80 % de claves movidas
+anillo consistente:          20 % de claves movidas

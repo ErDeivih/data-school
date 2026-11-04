@@ -1,0 +1,2 @@
+idempotente: True
+claves tras dos pasadas: [1, 2, 5]

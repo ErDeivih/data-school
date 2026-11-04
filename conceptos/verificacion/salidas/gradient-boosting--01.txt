@@ -1,0 +1,2 @@
+RMSE final        0.262
+RMSE de la media  0.723

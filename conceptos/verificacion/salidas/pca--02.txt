@@ -1,0 +1,2 @@
+sin escalar: [1.0, 0.0]
+estandarizado: [0.5026, 0.4974]

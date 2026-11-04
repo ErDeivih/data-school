@@ -1,0 +1,3 @@
+N=3: 3 mayorias de tamano 2, interseccion minima entre dos = 1
+N=5: 10 mayorias de tamano 3, interseccion minima entre dos = 1
+N=7: 35 mayorias de tamano 4, interseccion minima entre dos = 1

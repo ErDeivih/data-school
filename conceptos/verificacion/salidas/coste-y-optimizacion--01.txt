@@ -1,0 +1,2 @@
+particiones | gb_totales | gb_leidos
+24 | 192.0 | 24.0

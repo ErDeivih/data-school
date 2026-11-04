@@ -1,0 +1,5 @@
+medias por dia (L a D): [1213, 1177, 1250, 1307, 1123, 627, 540]
+z de la semana vigilada: [-3.29, 0.53, 0.0, 0.16, 0.26, 0.44, 0.5]
+media global de las 21 observaciones: 1034
+el lunes 980: z contra los lunes -3.29, z contra todo -0.18
+alerta solo con el mismo dia de la semana: True

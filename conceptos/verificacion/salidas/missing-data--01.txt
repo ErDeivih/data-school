@@ -1,0 +1,5 @@
+media real                3850.0
+media de casos completos  2187.5
+desv real                 3400.7
+desv imputando la media   242.6
+nulos                     2

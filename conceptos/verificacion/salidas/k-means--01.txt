@@ -1,0 +1,7 @@
+etiquetas: [0 0 0 1 1 1]
+centroides: [ 2. 11.]
+inercia: 4.0  iteraciones: 2
+k=1  inercia 125.500
+k=2  inercia 4.000
+k=3  inercia 2.500
+k=4  inercia 1.000

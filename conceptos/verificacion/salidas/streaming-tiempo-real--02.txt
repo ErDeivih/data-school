@@ -1,0 +1,3 @@
+con INSERT: 4 filas
+con MERGE: 3 filas
+claves: ['a', 'b', 'c']

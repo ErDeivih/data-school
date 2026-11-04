@@ -1,0 +1,6 @@
+log del periodo 1  +0.048790
+log del periodo 2  -0.058841
+log del periodo 3  +0.049271
+suma de los logs   +0.039221
+ln(104/100)        +0.039221
+suma de simples    +0.043362

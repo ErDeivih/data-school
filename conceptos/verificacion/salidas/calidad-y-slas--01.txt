@@ -1,0 +1,4 @@
+cumplimiento 96.7%
+dias observados 30  fuera 1
+presupuesto de error 0.3 dias
+mediana 0.0 min  p95 10.2 min

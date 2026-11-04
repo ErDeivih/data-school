@@ -1,0 +1,4 @@
+total en lote  1,000,049
+total en flujo 1,000,049
+dias con diferencia   29 de 30
+error relativo maximo 0.41%

@@ -1,0 +1,2 @@
+accuracy con la variable con fuga   1.00
+accuracy con la senal legitima sola 0.53

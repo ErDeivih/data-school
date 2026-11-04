@@ -1,0 +1,4 @@
+n_in   64  std 0.01 -> 0.0566 por capa   He -> 1.0000
+n_in  256  std 0.01 -> 0.1131 por capa   He -> 1.0000
+n_in 1024  std 0.01 -> 0.2263 por capa   He -> 1.0000
+Xavier con ReLU, 10 capas: 0.0313 de la senal inicial

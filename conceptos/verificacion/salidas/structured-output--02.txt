@@ -1,0 +1,10 @@
+json.loads ok      {'importe': 1250.0, 'moneda': 'EUR'}
+   regex ve          1250.0
+json.loads falla   Expecting property name enclosed in double quotes en la posicion 36
+   regex ve          1250.0
+json.loads falla   Expecting value en la posicion 0
+   regex ve          1250.0
+json.loads ok      {'importe': 1250.0, 'moneda': 'EUR'}
+   regex ve          1250.0
+json.loads falla   Expecting value en la posicion 0
+   regex ve          nada

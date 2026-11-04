@@ -1,0 +1,5 @@
+por consulta      60.0     600.0    3000.0    6000.0
+reservada        100.0     100.0     100.0     100.0
+sin servidor     150.0     150.0     150.0     540.0
+mas barato en cada caso: ['por consulta', 'reservada', 'reservada', 'reservada']
+reservar gana a pagar por uso a partir de 17 mil consultas al mes

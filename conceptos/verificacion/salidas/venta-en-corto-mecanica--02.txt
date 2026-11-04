@@ -1,0 +1,4 @@
+garantia aportada: 2500.00 EUR
+precio 50.00: equity  2500.00 EUR, exigido  1500.00 EUR -> ok
+precio 60.00: equity  1500.00 EUR, exigido  1800.00 EUR -> MARGIN CALL
+precio 65.00: equity  1000.00 EUR, exigido  1950.00 EUR -> MARGIN CALL

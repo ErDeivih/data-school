@@ -1,0 +1,6 @@
+codigo_natural  producto_id      nombre  unidades
+        TEC-01            1      teclado         2
+        RAT-02            2        raton         1
+        MON-03           -1  Desconocido         5
+filas sin resolver: 1
+unidades huerfanas: 5

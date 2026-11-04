@@ -1,0 +1,10 @@
+lado  224 ->   196 vectores de imagen, secuencia   796, atencion relativa      1.8x
+lado  336 ->   441 vectores de imagen, secuencia  1041, atencion relativa      3.0x
+lado  448 ->   784 vectores de imagen, secuencia  1384, atencion relativa      5.3x
+lado  672 ->  1764 vectores de imagen, secuencia  2364, atencion relativa     15.5x
+lado 1008 ->  3969 vectores de imagen, secuencia  4569, atencion relativa     58.0x
+secuencia   796 -> memoria de atencion relativa al texto solo:   1.3x
+secuencia  1041 -> memoria de atencion relativa al texto solo:   1.7x
+secuencia  1384 -> memoria de atencion relativa al texto solo:   2.3x
+secuencia  2364 -> memoria de atencion relativa al texto solo:   3.9x
+secuencia  4569 -> memoria de atencion relativa al texto solo:   7.6x

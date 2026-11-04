@@ -1,0 +1,4 @@
+con INFO    13.0 GB al dia
+con DEBUG  172.8 GB al dia
+multiplicador 13 x
+un mes en DEBUG: 5.2 TB

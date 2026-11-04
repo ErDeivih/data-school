@@ -1,0 +1,4 @@
+log: tornillos llega a 3
+pedir mas tornillos
+log: tornillos llega a 7
+avisos emitidos: 3

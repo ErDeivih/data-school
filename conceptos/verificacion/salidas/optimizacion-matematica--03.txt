@@ -1,0 +1,3 @@
+optimo entero: 10
+relajacion lineal: 13.0
+gap de integralidad: 1.3

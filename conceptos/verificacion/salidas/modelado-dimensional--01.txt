@@ -1,0 +1,5 @@
+importe total      : 162.25
+pedidos distintos  : 2
+ticket medio       : 81.12
+media de la columna: 54.08
+precio por unidad  : 27.04

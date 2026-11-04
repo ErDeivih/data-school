@@ -1,0 +1,6 @@
+atencion 768x768  r= 4  completo=  589824  LoRA=  6144  1.0417%
+atencion 768x768  r= 8  completo=  589824  LoRA= 12288  2.0833%
+atencion 768x768  r=16  completo=  589824  LoRA= 24576  4.1667%
+     MLP 768x3072  r= 4  completo= 2359296  LoRA= 15360  0.6510%
+     MLP 768x3072  r= 8  completo= 2359296  LoRA= 30720  1.3021%
+     MLP 768x3072  r=16  completo= 2359296  LoRA= 61440  2.6042%

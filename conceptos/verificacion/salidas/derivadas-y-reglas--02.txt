@@ -1,0 +1,2 @@
+x tras 20 pasos: 2.965412
+valor de f(x)  : 0.0011963052

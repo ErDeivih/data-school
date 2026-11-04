@@ -1,0 +1,4 @@
+precision 0.6667
+recall    0.5000
+puntos generados fuera: 1
+puntos reales sin cubrir: 2

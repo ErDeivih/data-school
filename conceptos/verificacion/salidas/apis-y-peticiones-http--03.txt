@@ -1,0 +1,5 @@
+200: esperar None
+401: esperar None
+404: esperar None
+429: esperar 0.5
+503: esperar 0.5

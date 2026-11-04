@@ -1,0 +1,3 @@
+hessiano en (1,2)   [[12.0, 6.0], [6.0, 12.0]]
+autovalores         [ 6. 18.]
+menores principales 12.0 108.0

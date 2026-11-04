@@ -1,0 +1,4 @@
+series sin etiqueta de usuario: 1200
+con 100 usuarios distintos: 120000
+con 100.000 usuarios: 120,000,000
+factor de crecimiento: 100000

@@ -1,0 +1,5 @@
+entrada: datos/ventas.csv
+mes sin decirlo: 2026-01
+limite: 250
+tipo de limite: int
+modo: rapido

@@ -1,0 +1,4 @@
+solo con las 12 etiquetas: 0.72
+pseudoetiquetado         : 0.44
+propagacion de etiquetas : 0.84
+MLP con las 150 etiquetas: 0.84

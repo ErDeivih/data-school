@@ -1,0 +1,4 @@
+primera llamada: {'id': 1000, 'total': 10.0} repetida: False
+mismo key      : {'id': 1000, 'total': 10.0} repetida: True
+otra key       : {'id': 1001, 'total': 1.0}
+pedidos creados: 2 de 3 peticiones

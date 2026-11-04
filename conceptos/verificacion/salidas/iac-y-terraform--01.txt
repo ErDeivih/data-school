@@ -1,0 +1,4 @@
+huella declarada: 6fadfd3a9ebf
+huella observada: c0651201979b
+campos con deriva: ['nodos']
+coincide tras aplicar: True

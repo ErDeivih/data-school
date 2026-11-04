@@ -1,0 +1,7 @@
+  frecuencia  latencia  coste/h
+   cada hora      60 m    4.37 EUR
+ cada 15 min      15 m    4.52 EUR
+  cada 5 min       5 m    4.92 EUR
+ cada minuto       1 m    7.32 EUR
+coste variable por hora: 4.32
+arranques al dia a 1 min: 1440

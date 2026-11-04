@@ -1,0 +1,4 @@
+valor del pip con 0.10 lotes: 1.00 USD
+esperanza bruta: +0.72 pips
+costes fijos:    1.90 pips
+esperanza neta:  -1.40 pips

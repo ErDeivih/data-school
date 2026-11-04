@@ -1,0 +1,5 @@
+abanico     1 servidores ->    1.0 % de peticiones afectadas
+abanico    10 servidores ->    9.6 % de peticiones afectadas
+abanico   100 servidores ->   63.4 % de peticiones afectadas
+abanico  1000 servidores ->  100.0 % de peticiones afectadas
+con 100 servicios: 63.4 %

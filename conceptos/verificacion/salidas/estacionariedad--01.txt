@@ -1,0 +1,4 @@
+media 1a mitad 26.50   media 2a mitad 41.50
+varianza 1a    22.70   varianza 2a    22.70
+diferencias     [3 2 3 2 3 2 3 2 3 2 3]
+media dif       2.55   varianza dif   0.27

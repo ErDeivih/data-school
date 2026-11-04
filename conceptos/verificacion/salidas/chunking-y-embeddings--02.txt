@@ -1,0 +1,3 @@
+documento con 137 caracteres
+salto 34: 5 fragmentos, 0 conservan la frase entera
+salto 24: 6 fragmentos, 1 conservan la frase entera

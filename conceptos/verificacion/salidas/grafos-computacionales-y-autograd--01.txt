@@ -1,0 +1,5 @@
+y          49.0
+dy/dw      28.0
+dy/db      14.0
+dy/dx      42.0
+numerico    28.0000

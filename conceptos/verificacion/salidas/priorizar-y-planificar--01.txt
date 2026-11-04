@@ -1,0 +1,7 @@
+       iniciativa  coste_retraso  tamano  wsjf   cd3
+arreglar el cobro             18       2   9.0 18.00
+  informes nuevos              7       5   1.4  2.33
+   migrar la base             12       8   1.5  1.20
+         buscador              6       3   2.0  1.50
+por WSJF: ['arreglar el cobro', 'buscador', 'migrar la base', 'informes nuevos']
+por CD3:  ['arreglar el cobro', 'informes nuevos', 'buscador', 'migrar la base']

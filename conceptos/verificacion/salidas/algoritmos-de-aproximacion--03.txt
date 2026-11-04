@@ -1,0 +1,4 @@
+voraz: ['A', 'B'] cubre 5
+optimo con 2 conjuntos: 6
+cociente: 0.833
+cota 1 - 1/e: 0.632

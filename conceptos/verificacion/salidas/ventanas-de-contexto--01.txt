@@ -1,0 +1,4 @@
+  4096 tokens ->    512.0 MiB por secuencia
+  8192 tokens ->   1024.0 MiB por secuencia
+ 32768 tokens ->   4096.0 MiB por secuencia
+32 secuencias de 8192 tokens: 32.0 GiB

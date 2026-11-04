@@ -1,0 +1,4 @@
+id | nombre | importe
+10 | Ana | 120.5
+11 | Ana | 30.0
+12 | Luis | 80.0

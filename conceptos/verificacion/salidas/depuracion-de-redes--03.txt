@@ -1,0 +1,3 @@
+norma original     335.54
+norma recortada      5.00
+hay NaN en la perdida: True

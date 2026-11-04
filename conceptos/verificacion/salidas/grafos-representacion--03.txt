@@ -1,0 +1,3 @@
+vecinos de A: ['B', 'B', 'C']
+suma de grados: 10
+aristas distintas: 4

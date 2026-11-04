@@ -1,0 +1,4 @@
+filas en lineas   : 500000
+lectura por clave : 3 microsegundos
+agregado de todo  : 75.4 milisegundos
+importe total     : 8000000.0

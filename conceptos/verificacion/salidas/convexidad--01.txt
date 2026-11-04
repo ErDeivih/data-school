@@ -1,0 +1,3 @@
+se cumple la desigualdad de la cuerda: True
+minimo de la funcion                 : 8.0
+derivada en x=-1                     : 0.0

@@ -1,0 +1,4 @@
+  1 pruebas  P(algun falso positivo) = 0.0500  umbral Bonferroni = 0.0500
+  5 pruebas  P(algun falso positivo) = 0.2262  umbral Bonferroni = 0.0100
+ 20 pruebas  P(algun falso positivo) = 0.6415  umbral Bonferroni = 0.0025
+100 pruebas  P(algun falso positivo) = 0.9941  umbral Bonferroni = 0.0005

@@ -1,0 +1,3 @@
+fuerza tras 5 repasos        187.4
+retencion el dia 35         0.90
+retencion el dia 35 sin nada 0.013

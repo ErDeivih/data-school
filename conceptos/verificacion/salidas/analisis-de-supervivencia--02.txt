@@ -1,0 +1,6 @@
+beta estimado -0.708
+razon de riesgos exp(beta) 0.493
+log-verosimilitud nula -41.559
+log-verosimilitud max -40.670
+estadistico LR 1.78  p = 0.1824
+log-rank observados 8.0 esperados 10.5 chi2 1.85 p = 0.1740

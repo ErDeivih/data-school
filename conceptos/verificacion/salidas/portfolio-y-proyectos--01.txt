@@ -1,0 +1,3 @@
+filas 8
+nulos en precio_m2 1 de 8
+distritos 5, mediana 10.5 EUR/m2

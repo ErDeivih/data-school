@@ -1,0 +1,3 @@
+suave   final +20%   caida 0.00%
+brusca  final +20%   caida 25.33%
+la brusca necesita +33.93% para volver al pico

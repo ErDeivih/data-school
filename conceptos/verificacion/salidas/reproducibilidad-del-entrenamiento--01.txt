@@ -1,0 +1,3 @@
+misma semilla, mismo codigo:   True
+misma semilla, una tirada mas: False
+distancia entre los dos pesos: 0.0725

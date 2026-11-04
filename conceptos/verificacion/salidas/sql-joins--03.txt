@@ -1,0 +1,6 @@
+cliente | nombre | pedido | importe
+1 | Ana | 10 | 120.5
+1 | Ana | 11 | 30.0
+2 | Luis | 12 | 80.0
+3 | Marta | None | None
+None | None | 13 | 55.0

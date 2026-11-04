@@ -1,0 +1,3 @@
+filas 3
+duplicados por nombre  2
+duplicados por nif     1

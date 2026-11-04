@@ -1,0 +1,6 @@
+ordenar por importe reduce el fichero: True
+la mejora pasa del 20 %: True
+grupos de filas: 4
+columnas del fichero: 3
+filas al leer solo una columna: 200000
+una columna de tres ocupa menos de la mitad: True

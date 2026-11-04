@@ -1,0 +1,2 @@
+con HML  alpha +0.0000  beta_mkt 0.795  beta_hml 0.485
+sin HML  alpha +0.0023  beta_mkt 0.828

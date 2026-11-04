@@ -1,0 +1,6 @@
+Ljung-Box h=10 p 0.729
+Jarque-Bera p 0.239
+ARCH-LM q=5 p 0.997
+Durbin-Watson 1.938
+2(1 - rho1) 1.938
+ACF residuos 1..4 [ 0.031 -0.044  0.013  0.014] banda 0.098

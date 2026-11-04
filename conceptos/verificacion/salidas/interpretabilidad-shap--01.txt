@@ -1,0 +1,4 @@
+phi_a = +1.750
+phi_b = +2.500
+phi_c = +3.750
+suma = 8.0  v(todos) = 8.0

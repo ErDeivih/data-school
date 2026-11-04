@@ -1,0 +1,4 @@
+combinaciones evaluadas: 9
+mejor C y gamma        : {'C': 1.0, 'gamma': 'scale'}
+mejor accuracy en CV   : 0.85
+mejor de 4 aleatorias  : (0.833, 1.63, 0.288)

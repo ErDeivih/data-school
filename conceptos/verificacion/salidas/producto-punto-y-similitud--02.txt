@@ -1,0 +1,3 @@
+producto con y y con 10y: 4.0 40.0
+coseno con y y con 10y: 0.5963 0.5963
+x . z: 0.0

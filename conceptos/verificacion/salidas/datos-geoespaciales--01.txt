@@ -1,0 +1,2 @@
+Madrid-Barcelona  real   505.1 km  plano   662.6 km  error  31.2 %
+   Helsinki-Oslo  real   786.7 km  plano  1579.5 km  error 100.8 %

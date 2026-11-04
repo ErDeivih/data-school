@@ -1,0 +1,5 @@
+suma de las tiendas 1240.0   total declarado 1200.0
+pesos [0.5806 0.4194]
+reconciliado [1200.   696.8  503.2]
+desajuste tras cuadrar 40.0 -> pendiente
+suma final 1200.0

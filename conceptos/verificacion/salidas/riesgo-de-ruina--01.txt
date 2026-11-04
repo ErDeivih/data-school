@@ -1,0 +1,6 @@
+riesgo    1%  unidades  100  ruina 1.93e-09
+riesgo    2%  unidades   50  ruina 4.39e-05
+riesgo    5%  unidades   20  ruina 1.81e-02
+riesgo   10%  unidades   10  ruina 1.34e-01
+riesgo   20%  unidades    5  ruina 3.67e-01
+el 10% arriesga 3062 veces mas que el 2%

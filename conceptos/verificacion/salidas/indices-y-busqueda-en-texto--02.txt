@@ -1,0 +1,4 @@
+largo medio: 6.00  df: 2  idf: 0.4700
+d1  f=2 largo=8  BM25=0.5909
+d2  f=0 largo=4  BM25=0.0000
+d3  f=1 largo=6  BM25=0.4700

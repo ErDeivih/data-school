@@ -1,0 +1,3 @@
+pares emitidos por el map: 14
+palabras distintas: 8
+el: 4 gato: 2 come: 2

@@ -1,0 +1,4 @@
+referencias a 'a': 3
+el ciclo sigue vivo: True
+objetos liberados: 9
+ahora si esta libre: True

@@ -1,0 +1,4 @@
+orden actual            831.7 s
+orden por coste/fallo   171.6 s
+orden propuesto: unitarias lint integracion e2e
+duracion si todo pasa: 885 s

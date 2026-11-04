@@ -1,0 +1,5 @@
+fecha | importe | acumulado_rango | acumulado_filas | media_movil_3 | importe_anterior
+2024-01-01 | 10 | 10 | 10 | 10.0 | None
+2024-01-02 | 20 | 60 | 30 | 15.0 | 10
+2024-01-02 | 30 | 60 | 60 | 20.0 | 20
+2024-01-03 | 40 | 100 | 100 | 30.0 | 30

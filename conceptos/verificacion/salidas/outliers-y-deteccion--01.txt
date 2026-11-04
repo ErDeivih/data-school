@@ -1,0 +1,6 @@
+Q1 10.0  Q3 14.25  IQR 4.25
+valla superior 20.625
+MAD 2.0
+z de 45 3.080
+z modificado de 45 11.129
+z modificado de 16 1.349

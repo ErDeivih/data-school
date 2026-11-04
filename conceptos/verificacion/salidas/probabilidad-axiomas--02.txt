@@ -1,0 +1,6 @@
+P(A o B o C)           0.81
+A y B independientes   True
+suma de los tres       1.25
+suma - parejas         0.75
+inclusion-exclusion    0.81
+interseccion triple    0.06

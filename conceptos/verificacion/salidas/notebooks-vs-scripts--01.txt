@@ -1,0 +1,5 @@
+celdas ejecutadas: 3
+contadores en orden creciente: False
+empieza el fichero por: cargar_ventas()
+pero se ejecuto primero: ventas = cargar_ventas()
+celdas fuera de sitio: 3

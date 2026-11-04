@@ -1,0 +1,4 @@
+log10 de cada valor: [0. 1. 2. 3.]
+media aritmetica  : 277.75
+media geometrica  : 31.62
+log10(100*1000)   : 5.0 = 5.0

@@ -1,0 +1,2 @@
+imputado por KNN 11.0
+media global     51.8

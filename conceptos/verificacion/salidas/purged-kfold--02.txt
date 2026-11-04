@@ -1,0 +1,4 @@
+ventana de prueba      [40, 69)
+train clasico          80 observaciones
+de ellas contaminadas  20  (25%)
+primera y ultima       30 .. 69

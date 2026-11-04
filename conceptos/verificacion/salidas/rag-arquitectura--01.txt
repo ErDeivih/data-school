@@ -1,0 +1,4 @@
+A: denso 1  lexico 2  RRF 0.03252
+D: denso 3  lexico 1  RRF 0.03227
+C: denso 2  lexico 4  RRF 0.03175
+B: denso 4  lexico 3  RRF 0.03150

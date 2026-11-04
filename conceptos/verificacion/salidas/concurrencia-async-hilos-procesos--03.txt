@@ -1,0 +1,9 @@
+nucleos disponibles: 12
+resultados:
+   497995722
+   497995722
+   497995722
+   497995722
+en serie        880 ms
+4 procesos     1087 ms
+cada proceso arranca de cero: el modulo se reimporta y los datos se copian

@@ -1,0 +1,4 @@
+media de las 4 ejecuciones  0.8413
+dispersion entre semillas    0.0082
+la proxima caera entre       0.8229 y 0.8597
+amplitud del intervalo       0.0368

@@ -1,0 +1,7 @@
+N=1  mayoria=1  fallos tolerados=0
+N=2  mayoria=2  fallos tolerados=0
+N=3  mayoria=2  fallos tolerados=1
+N=4  mayoria=3  fallos tolerados=1
+N=5  mayoria=3  fallos tolerados=2
+N=6  mayoria=4  fallos tolerados=2
+N=7  mayoria=4  fallos tolerados=3

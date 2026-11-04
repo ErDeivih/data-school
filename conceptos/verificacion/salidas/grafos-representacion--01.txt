@@ -1,0 +1,5 @@
+lista de A: [('B', 4), ('C', 2)]
+celdas de la matriz: 25
+entradas de la lista: 7
+peso de B a D por matriz: 10
+peso de D a B (no existe): 0

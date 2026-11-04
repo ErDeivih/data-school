@@ -1,0 +1,4 @@
+ocupacion por cubo: [2, 0, 2, 0, 1, 0, 1, 0]
+factor de carga: 0.75
+cadena del cubo 6 : ['mar']
+comparaciones: 1

@@ -1,0 +1,2 @@
+sin estratificar: validacion 3 de 40 (7.5 %)  prueba 2 de 40 (5.0 %)
+estratificada: validacion 5 de 40 (12.5 %)  prueba 4 de 40 (10.0 %)

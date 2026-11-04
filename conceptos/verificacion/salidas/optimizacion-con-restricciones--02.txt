@@ -1,0 +1,3 @@
+convergio         True
+pesos SLSQP       [0.5814, 0.4186]
+Sharpe SLSQP      1.0414

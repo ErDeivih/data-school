@@ -1,0 +1,3 @@
+corte x <= 1.5  ganancia 6.0
+corte x <= 3.0  ganancia 8.0
+corte x <= 5.5  ganancia 6.0

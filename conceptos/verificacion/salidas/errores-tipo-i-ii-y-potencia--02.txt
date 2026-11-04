@@ -1,0 +1,2 @@
+n =  25  potencia simulada 0.237
+n = 126  potencia simulada 0.801

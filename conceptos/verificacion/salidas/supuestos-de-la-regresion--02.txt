@@ -1,0 +1,3 @@
+Breusch-Pagan p 0.000007
+Jarque-Bera  p 0.0000
+correlacion de los residuos con x: +0.000

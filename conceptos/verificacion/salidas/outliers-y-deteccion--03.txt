@@ -1,0 +1,4 @@
+los 4 mas raros: [200, 201, 0, 168]
+puntuacion mediana: -0.398
+marca con contamination=0.02: 5
+marca con contamination=0.10: 21

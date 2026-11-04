@@ -1,0 +1,3 @@
+plan A (solo el dia 1)         0.027
+plan B (dias 1, 2, 4 y 8)      0.772
+plan C (dias 1, 2, 4, 8, 16, 30) 1.000

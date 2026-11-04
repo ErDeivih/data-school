@@ -1,0 +1,6 @@
+entra abrir fichero
+entra leer cabecera
+trabajando con ABRIR FICHERO y LEER CABECERA
+sale leer cabecera
+sale abrir fichero
+tomo recurso

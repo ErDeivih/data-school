@@ -1,0 +1,4 @@
+distancias desde el primer vertice, original: [28.28, 28.28, 28.28]
+las mismas distancias en el plano: [28.28, 20.0, 20.0]
+cociente mayor/menor original: 1.0
+cociente mayor/menor en el plano: 1.41

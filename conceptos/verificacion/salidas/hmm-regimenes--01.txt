@@ -1,0 +1,6 @@
+medias      [-0.    1.98]  (simuladas: 0.00 y 2.00)
+varianzas   [0.95 9.63]  (simuladas: 1.00 y 9.00)
+transicion  [[0.951, 0.049], [0.124, 0.876]]
+filas suman 1: True
+duracion esperada [20.4  8.1]
+acuerdo con el estado simulado 0.933

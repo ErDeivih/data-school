@@ -1,0 +1,5 @@
+completar 'sol': ['sol', 'solar', 'solo']
+completar 'sa': ['sal', 'sarten']
+completar 's': ['sal', 'sarten', 'sol', 'solar', 'solo']
+nodos del trie: 13
+caracteres guardados: 21

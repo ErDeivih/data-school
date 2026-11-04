@@ -1,0 +1,5 @@
+derivada sigmoide: [0.0025 0.105  0.25   0.105  0.0025]
+derivada tanh    : [0.     0.0707 1.     0.0707 0.    ]
+derivada relu    : [0. 0. 0. 1. 1.]
+minimo de la derivada sigmoide: 0.0025
+maximo de la derivada sigmoide: 0.25

@@ -1,0 +1,3 @@
+URL visitadas   : 3
+peticiones reales: 2
+clave de cache   : dd09c881bfa5.html

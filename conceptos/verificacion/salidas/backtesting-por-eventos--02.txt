@@ -1,0 +1,4 @@
+el modelo cree tener 500 acciones y tiene 350
+exposicion inexistente: 150 acciones
+beneficio imaginario con una subida del 2 %: 300 EUR
+sobre una cuenta de 10000 EUR es un 3.0%

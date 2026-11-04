@@ -1,0 +1,2 @@
+estable: [('luis', 25), ('pablo', 25), ('ana', 30), ('marta', 30)]
+mismo resultado que sorted: True

@@ -1,0 +1,3 @@
+flujo   300 acciones/min -> espera 10.0 min
+flujo   900 acciones/min -> espera  3.3 min
+flujo  3000 acciones/min -> espera  1.0 min

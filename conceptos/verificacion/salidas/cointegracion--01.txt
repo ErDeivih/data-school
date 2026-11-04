@@ -1,0 +1,5 @@
+beta estimada por MCO   2.033
+raiz del residuo (DF)   -0.239
+Engle-Granger  t -5.814  p 0.0000
+par sin relacion  t -1.752  p 0.6525
+beta espuria        0.899

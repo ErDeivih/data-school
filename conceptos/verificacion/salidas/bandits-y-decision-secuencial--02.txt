@@ -1,0 +1,3 @@
+tiradas por brazo [   8 1883  109]
+media que cree    [0.1  0.6  0.47]
+confianza alfa+beta [  10 1885  111]

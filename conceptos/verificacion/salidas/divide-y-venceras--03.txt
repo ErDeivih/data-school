@@ -1,0 +1,4 @@
+maximo dyv:    1000
+maximo lineal:  1000
+dyv 716.8 us  lineal 30.1 us
+dyv es mas lento: True

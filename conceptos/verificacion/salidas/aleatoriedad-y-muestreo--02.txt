@@ -1,0 +1,2 @@
+frecuencias observadas: [0.499 0.299 0.202]
+frecuencias esperadas:  [0.5 0.3 0.2]

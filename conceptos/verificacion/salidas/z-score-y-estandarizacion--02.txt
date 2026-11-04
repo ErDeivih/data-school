@@ -1,0 +1,5 @@
+media notas 6.7222
+sd notas    1.4741
+media z     0.0
+sd z        1.0
+z de 9.5    1.8844

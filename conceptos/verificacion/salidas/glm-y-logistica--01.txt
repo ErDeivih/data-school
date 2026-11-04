@@ -1,0 +1,4 @@
+b0 -4.774  b1 1.271
+odds ratio por hora extra 3.563
+h=4.0  sigmoide 0.576  sklearn 0.576
+h=6.0  sigmoide 0.945  sklearn 0.945

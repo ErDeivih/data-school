@@ -1,0 +1,4 @@
+etapa 1 (bi-codificador) ['A', 'B', 'C', 'D', 'E']  MRR 0.333
+etapa 2 (reordenacion)   ['A', 'C', 'D', 'B', 'E']  MRR 0.5
+puntuaciones cruzadas {'A': 17, 'C': 4, 'D': 4, 'B': 1, 'E': 1}
+top-3 antes ['A', 'B', 'C'] despues ['A', 'C', 'D']

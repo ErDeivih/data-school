@@ -1,0 +1,3 @@
+orden: ['A', 'B', 'C', 'D', 'E', 'F']
+niveles: [['A'], ['B', 'C'], ['D', 'E'], ['F']]
+nodos visitados: 6

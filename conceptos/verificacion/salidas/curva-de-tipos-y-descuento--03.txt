@@ -1,0 +1,4 @@
+plazo  1  DF 0.9709  precio   970.87  caida  -0.96 %
+plazo  2  DF 0.9426  precio   942.60  caida  -1.91 %
+plazo  5  DF 0.8626  precio   862.61  caida  -4.72 %
+plazo 10  DF 0.7441  precio   744.09  caida  -9.21 %

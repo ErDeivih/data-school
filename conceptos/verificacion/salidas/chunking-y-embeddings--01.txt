@@ -1,0 +1,2 @@
+sin solape   fragmentos  5  mejor similitud 0.105
+con solape   fragmentos  6  mejor similitud 0.342

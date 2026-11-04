@@ -1,0 +1,12 @@
+traer la copia completa: 57 min
+  deteccion                  8 min
+  decision                   5 min
+  aprovisionar              15 min
+  restaurar                 57 min
+  reproducir registros      40 min
+  verificar                 25 min
+RTO total: 150 min (2.5 h)
+RPO 1440 min -> hasta 3000.0 pedidos perdidos
+RPO   60 min -> hasta  125.0 pedidos perdidos
+RPO   15 min -> hasta   31.2 pedidos perdidos
+RPO    5 min -> hasta   10.4 pedidos perdidos

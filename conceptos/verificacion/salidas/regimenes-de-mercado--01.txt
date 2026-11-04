@@ -1,0 +1,3 @@
+probabilidad estacionaria  calma 0.667  tension 0.333
+duracion esperada  calma 20.0  tension 10.0 periodos
+duracion simulada  calma 20.0  tension 9.9 periodos

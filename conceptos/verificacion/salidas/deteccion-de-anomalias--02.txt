@@ -1,0 +1,3 @@
+top10: 10 anomalias reales de 10
+top20: 15 anomalias reales de 20
+puntuacion media normal: 0.326 anomala: 4.68

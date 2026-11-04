@@ -1,0 +1,3 @@
+linear  exactitud 0.540  vectores de soporte 192 de 200
+  poly  exactitud 0.965  vectores de soporte 52 de 200
+   rbf  exactitud 0.980  vectores de soporte 82 de 200

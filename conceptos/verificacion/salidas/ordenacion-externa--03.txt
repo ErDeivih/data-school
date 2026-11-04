@@ -1,0 +1,4 @@
+vueltas de la fase 1: 100
+k=  4  rondas=4  trafico=  100 GB
+k= 10  rondas=2  trafico=   60 GB
+k=100  rondas=1  trafico=   40 GB

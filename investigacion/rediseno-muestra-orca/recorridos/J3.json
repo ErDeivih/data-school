@@ -1,0 +1,23 @@
+{
+  "contract_id": "muestra:redesign-20261101-v1",
+  "id": "J3",
+  "name": "Retomar un tema y navegar a un concepto relacionado",
+  "result": "passed",
+  "steps": [
+    {
+      "action": "abrir la ficha de partida",
+      "observed": {
+        "hash": "#/c/varianza-y-desviacion"
+      }
+    },
+    {
+      "action": "pulsar un concepto relacionado",
+      "selector": "#/c/valor-esperado",
+      "observed": {
+        "hash": "#/c/valor-esperado",
+        "h1": "Valor esperado"
+      }
+    }
+  ],
+  "conclusion": "Desde #/c/varianza-y-desviacion se llegó a #/c/valor-esperado por «Valor esperado»; la ficha destino tiene h1."
+}

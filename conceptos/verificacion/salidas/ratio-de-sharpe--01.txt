@@ -1,0 +1,4 @@
+media mensual   0.0133
+volatilidad     0.0172
+Sharpe mensual  0.66
+Sharpe anual    2.28

@@ -1,0 +1,3 @@
+dimension plana (estrella): 136891 bytes
+dimension partida (copo)  : 123981 bytes
+el copo ahorra            : 12910 bytes

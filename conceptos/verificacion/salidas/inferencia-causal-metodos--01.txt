@@ -1,0 +1,4 @@
+cambio del grupo tratado  +6.0
+cambio del grupo control  +2.0
+efecto DiD                +4.0
+LATE                      300

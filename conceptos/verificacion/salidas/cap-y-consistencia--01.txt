@@ -1,0 +1,6 @@
+N=3: 6 combinaciones validas de 9
+   W1R3 W2R2 W2R3 W3R1 W3R2 W3R3
+   suma minima: W1R3 = 4
+N=5: 15 combinaciones validas de 25
+   W1R5 W2R4 W2R5 W3R3 W3R4 W3R5 W4R2 W4R3 W4R4 W4R5 W5R1 W5R2 W5R3 W5R4 W5R5
+   suma minima: W1R5 = 6

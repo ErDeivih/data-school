@@ -1,0 +1,4 @@
+pico de 5 minutos al 4 %         burn  40.0  presupuesto   0.46%  se agota en 18 h
+incidente de 40 minutos al 4 %   burn  40.0  presupuesto   3.70%  se agota en 18 h
+incidente de 6 horas al 4 %      burn  40.0  presupuesto  33.33%  se agota en 18 h
+deriva del 0,15 % todo el mes    burn   1.5  presupuesto 150.00%  se agota en 480 h

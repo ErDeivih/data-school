@@ -1,0 +1,5 @@
+recta: gasto = 5.71 + 2.53 * horas
+RMSE en la muestra 1.33
+tamano de los grupos [7, 5]
+centroide: 4.0 horas, 15.7 euros
+centroide: 10.0 horas, 31.2 euros

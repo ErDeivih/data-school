@@ -1,0 +1,4 @@
+factura 1: 30.00
+factura 2: 98.61
+factura 3: 100.00
+resultados identicos: True

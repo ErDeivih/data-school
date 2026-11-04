@@ -1,0 +1,4 @@
+r ganadora +1.2  r perdedora +0.3  P(preferir) = 0.711
+r ganadora +0.4  r perdedora +0.5  P(preferir) = 0.475
+r ganadora +2.0  r perdedora -0.5  P(preferir) = 0.924
+objetivo 1.100  (recompensa 1.2 menos 0.10 de KL)

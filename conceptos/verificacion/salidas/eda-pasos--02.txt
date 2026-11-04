@@ -1,0 +1,2 @@
+filas | total_lineas | pedidos | ticket_medio
+4 | 42.75 | 3 | 14.25

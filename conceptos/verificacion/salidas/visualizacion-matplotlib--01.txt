@@ -1,0 +1,3 @@
+intervalos: 30
+borde mayor: 148.85798612075146
+suma de frecuencias: 5000

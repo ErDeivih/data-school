@@ -1,0 +1,3 @@
+media 57.33  varianza 470.1  error tipico 1.98
+el error tipico equivocado seria 9.70 con 5 filas
+filas 5  observaciones 120

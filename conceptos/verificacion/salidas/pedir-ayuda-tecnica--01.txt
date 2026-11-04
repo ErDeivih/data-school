@@ -1,0 +1,3 @@
+error del pipeline: could not convert string to float: '10,50'
+to_numeric('10,50') -> nan
+to_numeric('10.50') -> 10.5

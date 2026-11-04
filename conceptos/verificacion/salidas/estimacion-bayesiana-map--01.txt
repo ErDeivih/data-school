@@ -1,0 +1,4 @@
+MLE          0.700
+MAP          0.643
+media post.  0.625
+IC 95 % creible [0.384, 0.837]

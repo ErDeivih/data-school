@@ -1,0 +1,4 @@
+base con 12 etiquetas: 0.72
+tras el pseudoetiquetado: 0.44
+pseudoetiquetas anadidas: 138
+acuerdo (sobre 150 filas): 0.56

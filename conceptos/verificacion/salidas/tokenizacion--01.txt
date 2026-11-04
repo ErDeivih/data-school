@@ -1,0 +1,3 @@
+inicio: ['b', 'a', 'j', 'a</w>']
+merges: [('aj', 10), ('baj', 10), ('baja</w>', 5), ('bajo</w>', 3)]
+final : [(5, ['baja</w>']), (3, ['bajo</w>']), (2, ['baj', 'a', 'd', 'a</w>'])]

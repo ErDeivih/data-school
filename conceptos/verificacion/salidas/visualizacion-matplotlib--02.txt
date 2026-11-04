@@ -1,0 +1,2 @@
+limites y: (np.float64(0.0), np.float64(35.0))
+marcas y : [0, 10, 20, 30]

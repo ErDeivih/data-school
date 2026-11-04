@@ -1,0 +1,5 @@
+VP 34  FN 6  FP 12  VN 148
+sensibilidad 0.850
+especificidad 0.925
+precision    0.739
+suma de la matriz 200

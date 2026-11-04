@@ -1,0 +1,5 @@
+producto punto: 4.0
+normas: [3.0, 2.2361]
+coseno: 0.5963
+angulo en grados: 53.4
+proyeccion: [0.4444, 0.8889, 0.8889]

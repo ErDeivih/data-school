@@ -1,0 +1,5 @@
+UTC:    2026-07-15 06:00 UTC
+Madrid: 2026-07-15 08:00 CEST
+desfase de Madrid en julio: 2:00:00
+horas reales del 29 de marzo: 23:00:00
+mismo instante con dos nombres: True

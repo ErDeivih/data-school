@@ -1,0 +1,2 @@
+defecto mutable: [1, 2, 3] [1, 2, 3] [1, 2, 3]
+con None: [1] [2] [3]

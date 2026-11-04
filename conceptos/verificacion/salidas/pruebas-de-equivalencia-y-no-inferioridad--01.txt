@@ -1,0 +1,3 @@
+EE 0.212  IC90 (-0.151, +0.551)  dentro del margen: False
+p TOST = max(0.00057, 0.07943) = 0.07943   se rechaza: False
+p bilateral clasico 0.347

@@ -1,0 +1,6 @@
+unitaria      800 pruebas      1.6 s
+integracion   120 pruebas     48.0 s
+e2e             8 pruebas     96.0 s
+total de la suite: 145.6 s
+e2e: 0.862% de las pruebas
+e2e: 66% del tiempo

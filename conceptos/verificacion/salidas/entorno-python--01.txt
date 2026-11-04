@@ -1,0 +1,4 @@
+lineas en el fichero  5
+con version exacta    3
+con rango             1
+sin restriccion       1

@@ -1,0 +1,3 @@
+tabla entera      4.0 GB
+un mes si esta particionada por fecha  0.085 GB
+la misma consulta sin particionar cuesta ~47 veces mas

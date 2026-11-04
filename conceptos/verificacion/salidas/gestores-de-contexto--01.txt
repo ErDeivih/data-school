@@ -1,0 +1,5 @@
+presto conexion
+dentro: prestado = True
+devuelvo conexion
+la excepcion llego fuera: consulta mal escrita
+fuera: prestado = False

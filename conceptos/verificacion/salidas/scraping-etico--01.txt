@@ -1,0 +1,6 @@
+AgenteAmable  https://tienda.example/admin/panel          PROHIBIDO
+AgenteAmable  https://tienda.example/catalogo             permitido
+     OtroBot  https://tienda.example/catalogo             permitido
+     OtroBot  https://tienda.example/privado/             PROHIBIDO
+espera pedida al agente : 10 segundos
+espera pedida al resto  : 2 segundos

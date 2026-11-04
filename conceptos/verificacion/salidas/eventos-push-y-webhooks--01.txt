@@ -1,0 +1,4 @@
+entregas 1077
+unicos 1000
+duplicados 77
+cobertura 100.0%

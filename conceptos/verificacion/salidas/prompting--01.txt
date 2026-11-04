@@ -1,0 +1,2 @@
+caracteres 421  tokens aproximados 105
+peor caso (2 caracteres por token) 210 tokens

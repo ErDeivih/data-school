@@ -1,0 +1,6 @@
+sin cuantizar   1.0x tokens/segundo -> 0.3472 EUR por millon al 100%
+int8            1.6x tokens/segundo -> 0.2170 EUR por millon al 100%
+int4            2.3x tokens/segundo -> 0.1510 EUR por millon al 100%
+GPU a 1.00 EUR/h -> coste lleno 0.1389 EUR/M   equilibrio contra 3.00 EUR/M: 2160.00%
+GPU a 2.50 EUR/h -> coste lleno 0.3472 EUR/M   equilibrio contra 3.00 EUR/M: 864.00%
+GPU a 5.00 EUR/h -> coste lleno 0.6944 EUR/M   equilibrio contra 3.00 EUR/M: 432.00%

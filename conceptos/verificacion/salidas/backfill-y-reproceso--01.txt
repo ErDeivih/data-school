@@ -1,0 +1,4 @@
+a reprocesar 182
+a rellenar  3
+huecos tras el arreglo 0
+ejecuciones totales 367

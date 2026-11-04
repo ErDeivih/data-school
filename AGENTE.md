@@ -13,26 +13,27 @@ Data School dejó de ser un producto aparte: el portal es **Muestra**. Esta carp
 
 ## Qué hay aquí y qué se hace
 
-| Carpeta | Qué va |
-|---|---|
-| `fuentes/` | catálogo de fuentes con licencia, coste, idioma y estado. **32 ya verificadas** |
-| `conceptos/` | conceptos de datos e IA, con definición, ejemplo, código verificado y errores típicos |
-| `proyectos/` | proyectos prácticos con enunciado, nivel y criterio de terminado |
-| `datasets/` | conjuntos de datos reales con licencia y para qué sirven |
-| `investigacion/` | cómo lo hacen otros, APIs gratuitas, qué adoptamos y qué no |
-| `tools/` | el comprobador de enlaces (sin dependencias) |
+| Carpeta | Qué va | Estado 2026-11-04 |
+|---|---|---|
+| `fuentes/` | catálogo de fuentes con licencia, coste, idioma y estado, y el trío principal + alternativas por tramo | **32 fuentes** (31 vivas, 1 muerta) |
+| `conceptos/` | conceptos de datos e IA, con definición, ejemplo, código ejecutado, figuras y evidencia de ejecución | **459 conceptos** en 13 fases |
+| `proyectos/` | proyectos prácticos con enunciado, nivel y criterio de terminado | **2 completos + 22 de catálogo + 8 labs** |
+| `datasets/` | conjuntos de datos con licencia y procedencia; los externos, enlazados | **10 CSV CC0-1.0** |
+| `investigacion/` | cómo lo hacen otros, APIs gratuitas, qué adoptamos y qué no | 1 estudio + 23 ficheros + registro de diseño |
+| `tools/` | comprobador de enlaces (sin dependencias) y medidor de los orígenes | `check-links.mjs`, su test y `medir-origenes.ps1` |
 
-## La tarea ya está creada: consolidar
+## La tarea de consolidar: hecha (2026-11-04)
 
-**Medir los cinco orígenes, comparar con números e importar aquí lo que falte.** En `README.md` están los cinco:
+**Medir los cinco orígenes, comparar con números e importar aquí lo que falte.** Lo medido está en
+`INVENTARIO.md`; lo que se trae, de dónde y lo que se descarta, en `CONSOLIDACION.md`.
 
-1. `F:\Proyectos\ProyectoServidor\aprender` — el portal vivo (438 conceptos, 13 fases, datasets).
-2. `...\aprender\docs\data-school-import` — la importación de Data School (32 fuentes, tools, designs).
-3. `E:\orca-workspaces-archivo-2026-11-03\aprender\equipo-ia` — el archivo de Orca (13 fases, 6 CSV, figuras).
-4. `C:\Users\David\orca\preview-data` — la vista previa de Orca.
-5. `F:\Proyectos\data-school` — esta carpeta.
+1. `F:\Proyectos\ProyectoServidor\aprender` — el portal vivo: **459 conceptos**, 13 fases, 13 CSV (10 de portal + 3 de proyectos), 22 proyectos.
+2. `...\aprender\docs\data-school-import` — lo importado de Data School: **32 fuentes**, comprobador de enlaces, sistema de diseño.
+3. `E:\orca-workspaces-archivo-2026-11-03\aprender\equipo-ia` — el archivo de Orca: **438 conceptos** idénticos a 438 de la viva, 6 CSV idénticos, **0 salidas de ejecución**; solo aporta el registro del rediseño del portal.
+4. `C:\Users\David\orca\preview-data` — vista previa de **otro** servicio (`opofuente`): 76 tablas y **0 filas de contenido**; no aporta nada.
+5. `F:\Proyectos\data-school` — esta carpeta: estructura, catálogo de fuentes, sistema de diseño y comprobador.
 
-Dato ya medido en coordinación: **la versión viva va por delante** del archivo de Orca (fases más grandes) y **los 6 CSV de Orca ya están en la viva**. Hay que confirmarlo con números, no darlo por hecho.
+Confirmado con números: **la viva va por delante** (459 vs 438 conceptos, +21; 22 vs 10 proyectos; 946 vs 0 salidas) y **los 6 CSV de Orca ya están en la viva** (6/6 con SHA-256 idéntico). No hay dos versiones de contenido entre las que elegir.
 
 ## Reglas
 
@@ -48,9 +49,11 @@ Dato ya medido en coordinación: **la versión viva va por delante** del archivo
 Lee y sigue `F:\EspacioCodigo\_flujo-dsh\PROTOCOLO-AUTONOMIA.md` y `DOCTRINA-CALIDAD.md`.
 Nivel 1 decides solo, nivel 2 anotas en `DECISIONES.md`, nivel 3 preguntas y sigues con otra tarea.
 
-## Primera tarea
+## Estado de la sesión de consolidación (2026-11-04)
 
-Escribir `INVENTARIO.md` con la medición de los cinco orígenes (conceptos, fases, datasets, figuras, recursos) y la comparación entre ellos. Después, `CONSOLIDACION.md` con lo que se trae, lo que se descarta y por qué.
+Medición e inventario hechos (`INVENTARIO.md`), plan escrito (`CONSOLIDACION.md`) e importación
+completada. Queda pendiente lo de nivel 3 (sincronización archivo ↔ portal) y el mantenimiento:
+repetir `npm run check:links` y `tools/medir-origenes.ps1` cuando cambien los orígenes.
 
 ## Al terminar cada sesión
 

@@ -1,0 +1,7 @@
+spread            : 0.01
+mid               : 100.005
+spread en pb      : 1.0
+desequilibrio     : 0.1429
+precio medio 800  : 100.01625
+impacto en euros  : 5.0
+sin ejecutar 5000 : 900

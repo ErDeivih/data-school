@@ -1,0 +1,4 @@
+entradas: 200000
+memoria actual 16.1 MiB
+pico 20.3 MiB
+sobrecoste por entrada 84 bytes

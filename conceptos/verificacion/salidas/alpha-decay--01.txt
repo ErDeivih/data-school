@@ -1,0 +1,4 @@
+autocorr de la senal 0.930
+vida media           9.58 periodos
+giro medio           0.374 del bruto por periodo
+coste con 5 pb       4.72% al ano

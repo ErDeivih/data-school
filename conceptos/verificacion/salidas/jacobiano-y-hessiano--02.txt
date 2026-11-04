@@ -1,0 +1,5 @@
+gradiente en (0,0): [0.0, 0.0]
+autovalores silla : [-2.  2.]
+signos distintos  : True
+punto (0.1, 0.0) -> f = 0.01
+punto (0.0, 0.1) -> f = -0.01

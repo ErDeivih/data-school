@@ -1,0 +1,7 @@
+moneda p=0.5   H = 1.0000 bits
+moneda p=0.9   H = 0.4690 bits
+moneda p=0.99  H = 0.0808 bits
+H(p)    = 0.8813
+KL(p;q) = 0.1187
+CE(p;q) = 1.0000
+KL(q;p) = 0.1258

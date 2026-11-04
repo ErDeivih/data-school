@@ -1,0 +1,4 @@
+esperanza por operacion: 0.35 R
+en 200 operaciones: 70.0 R
+diez perdidas seguidas: 10.0 R
+la misma racha doblando el tamano: 257.0 R

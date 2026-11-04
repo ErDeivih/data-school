@@ -1,0 +1,5 @@
+creado, sin ejecutar nada
+empieza el generador
+primero: 3
+se acabo
+resto: [2, 1]

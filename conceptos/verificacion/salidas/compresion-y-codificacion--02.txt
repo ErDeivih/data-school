@@ -1,0 +1,3 @@
+bytes crudos iguales: True
+comprime mejor el orden agrupado: True
+zlib agrupado baja de 100 kB: True

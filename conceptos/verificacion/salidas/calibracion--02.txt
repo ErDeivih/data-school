@@ -1,0 +1,5 @@
+casos 1900  prevalencia 0.50
+AUC   original 0.816
+AUC   distorsionada 0.816
+Brier original 0.1750
+Brier distorsionada 0.2101

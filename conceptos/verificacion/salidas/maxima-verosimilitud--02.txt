@@ -1,0 +1,5 @@
+pendiente MLE/OLS 0.3385
+polyfit           0.3385
+ECM               0.9130
+MLE de sigma^2    0.9130
+insesgado         0.9445

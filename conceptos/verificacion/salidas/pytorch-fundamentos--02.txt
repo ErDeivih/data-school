@@ -1,0 +1,6 @@
+epoca 0  lote 0  indices [4 6 2 7]
+epoca 0  lote 1  indices [3 5 9 0]
+epoca 0  lote 2  indices [8 1]
+epoca 1  lote 0  indices [2 9 3 6]
+epoca 1  lote 1  indices [0 4 8 7]
+epoca 1  lote 2  indices [5 1]

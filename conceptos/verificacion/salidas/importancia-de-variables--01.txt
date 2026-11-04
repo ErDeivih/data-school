@@ -1,0 +1,5 @@
+accuracy en test: 0.914
+importancia por impureza: [0.148, 0.37, 0.117, 0.073, 0.069, 0.07, 0.072, 0.081]
+variables de ruido con impureza > 0.05: 5 de 5
+importancia por permutacion: [0.163, 0.331, 0.106, -0.001, -0.007, 0.004, 0.005, -0.001]
+variables de ruido con permutacion > 0.01: 0 de 5

@@ -1,0 +1,5 @@
+intento 0: espera base  0.5s  con jitter  0.92s
+intento 1: espera base  1.0s  con jitter  1.76s
+intento 2: espera base  2.0s  con jitter  2.84s
+intento 3: espera base  4.0s  con jitter  5.04s
+intento 4: espera base  8.0s  con jitter 12.09s

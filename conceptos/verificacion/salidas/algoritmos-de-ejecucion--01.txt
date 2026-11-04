@@ -1,0 +1,6 @@
+tramo 1: pediria   14828, tope   21500, manda   14828 (3.45% del volumen)
+tramo 2: pediria    5172, tope    7500, manda    5172 (3.45% del volumen)
+tramo 3: pediria    3448, tope    5000, manda    3448 (3.45% del volumen)
+tramo 4: pediria    5172, tope    7500, manda    5172 (3.45% del volumen)
+tramo 5: pediria   21379, tope   31000, manda   21379 (3.45% del volumen)
+total enviado: 50000 de 50000  (falta 0)

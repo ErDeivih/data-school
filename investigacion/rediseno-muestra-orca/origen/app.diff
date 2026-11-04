@@ -1,0 +1,50 @@
+@@ -7867,6 +7867,33 @@
+   document.addEventListener(tipo, fn, opciones);
+   OYENTES_POR_CLAVE.set(clave, [tipo, fn, opciones]);
+ };
++// T-REDISENO · Una sola sección marcada como «la actual», en la cabecera, en la barra inferior
++// y en el pie. Antes el enlace activo se deducía con clases sueltas en cada vista y la navegación
++// no lo anunciaba; con `aria-current="page"` lo ven el lector de pantalla y el CSS.
++const DESTINO_NAV = {
++  inicio: "#/", plan: "#/plan", fase: "#/plan", ruta: "#/plan", orientacion: "#/plan",
++  diagnostico: "#/plan", mapa: "#/plan", favoritos: "#/plan", notas: "#/plan",
++  dudas: "#/plan", concepto: "#/plan", proyecto: "#/plan", proyectos: "#/plan",
++  informe: "#/plan", conflictos: "#/plan", transferencia: "#/plan", paquetes: "#/plan",
++  incidencia: "#/plan", avisos: "#/plan", recordatorios: "#/plan",
++  repaso: "#/repaso", sesion: "#/repaso", progreso: "#/progreso", buscar: "#/buscar",
++  pendientes: "#/pendientes", glosario: "#/glosario", ayuda: "#/ayuda", ejecutar: "#/ejecutar",
++  entrar: "#/entrar", registro: "#/registro", recuperar: "#/recuperar", cuenta: "#/cuenta",
++  precios: "#/precios", analitica: "#/analitica", legal: null,
++};
++function marcarNavegacion(vista) {
++  const destino = DESTINO_NAV[vista] || null;
++  document.body.dataset.vista = vista;
++  document.documentElement.dataset.vista = vista;
++  $$("#barra-superior nav a, #barra-inferior a, .pie-nav a").forEach((a) => {
++    if (destino && a.getAttribute("href") === destino) a.setAttribute("aria-current", "page");
++    else a.removeAttribute("aria-current");
++  });
++  // Las cifras del lateral se leen de un vistazo; el nombre de la sección también.
++  const lateral = $("#lateral");
++  if (lateral) lateral.dataset.vista = vista;
++}
++
+ async function render() {
+     const inicioRender = performance.now();
+     // Las páginas legales se cargan ANTES de decidir la ruta: si se decide primero, la
+@@ -9671,6 +9698,7 @@ async function render() {
+   const inicioDom = performance.now();
+   principal.removeAttribute("aria-busy");
+   principal.innerHTML = htmlVista;
++  marcarNavegacion(vista);
+   if (window.Offline) Offline.conectar(principal, vista, arg, () => {
+     if (vista === "laboratorios" || vista === "experimentos") {
+       MESA.pidiendoDato = {}; MESA.errores = {}; render();
+@@ -9730,6 +9758,7 @@ async function render() {
+         <button type="button" class="boton" data-reintentar-vista="1">Reintentar carga</button>
+         <p><a href="#/buscar/">Volver a la biblioteca</a></p>`;
+       if (window.Offline) Offline.conectar(principal, vista, arg, () => render());
++      marcarNavegacion(vista);
+       conectarBotones(principal);
+     }
+     medirCoste("muestra.render", inicioRender);

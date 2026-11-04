@@ -1,0 +1,4 @@
+P-1:     1 dias -> captura
+P-2:   273 dias -> servicio
+P-3:  1146 dias -> archivado
+P-4:  2237 dias -> borrado

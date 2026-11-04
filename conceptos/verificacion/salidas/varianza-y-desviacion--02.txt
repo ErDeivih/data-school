@@ -1,0 +1,5 @@
+media          = 1.7033 m
+varianza ddof0 = 0.00349 m^2
+varianza ddof1 = 0.00419 m^2
+desv. tipica   = 0.0647 m
+Var(suma) = 5.8333  = 2 * 2.9167

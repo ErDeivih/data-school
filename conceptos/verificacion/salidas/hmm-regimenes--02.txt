@@ -1,0 +1,4 @@
+duracion esperada [10.  5.] periodos
+proporcion del tiempo en cada regimen [0.667 0.333]
+log-verosimilitud original            -14.0878
+log-verosimilitud con etiquetas al reves -14.0878

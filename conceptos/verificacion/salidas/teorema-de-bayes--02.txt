@@ -1,0 +1,4 @@
+tras 1 test(s) positivos: 0.1538
+tras 2 test(s) positivos: 0.766
+tras 3 test(s) positivos: 0.9833
+tras 4 test(s) positivos: 0.9991

@@ -1,0 +1,4 @@
+giro 0.10  bruto por giro 4.00 pb  equilibrio 4.00 pb  coste anual a 5 pb 1.26%
+giro 0.25  bruto por giro 4.00 pb  equilibrio 4.00 pb  coste anual a 5 pb 3.15%
+giro 0.43  bruto por giro 4.00 pb  equilibrio 4.00 pb  coste anual a 5 pb 5.42%
+giro 0.43  bruto por giro 1.50 pb  equilibrio 1.50 pb  coste anual a 5 pb 5.42%

@@ -1,0 +1,4 @@
+q del error en %     0.0808
+q del error en unidades 8.00
+intervalo proporcional [105.71, 124.29]
+intervalo en unidades  [107.00, 123.00]

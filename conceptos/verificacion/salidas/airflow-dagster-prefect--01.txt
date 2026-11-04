@@ -1,0 +1,4 @@
+logical_date 03-01 03:00 cubre [03-01 03:00, 03-02 03:00) y se dispara el 03-02 03:00
+logical_date 03-13 03:00 cubre [03-13 03:00, 03-14 03:00) y se dispara el 03-14 03:00
+logical_date 03-14 03:00 cubre [03-14 03:00, 03-15 03:00) y se dispara el 03-15 03:00
+ejecuciones del reproceso 8-14 de marzo: 7

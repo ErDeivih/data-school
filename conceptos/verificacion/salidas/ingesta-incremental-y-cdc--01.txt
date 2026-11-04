@@ -1,0 +1,5 @@
+filas que ve updated_at: 3
+la fila 3 sigue en el destino: True
+filas tras CDC: 3
+la fila 3 sigue en el destino: False
+ciudad de la fila 2: granada

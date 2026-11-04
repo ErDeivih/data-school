@@ -1,0 +1,4 @@
+5 min   n= 1440  subida del pico= 12.00  desviacion del nivel=4.29
+1 hora  n=  120  subida del pico=  6.00  desviacion del nivel=4.22
+1 dia   n=    5  subida del pico=  0.25  desviacion del nivel=0.05
+la serie de 5 minutos tiene desviacion 4.287

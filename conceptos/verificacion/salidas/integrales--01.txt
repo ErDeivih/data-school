@@ -1,0 +1,2 @@
+area bajo la densidad  0.99996
+P(X > 1) por area     0.135333

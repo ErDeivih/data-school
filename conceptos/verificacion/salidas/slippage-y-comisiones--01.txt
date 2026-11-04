@@ -1,0 +1,5 @@
+coste ida y vuelta: 13.0 pb
+ventaja neta      : 2.0 pb
+coste en euros    : 32.5
+neto en euros     : 5.0
+ventaja de equilibrio: 13.0 pb

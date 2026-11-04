@@ -1,0 +1,4 @@
+phi estimado 0.560  (el simulado era 0.6)
+ultimo dato 61.15
+pronostico 1 a 3 pasos [59.9  59.14 58.65]
+efecto de un shock de -2 en un MA(1) con theta=0.6: -1.20

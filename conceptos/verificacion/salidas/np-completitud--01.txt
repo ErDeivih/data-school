@@ -1,0 +1,4 @@
+solucion: [4, 5]
+intentos de busqueda: 18
+verificacion: True
+subconjuntos posibles con n=6: 64

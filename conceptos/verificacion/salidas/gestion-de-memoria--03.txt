@@ -1,0 +1,4 @@
+base tras escribir en la vista: [0, 99, 2, 3, 4]
+base tras escribir en la copia: [0, 99, 2, 3, 4]
+la vista comparte el buffer: True
+bytes afectados: 24 de 40

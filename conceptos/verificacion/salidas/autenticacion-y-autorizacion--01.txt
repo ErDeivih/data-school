@@ -1,0 +1,3 @@
+partes del token: 3
+firma valida: True
+token manipulado: False

@@ -1,0 +1,7 @@
+IC 0.03  amplitud 20160  IR teorico 4.26
+autocorr 0.00  amplitud efectiva    20160  IR 4.26
+autocorr 0.50  amplitud efectiva     6720  IR 2.46
+autocorr 0.80  amplitud efectiva     2240  IR 1.42
+autocorr 0.90  amplitud efectiva     1061  IR 0.98
+autocorr 0.95  amplitud efectiva      517  IR 0.68
+coste anual estimado 2.02% del capital bruto

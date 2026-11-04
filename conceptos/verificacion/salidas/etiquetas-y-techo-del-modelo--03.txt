@@ -1,0 +1,5 @@
+profundidad    2  entrenamiento 0.7087  prueba 0.7400
+profundidad    4  entrenamiento 0.7602  prueba 0.7863
+profundidad    6  entrenamiento 0.7850  prueba 0.7804
+profundidad   12  entrenamiento 0.9055  prueba 0.7250
+profundidad None  entrenamiento 1.0000  prueba 0.6871

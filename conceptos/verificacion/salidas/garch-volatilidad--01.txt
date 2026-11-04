@@ -1,0 +1,5 @@
+estimado alpha 0.115  beta 0.865  (simulado 0.120 y 0.860)
+corr de los retornos con su retardo 1     0.001
+corr del VALOR ABSOLUTO con su retardo 1   0.195
+media de |eps| tras 200 dias tranquilos 0.0140
+media de |eps| tras 200 dias agitados   0.0231

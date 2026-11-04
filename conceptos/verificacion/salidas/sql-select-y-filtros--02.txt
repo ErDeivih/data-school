@@ -1,0 +1,2 @@
+filas | importes_no_nulos | nulos | suma | media_sin_nulos | media_contando_cero
+5 | 4 | 1 | 445.75 | 111.44 | 89.15

@@ -1,0 +1,4 @@
+rol=None    accion=ver     -> 401 no se quien eres
+rol=lector  accion=ver     -> 200 adelante
+rol=lector  accion=borrar  -> 403 se quien eres, pero no puedes
+rol=admin   accion=borrar  -> 200 adelante

@@ -1,0 +1,3 @@
+paso   0  perdida  30.0000  w 3.0000  b +1.0000
+paso  99  perdida   0.0002  w 1.9901  b +0.0292
+paso 199  perdida   0.0000  w 1.9995  b +0.0014

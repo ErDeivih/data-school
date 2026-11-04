@@ -1,0 +1,4 @@
+P(defectuosa)       0.029
+aporta la maquina 1 0.014
+aporta la maquina 2 0.015
+promedio ingenuo    0.035

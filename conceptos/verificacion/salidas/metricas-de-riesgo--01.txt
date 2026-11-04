@@ -1,0 +1,7 @@
+retorno total       +2.74 %
+volatilidad mensual 0.0339
+volatilidad anual   0.1175
+Sharpe anual        0.51
+caida maxima        5.00%
+retorno anualizado  5.56%
+Calmar              1.11

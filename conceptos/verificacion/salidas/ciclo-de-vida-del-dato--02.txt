@@ -1,0 +1,4 @@
+conjuntos con datos personales a revisar: 1
+el que se pasa: pedidos
+sin dueno: 0
+retencion media en anios: 6.5

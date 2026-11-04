@@ -1,0 +1,5 @@
+bytes de ciudad normalizado: 350000
+bytes de ciudad copiado: 3500000
+factor de duplicacion: 10
+filas escritas al ano normalizado: 5000
+filas escritas al ano copiado: 50000

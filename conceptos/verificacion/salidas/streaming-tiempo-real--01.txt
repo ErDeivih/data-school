@@ -1,0 +1,6 @@
+[10:00, 10:01) -> 2 eventos
+[10:01, 10:02) -> 2 eventos
+[10:02, 10:03) -> 1 eventos
+[10:08, 10:09) -> 1 eventos
+marca de agua final: 10:06:00
+descartados: ['e7']

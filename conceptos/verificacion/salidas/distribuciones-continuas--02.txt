@@ -1,0 +1,6 @@
+mediana = 1.0000
+media   = 1.1331
+P95     = 2.2760
+uniforme(0,4) varianza  = 1.3333
+beta(2,5) media         = 0.2857
+gamma(3, escala 2) media = 6.0000

@@ -1,0 +1,5 @@
+Q1, mediana, Q3: 58.0 74.0 125.0
+IQR: 67.0
+limite del bigote: 225.5
+atipicos: [320.0, 900.0]
+media: 153.5

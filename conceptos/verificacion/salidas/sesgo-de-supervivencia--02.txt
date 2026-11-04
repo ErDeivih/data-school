@@ -1,0 +1,5 @@
+fondos simulados        2000
+supervivientes          1178
+media real              +0.0158
+media de supervivientes +0.1027
+sesgo al alza           +0.0869

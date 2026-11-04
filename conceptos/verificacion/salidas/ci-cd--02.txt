@@ -1,0 +1,4 @@
+digest construido una vez en CI: b34a9eeb5c82
+staging y produccion usan el mismo digest: True
+digest reconstruido siete minutos despues: 3e55056d93be
+lo que se probo es lo que se despliega: False

@@ -1,0 +1,7 @@
+estado   Q(izquierda)   Q(derecha)
+     0         -4.095      -3.439
+     1         -4.095      -2.710
+     2         -3.439      -1.900
+     3         -2.710      -1.000
+     4         -1.900       0.000
+pasos desde el estado 0 con la politica greedy: 5

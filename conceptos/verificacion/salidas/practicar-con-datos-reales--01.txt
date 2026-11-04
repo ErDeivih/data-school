@@ -1,0 +1,10 @@
+ciudad             str
+anyo             int64
+precio_m2      float64
+operaciones      int64
+filas: 6 | duplicadas: 1
+nulos: {'ciudad': 0, 'anyo': 0, 'precio_m2': 1, 'operaciones': 0}
+ciudad
+Madrid      4290.0
+Sevilla     1750.0
+Valencia    1980.0

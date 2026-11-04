@@ -1,0 +1,10 @@
+agente A:
+  paso 1: multiplicar({'a': 3, 'b': 4}) -> ok 12
+  paso 2: sumar({'a': 12, 'b': 5}) -> ok 17
+  observaciones: [12, 17] -> responde 17
+agente B:
+  paso 1: multiplicar({'a': 3, 'b': 4}) -> ok 12
+  paso 2: sumar({'a': 'doce', 'b': 5}) -> a tiene un tipo que no toca None
+  paso 3: multiplicar({'a': 3, 'b': 4}) -> ok 12
+  paso 4: sumar({'a': 12, 'b': 5}) -> ok 17
+  observaciones: [12, None, 12, 17] -> responde 17 con un paso perdido

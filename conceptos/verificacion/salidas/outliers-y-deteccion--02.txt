@@ -1,0 +1,3 @@
+extremo     45  sd    9.88  z 3.08  z_mod   11.13
+extremo    200  sd   54.38  z 3.17  z_mod   63.40
+extremo   1000  sd  285.27  z 3.18  z_mod  333.20

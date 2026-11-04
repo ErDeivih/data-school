@@ -1,0 +1,9 @@
+llega  1  evento  0  marca  -3  abiertas [0]
+llega  4  evento  4  marca   1  abiertas [0]
+llega  7  evento  6  marca   3  abiertas [0, 5]
+llega  9  evento  3  marca   3  abiertas [0, 5]
+llega 12  evento 11  marca   8  abiertas [5, 10]
+llega 15  evento  2  marca   8  abiertas [5, 10]
+publicadas: {'8:00': 3}
+abiertas al final: {'8:05': 1, '8:10': 1}
+tardios: [(15, 2)]

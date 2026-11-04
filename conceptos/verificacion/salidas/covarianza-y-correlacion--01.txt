@@ -1,0 +1,4 @@
+covarianza  = 3.1000
+correlacion = 0.9787
+cov * 100   = 310.00
+corr igual  = 0.9787

@@ -1,0 +1,4 @@
+rectangulo por x: 0.8
+rectangulo por y: -0.8
+lunas de verdad  silueta 0.330  dbcv 0.330
+lunas por k-means silueta 0.489  dbcv -0.789

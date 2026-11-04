@@ -1,0 +1,5 @@
+ficheros al dia con micro-lotes de 1 minuto: 1440
+MB por fichero de 1 minuto: 2.8
+ficheros al ano: 525600
+ficheros al dia compactando por hora: 24
+GB retenidos en 5 anos: 7300

@@ -1,0 +1,4 @@
+riesgo en euros 500
+stop  98.0  titulos  250.0  nocional    25000   50.0%
+stop  96.0  titulos  125.0  nocional    12500   25.0%
+stop  90.0  titulos   50.0  nocional     5000   10.0%

@@ -1,0 +1,3 @@
+tres importes  -> 20.0
+un nulo        -> TypeError: unsupported operand type(s) for +: 'float' and 'NoneType'
+sin ventas     -> ZeroDivisionError: division by zero

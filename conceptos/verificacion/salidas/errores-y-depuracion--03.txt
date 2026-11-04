@@ -1,0 +1,4 @@
+mensaje: importe no numerico: doce
+causa: ValueError
+ratio: 2.0
+assert: el denominador no puede ser cero

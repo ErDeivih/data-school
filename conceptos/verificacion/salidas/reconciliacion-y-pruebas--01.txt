@@ -1,0 +1,3 @@
+faltan 2 filas y 130.00 euros
+relativo en filas: 28.6 %
+ids que no llegaron: [6, 7]

@@ -1,0 +1,3 @@
+candidatas a clave: ['pedido_id']
+fecha 1900-01-01 repetida: 1
+importe maximo: 999999.0

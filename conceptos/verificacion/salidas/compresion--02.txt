@@ -1,0 +1,2 @@
+repetitivo       1000 ->     21 bytes  (2%)
+alta entropia    2048 ->   2059 bytes  (101%)

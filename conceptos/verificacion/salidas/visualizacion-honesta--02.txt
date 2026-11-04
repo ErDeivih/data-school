@@ -1,0 +1,2 @@
+eje desde 0  : alturas en px [173, 178, 175, 182]  primera/ultima 0.95
+eje desde 100: alturas en px [53, 133, 80, 187]  primera/ultima 0.28

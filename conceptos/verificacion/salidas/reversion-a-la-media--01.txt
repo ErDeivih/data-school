@@ -1,0 +1,3 @@
+rho estimado    0.8978
+vida media      6.43 periodos
+mitad en 1 paso 0.1022

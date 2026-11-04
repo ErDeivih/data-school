@@ -1,0 +1,3 @@
+sin diccionario       195721 bytes
+con diccionario       100861 bytes
+diccionario + zstd     28759 bytes

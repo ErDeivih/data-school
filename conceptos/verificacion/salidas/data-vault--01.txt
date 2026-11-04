@@ -1,0 +1,4 @@
+llegadas: 4  filas del satelite: 3
+2024-01-10 Madrid a280015e
+2024-03-02 Barcelona 39e607fe
+2024-09-01 Valencia 375ab662

@@ -1,0 +1,4 @@
+media log 0.0346
+teorica 0.0350
+media simple 0.0827
+exp(mu)-1 0.0833

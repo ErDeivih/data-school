@@ -1,0 +1,2 @@
+codigo_pais | ventas | total_eur
+ES | 2 | 200.5

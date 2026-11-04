@@ -1,0 +1,9 @@
+exito 0.99 -> 1.01 llamadas por peticion con 3 intentos
+exito 0.90 -> 1.11 llamadas por peticion con 3 intentos
+exito 0.50 -> 1.75 llamadas por peticion con 3 intentos
+exito 0.20 -> 2.44 llamadas por peticion con 3 intentos
+exito 0.00 -> 3.00 llamadas por peticion con 3 intentos
+latencia 0.05 s ->   10.0 en vuelo (pool 50): cabe
+latencia 0.25 s ->   50.0 en vuelo (pool 50): cabe
+latencia 0.50 s ->  100.0 en vuelo (pool 50): AGOTADO: se encolan y el timeout los mata
+latencia 2.00 s ->  400.0 en vuelo (pool 50): AGOTADO: se encolan y el timeout los mata

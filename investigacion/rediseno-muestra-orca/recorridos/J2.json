@@ -1,0 +1,32 @@
+{
+  "contract_id": "muestra:redesign-20261101-v1",
+  "id": "J2",
+  "name": "Seguir la siguiente actividad y registrar progreso",
+  "result": "passed",
+  "steps": [
+    {
+      "action": "pulsar la acción de Hoy",
+      "selector": "#bloque-hoy a.boton",
+      "observed": {
+        "href": "#/c/covarianza-y-correlacion",
+        "progresoAntes": "0/438 vistos · 0 %"
+      }
+    },
+    {
+      "action": "pulsar «Marcar como visto»",
+      "selector": "[data-marcar='visto']",
+      "observed": {
+        "progresoDespues": "1/438 vistos · 0 %"
+      }
+    },
+    {
+      "action": "abrir Progreso",
+      "selector": "#/progreso",
+      "observed": {
+        "hash": "#/progreso",
+        "h1": "Mi progreso"
+      }
+    }
+  ],
+  "conclusion": "La acción de Hoy abrió #/c/covarianza-y-correlacion; marcar visto cambió el lateral de «0/438 vistos · 0 %» a «1/438 vistos · 0 %» y Progreso se abrió en #/progreso."
+}

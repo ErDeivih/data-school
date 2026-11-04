@@ -1,0 +1,2 @@
+timeouts aleatorios: 1.7 % de rondas con empate
+timeouts iguales:    100.0 % de rondas con empate

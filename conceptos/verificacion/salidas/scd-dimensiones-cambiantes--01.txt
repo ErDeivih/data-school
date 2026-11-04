@@ -1,0 +1,4 @@
+filas totales: 4
+versiones del cliente 4471: 3
+ciudad vigente hoy: Valencia
+fin de la version 9002: 2025-01-01

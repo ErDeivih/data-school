@@ -1,0 +1,5 @@
+contiene sol: True
+contiene so: False
+prefijo so: True
+prefijo sor: False
+contiene sar: False

@@ -1,0 +1,3 @@
+positivos en prueba 60 de 1200
+recall sin pesos                 0.18
+recall con class_weight balanced 0.68

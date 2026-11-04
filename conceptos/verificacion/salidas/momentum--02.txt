@@ -1,0 +1,2 @@
+corr(12 meses, mes siguiente)   +0.125
+corr(ultimo mes, mes siguiente) -0.219

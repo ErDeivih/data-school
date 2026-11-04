@@ -1,0 +1,2 @@
+sin ordenar: 1.0 a 1000.9 en 5 grupos
+ordenado por importe: 1.0 a 200.9 en 5 grupos

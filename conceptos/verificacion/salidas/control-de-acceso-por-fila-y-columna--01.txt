@@ -1,0 +1,3 @@
+ana ve 3 filas y 3 columnas: pais, comercial, importe
+luis ve 2 filas y 3 columnas: pais, importe, cliente
+filas de otro pais que se cuelan: 1

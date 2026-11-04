@@ -1,0 +1,2 @@
+diferencias finitas dW2   [0.022698 0.02383 ]
+perdida tras un paso      0.25092

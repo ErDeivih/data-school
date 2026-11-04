@@ -1,0 +1,5 @@
+P(A)              0.5
+P(A y B)          0.25
+P(A)*P(B)         0.25
+P(A y B dado C)   0.5
+P(A|C)*P(B|C)     0.25

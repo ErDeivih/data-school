@@ -1,0 +1,2 @@
+[{'ciudad': 'Madrid', 'total': 40.0}, {'ciudad': 'Sevilla', 'total': 5.0}]
+45.0

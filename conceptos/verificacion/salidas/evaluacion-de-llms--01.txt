@@ -1,0 +1,8 @@
+pred 'Paris'  ref 'Paris'  exacta True  F1 1.00
+pred 'Paris'  ref 'paris'  exacta True  F1 1.00
+pred 'Paris'  ref 'Lyon'  exacta False  F1 0.00
+pred '1789'  ref 'en 1789'  exacta False  F1 0.67
+pred '1789'  ref '1799'  exacta False  F1 0.00
+pred 'vatio'  ref 'el vatio'  exacta False  F1 0.67
+exactas: 2 de 6
+F1 medio: 0.556

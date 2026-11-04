@@ -1,0 +1,37 @@
+﻿version: 2
+
+models:
+  - name: stg_poblacion
+    description: "Una fila por indicador, país y año, con tipos y sin nulos."
+    columns:
+      - name: indicador
+        tests: [not_null, {accepted_values: {values: [poblacion, pib_per_capita_usd]}}]
+      - name: pais_iso3
+        tests: [not_null, {accepted_values: {values: [ESP, FRA, DEU, ITA, PRT]}}]
+      - name: anio
+        tests: [not_null]
+      - name: valor
+        tests: [not_null]
+
+  - name: dim_pais
+    description: "Un país por fila; el ISO3 es la clave."
+    columns:
+      - name: pais_iso3
+        tests: [unique, not_null]
+
+  - name: f_poblacion
+    description: "Hecho de población y PIB per cápita por país y año."
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          combination_of_columns: [indicador, pais_iso3, anio]
+    columns:
+      - name: indicador
+        tests: [not_null]
+      - name: pais_iso3
+        tests:
+          - not_null
+          - relationships: {to: ref('dim_pais'), field: pais_iso3}
+      - name: anio
+        tests: [not_null]
+      - name: valor
+        tests: [not_null]

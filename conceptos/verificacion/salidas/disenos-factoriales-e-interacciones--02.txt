@@ -1,0 +1,2 @@
+{'Intercept': 58.0, 'C(temperatura)[T.baja]': -6.0, 'C(catalizador)[T.nuevo]': -7.0, 'C(temperatura)[T.baja]:C(catalizador)[T.nuevo]': 15.0}
+0.846 12 32.0

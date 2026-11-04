@@ -1,0 +1,3 @@
+m es C-contigua: True -> recorre memoria en orden
+t es C-contigua: False -> salta de fila en fila
+bytes de una fila: 4096 bytes de la linea de cache tipica: 64

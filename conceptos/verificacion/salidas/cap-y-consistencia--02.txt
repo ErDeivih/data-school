@@ -1,0 +1,6 @@
+t=  50 ms  la replica ya ve la escritura: False
+t= 150 ms  la replica ya ve la escritura: False
+t= 300 ms  la replica ya ve la escritura: False
+t= 450 ms  la replica ya ve la escritura: False
+t= 700 ms  la replica ya ve la escritura: True
+la escritura se ve a partir de: 500 ms

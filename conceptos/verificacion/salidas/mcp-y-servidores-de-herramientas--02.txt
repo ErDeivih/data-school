@@ -1,0 +1,7 @@
+herramientas en el catalogo: 9
+tokens del catalogo por peticion: 476
+catalogo sin cache:  285.9 EUR al mes
+catalogo con cache:   28.6 EUR al mes
+ 3 servidores ->  27 herramientas y  1430 tokens por peticion
+10 servidores ->  90 herramientas y  4765 tokens por peticion
+30 servidores -> 270 herramientas y 14295 tokens por peticion

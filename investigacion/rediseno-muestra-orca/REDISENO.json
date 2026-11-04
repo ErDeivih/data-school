@@ -1,0 +1,1750 @@
+{
+  "contract_id": "muestra:redesign-20261101-v1",
+  "data_scope": "synthetic",
+  "inventory_complete": true,
+  "design_system": "Muestra · sistema existente (tokens en sitio/estilo.css: --fondo, --acento, escala --t-2xs..--t-3xl, --radio, --toque 44px, --foco 3px) + capa REDISEÑO 2026-11",
+  "redesign_scope": [
+    "Cabecera: cinco destinos primarios (Hoy, Ruta, Repaso, Progreso, Buscar); Método, Glosario y Pendientes siguen accesibles desde el pie.",
+    "Barra inferior móvil: cinco destinos con icono y etiqueta; se conservan los href que exigen las pruebas de armazón y navegación.",
+    "Sección actual anunciada con aria-current=\"page\" en cabecera, barra inferior y pie desde app.js (marcarNavegacion).",
+    "Foco visible de 3 px en los enlaces de navegación; objetivos táctiles de 44 px sin cambios.",
+    "Lectura: párrafos limitados a 72ch, filete de 2 px en tarjetas en lugar de sombra.",
+    "Movimiento desactivado con prefers-reduced-motion: reduce."
+  ],
+  "research": [
+    {
+      "source": "WCAG 2.2 · Target Size (Minimum) 2.5.8 — https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html",
+      "applied": "Mantener 44 px en la barra inferior y en los enlaces de navegación; el mínimo legal es 24 px, el sistema ya usaba 44."
+    },
+    {
+      "source": "MDN · prefers-reduced-motion — https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion",
+      "applied": "Desactivar transiciones de navegación y tarjetas cuando el sistema pide menos movimiento."
+    },
+    {
+      "source": "Nielsen Norman Group · Progressive disclosure — https://www.nngroup.com/articles/progressive-disclosure/",
+      "applied": "Cinco destinos primarios en la cabecera y el resto en el pie, en vez de nueve enlaces con la misma jerarquía."
+    },
+    {
+      "source": "Practical Typography · Summary of key rules — https://practicaltypography.com/summary-of-key-rules.html",
+      "applied": "Longitud de línea de 60–75 caracteres para los párrafos de lectura; se fija 72ch."
+    }
+  ],
+  "blockers": [
+    {
+      "id": "b-visual-review",
+      "severity": "low",
+      "description": "No hay revisión visual humana ni herramienta de comparación de imágenes operativa en este entorno: orca equipo-local vision-diseno devolvió {ok:false,error:\"'orca_native_c1d51fef3d2de01f00fa62ae'\"} sin provider_request_sent. La evidencia disponible son los PNG con sha256 y las métricas objetivas del manifiesto; queda pendiente la inspección GLM con esas mismas capturas.",
+      "affects": [
+        "visual_reviewed"
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "route": "#/",
+      "role": "Hoy · puerta de entrada al estudio",
+      "state": "primer uso sin sesión",
+      "decision": "kept",
+      "reason": "La portada conserva su estructura de Hoy; el rediseño solo añade la marca de sección actual y la nueva cabecera. La acción principal sigue siendo el siguiente concepto. Sin formulario propio en esta vista: forms_states no aplica.",
+      "checks": {
+        "navigation": "verified",
+        "responsive_scroll": "verified",
+        "typography_spacing": "verified",
+        "contrast_focus": "verified",
+        "forms_states": "not_applicable",
+        "motion_reduced": "verified",
+        "production_copy": "verified",
+        "niche_fit": "verified"
+      },
+      "evidence": [
+        {
+          "phase": "before",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/before/inicio-movil.png",
+          "sha256": "1fbd780b42cb5922bbb6c04c91c8b578dafef928968885f9e37998591a437893"
+        },
+        {
+          "phase": "before",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/before/inicio-escritorio.png",
+          "sha256": "907659ad2685ae2659f925cae3be452f9cd41edd447c578da7517e16d78b0739"
+        },
+        {
+          "phase": "after",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/after/inicio-movil.png",
+          "sha256": "bec6a34193119285363726e312343bd0d9054eab7a09eaa31f50265b52873d49"
+        },
+        {
+          "phase": "after",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/after/inicio-escritorio.png",
+          "sha256": "44ee243d24a7e77c25abf0db4d598c5db6c8f38b080b383b31c610c5eabac175"
+        }
+      ]
+    },
+    {
+      "route": "#/pendientes",
+      "role": "Cola de trabajo pendiente",
+      "state": "usuario nuevo, cola vacía o mínima",
+      "decision": "kept",
+      "reason": "Página utilitaria que ya agrupa la cola por motivo; se mantiene y queda accesible desde el pie al salir de la cabecera. Sin formulario propio en esta vista: forms_states no aplica.",
+      "checks": {
+        "navigation": "verified",
+        "responsive_scroll": "verified",
+        "typography_spacing": "verified",
+        "contrast_focus": "verified",
+        "forms_states": "not_applicable",
+        "motion_reduced": "verified",
+        "production_copy": "verified",
+        "niche_fit": "verified"
+      },
+      "evidence": [
+        {
+          "phase": "before",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/before/pendientes-movil.png",
+          "sha256": "1a7265297c42dc63e4195c94ab315b7d9822697ac629e111b40359e341d332b1"
+        },
+        {
+          "phase": "before",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/before/pendientes-escritorio.png",
+          "sha256": "279e69f9640a06288b818bfaad5b302a061de7ae18af6b346d305511d2d3570c"
+        },
+        {
+          "phase": "after",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/after/pendientes-movil.png",
+          "sha256": "5ce112e9faab76b9c7671745ea9083114a4667a00399a9d426ad377c39b17e21"
+        },
+        {
+          "phase": "after",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/after/pendientes-escritorio.png",
+          "sha256": "257fb34b1cbafd6b7f9ff87be6ad8ed4a76fad85872d09d7feeddeaadfc5ba26"
+        }
+      ]
+    },
+    {
+      "route": "#/plan",
+      "role": "Ruta de estudio por fases",
+      "state": "sin progreso previo",
+      "decision": "kept",
+      "reason": "Es el destino de Ruta en la cabecera y en la barra inferior; mantiene fases, itinerarios y criterios de cierre. Sin formulario propio en esta vista: forms_states no aplica.",
+      "checks": {
+        "navigation": "verified",
+        "responsive_scroll": "verified",
+        "typography_spacing": "verified",
+        "contrast_focus": "verified",
+        "forms_states": "not_applicable",
+        "motion_reduced": "verified",
+        "production_copy": "verified",
+        "niche_fit": "verified"
+      },
+      "evidence": [
+        {
+          "phase": "before",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/before/plan-movil.png",
+          "sha256": "43bd5c290b59940598fd7a6ceffbc13117e4682750883dc8646996faf7433b66"
+        },
+        {
+          "phase": "before",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/before/plan-escritorio.png",
+          "sha256": "910dfb4fc503d6dec8f51863c7d4ec8354ed7fc40196ed5e949d49d39fd0e751"
+        },
+        {
+          "phase": "after",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/after/plan-movil.png",
+          "sha256": "9b37a5e34cd0b1f91e37c4f9673cd0352fc10ca39947d18edf34f73ce26d0e8a"
+        },
+        {
+          "phase": "after",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/after/plan-escritorio.png",
+          "sha256": "cb1cad88202d393073c4ced8ff19693ccd27d55d0214c57712390c0ab6ae1d35"
+        }
+      ]
+    },
+    {
+      "route": "#/fase/f01",
+      "role": "Detalle de una fase con sus conceptos",
+      "state": "fase inicial",
+      "decision": "kept",
+      "reason": "Se conserva como nivel intermedio entre Ruta y ficha; la navegación lo marca como parte de Ruta. Sin formulario propio en esta vista: forms_states no aplica.",
+      "checks": {
+        "navigation": "verified",
+        "responsive_scroll": "verified",
+        "typography_spacing": "verified",
+        "contrast_focus": "verified",
+        "forms_states": "not_applicable",
+        "motion_reduced": "verified",
+        "production_copy": "verified",
+        "niche_fit": "verified"
+      },
+      "evidence": [
+        {
+          "phase": "before",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/before/fase-movil.png",
+          "sha256": "6594f7d65c3bc3b285364d6735e1716a02e19258bd0bea296b7633b2be639073"
+        },
+        {
+          "phase": "before",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/before/fase-escritorio.png",
+          "sha256": "85ded1bef124e027c858d5c9babe43cc4a2fa08d4b9d3083028dbf668f5d1a53"
+        },
+        {
+          "phase": "after",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/after/fase-movil.png",
+          "sha256": "ffdf8caa59eda008ed02f56c8dfbf9ec23730fa56f2782486ee946ebc043f223"
+        },
+        {
+          "phase": "after",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/after/fase-escritorio.png",
+          "sha256": "a46125d0d99fb43a15ffcc25b577d015201a307868af33e8397cb1da86df7dd0"
+        }
+      ]
+    },
+    {
+      "route": "#/c/varianza-y-desviacion",
+      "role": "Ficha de concepto con prerrequisitos y práctica",
+      "state": "concepto abierto sin progreso previo",
+      "decision": "kept",
+      "reason": "La ficha es el destino real del estudio; el rediseño mejora la lectura y añade el estado de sección, sin cambiar su contenido. Sin formulario propio en esta vista: forms_states no aplica.",
+      "checks": {
+        "navigation": "verified",
+        "responsive_scroll": "verified",
+        "typography_spacing": "verified",
+        "contrast_focus": "verified",
+        "forms_states": "not_applicable",
+        "motion_reduced": "verified",
+        "production_copy": "verified",
+        "niche_fit": "verified"
+      },
+      "evidence": [
+        {
+          "phase": "before",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/before/concepto-movil.png",
+          "sha256": "0385568d4540f261eebfef8e98539c83b649416c3a8af9cc03347732f76ac3b9"
+        },
+        {
+          "phase": "before",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/before/concepto-escritorio.png",
+          "sha256": "2e6252e35145fbe954dfeb387111e5c8106b999e1dd0b20a1bdc502a96d6d566"
+        },
+        {
+          "phase": "after",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/after/concepto-movil.png",
+          "sha256": "3093708192456ca794eab08b14dc78abeafbe82fe0984b3bcf5e09afa49be0ff"
+        },
+        {
+          "phase": "after",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/after/concepto-escritorio.png",
+          "sha256": "097ee2c595740cd7a41fb1e260d09601c776ab876701370119180cace983ad50"
+        }
+      ]
+    },
+    {
+      "route": "#/buscar/regresi",
+      "role": "Búsqueda con resultados en vivo",
+      "state": "consulta de ejemplo",
+      "decision": "kept",
+      "reason": "Buscar sube a destino primario; la página ya tenía campo, resultados y estados vacíos, y se conserva tal cual.",
+      "checks": {
+        "navigation": "verified",
+        "responsive_scroll": "verified",
+        "typography_spacing": "verified",
+        "contrast_focus": "verified",
+        "forms_states": "verified",
+        "motion_reduced": "verified",
+        "production_copy": "verified",
+        "niche_fit": "verified"
+      },
+      "evidence": [
+        {
+          "phase": "before",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/before/buscar-movil.png",
+          "sha256": "09ecbf5e7e347141bf7794d1b8d8452d855a46e80eacdcaf9bd06ca6728ad9bf"
+        },
+        {
+          "phase": "before",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/before/buscar-escritorio.png",
+          "sha256": "c5a5be4679264956b959ed173c8e33f20e550d3ebc731723cb95d83df9a98ad7"
+        },
+        {
+          "phase": "after",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/after/buscar-movil.png",
+          "sha256": "1386f0504d2f07e21946792cb8fcdf9f325913e60c0acdd5daa711e48db50b8f"
+        },
+        {
+          "phase": "after",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/after/buscar-escritorio.png",
+          "sha256": "1a1b49bc4c01c516156a97a82d230d0eac70f6ce57cef97a42a359d57d433d69"
+        }
+      ]
+    },
+    {
+      "route": "#/ruta/ds",
+      "role": "Itinerario de una ruta de estudio",
+      "state": "itinerario sin empezar",
+      "decision": "kept",
+      "reason": "Se mantiene como vista de detalle de Ruta; comparte la marca de sección con el plan.",
+      "checks": {
+        "navigation": "verified",
+        "responsive_scroll": "verified",
+        "typography_spacing": "verified",
+        "contrast_focus": "verified",
+        "forms_states": "verified",
+        "motion_reduced": "verified",
+        "production_copy": "verified",
+        "niche_fit": "verified"
+      },
+      "evidence": [
+        {
+          "phase": "before",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/before/ruta-movil.png",
+          "sha256": "52b5a42f9e76c9da7d9718c680402fa306ca402508751a77cd765e2769789f39"
+        },
+        {
+          "phase": "before",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/before/ruta-escritorio.png",
+          "sha256": "3c10e46187f4907f91dcbabdcf52cc9051712f00d4cb447a57642f72be90af27"
+        },
+        {
+          "phase": "after",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/after/ruta-movil.png",
+          "sha256": "9e5beddc618daa9bbbb3c081a82f385795996750162f0c45cbc4f0a780f7cd68"
+        },
+        {
+          "phase": "after",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/after/ruta-escritorio.png",
+          "sha256": "a427a7802acf39d82c7fe6a9561fecf03af45518f0b654fce42435bdfc66f9cf"
+        }
+      ]
+    },
+    {
+      "route": "#/orientacion",
+      "role": "Cuestionario de orientación inicial",
+      "state": "sin responder",
+      "decision": "kept",
+      "reason": "Formulario de entrada que no se toca en este rediseño; se revisan sus estados de foco y error en la comprobación automática.",
+      "checks": {
+        "navigation": "verified",
+        "responsive_scroll": "verified",
+        "typography_spacing": "verified",
+        "contrast_focus": "verified",
+        "forms_states": "verified",
+        "motion_reduced": "verified",
+        "production_copy": "verified",
+        "niche_fit": "verified"
+      },
+      "evidence": [
+        {
+          "phase": "before",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/before/orientacion-movil.png",
+          "sha256": "149edf26418cde5984638803995c0fd6564460234683a3dd7e60c945a25715e5"
+        },
+        {
+          "phase": "before",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/before/orientacion-escritorio.png",
+          "sha256": "0eb4e897dd13f1654b7a7bc5a68ef0307c30f13fea34fe4dcb0757d1714ddfbe"
+        },
+        {
+          "phase": "after",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/after/orientacion-movil.png",
+          "sha256": "b377f4904034b2e2fd78d2d97c3313d9d639e53555a44ca6f9263eb73b60c519"
+        },
+        {
+          "phase": "after",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/after/orientacion-escritorio.png",
+          "sha256": "d3e3749414b829b4ebb8261f64ac347fa6a6f1287a39791d9234b22c511fed86"
+        }
+      ]
+    },
+    {
+      "route": "#/repaso",
+      "role": "Repaso espaciado",
+      "state": "cola vacía en un usuario nuevo",
+      "decision": "kept",
+      "reason": "Repaso sube a destino primario; la vista conserva su estado vacío explicativo.",
+      "checks": {
+        "navigation": "verified",
+        "responsive_scroll": "verified",
+        "typography_spacing": "verified",
+        "contrast_focus": "verified",
+        "forms_states": "verified",
+        "motion_reduced": "verified",
+        "production_copy": "verified",
+        "niche_fit": "verified"
+      },
+      "evidence": [
+        {
+          "phase": "before",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/before/repaso-movil.png",
+          "sha256": "76dc89c26878136d3996efc217e623aae5301ca560a9645c447f80230b031bb5"
+        },
+        {
+          "phase": "before",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/before/repaso-escritorio.png",
+          "sha256": "1e53ec248d16046a5538a26d011280d476de3826031c5168ab6256efd81433a7"
+        },
+        {
+          "phase": "after",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/after/repaso-movil.png",
+          "sha256": "3705f40dd554bdd9ee469325c7f287f1713e791ad68aa4900c016247f575a438"
+        },
+        {
+          "phase": "after",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/after/repaso-escritorio.png",
+          "sha256": "53b058dbd525b436b3010b0c1a627d1798f088320ed47d5f3839061b9944fcec"
+        }
+      ]
+    },
+    {
+      "route": "#/progreso",
+      "role": "Progreso y notas",
+      "state": "sin actividad",
+      "decision": "kept",
+      "reason": "Progreso sube a destino primario; el rediseño enlaza el avance del lateral con la sección actual. Sin formulario propio en esta vista: forms_states no aplica.",
+      "checks": {
+        "navigation": "verified",
+        "responsive_scroll": "verified",
+        "typography_spacing": "verified",
+        "contrast_focus": "verified",
+        "forms_states": "not_applicable",
+        "motion_reduced": "verified",
+        "production_copy": "verified",
+        "niche_fit": "verified"
+      },
+      "evidence": [
+        {
+          "phase": "before",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/before/progreso-movil.png",
+          "sha256": "34d728571ebfb0925b91f97d08796dcbd6cc3f05c498fd5da0018a245a73d2e1"
+        },
+        {
+          "phase": "before",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/before/progreso-escritorio.png",
+          "sha256": "3be3d2581fe5f4985e96ee58e21cde2653142663a550b2b0ef948c2ce75d9aeb"
+        },
+        {
+          "phase": "after",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/after/progreso-movil.png",
+          "sha256": "da6f83ea9649941f20fab8ff553d077f3dd3b897ed2d563508bd9436c526e522"
+        },
+        {
+          "phase": "after",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/after/progreso-escritorio.png",
+          "sha256": "811f9c5cbbaed5bcc85ed21760e2db52eb11de0878d0977be499f4acf47d747b"
+        }
+      ]
+    },
+    {
+      "route": "#/sesion",
+      "role": "Sesión de repaso en curso",
+      "state": "sin cola, estado vacío",
+      "decision": "kept",
+      "reason": "Se conserva dentro de Repaso; la marca de sección evita que la sesión parezca una página suelta.",
+      "checks": {
+        "navigation": "verified",
+        "responsive_scroll": "verified",
+        "typography_spacing": "verified",
+        "contrast_focus": "verified",
+        "forms_states": "verified",
+        "motion_reduced": "verified",
+        "production_copy": "verified",
+        "niche_fit": "verified"
+      },
+      "evidence": [
+        {
+          "phase": "before",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/before/sesion-movil.png",
+          "sha256": "85dbece3bbb5a3f0e17af98c0a33ffd17b6ff4c78cbbd4b0f1442b797a071088"
+        },
+        {
+          "phase": "before",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/before/sesion-escritorio.png",
+          "sha256": "5ec9c468b987f951c7a0393df5ab04c54a4918a5342f4bb15314fef638d41833"
+        },
+        {
+          "phase": "after",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/after/sesion-movil.png",
+          "sha256": "dc9fbe2dd76d4fac9ed242728a3de58f9f8dff3a492c18ba9fa790e798214d47"
+        },
+        {
+          "phase": "after",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/after/sesion-escritorio.png",
+          "sha256": "10f50a32ef6619d7026ae7b53be93451c56c76787b53e45b14afabdb19c34fec"
+        }
+      ]
+    },
+    {
+      "route": "#/mapa",
+      "role": "Mapa de conceptos",
+      "state": "sin progreso",
+      "decision": "kept",
+      "reason": "Vista de consulta que sigue en Ruta; no se reordena su contenido. Sin formulario propio en esta vista: forms_states no aplica.",
+      "checks": {
+        "navigation": "verified",
+        "responsive_scroll": "verified",
+        "typography_spacing": "verified",
+        "contrast_focus": "verified",
+        "forms_states": "not_applicable",
+        "motion_reduced": "verified",
+        "production_copy": "verified",
+        "niche_fit": "verified"
+      },
+      "evidence": [
+        {
+          "phase": "before",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/before/mapa-movil.png",
+          "sha256": "d24f66fe6e0b98290066d1748246b5fa4b831185d4b899d3ad8f1917b9456bca"
+        },
+        {
+          "phase": "before",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/before/mapa-escritorio.png",
+          "sha256": "ecd35d1f34cd0d34f7c79c7e8f5098f11dcc6198822d3539d2dd22369029e4a1"
+        },
+        {
+          "phase": "after",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/after/mapa-movil.png",
+          "sha256": "b3742f29c67a98512877badbf6503d10b5c9bc79783b6fe75f655eee08436a45"
+        },
+        {
+          "phase": "after",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/after/mapa-escritorio.png",
+          "sha256": "8bcc6d201d3e16880eace0d10c64d5a04efbd81b3afd21a8d2b45a3a66931572"
+        }
+      ]
+    },
+    {
+      "route": "#/glosario",
+      "role": "Glosario de términos",
+      "state": "completo",
+      "decision": "kept",
+      "reason": "Sale de la cabecera para reducir la carga de nueve destinos, pero sigue en el pie y en la búsqueda global. Sin formulario propio en esta vista: forms_states no aplica.",
+      "checks": {
+        "navigation": "verified",
+        "responsive_scroll": "verified",
+        "typography_spacing": "verified",
+        "contrast_focus": "verified",
+        "forms_states": "not_applicable",
+        "motion_reduced": "verified",
+        "production_copy": "verified",
+        "niche_fit": "verified"
+      },
+      "evidence": [
+        {
+          "phase": "before",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/before/glosario-movil.png",
+          "sha256": "70c032a4a81895e1c3df431ad4e96e92d7670f44376534f731bf7670cbfd8d06"
+        },
+        {
+          "phase": "before",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/before/glosario-escritorio.png",
+          "sha256": "28f115a5b80023a94b56618163ea65eadde8b1cde8390d7cf61532d6a1a7d3bf"
+        },
+        {
+          "phase": "after",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/after/glosario-movil.png",
+          "sha256": "c56743470d56c34117f82930bc1940a62917b1d88aa40007c3464f4fbb710f6b"
+        },
+        {
+          "phase": "after",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/after/glosario-escritorio.png",
+          "sha256": "b5a4c3cb9abbdcbac70e079b21ef3b2778a07ab4f87473ab94de8332996ef2f7"
+        }
+      ]
+    },
+    {
+      "route": "#/ayuda",
+      "role": "Ayuda y preguntas frecuentes",
+      "state": "completo",
+      "decision": "kept",
+      "reason": "Se mantiene accesible desde el pie; es una página de consulta, no de uso diario. Sin formulario propio en esta vista: forms_states no aplica.",
+      "checks": {
+        "navigation": "verified",
+        "responsive_scroll": "verified",
+        "typography_spacing": "verified",
+        "contrast_focus": "verified",
+        "forms_states": "not_applicable",
+        "motion_reduced": "verified",
+        "production_copy": "verified",
+        "niche_fit": "verified"
+      },
+      "evidence": [
+        {
+          "phase": "before",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/before/ayuda-movil.png",
+          "sha256": "ee20d7c5224674b0e1d7bdd56b1ad66d29e244580e2235d28c47f442ca495a27"
+        },
+        {
+          "phase": "before",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/before/ayuda-escritorio.png",
+          "sha256": "aed88bc582bf263ff82218d586711b591086118da3c6a2aeb203e3547a9d29aa"
+        },
+        {
+          "phase": "after",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/after/ayuda-movil.png",
+          "sha256": "22b6a84908823434ba2fbff96465cfea7030fccc2157272a85bf148916543ddd"
+        },
+        {
+          "phase": "after",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/after/ayuda-escritorio.png",
+          "sha256": "5efa3766f1c905a5b8edb78cfacb378c6c126400540c85334a32aea4f2b1674c"
+        }
+      ]
+    },
+    {
+      "route": "#/favoritos",
+      "role": "Fichas marcadas como favoritas",
+      "state": "vacío",
+      "decision": "kept",
+      "reason": "Accesible desde el pie; no compite por un destino primario. Sin formulario propio en esta vista: forms_states no aplica.",
+      "checks": {
+        "navigation": "verified",
+        "responsive_scroll": "verified",
+        "typography_spacing": "verified",
+        "contrast_focus": "verified",
+        "forms_states": "not_applicable",
+        "motion_reduced": "verified",
+        "production_copy": "verified",
+        "niche_fit": "verified"
+      },
+      "evidence": [
+        {
+          "phase": "before",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/before/favoritos-movil.png",
+          "sha256": "8a51208604214eb3e2a641ab1438299319a2a51b3251be0fee17bb9de1878773"
+        },
+        {
+          "phase": "before",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/before/favoritos-escritorio.png",
+          "sha256": "5899b463f0130f063357a779112c7b1ea79a84488791ee6ea3c081afa2e36f06"
+        },
+        {
+          "phase": "after",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/after/favoritos-movil.png",
+          "sha256": "648a6037f10b214514a5a923734501bd80b9add9f50f62f63622e82042bf48e4"
+        },
+        {
+          "phase": "after",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/after/favoritos-escritorio.png",
+          "sha256": "dc9fcccf53e929887add377310a5cffd79222236a5db9719c6b69aabecac58d9"
+        }
+      ]
+    },
+    {
+      "route": "#/diagnostico",
+      "role": "Diagnóstico de conocimientos",
+      "state": "sin empezar",
+      "decision": "kept",
+      "reason": "Formulario de evaluación inicial; se conserva y se agrupa visualmente en Ruta.",
+      "checks": {
+        "navigation": "verified",
+        "responsive_scroll": "verified",
+        "typography_spacing": "verified",
+        "contrast_focus": "verified",
+        "forms_states": "verified",
+        "motion_reduced": "verified",
+        "production_copy": "verified",
+        "niche_fit": "verified"
+      },
+      "evidence": [
+        {
+          "phase": "before",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/before/diagnostico-movil.png",
+          "sha256": "6b30dcf02ea0f28f95f2586739001a21f91266bb8df0ff7cdbff42a4f6f833cc"
+        },
+        {
+          "phase": "before",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/before/diagnostico-escritorio.png",
+          "sha256": "a1837402680d1cb6764ec725cdbb651e6c6ea93c49f567b3378252149dfe4ecc"
+        },
+        {
+          "phase": "after",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/after/diagnostico-movil.png",
+          "sha256": "18cfbd77b4349df9db4da86062dfe5e8c928df226e141bf046cf4a81314b8dab"
+        },
+        {
+          "phase": "after",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/after/diagnostico-escritorio.png",
+          "sha256": "6e75f6f7c59cc116d188bab6336051847fb7dadab89820845c2da50305249aa4"
+        }
+      ]
+    },
+    {
+      "route": "#/entrar",
+      "role": "Acceso a la cuenta",
+      "state": "sin plataforma conectada: aviso de portal sin cuentas",
+      "decision": "kept",
+      "reason": "Con config.js vacío no hay servicio de cuentas: la vista enseña el aviso de portal sin cuentas y no hay formulario que probar. Sin formulario propio en esta vista: forms_states no aplica.",
+      "checks": {
+        "navigation": "verified",
+        "responsive_scroll": "verified",
+        "typography_spacing": "verified",
+        "contrast_focus": "verified",
+        "forms_states": "not_applicable",
+        "motion_reduced": "verified",
+        "production_copy": "verified",
+        "niche_fit": "verified"
+      },
+      "evidence": [
+        {
+          "phase": "before",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/before/entrar-movil.png",
+          "sha256": "e9725d314a235a4c776edc4c1f7a13b028700c8bf58ba77bb161ea00208d475d"
+        },
+        {
+          "phase": "before",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/before/entrar-escritorio.png",
+          "sha256": "003851647fc8eaf0bf22ad732fefdc84a234c7ddfbb4d9ea1f55b4f2c51982fa"
+        },
+        {
+          "phase": "after",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/after/entrar-movil.png",
+          "sha256": "b68fb95eefca5242ddeab1fb0ee7ea960af17b6f4a0964e890596f991e76d6b4"
+        },
+        {
+          "phase": "after",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/after/entrar-escritorio.png",
+          "sha256": "1f0788c91119fe715ba71343553abfda892eb93ec3a1b65906fdb801b4f5288b"
+        }
+      ]
+    },
+    {
+      "route": "#/esto-no-existe",
+      "role": "Dirección inexistente",
+      "state": "hash desconocido",
+      "decision": "kept",
+      "reason": "Página de error deliberada; no se marca ningún destino como actual y ofrece salidas a Inicio y Buscar. Sin formulario propio en esta vista: forms_states no aplica.",
+      "checks": {
+        "navigation": "verified",
+        "responsive_scroll": "verified",
+        "typography_spacing": "verified",
+        "contrast_focus": "verified",
+        "forms_states": "not_applicable",
+        "motion_reduced": "verified",
+        "production_copy": "verified",
+        "niche_fit": "verified"
+      },
+      "evidence": [
+        {
+          "phase": "before",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/before/no-encontrada-movil.png",
+          "sha256": "99488f6f313d9e0345e533941c623373d9d9956a4193b1ad8921a0574626b566"
+        },
+        {
+          "phase": "before",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/before/no-encontrada-escritorio.png",
+          "sha256": "04359e15f1e2cde9b7811f5f0c22db1572c485824b65ea63dad38a51ac26e21d"
+        },
+        {
+          "phase": "after",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/after/no-encontrada-movil.png",
+          "sha256": "67d79543bca762db1053529abeb1cec94ac8203877a3fc98c16054aebcf8c43a"
+        },
+        {
+          "phase": "after",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/after/no-encontrada-escritorio.png",
+          "sha256": "30cebe7ef269daa016e166cb90331b330d2599ff28acb83c8366c9f7988996eb"
+        }
+      ]
+    },
+    {
+      "route": "#/dudas",
+      "role": "Bandeja de dudas con el tutor",
+      "state": "sin dudas abiertas",
+      "decision": "kept",
+      "reason": "Página de consulta con formulario propio de duda; el rediseño no la reordena y se comprueba su estado vacío.",
+      "checks": {
+        "navigation": "verified",
+        "responsive_scroll": "verified",
+        "typography_spacing": "verified",
+        "contrast_focus": "verified",
+        "forms_states": "verified",
+        "motion_reduced": "verified",
+        "production_copy": "verified",
+        "niche_fit": "verified"
+      },
+      "evidence": [
+        {
+          "phase": "before",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/before/dudas-movil.png",
+          "sha256": "f233fad8de56300be518ceaf2fb2669820401f41518e519509a51b7284c147da"
+        },
+        {
+          "phase": "before",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/before/dudas-escritorio.png",
+          "sha256": "d5d4a599fa4ef5fd3f8a326ed03a32702c8d979261b1d5946bed57a8ebc0d955"
+        },
+        {
+          "phase": "after",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/after/dudas-movil.png",
+          "sha256": "4ce8035100f9f3b9ba242b5373602810f8d1549607d5ed2dd8761f23ca9d4f70"
+        },
+        {
+          "phase": "after",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/after/dudas-escritorio.png",
+          "sha256": "6d1c961f5f3f45ee9b2510d472b56542aa26af60baf787f11a3ac521aa8ff799"
+        }
+      ]
+    },
+    {
+      "route": "#/notas",
+      "role": "Notas personales con buscador",
+      "state": "sin notas guardadas",
+      "decision": "kept",
+      "reason": "Formulario de búsqueda y lista de notas locales; se conserva y se documenta su estado vacío.",
+      "checks": {
+        "navigation": "verified",
+        "responsive_scroll": "verified",
+        "typography_spacing": "verified",
+        "contrast_focus": "verified",
+        "forms_states": "verified",
+        "motion_reduced": "verified",
+        "production_copy": "verified",
+        "niche_fit": "verified"
+      },
+      "evidence": [
+        {
+          "phase": "before",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/before/notas-movil.png",
+          "sha256": "105381bfcbce44334bbfce66f2c43b1c0ed01f271dc4c3a21c82f4b23d283c6c"
+        },
+        {
+          "phase": "before",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/before/notas-escritorio.png",
+          "sha256": "b377f26acc28567789782391b8dd69a6df8d45af67b81f1bd177b1284090d3d4"
+        },
+        {
+          "phase": "after",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/after/notas-movil.png",
+          "sha256": "0e0acded871689b8edb48d332fa296852fba76c2cfbb76c84e2eee158a1a6b35"
+        },
+        {
+          "phase": "after",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/after/notas-escritorio.png",
+          "sha256": "61fff39e06883b9a8a193977985b5129906e30ca76d4c268edc5574f7f639ddd"
+        }
+      ]
+    },
+    {
+      "route": "#/ejecutar",
+      "role": "Ejecutar ejercicios y dependencias",
+      "state": "guía estática, sin sesión",
+      "decision": "kept",
+      "reason": "Guía estática con tabla de dependencias y bloques de comandos; sin formulario propio. Sin formulario propio en esta vista: forms_states no aplica.",
+      "checks": {
+        "navigation": "verified",
+        "responsive_scroll": "verified",
+        "typography_spacing": "verified",
+        "contrast_focus": "verified",
+        "forms_states": "not_applicable",
+        "motion_reduced": "verified",
+        "production_copy": "verified",
+        "niche_fit": "verified"
+      },
+      "evidence": [
+        {
+          "phase": "before",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/before/ejecutar-movil.png",
+          "sha256": "c954fcae4acb6283b810b9bb52ae9df8d750d5631085bb2e35c690a0d9d36628"
+        },
+        {
+          "phase": "before",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/before/ejecutar-escritorio.png",
+          "sha256": "460c078f90df08246d1d78a738e9283d1a4bddad6cdf4c21953afa1c9e8f9704"
+        },
+        {
+          "phase": "after",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/after/ejecutar-movil.png",
+          "sha256": "ebb0ca273326f737f29df56b0928cf1b2e338ffd6c13a0e1f122c95e803ee07c"
+        },
+        {
+          "phase": "after",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/after/ejecutar-escritorio.png",
+          "sha256": "54fe7d53a6ba901827b4481588796b818b2e34aed23bbd6e34621a1e17e28432"
+        }
+      ]
+    },
+    {
+      "route": "#/registro",
+      "role": "Alta de cuenta",
+      "state": "sin plataforma conectada",
+      "decision": "kept",
+      "reason": "Con config.js vacío muestra el aviso de portal sin cuentas; no hay formulario que probar. Sin formulario propio en esta vista: forms_states no aplica.",
+      "checks": {
+        "navigation": "verified",
+        "responsive_scroll": "verified",
+        "typography_spacing": "verified",
+        "contrast_focus": "verified",
+        "forms_states": "not_applicable",
+        "motion_reduced": "verified",
+        "production_copy": "verified",
+        "niche_fit": "verified"
+      },
+      "evidence": [
+        {
+          "phase": "before",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/before/registro-movil.png",
+          "sha256": "2b318b59abdda1bf034003d1b91be1e8f7eba22b0c2eab9c1b5b89ec5563e175"
+        },
+        {
+          "phase": "before",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/before/registro-escritorio.png",
+          "sha256": "063f14f41ae4043c694b12e0ec2bd14273c61752a118f91d8a522f279607469b"
+        },
+        {
+          "phase": "after",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/after/registro-movil.png",
+          "sha256": "5a0f6af6319e93b7879f7bdffe3c56e71dfe4191427ad5beef81dac63ca1de89"
+        },
+        {
+          "phase": "after",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/after/registro-escritorio.png",
+          "sha256": "3247567cb85014eaa6040e30db924fdaa8871b330178bb974d538cca39457351"
+        }
+      ]
+    },
+    {
+      "route": "#/recuperar",
+      "role": "Recuperación de acceso",
+      "state": "sin plataforma conectada",
+      "decision": "kept",
+      "reason": "Con config.js vacío muestra el aviso de portal sin cuentas; no hay formulario que probar. Sin formulario propio en esta vista: forms_states no aplica.",
+      "checks": {
+        "navigation": "verified",
+        "responsive_scroll": "verified",
+        "typography_spacing": "verified",
+        "contrast_focus": "verified",
+        "forms_states": "not_applicable",
+        "motion_reduced": "verified",
+        "production_copy": "verified",
+        "niche_fit": "verified"
+      },
+      "evidence": [
+        {
+          "phase": "before",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/before/recuperar-movil.png",
+          "sha256": "b007aae16b7980d6ce3396e978da64aa80fe5719dc70eee574a6485dc1d207ef"
+        },
+        {
+          "phase": "before",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/before/recuperar-escritorio.png",
+          "sha256": "b9bae40a7d5638f44dc65b3c42924d2efef07639708970ef5b33c26a943a3c1e"
+        },
+        {
+          "phase": "after",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/after/recuperar-movil.png",
+          "sha256": "cbc23a7ba7264ffc21bcc91d54d6a37e3113049de5427396bc534d89f7cfa9b0"
+        },
+        {
+          "phase": "after",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/after/recuperar-escritorio.png",
+          "sha256": "168eb3447f3f2b17375b63cf4168976357ca4ce417177c9770a6a16dc74d69d6"
+        }
+      ]
+    },
+    {
+      "route": "#/cuenta",
+      "role": "Cuenta y datos del usuario",
+      "state": "sin sesión ni plataforma",
+      "decision": "kept",
+      "reason": "Muestra el aviso de portal sin cuentas y no expone datos personales; sin formulario propio. Sin formulario propio en esta vista: forms_states no aplica.",
+      "checks": {
+        "navigation": "verified",
+        "responsive_scroll": "verified",
+        "typography_spacing": "verified",
+        "contrast_focus": "verified",
+        "forms_states": "not_applicable",
+        "motion_reduced": "verified",
+        "production_copy": "verified",
+        "niche_fit": "verified"
+      },
+      "evidence": [
+        {
+          "phase": "before",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/before/cuenta-movil.png",
+          "sha256": "aefb65f76b445aaa4610320ac8d30121adbafd5da25911f7bb2e38368d272ebd"
+        },
+        {
+          "phase": "before",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/before/cuenta-escritorio.png",
+          "sha256": "d14fe299c259dda1e2b4c0ddb2796092624b62647eaeee4a019aa14ac5e0d6bf"
+        },
+        {
+          "phase": "after",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/after/cuenta-movil.png",
+          "sha256": "94b392e631bf8cd97c1412da7584210748ce2ec6f1b41eb0c611d17e58a220a3"
+        },
+        {
+          "phase": "after",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/after/cuenta-escritorio.png",
+          "sha256": "931c29bda1be3e456dd90a3107c76693369aaa0a4edc6c71e6daab7caa35af8c"
+        }
+      ]
+    },
+    {
+      "route": "#/analitica",
+      "role": "Transparencia de la medición",
+      "state": "sin servicio de analítica",
+      "decision": "kept",
+      "reason": "Con config.js vacío declara «No se mide nada» y lista lo que no se guarda; sin formulario propio. Sin formulario propio en esta vista: forms_states no aplica.",
+      "checks": {
+        "navigation": "verified",
+        "responsive_scroll": "verified",
+        "typography_spacing": "verified",
+        "contrast_focus": "verified",
+        "forms_states": "not_applicable",
+        "motion_reduced": "verified",
+        "production_copy": "verified",
+        "niche_fit": "verified"
+      },
+      "evidence": [
+        {
+          "phase": "before",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/before/analitica-movil.png",
+          "sha256": "6e3279eb2934096a92c7028887dde1f09383418a4e26659c71e90f078514709d"
+        },
+        {
+          "phase": "before",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/before/analitica-escritorio.png",
+          "sha256": "2e6752b97702d05e0dca44bff5de52d02230ffdc87807847ac01def032246c71"
+        },
+        {
+          "phase": "after",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/after/analitica-movil.png",
+          "sha256": "beb3e30feda2628fd9e4c6a5916507b8d323e99e28d80b9a6f699b6dd0e1429d"
+        },
+        {
+          "phase": "after",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/after/analitica-escritorio.png",
+          "sha256": "54c71163f39bf1d81d2385e10948ae5ded19d187bcc64abca41a7276620604c1"
+        }
+      ]
+    },
+    {
+      "route": "#/precios",
+      "role": "Planes de apoyo al portal",
+      "state": "planes cargados, cobro sin conectar",
+      "decision": "kept",
+      "reason": "La tabla sale de planes.json y el botón avisa de que el cobro no está conectado; sin formulario propio. Sin formulario propio en esta vista: forms_states no aplica.",
+      "checks": {
+        "navigation": "verified",
+        "responsive_scroll": "verified",
+        "typography_spacing": "verified",
+        "contrast_focus": "verified",
+        "forms_states": "not_applicable",
+        "motion_reduced": "verified",
+        "production_copy": "verified",
+        "niche_fit": "verified"
+      },
+      "evidence": [
+        {
+          "phase": "before",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/before/precios-movil.png",
+          "sha256": "67838867b973cb537b7463b537ed0bdbd4dba4c92ddef1d9993c1866ff814628"
+        },
+        {
+          "phase": "before",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/before/precios-escritorio.png",
+          "sha256": "082b994137f5761d8c293a6f0d46ed311bdb0cc7ed3a0f4a41c7dd29b53e1d3f"
+        },
+        {
+          "phase": "after",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/after/precios-movil.png",
+          "sha256": "e69347ae5257cdf70125e79f539fae1f2dbc58afedae1c7a48f214e1cb442350"
+        },
+        {
+          "phase": "after",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/after/precios-escritorio.png",
+          "sha256": "cec52e2d11997c31f86136b262cb34656674af8a00343efbaa31cf4330186ac5"
+        }
+      ]
+    },
+    {
+      "route": "#/experimentos",
+      "role": "Experimentos con datos",
+      "state": "manifiesto de datasets cargado",
+      "decision": "kept",
+      "reason": "Lista los experimentos del manifiesto con estados de carga y de error con reintento; sin formulario propio. Sin formulario propio en esta vista: forms_states no aplica.",
+      "checks": {
+        "navigation": "verified",
+        "responsive_scroll": "verified",
+        "typography_spacing": "verified",
+        "contrast_focus": "verified",
+        "forms_states": "not_applicable",
+        "motion_reduced": "verified",
+        "production_copy": "verified",
+        "niche_fit": "verified"
+      },
+      "evidence": [
+        {
+          "phase": "before",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/before/experimentos-movil.png",
+          "sha256": "169ef8be5e7f5c4da888f2c097ff3bc78382c2d6282b40cc2d23c31054a44eea"
+        },
+        {
+          "phase": "before",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/before/experimentos-escritorio.png",
+          "sha256": "ebea196d1461a3219472c80908a5f67e147667829d1b072521f8f1537131f9e9"
+        },
+        {
+          "phase": "after",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/after/experimentos-movil.png",
+          "sha256": "73a76cfc8f4c58e091110423fc6f9241106fc008b240ff66558f95787f6ebde4"
+        },
+        {
+          "phase": "after",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/after/experimentos-escritorio.png",
+          "sha256": "4f8dc79906b301d25f7cfaee97b2313a323fd458d39b777dc31f5cfb1bb3d024"
+        }
+      ]
+    },
+    {
+      "route": "#/laboratorios",
+      "role": "Laboratorios con datos",
+      "state": "manifiesto de datasets cargado",
+      "decision": "kept",
+      "reason": "Laboratorio L01 con gráfica y tabla a partir de datasets; sin formulario propio. Sin formulario propio en esta vista: forms_states no aplica.",
+      "checks": {
+        "navigation": "verified",
+        "responsive_scroll": "verified",
+        "typography_spacing": "verified",
+        "contrast_focus": "verified",
+        "forms_states": "not_applicable",
+        "motion_reduced": "verified",
+        "production_copy": "verified",
+        "niche_fit": "verified"
+      },
+      "evidence": [
+        {
+          "phase": "before",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/before/laboratorios-movil.png",
+          "sha256": "060f7adceb040d1d36ec311536fc5a2b5a415e135fc0d1701afee2758ad08ddc"
+        },
+        {
+          "phase": "before",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/before/laboratorios-escritorio.png",
+          "sha256": "2ac6de04e18742882813c128239e12de441a6d1b8479f1b8316d31ef31fd1303"
+        },
+        {
+          "phase": "after",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/after/laboratorios-movil.png",
+          "sha256": "81db3aa7ec1eb8595f6c2ec3bc49b4aecf2fbfd3efc360ed177f5a9b37f169b7"
+        },
+        {
+          "phase": "after",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/after/laboratorios-escritorio.png",
+          "sha256": "6d60e7df07789bf1cbd8719fea185d7ce070cc8e8bb60bbc74e2f59f4fbae3b8"
+        }
+      ]
+    },
+    {
+      "route": "#/proyecto",
+      "role": "Espacio de entrega de un proyecto",
+      "state": "borrador vacío",
+      "decision": "kept",
+      "reason": "Formulario de entrega con borrador local, historial y aviso de rechazo; se revisan sus estados de formulario.",
+      "checks": {
+        "navigation": "verified",
+        "responsive_scroll": "verified",
+        "typography_spacing": "verified",
+        "contrast_focus": "verified",
+        "forms_states": "verified",
+        "motion_reduced": "verified",
+        "production_copy": "verified",
+        "niche_fit": "verified"
+      },
+      "evidence": [
+        {
+          "phase": "before",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/before/proyecto-movil.png",
+          "sha256": "2c2e70f1b0b59c508d39a2d4851f7cb9c428a5743d57b135c01e16fba9a76691"
+        },
+        {
+          "phase": "before",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/before/proyecto-escritorio.png",
+          "sha256": "dc8ef967ebdc9131f8d98d3e64273d399b4604088a05b896d4fb13d043ce2fbf"
+        },
+        {
+          "phase": "after",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/after/proyecto-movil.png",
+          "sha256": "9686a5ed8371d9d2299eb2fa00775b0164a932726560af0d291a58b53d758d7e"
+        },
+        {
+          "phase": "after",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/after/proyecto-escritorio.png",
+          "sha256": "31eff3a3d5bff5906b3521a31f46c6369aa7c9030d5e2396971d3db7b9c90c7a"
+        }
+      ]
+    },
+    {
+      "route": "#/proyectos",
+      "role": "Catálogo de proyectos",
+      "state": "listado completo",
+      "decision": "kept",
+      "reason": "Listado de proyectos con hitos y rúbrica; sin formulario propio. Sin formulario propio en esta vista: forms_states no aplica.",
+      "checks": {
+        "navigation": "verified",
+        "responsive_scroll": "verified",
+        "typography_spacing": "verified",
+        "contrast_focus": "verified",
+        "forms_states": "not_applicable",
+        "motion_reduced": "verified",
+        "production_copy": "verified",
+        "niche_fit": "verified"
+      },
+      "evidence": [
+        {
+          "phase": "before",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/before/proyectos-movil.png",
+          "sha256": "c8ee005dcacea3bbc818a530a84c52be67bccc4258d6973711ee0130fab5e4a7"
+        },
+        {
+          "phase": "before",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/before/proyectos-escritorio.png",
+          "sha256": "25ff758f6303b29d74979df747ebdde9ea86848dab3b422fe1db3120a05217a9"
+        },
+        {
+          "phase": "after",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/after/proyectos-movil.png",
+          "sha256": "7e38937c42bc5e166752ca38a84d62797aedc2b24f781a53aba5b5ebde2e2ff3"
+        },
+        {
+          "phase": "after",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/after/proyectos-escritorio.png",
+          "sha256": "f7d9d852b805bcbf418b7272381aa0a605cc8a23a9c4e3e7bebc32ea27383962"
+        }
+      ]
+    },
+    {
+      "route": "#/informe",
+      "role": "Informe de portafolio",
+      "state": "sin entregas",
+      "decision": "kept",
+      "reason": "Tabla de cobertura, retención y práctica con siguiente paso; sin formulario propio. Sin formulario propio en esta vista: forms_states no aplica.",
+      "checks": {
+        "navigation": "verified",
+        "responsive_scroll": "verified",
+        "typography_spacing": "verified",
+        "contrast_focus": "verified",
+        "forms_states": "not_applicable",
+        "motion_reduced": "verified",
+        "production_copy": "verified",
+        "niche_fit": "verified"
+      },
+      "evidence": [
+        {
+          "phase": "before",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/before/informe-movil.png",
+          "sha256": "44984af109d807a542e0d2b24ba6b00fcd033a522fe9821a2728b09b3ad1ccde"
+        },
+        {
+          "phase": "before",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/before/informe-escritorio.png",
+          "sha256": "1e685b409434d2cdb3fa75297c6e2ed68a8e989cd3d6887779717303d55e8185"
+        },
+        {
+          "phase": "after",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/after/informe-movil.png",
+          "sha256": "b4d5e0cbf0ef4c684d78e61713793207f25c68c867823c9d7d482df21f6fc253"
+        },
+        {
+          "phase": "after",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/after/informe-escritorio.png",
+          "sha256": "edb7871fc09cf33fc94f71f1159f01f1c95aecc847f5269b9caf23262908f64a"
+        }
+      ]
+    },
+    {
+      "route": "#/conflictos",
+      "role": "Conflictos de sincronización",
+      "state": "sin conflictos",
+      "decision": "kept",
+      "reason": "Estado vacío sin acciones; los botones de decisión solo aparecen cuando hay variantes que comparar. Sin formulario propio en esta vista: forms_states no aplica.",
+      "checks": {
+        "navigation": "verified",
+        "responsive_scroll": "verified",
+        "typography_spacing": "verified",
+        "contrast_focus": "verified",
+        "forms_states": "not_applicable",
+        "motion_reduced": "verified",
+        "production_copy": "verified",
+        "niche_fit": "verified"
+      },
+      "evidence": [
+        {
+          "phase": "before",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/before/conflictos-movil.png",
+          "sha256": "dba6213286134eb95d6f5da84ceb20a8165b2a0ccd08bf6f470c8b63ffb0df2d"
+        },
+        {
+          "phase": "before",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/before/conflictos-escritorio.png",
+          "sha256": "6099acbed82f7e5d445dfec9751ade182b1abca79018a477aaebccbabd7ea16d"
+        },
+        {
+          "phase": "after",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/after/conflictos-movil.png",
+          "sha256": "832263ef195e116a778b65a22b753ec3efa417e8e9847bf5dadcdf7e8f5dd8d4"
+        },
+        {
+          "phase": "after",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/after/conflictos-escritorio.png",
+          "sha256": "5750bb1d4e3e58b6f3849bdf55c5a12c38d052321109f6eb11f957e9a2e30b8a"
+        }
+      ]
+    },
+    {
+      "route": "#/transferencia",
+      "role": "Importar y exportar progreso",
+      "state": "sin cuenta, sin fichero elegido",
+      "decision": "kept",
+      "reason": "Importación por selector de fichero y comparación equipo/cuenta; controles propios sin elemento form. Sin formulario propio en esta vista: forms_states no aplica.",
+      "checks": {
+        "navigation": "verified",
+        "responsive_scroll": "verified",
+        "typography_spacing": "verified",
+        "contrast_focus": "verified",
+        "forms_states": "not_applicable",
+        "motion_reduced": "verified",
+        "production_copy": "verified",
+        "niche_fit": "verified"
+      },
+      "evidence": [
+        {
+          "phase": "before",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/before/transferencia-movil.png",
+          "sha256": "b63d08fb88da000fba6c9c68b8b24900c9ee8bc60be89f4155f501396a853591"
+        },
+        {
+          "phase": "before",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/before/transferencia-escritorio.png",
+          "sha256": "a24e5e32e802606a8b270c55fb641e80fc84ce48a7f29ce423d94f2283799684"
+        },
+        {
+          "phase": "after",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/after/transferencia-movil.png",
+          "sha256": "653112b6df1cd37ba59c325ae9cc18caa7ca8ca2f4cd6be434cae933ef6ceaf7"
+        },
+        {
+          "phase": "after",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/after/transferencia-escritorio.png",
+          "sha256": "db61bc2fe5628ead218d14222c91fa0dd10002789a56509c48039a2ba86713bd"
+        }
+      ]
+    },
+    {
+      "route": "#/paquetes",
+      "role": "Paquetes de contenido",
+      "state": "sin paquete elegido",
+      "decision": "kept",
+      "reason": "Selector y botones de descarga; controles propios sin elemento form. Sin formulario propio en esta vista: forms_states no aplica.",
+      "checks": {
+        "navigation": "verified",
+        "responsive_scroll": "verified",
+        "typography_spacing": "verified",
+        "contrast_focus": "verified",
+        "forms_states": "not_applicable",
+        "motion_reduced": "verified",
+        "production_copy": "verified",
+        "niche_fit": "verified"
+      },
+      "evidence": [
+        {
+          "phase": "before",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/before/paquetes-movil.png",
+          "sha256": "1124ce5f811cdaa3837c59adf6b798ca123c1a81893aed4d11f27d43f4940191"
+        },
+        {
+          "phase": "before",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/before/paquetes-escritorio.png",
+          "sha256": "f419db481949897be3aba064a065175b33d5b7eac5474230cecd2bee85e6f950"
+        },
+        {
+          "phase": "after",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/after/paquetes-movil.png",
+          "sha256": "8d1720d0068d7a60d00c7bf2d30d71645f4a90e5d776399701329cc934b26159"
+        },
+        {
+          "phase": "after",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/after/paquetes-escritorio.png",
+          "sha256": "2b89b62602eec2b2f22c4ed008c5f114232cd082bce5178849fb2fd7635032b1"
+        }
+      ]
+    },
+    {
+      "route": "#/incidencia",
+      "role": "Aviso de incidencia",
+      "state": "formulario vacío",
+      "decision": "kept",
+      "reason": "Formulario propio que prepara el aviso con contexto técnico y lo guarda en la sesión; se revisan sus estados.",
+      "checks": {
+        "navigation": "verified",
+        "responsive_scroll": "verified",
+        "typography_spacing": "verified",
+        "contrast_focus": "verified",
+        "forms_states": "verified",
+        "motion_reduced": "verified",
+        "production_copy": "verified",
+        "niche_fit": "verified"
+      },
+      "evidence": [
+        {
+          "phase": "before",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/before/incidencia-movil.png",
+          "sha256": "2aef57e59d81630f2a0895da19aaa0fd457e40cdfd80d979714cd5cebfe024a7"
+        },
+        {
+          "phase": "before",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/before/incidencia-escritorio.png",
+          "sha256": "f49e0e07141dbc636ee579e7ecdc020fb78486e873750a8a8bfe9e636635d74b"
+        },
+        {
+          "phase": "after",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/after/incidencia-movil.png",
+          "sha256": "a76100645441e8315818b0c6d641cfa3095983e6aec2bd78007c3ed1b160720e"
+        },
+        {
+          "phase": "after",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/after/incidencia-escritorio.png",
+          "sha256": "b062c603873b489b42b7f2bf53eb57cb39ea48ebba9c43289179d663b97e8d88"
+        }
+      ]
+    },
+    {
+      "route": "#/avisos",
+      "role": "Avisos del portal",
+      "state": "sin avisos visibles",
+      "decision": "kept",
+      "reason": "Lista de avisos con preferencias por tipo; controles propios sin elemento form. Sin formulario propio en esta vista: forms_states no aplica.",
+      "checks": {
+        "navigation": "verified",
+        "responsive_scroll": "verified",
+        "typography_spacing": "verified",
+        "contrast_focus": "verified",
+        "forms_states": "not_applicable",
+        "motion_reduced": "verified",
+        "production_copy": "verified",
+        "niche_fit": "verified"
+      },
+      "evidence": [
+        {
+          "phase": "before",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/before/avisos-movil.png",
+          "sha256": "4903b7b5cbf1827860da3b76d0ada56233fa9cd76f3eae7e42bf79c8d6fed9ca"
+        },
+        {
+          "phase": "before",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/before/avisos-escritorio.png",
+          "sha256": "44b16ba44b5f069b6da47e1ef99d8f07e025ef2e8b42cfd39fb312ddb5609c57"
+        },
+        {
+          "phase": "after",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/after/avisos-movil.png",
+          "sha256": "a80f183ec0b6c48735b44e1cffb452f2fb58d9628efc838e6306af519ba663fd"
+        },
+        {
+          "phase": "after",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/after/avisos-escritorio.png",
+          "sha256": "31710dd3988373e92a040a165e443d41d528babc72b95efb8acec2d690608e58"
+        }
+      ]
+    },
+    {
+      "route": "#/recordatorios",
+      "role": "Recordatorios opt-in",
+      "state": "sin permiso concedido",
+      "decision": "kept",
+      "reason": "Botones de activar y desactivar con estado vacío explicativo; controles propios sin elemento form. Sin formulario propio en esta vista: forms_states no aplica.",
+      "checks": {
+        "navigation": "verified",
+        "responsive_scroll": "verified",
+        "typography_spacing": "verified",
+        "contrast_focus": "verified",
+        "forms_states": "not_applicable",
+        "motion_reduced": "verified",
+        "production_copy": "verified",
+        "niche_fit": "verified"
+      },
+      "evidence": [
+        {
+          "phase": "before",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/before/recordatorios-movil.png",
+          "sha256": "d7db1639bd5787acda28606fb6e97278fdedfe13d90e9f01a8a5919af5e739e3"
+        },
+        {
+          "phase": "before",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/before/recordatorios-escritorio.png",
+          "sha256": "a2006722d05fef471ba70a3b15d8e3bb6b5f7265e860b0f5d114a77a6be24a53"
+        },
+        {
+          "phase": "after",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/after/recordatorios-movil.png",
+          "sha256": "99996c3a79838db7ff149478f645ced5f4eda7b7ec7d87567325314352dc3da3"
+        },
+        {
+          "phase": "after",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/after/recordatorios-escritorio.png",
+          "sha256": "18e5b87adc37bfc1341b240bb4222c2ee9ea8ec0e595b3515d5a96bb1ebbffb0"
+        }
+      ]
+    },
+    {
+      "route": "#/legal/privacidad",
+      "role": "Texto legal de privacidad",
+      "state": "contenido generado desde plataforma/legal",
+      "decision": "kept",
+      "reason": "Página de lectura generada por el build a partir de plataforma/legal; sin formulario propio y sin destino de navegación. Sin formulario propio en esta vista: forms_states no aplica.",
+      "checks": {
+        "navigation": "verified",
+        "responsive_scroll": "verified",
+        "typography_spacing": "verified",
+        "contrast_focus": "verified",
+        "forms_states": "not_applicable",
+        "motion_reduced": "verified",
+        "production_copy": "verified",
+        "niche_fit": "verified"
+      },
+      "evidence": [
+        {
+          "phase": "before",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/before/legal-movil.png",
+          "sha256": "07bf1a37aa1d0a2804183e55f0f33f32b50fb79e2063f68db46ba182609ef895"
+        },
+        {
+          "phase": "before",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/before/legal-escritorio.png",
+          "sha256": "044d0bea93e619a91ffce3d53e30042782f52f7e1aa7c0c0dbd2b47ca90048c1"
+        },
+        {
+          "phase": "after",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/after/legal-movil.png",
+          "sha256": "50e598c87312c4c1526f09ca447e21bcf4980de487a79bd386785e47e29c94e2"
+        },
+        {
+          "phase": "after",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/after/legal-escritorio.png",
+          "sha256": "5d8c6aea255e755833697f5154296974cc5ebdabe28ec179c7ce47d96307c3d0"
+        }
+      ]
+    },
+    {
+      "route": "#/datos",
+      "role": "Qué datos se recogen",
+      "state": "contenido generado desde plataforma/legal",
+      "decision": "kept",
+      "reason": "Vista compartida con Legal que explica los datos recogidos; sin formulario propio y sin destino de navegación. Sin formulario propio en esta vista: forms_states no aplica.",
+      "checks": {
+        "navigation": "verified",
+        "responsive_scroll": "verified",
+        "typography_spacing": "verified",
+        "contrast_focus": "verified",
+        "forms_states": "not_applicable",
+        "motion_reduced": "verified",
+        "production_copy": "verified",
+        "niche_fit": "verified"
+      },
+      "evidence": [
+        {
+          "phase": "before",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/before/datos-movil.png",
+          "sha256": "9b5ec8ca1b301a37b41b6db3c7868cb6f2ce5a2c377e78f126293ed8efdb21cb"
+        },
+        {
+          "phase": "before",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/before/datos-escritorio.png",
+          "sha256": "f0818b4bbe22a5d99703bc2c8bce5934a63a25c6c3d5a50c00f387bbbb7a8643"
+        },
+        {
+          "phase": "after",
+          "viewport": "mobile",
+          "path": "docs/diseno/capturas/after/datos-movil.png",
+          "sha256": "8f18075ea4409842d63927d7e9ab014f31dfdcc4367e4e9fb978f296f6dfd109"
+        },
+        {
+          "phase": "after",
+          "viewport": "desktop",
+          "path": "docs/diseno/capturas/after/datos-escritorio.png",
+          "sha256": "26e543821e2e26b40e629e4b2f28a6766fc0412bded35445e51ed941d72fdee6"
+        }
+      ]
+    }
+  ],
+  "journeys": [
+    {
+      "name": "Localizar un concepto y comprobar prerrequisitos",
+      "result": "passed",
+      "evidence_path": "recorridos/J1.json",
+      "sha256": "853d35d2aae5eab230b25e943695ba74b68870c5067f58893f58155e563a4d79"
+    },
+    {
+      "name": "Seguir la siguiente actividad y registrar progreso",
+      "result": "passed",
+      "evidence_path": "recorridos/J2.json",
+      "sha256": "a095343193693ecc52f0e0d53e350437a06d5b6998c74d16f32ae611481562da"
+    },
+    {
+      "name": "Retomar un tema y navegar a un concepto relacionado",
+      "result": "passed",
+      "evidence_path": "recorridos/J3.json",
+      "sha256": "67abe0372d70701a2f0e1744fb531e72048d98ba699d1efa5cef10c595709f3d"
+    }
+  ],
+  "visual_reviewed": false,
+  "redesign_review": {
+    "complete": false,
+    "manifest_sha256": null,
+    "inventory_reviewed": true,
+    "visual_reviewed": false,
+    "niche_fit_demonstrated": true,
+    "reason": "Inventario, capturas y recorridos contrastados por el autor; la inspección visual GLM sigue pendiente y el manifiesto no se declara revisado."
+  }
+}

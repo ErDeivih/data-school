@@ -1,0 +1,4 @@
+tarjeta buena   : [1, 6, 15, 38, 95, 238, 595, 1488]
+dias cubiertos  : 2476 con 8 repasos
+tarjeta atascada: [1, 1, 1, 1, 1, 1, 1, 1]
+dias cubiertos  : 8 con 8 repasos

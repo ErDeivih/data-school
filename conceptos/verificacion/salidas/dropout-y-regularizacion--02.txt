@@ -1,0 +1,2 @@
+lambda 0.01  factor por paso 0.9990  tras 1000 pasos 0.368
+lambda 0.1   factor por paso 0.9900  tras 1000 pasos 0.000

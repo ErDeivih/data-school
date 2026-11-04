@@ -1,0 +1,5 @@
+capital por paso: [100.  126.  158.8 200.  252.  317.6]
+pasos de log10  : [0.1 0.1 0.1 0.1 0.1]
+mitad de 1 a 1000: 31.6 y no 500
+log(1 + 1e-16)   : 0.0
+log1p(1e-16)     : 1e-16

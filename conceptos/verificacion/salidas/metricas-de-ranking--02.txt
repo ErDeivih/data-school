@@ -1,0 +1,5 @@
+DCG bueno 9.3235
+IDCG      9.3928
+NDCG bueno 0.9926
+NDCG malo  0.5774
+DCG@2 bueno 8.8928

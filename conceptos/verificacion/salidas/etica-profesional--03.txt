@@ -1,0 +1,4 @@
+el que dice siempre 'no' acierta 99.00%
+exactitud 98.70%
+sensibilidad 60.00%
+precision 40.00%

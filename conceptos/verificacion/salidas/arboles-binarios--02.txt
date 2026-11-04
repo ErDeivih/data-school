@@ -1,0 +1,3 @@
+altura equilibrado: 2
+altura degenerado: 6
+comparaciones para el 80: 3 7

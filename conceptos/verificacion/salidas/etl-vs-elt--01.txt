@@ -1,0 +1,5 @@
+ETL filas cargadas: 2
+ETL total: 100.0
+ELT filas cargadas: 6
+ELT total: 100.0
+Filas descartadas: 3

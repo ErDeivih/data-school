@@ -1,0 +1,6 @@
+media de las medias = 0.9967
+error tipico        = 0.1851
+teorico 1/sqrt(30)  = 0.1826
+dentro de 1 error   = 0.6825
+dentro de 2 errores = 0.9527
+asimetria restante  = 0.4041

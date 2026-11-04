@@ -1,0 +1,3 @@
+similitud A-B: 0.994 A-C: 0.683 B-C: 0.599
+prediccion sin centrar: 3.872
+prediccion centrada: 3.373

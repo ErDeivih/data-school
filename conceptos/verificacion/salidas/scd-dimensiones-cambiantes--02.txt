@@ -1,0 +1,3 @@
+ciudad | ventas | total
+Barcelona | 1 | 120.50
+Valencia | 1 | 80.00

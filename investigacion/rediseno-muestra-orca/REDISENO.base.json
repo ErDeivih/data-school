@@ -1,0 +1,355 @@
+{
+  "_nota": "Metadatos autorados del rediseño. No lleva hashes: _probar-rediseno-capturas.mjs fusiona este archivo con los manifiestos before/after y con los recorridos ejecutados para escribir REDISENO.json en la fase after.",
+  "contract_id": "muestra:redesign-20261101-v1",
+  "data_scope": "synthetic",
+  "inventory_complete": true,
+  "design_system": "Muestra · sistema existente (tokens en sitio/estilo.css: --fondo, --acento, escala --t-2xs..--t-3xl, --radio, --toque 44px, --foco 3px) + capa REDISEÑO 2026-11",
+  "redesign_scope": [
+    "Cabecera: cinco destinos primarios (Hoy, Ruta, Repaso, Progreso, Buscar); Método, Glosario y Pendientes siguen accesibles desde el pie.",
+    "Barra inferior móvil: cinco destinos con icono y etiqueta; se conservan los href que exigen las pruebas de armazón y navegación.",
+    "Sección actual anunciada con aria-current=\"page\" en cabecera, barra inferior y pie desde app.js (marcarNavegacion).",
+    "Foco visible de 3 px en los enlaces de navegación; objetivos táctiles de 44 px sin cambios.",
+    "Lectura: párrafos limitados a 72ch, filete de 2 px en tarjetas en lugar de sombra.",
+    "Movimiento desactivado con prefers-reduced-motion: reduce."
+  ],
+  "research": [
+    {
+      "source": "WCAG 2.2 · Target Size (Minimum) 2.5.8 — https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html",
+      "applied": "Mantener 44 px en la barra inferior y en los enlaces de navegación; el mínimo legal es 24 px, el sistema ya usaba 44."
+    },
+    {
+      "source": "MDN · prefers-reduced-motion — https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion",
+      "applied": "Desactivar transiciones de navegación y tarjetas cuando el sistema pide menos movimiento."
+    },
+    {
+      "source": "Nielsen Norman Group · Progressive disclosure — https://www.nngroup.com/articles/progressive-disclosure/",
+      "applied": "Cinco destinos primarios en la cabecera y el resto en el pie, en vez de nueve enlaces con la misma jerarquía."
+    },
+    {
+      "source": "Practical Typography · Summary of key rules — https://practicaltypography.com/summary-of-key-rules.html",
+      "applied": "Longitud de línea de 60–75 caracteres para los párrafos de lectura; se fija 72ch."
+    }
+  ],
+  "pages": [
+    {
+      "slug": "inicio",
+      "route": "#/",
+      "role": "Hoy · puerta de entrada al estudio",
+      "state": "primer uso sin sesión",
+      "decision": "kept",
+      "reason": "La portada conserva su estructura de Hoy; el rediseño solo añade la marca de sección actual y la nueva cabecera. La acción principal sigue siendo el siguiente concepto."
+    },
+    {
+      "slug": "pendientes",
+      "route": "#/pendientes",
+      "role": "Cola de trabajo pendiente",
+      "state": "usuario nuevo, cola vacía o mínima",
+      "decision": "kept",
+      "reason": "Página utilitaria que ya agrupa la cola por motivo; se mantiene y queda accesible desde el pie al salir de la cabecera."
+    },
+    {
+      "slug": "plan",
+      "route": "#/plan",
+      "role": "Ruta de estudio por fases",
+      "state": "sin progreso previo",
+      "decision": "kept",
+      "reason": "Es el destino de Ruta en la cabecera y en la barra inferior; mantiene fases, itinerarios y criterios de cierre."
+    },
+    {
+      "slug": "fase",
+      "route": "#/fase/f01",
+      "role": "Detalle de una fase con sus conceptos",
+      "state": "fase inicial",
+      "decision": "kept",
+      "reason": "Se conserva como nivel intermedio entre Ruta y ficha; la navegación lo marca como parte de Ruta."
+    },
+    {
+      "slug": "concepto",
+      "route": "#/c/varianza-y-desviacion",
+      "role": "Ficha de concepto con prerrequisitos y práctica",
+      "state": "concepto abierto sin progreso previo",
+      "decision": "kept",
+      "reason": "La ficha es el destino real del estudio; el rediseño mejora la lectura y añade el estado de sección, sin cambiar su contenido."
+    },
+    {
+      "slug": "buscar",
+      "route": "#/buscar/regresi",
+      "role": "Búsqueda con resultados en vivo",
+      "state": "consulta de ejemplo",
+      "decision": "kept",
+      "reason": "Buscar sube a destino primario; la página ya tenía campo, resultados y estados vacíos, y se conserva tal cual."
+    },
+    {
+      "slug": "ruta",
+      "route": "#/ruta/ds",
+      "role": "Itinerario de una ruta de estudio",
+      "state": "itinerario sin empezar",
+      "decision": "kept",
+      "reason": "Se mantiene como vista de detalle de Ruta; comparte la marca de sección con el plan."
+    },
+    {
+      "slug": "orientacion",
+      "route": "#/orientacion",
+      "role": "Cuestionario de orientación inicial",
+      "state": "sin responder",
+      "decision": "kept",
+      "reason": "Formulario de entrada que no se toca en este rediseño; se revisan sus estados de foco y error en la comprobación automática."
+    },
+    {
+      "slug": "repaso",
+      "route": "#/repaso",
+      "role": "Repaso espaciado",
+      "state": "cola vacía en un usuario nuevo",
+      "decision": "kept",
+      "reason": "Repaso sube a destino primario; la vista conserva su estado vacío explicativo."
+    },
+    {
+      "slug": "progreso",
+      "route": "#/progreso",
+      "role": "Progreso y notas",
+      "state": "sin actividad",
+      "decision": "kept",
+      "reason": "Progreso sube a destino primario; el rediseño enlaza el avance del lateral con la sección actual."
+    },
+    {
+      "slug": "sesion",
+      "route": "#/sesion",
+      "role": "Sesión de repaso en curso",
+      "state": "sin cola, estado vacío",
+      "decision": "kept",
+      "reason": "Se conserva dentro de Repaso; la marca de sección evita que la sesión parezca una página suelta."
+    },
+    {
+      "slug": "mapa",
+      "route": "#/mapa",
+      "role": "Mapa de conceptos",
+      "state": "sin progreso",
+      "decision": "kept",
+      "reason": "Vista de consulta que sigue en Ruta; no se reordena su contenido."
+    },
+    {
+      "slug": "glosario",
+      "route": "#/glosario",
+      "role": "Glosario de términos",
+      "state": "completo",
+      "decision": "kept",
+      "reason": "Sale de la cabecera para reducir la carga de nueve destinos, pero sigue en el pie y en la búsqueda global."
+    },
+    {
+      "slug": "ayuda",
+      "route": "#/ayuda",
+      "role": "Ayuda y preguntas frecuentes",
+      "state": "completo",
+      "decision": "kept",
+      "reason": "Se mantiene accesible desde el pie; es una página de consulta, no de uso diario."
+    },
+    {
+      "slug": "favoritos",
+      "route": "#/favoritos",
+      "role": "Fichas marcadas como favoritas",
+      "state": "vacío",
+      "decision": "kept",
+      "reason": "Accesible desde el pie; no compite por un destino primario."
+    },
+    {
+      "slug": "diagnostico",
+      "route": "#/diagnostico",
+      "role": "Diagnóstico de conocimientos",
+      "state": "sin empezar",
+      "decision": "kept",
+      "reason": "Formulario de evaluación inicial; se conserva y se agrupa visualmente en Ruta."
+    },
+    {
+      "slug": "entrar",
+      "route": "#/entrar",
+      "role": "Acceso a la cuenta",
+      "state": "sin plataforma conectada: aviso de portal sin cuentas",
+      "decision": "kept",
+      "reason": "Con config.js vacío no hay servicio de cuentas: la vista enseña el aviso de portal sin cuentas y no hay formulario que probar."
+    },
+    {
+      "slug": "no-encontrada",
+      "route": "#/esto-no-existe",
+      "role": "Dirección inexistente",
+      "state": "hash desconocido",
+      "decision": "kept",
+      "reason": "Página de error deliberada; no se marca ningún destino como actual y ofrece salidas a Inicio y Buscar."
+    },
+    {
+      "slug": "dudas",
+      "route": "#/dudas",
+      "role": "Bandeja de dudas con el tutor",
+      "state": "sin dudas abiertas",
+      "decision": "kept",
+      "reason": "Página de consulta con formulario propio de duda; el rediseño no la reordena y se comprueba su estado vacío."
+    },
+    {
+      "slug": "notas",
+      "route": "#/notas",
+      "role": "Notas personales con buscador",
+      "state": "sin notas guardadas",
+      "decision": "kept",
+      "reason": "Formulario de búsqueda y lista de notas locales; se conserva y se documenta su estado vacío."
+    },
+    {
+      "slug": "ejecutar",
+      "route": "#/ejecutar",
+      "role": "Ejecutar ejercicios y dependencias",
+      "state": "guía estática, sin sesión",
+      "decision": "kept",
+      "reason": "Guía estática con tabla de dependencias y bloques de comandos; sin formulario propio."
+    },
+    {
+      "slug": "registro",
+      "route": "#/registro",
+      "role": "Alta de cuenta",
+      "state": "sin plataforma conectada",
+      "decision": "kept",
+      "reason": "Con config.js vacío muestra el aviso de portal sin cuentas; no hay formulario que probar."
+    },
+    {
+      "slug": "recuperar",
+      "route": "#/recuperar",
+      "role": "Recuperación de acceso",
+      "state": "sin plataforma conectada",
+      "decision": "kept",
+      "reason": "Con config.js vacío muestra el aviso de portal sin cuentas; no hay formulario que probar."
+    },
+    {
+      "slug": "cuenta",
+      "route": "#/cuenta",
+      "role": "Cuenta y datos del usuario",
+      "state": "sin sesión ni plataforma",
+      "decision": "kept",
+      "reason": "Muestra el aviso de portal sin cuentas y no expone datos personales; sin formulario propio."
+    },
+    {
+      "slug": "analitica",
+      "route": "#/analitica",
+      "role": "Transparencia de la medición",
+      "state": "sin servicio de analítica",
+      "decision": "kept",
+      "reason": "Con config.js vacío declara «No se mide nada» y lista lo que no se guarda; sin formulario propio."
+    },
+    {
+      "slug": "precios",
+      "route": "#/precios",
+      "role": "Planes de apoyo al portal",
+      "state": "planes cargados, cobro sin conectar",
+      "decision": "kept",
+      "reason": "La tabla sale de planes.json y el botón avisa de que el cobro no está conectado; sin formulario propio."
+    },
+    {
+      "slug": "experimentos",
+      "route": "#/experimentos",
+      "role": "Experimentos con datos",
+      "state": "manifiesto de datasets cargado",
+      "decision": "kept",
+      "reason": "Lista los experimentos del manifiesto con estados de carga y de error con reintento; sin formulario propio."
+    },
+    {
+      "slug": "laboratorios",
+      "route": "#/laboratorios",
+      "role": "Laboratorios con datos",
+      "state": "manifiesto de datasets cargado",
+      "decision": "kept",
+      "reason": "Laboratorio L01 con gráfica y tabla a partir de datasets; sin formulario propio."
+    },
+    {
+      "slug": "proyecto",
+      "route": "#/proyecto",
+      "role": "Espacio de entrega de un proyecto",
+      "state": "borrador vacío",
+      "decision": "kept",
+      "reason": "Formulario de entrega con borrador local, historial y aviso de rechazo; se revisan sus estados de formulario."
+    },
+    {
+      "slug": "proyectos",
+      "route": "#/proyectos",
+      "role": "Catálogo de proyectos",
+      "state": "listado completo",
+      "decision": "kept",
+      "reason": "Listado de proyectos con hitos y rúbrica; sin formulario propio."
+    },
+    {
+      "slug": "informe",
+      "route": "#/informe",
+      "role": "Informe de portafolio",
+      "state": "sin entregas",
+      "decision": "kept",
+      "reason": "Tabla de cobertura, retención y práctica con siguiente paso; sin formulario propio."
+    },
+    {
+      "slug": "conflictos",
+      "route": "#/conflictos",
+      "role": "Conflictos de sincronización",
+      "state": "sin conflictos",
+      "decision": "kept",
+      "reason": "Estado vacío sin acciones; los botones de decisión solo aparecen cuando hay variantes que comparar."
+    },
+    {
+      "slug": "transferencia",
+      "route": "#/transferencia",
+      "role": "Importar y exportar progreso",
+      "state": "sin cuenta, sin fichero elegido",
+      "decision": "kept",
+      "reason": "Importación por selector de fichero y comparación equipo/cuenta; controles propios sin elemento form."
+    },
+    {
+      "slug": "paquetes",
+      "route": "#/paquetes",
+      "role": "Paquetes de contenido",
+      "state": "sin paquete elegido",
+      "decision": "kept",
+      "reason": "Selector y botones de descarga; controles propios sin elemento form."
+    },
+    {
+      "slug": "incidencia",
+      "route": "#/incidencia",
+      "role": "Aviso de incidencia",
+      "state": "formulario vacío",
+      "decision": "kept",
+      "reason": "Formulario propio que prepara el aviso con contexto técnico y lo guarda en la sesión; se revisan sus estados."
+    },
+    {
+      "slug": "avisos",
+      "route": "#/avisos",
+      "role": "Avisos del portal",
+      "state": "sin avisos visibles",
+      "decision": "kept",
+      "reason": "Lista de avisos con preferencias por tipo; controles propios sin elemento form."
+    },
+    {
+      "slug": "recordatorios",
+      "route": "#/recordatorios",
+      "role": "Recordatorios opt-in",
+      "state": "sin permiso concedido",
+      "decision": "kept",
+      "reason": "Botones de activar y desactivar con estado vacío explicativo; controles propios sin elemento form."
+    },
+    {
+      "slug": "legal",
+      "route": "#/legal/privacidad",
+      "role": "Texto legal de privacidad",
+      "state": "contenido generado desde plataforma/legal",
+      "decision": "kept",
+      "reason": "Página de lectura generada por el build a partir de plataforma/legal; sin formulario propio y sin destino de navegación."
+    },
+    {
+      "slug": "datos",
+      "route": "#/datos",
+      "role": "Qué datos se recogen",
+      "state": "contenido generado desde plataforma/legal",
+      "decision": "kept",
+      "reason": "Vista compartida con Legal que explica los datos recogidos; sin formulario propio y sin destino de navegación."
+    }
+  ],
+  "blockers": [
+    {
+      "id": "b-visual-review",
+      "severity": "low",
+      "description": "No hay revisión visual humana ni herramienta de comparación de imágenes operativa en este entorno: orca equipo-local vision-diseno devolvió {ok:false,error:\"'orca_native_c1d51fef3d2de01f00fa62ae'\"} sin provider_request_sent. La evidencia disponible son los PNG con sha256 y las métricas objetivas del manifiesto; queda pendiente la inspección GLM con esas mismas capturas.",
+      "affects": ["visual_reviewed"]
+    }
+  ]
+}

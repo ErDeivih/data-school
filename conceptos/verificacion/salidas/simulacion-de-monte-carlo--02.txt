@@ -1,0 +1,4 @@
+total original  +12.2218%
+caida real      2.04%
+caida mediana   3.96%
+peor de 20.000  7.76%

@@ -1,0 +1,4 @@
+P(positivo)           0.0585
+P(enfermo | positivo) 0.1538
+falsos positivos      0.0495
+verdaderos positivos  0.009

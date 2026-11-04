@@ -1,0 +1,4 @@
+duracion de la peticion: 240 ms
+tiempo en hijos directos: 220 ms
+tiempo propio del padre: 20 ms
+hijo mas lento: leer carrito con 180 ms

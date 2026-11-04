@@ -1,0 +1,3 @@
+categorias antes/hoy: 3 4
+proporcion ES antes/hoy: 90.0% 40.0%
+categoria nueva: ['??']

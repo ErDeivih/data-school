@@ -1,0 +1,2 @@
+correlacion bruta       +0.49
+correlacion quitando z  -0.02

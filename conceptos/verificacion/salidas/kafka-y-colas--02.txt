@@ -1,0 +1,7 @@
+consumidor 0: particiones [0, 4]
+consumidor 1: particiones [1, 5]
+consumidor 2: particiones [2]
+consumidor 3: particiones [3]
+paralelismo maximo: 6
+consumidores sin particion con 8: 2
+retraso tras 5 horas: 4000000

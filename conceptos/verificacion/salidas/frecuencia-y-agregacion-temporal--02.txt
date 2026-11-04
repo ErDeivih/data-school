@@ -1,0 +1,3 @@
+flujo total 45   suma de las fotos del contador 85   ultimo nivel 45
+media de las medias 15.000   media ponderada 12.222
+media de los ratios 0.1050   ratio de los totales 0.0273

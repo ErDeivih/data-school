@@ -1,0 +1,5 @@
+3 terminos varianza 0.137909 fraccion 82.75%
+10 terminos varianza 0.157024 fraccion 94.21%
+50 terminos varianza 0.164660 fraccion 98.80%
+producto 1,2 +0.000000
+norma 1 1.000000

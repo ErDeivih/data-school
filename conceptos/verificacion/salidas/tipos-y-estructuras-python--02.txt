@@ -1,0 +1,7 @@
+elementos en la lista: 8
+ids distintos: [3, 7, 9, 12]
+frecuencias: {3: 2, 7: 3, 9: 2, 12: 1}
+stock madrid norte: 120
+primera llamada: [1]
+segunda llamada: [1, 2]
+con None: [1] [2]

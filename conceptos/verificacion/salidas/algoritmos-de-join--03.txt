@@ -1,0 +1,7 @@
+bloques de A y B: 100.000 2.000
+bucle anidado por bloques: 200.002.000
+hash en memoria: 102.000
+Grace hash a disco: 306.000
+sort-merge ya ordenado: 102.000
+ordenar las dos antes: 604.000
+sort-merge completo: 706.000

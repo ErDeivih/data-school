@@ -1,0 +1,4 @@
+todo, sin comprimir: 615 KiB
+todo, gzip:          546 KiB
+solo pais (gzip):    50 KiB
+solo importe (gzip): 376 KiB

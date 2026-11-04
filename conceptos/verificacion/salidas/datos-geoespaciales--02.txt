@@ -1,0 +1,3 @@
+pares posibles         16000000
+distancias calculadas  342032
+parejas a menos de 1 km 2507

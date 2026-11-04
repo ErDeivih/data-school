@@ -1,0 +1,4 @@
+VaR  95%  un bono      0  los dos    100
+CVaR 95%  un bono  80.00  los dos 103.20
+suma de VaR  0 < 100 conjunto
+suma de CVaR 160.00 >= 103.20 conjunto

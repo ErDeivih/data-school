@@ -1,0 +1,4 @@
+cuantil 5 %         -0.0425
+VaR 95 % historico  4.25%
+CVaR 95 %           5.00%
+observaciones en la cola: 1 de 6

@@ -1,0 +1,2 @@
+Sharpe esperado del mejor de 100 intentos: 0.1265
+DSR: 0.7805

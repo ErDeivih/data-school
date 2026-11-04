@@ -1,0 +1,3 @@
+punto (1.0, 2.0) gradiente (6.0, 14.0)
+punto (0.0, 0.0) gradiente (0.0, 0.0)
+punto (-2.0, 1.0) gradiente (-2.0, 2.0)

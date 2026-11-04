@@ -1,0 +1,7 @@
+binomial P(X = 0) = 0.08206
+Poisson  P(N = 0) = 0.08208
+binomial P(X = 2) = 0.25654
+Poisson  P(N = 2) = 0.25652
+lambda = n * p    = 2.5
+Poisson P(N >= 8) = 0.0042
+P(6, 4, 2) = 0.0702

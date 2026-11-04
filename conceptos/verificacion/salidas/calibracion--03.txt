@@ -1,0 +1,4 @@
+Brier sin calibrar 0.2437
+Brier calibrado    0.1599
+extremos 0 o 1     100%
+confianza media    0.507  frecuencia real 0.516

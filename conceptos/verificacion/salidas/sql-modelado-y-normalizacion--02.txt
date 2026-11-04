@@ -1,0 +1,2 @@
+ciudad  distintos 2 en 4 filas  redundancia 50%
+clientes con mas de una ciudad: 1

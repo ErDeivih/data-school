@@ -1,0 +1,4 @@
+bytes sin codificar: 9000000
+bytes con diccionario: 625180
+ratio de la codificacion: 14.4
+bits por valor: 5.001

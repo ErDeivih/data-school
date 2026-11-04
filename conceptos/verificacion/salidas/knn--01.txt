@@ -1,0 +1,5 @@
+  k  exactitud train   exactitud test
+  1            1.000            0.825
+  3            0.896            0.833
+ 15            0.879            0.842
+ 45            0.886            0.850

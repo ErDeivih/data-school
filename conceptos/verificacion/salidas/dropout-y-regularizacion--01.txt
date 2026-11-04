@@ -1,0 +1,3 @@
+mascara [1. 1. 1. 0.]
+salida  [ 4. -2.  1.  0.]
+media teorica 1.1250  media simulada 1.1227

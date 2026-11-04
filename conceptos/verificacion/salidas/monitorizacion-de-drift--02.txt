@@ -1,0 +1,4 @@
+corr en entrenamiento: 0.894
+corr en produccion:    -0.897
+MSE en entrenamiento:  0.99
+MSE en produccion:     16.93

@@ -1,0 +1,4 @@
+combinaciones distintas: 3
+grupos con al menos 2 filas: 1 de 3
+filas en grupos pequenos: 2
+grupos por (cp, anio): {('28001', '1980'): 2, ('28001', '1991'): 1, ('28013', '1975'): 1}

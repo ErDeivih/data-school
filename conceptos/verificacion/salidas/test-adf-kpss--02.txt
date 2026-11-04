@@ -1,0 +1,5 @@
+            ruido  ADF -12.05   KPSS 0.166
+            paseo  ADF -0.22   KPSS 4.750
+ paseo con deriva  ADF -2.69   KPSS 1.768
+tendencia + ruido  ADF -0.55   KPSS 5.092
+con tendencia en el contraste: ADF -12.83  KPSS 0.029

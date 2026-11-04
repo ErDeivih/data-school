@@ -1,0 +1,3 @@
+K-fold barajado  RMSE 2.59  pliegues 2.62 2.28 2.60 2.56 2.91
+walk-forward     RMSE 23.11  bloques 20.48 24.32 25.94 21.70
+predice en t=320 161.3 y en t=399 161.3; la recta real en t=399 vale 199.5

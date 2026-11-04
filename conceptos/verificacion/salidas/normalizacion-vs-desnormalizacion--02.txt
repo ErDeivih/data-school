@@ -1,0 +1,4 @@
+nk_cliente | ciudad | total
+4471 | Barcelona | 80.00
+4471 | Madrid | 120.00
+8890 | Sevilla | 50.00

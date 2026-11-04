@@ -1,0 +1,3 @@
+epoca   1  perdida 0.6347
+epoca 200  perdida 0.0648
+epoca 600  perdida 0.0088

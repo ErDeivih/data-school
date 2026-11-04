@@ -1,0 +1,6 @@
+r= 0.1%  ln(1+r)=+0.001000  error de la aproximacion -3.33e-10
+r= 1.0%  ln(1+r)=+0.009950  error de la aproximacion -3.31e-07
+r=10.0%  ln(1+r)=+0.095310  error de la aproximacion -3.10e-04
+r=50.0%  ln(1+r)=+0.405465  error de la aproximacion -3.05e-02
+cartera con simples +0.0000
+media de los logs   -0.0050

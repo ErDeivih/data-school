@@ -1,0 +1,8 @@
+suma de pesos neta      +0.000000
+exposicion bruta         0.9435
+beta neta al factor 1   +0.006
+pnl bruto acumulado    +0.1765
+giro medio por periodo   0.433
+coste acumulado (5 pb)  +0.1165
+pnl neto de costes     +0.0600
+coste de equilibrio     7.58 pb por unidad de giro

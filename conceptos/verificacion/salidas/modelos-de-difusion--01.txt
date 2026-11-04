@@ -1,0 +1,6 @@
+t=   0  alpha_bar=0.99990  sqrt(alpha_bar)=0.9999  sqrt(1-alpha_bar)=0.0100
+t= 100  alpha_bar=0.89514  sqrt(alpha_bar)=0.9461  sqrt(1-alpha_bar)=0.3238
+t= 500  alpha_bar=0.07780  sqrt(alpha_bar)=0.2789  sqrt(1-alpha_bar)=0.9603
+t= 900  alpha_bar=0.00027  sqrt(alpha_bar)=0.0164  sqrt(1-alpha_bar)=0.9999
+t= 999  alpha_bar=0.00004  sqrt(alpha_bar)=0.0064  sqrt(1-alpha_bar)=1.0000
+x_t=0.3160  x0 original=0.7  x0 recuperado con el eps exacto=0.700000

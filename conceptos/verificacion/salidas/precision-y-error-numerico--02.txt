@@ -1,0 +1,4 @@
+diez veces 0,1     0.9999999999999999
+error absoluto     -1.11e-16
+suma ingenua       10000000000000000
+math.fsum          10000000000000010

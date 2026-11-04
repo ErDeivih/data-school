@@ -1,0 +1,3 @@
+vueltas: 21
+longitud media: 952
+vueltas de M en M serian: 40

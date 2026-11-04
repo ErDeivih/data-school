@@ -1,0 +1,3 @@
+sano: 0 ciclo(s) -> []
+con la arista prohibida: 1 ciclo(s) -> [['adaptador', 'dominio']]
+el ciclo arrastra a: ['adaptador', 'dominio']

@@ -1,0 +1,4 @@
+codigo con un tipo que no cuadra: 2
+codigo sin el argumento obligatorio: 2
+el usuario ve un aviso: True
+SystemExit no lo captura 'except Exception': True

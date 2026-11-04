@@ -1,0 +1,3 @@
+pods para el pico: 8
+rps con un nodo caido: 2000
+aguanta el pico con N+1: True

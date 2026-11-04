@@ -1,0 +1,4 @@
+bytes del array original: 8000000
+bytes del array reconstruido: 8000000
+pico medido durante la copia 19.1 MiB
+el hijo no ve el array del padre: lo reconstruye entero

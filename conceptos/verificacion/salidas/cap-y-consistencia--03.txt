@@ -1,0 +1,4 @@
+una replica al azar  mediana  10.0 ms   p99   40.8 ms
+el mas rapido W=1   mediana   5.1 ms   p99   11.7 ms
+3 de 5 (cuorum)    mediana  10.0 ms   p99   21.1 ms
+los 5 (W=N)        mediana  19.7 ms   p99   56.3 ms

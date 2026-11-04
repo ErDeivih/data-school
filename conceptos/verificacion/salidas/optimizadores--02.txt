@@ -1,0 +1,3 @@
+sin corregir  3.1623
+corregido     1.0000
+paso en x  0.0500

@@ -1,0 +1,8 @@
+bytes del array: 8000000
+bytes por elemento: 8
+desplazamiento del elemento 500000: 0x3d0900
+stride de la vista: 16
+comparte memoria: True
+elementos de la vista: 500000
+strides de la matriz: (32, 8)
+strides de la traspuesta: (8, 32)

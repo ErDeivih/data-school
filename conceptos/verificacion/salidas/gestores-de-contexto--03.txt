@@ -1,0 +1,2 @@
+filas confirmadas: 1
+la conexion sigue abierta: 1

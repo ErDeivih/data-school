@@ -1,0 +1,6 @@
+media    26254
+sd       16934
+mediana  21664
+MAD      8464
+z clasico 4.35
+z robusto 6.24

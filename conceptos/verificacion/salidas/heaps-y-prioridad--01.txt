@@ -1,0 +1,5 @@
+heap tras heapify: [20, 30, 60, 50, 40, 70, 80]
+minimo: 20
+no esta ordenado: [30, 60, 50, 40, 70, 80]
+los tres menores, extraidos uno a uno: [20, 30, 40]
+lo que queda: [50, 70, 60, 80]

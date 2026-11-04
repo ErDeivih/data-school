@@ -1,0 +1,5 @@
+X             [-1.0, 0.0, 1.0]
+Y = X^2       [1.0, 0.0, 1.0]
+covarianza    0.0
+correlacion   0.0
+pero Y depende de X: True

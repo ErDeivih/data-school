@@ -1,0 +1,2 @@
+dividir por n    media 3.612  sesgo -0.388  ECM 3.010
+dividir por n-1  media 4.013  sesgo +0.013  ECM 3.530

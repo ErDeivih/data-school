@@ -1,0 +1,10 @@
+at-most-once, fallo  -> perdido
+at-least-once, fallo -> a la cola de muertos
+at-least-once, exito -> procesado
+reintento 1: espera  1 s
+reintento 2: espera  2 s
+reintento 3: espera  4 s
+reintento 4: espera  8 s
+reintento 5: espera 16 s
+reintento 6: espera 30 s
+reintento 7: espera 30 s

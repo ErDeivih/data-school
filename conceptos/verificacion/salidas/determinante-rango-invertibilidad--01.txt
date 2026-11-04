@@ -1,0 +1,5 @@
+det(A): 0.0
+rango(A): 1
+inv(A): singular, no existe
+det(C): 0.0001
+cond(C): 2.500e+05

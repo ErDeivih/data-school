@@ -1,0 +1,6 @@
+t=0.2s u1 -> fallo
+t=0.2s u1 -> acierto
+t=0.2s u1 -> acierto
+tras el TTL: fallo
+consultas al almacen: 2 de 4 lecturas
+tiempo esperando al almacen: 0.4 s

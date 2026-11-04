@@ -1,0 +1,4 @@
+mala - lista de a: [30, 10]  lista de b: [30, 10]
+mala - es la misma lista: True
+buena - lista de c: [30]  lista de d: [10]
+buena - es la misma lista: False

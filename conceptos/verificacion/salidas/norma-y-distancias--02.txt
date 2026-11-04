@@ -1,0 +1,5 @@
+S inversa: [[5.2632, -4.7368], [-4.7368, 5.2632]]
+euclidea : [1.0, 1.0, 1.414]
+Mahalanobis: [2.294, 2.294, 1.026]
+mas cercano euclidea: 0
+mas cercano Mahalanobis: 2

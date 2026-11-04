@@ -1,0 +1,7 @@
+formato   error_medio   acierto   tokens_por_segundo
+16 bits        0.0000     1.000                69.0
+8 bits         0.0080     1.000                88.3
+4 bits         0.0362     0.736               110.4
+16 bits   acierto 1.000  velocidad  69.0  vale
+8 bits    acierto 1.000  velocidad  88.3  vale
+4 bits    acierto 0.723  velocidad 110.4  no vale: se pierde calidad

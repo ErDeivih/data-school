@@ -1,0 +1,4 @@
+fib_memo(30): 832040
+fib_tabla(30): 832040
+llamadas distintas: 31
+aciertos en cache: 28

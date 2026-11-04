@@ -1,0 +1,4 @@
+H estimada en cada muestra:
+[0.431 0.495 0.403 0.527 0.55  0.33  0.558 0.51  0.343 0.253]
+minimo 0.253  maximo 0.558
+media  0.440

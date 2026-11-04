@@ -1,0 +1,7 @@
+fraccion de Kelly 0.10
+f=0.00  crecimiento +0.0000%
+f=0.05  crecimiento +0.3753%
+f=0.10  crecimiento +0.5008%
+f=0.15  crecimiento +0.3736%
+f=0.20  crecimiento -0.0138%
+f=0.30  crecimiento -1.6203%

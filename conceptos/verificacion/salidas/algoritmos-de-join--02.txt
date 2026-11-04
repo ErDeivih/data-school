@@ -1,0 +1,4 @@
+uniforme mayor particion: 1252 cabe en memoria: True
+sesgado  mayor particion: 5624 cabe en memoria: False
+con P = 64, uniforme: 166
+con P = 64, sesgado: 5076

@@ -1,0 +1,4 @@
+error permitido: 0.0010
+eventos en la ventana: 25920000
+presupuesto en minutos: 43.2
+presupuesto en peticiones: 25920

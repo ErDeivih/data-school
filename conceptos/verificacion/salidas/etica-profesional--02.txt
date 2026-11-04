@@ -1,0 +1,5 @@
+conversion A 5.000%  B 5.600%
+diferencia 0.0060 = 0.60 puntos
+error tipico 0.0100
+z 0.60  p 0.549
+IC 95%  [-0.0136, +0.0256]

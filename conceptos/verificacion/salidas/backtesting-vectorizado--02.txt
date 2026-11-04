@@ -1,0 +1,4 @@
+con NaN     [nan, nan, nan, nan, nan, nan]
+bruto      -7.86%
+rotacion   9  coste 0.90%
+neto       -8.76%

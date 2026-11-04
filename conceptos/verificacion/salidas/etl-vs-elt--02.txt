@@ -1,0 +1,3 @@
+cliente_id | total
+10 | 25.0
+12 | 75.0

@@ -1,0 +1,3 @@
+indice de 31: 5
+indice de 20: -1
+indice de 3: 0

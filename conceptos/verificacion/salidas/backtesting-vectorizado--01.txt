@@ -1,0 +1,5 @@
+retornos          [2.0, -0.98, 3.96, -1.9, 2.91, 1.89]
+sin desplazar     +10.76%
+desplazado        -1.00%
+rotacion          5  coste 0.50%
+neto de costes    -1.50%

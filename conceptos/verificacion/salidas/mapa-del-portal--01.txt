@@ -1,0 +1,3 @@
+cinco aciertos: [1, 6, 15, 38, 95]
+con un fallo  : [1, 6, 15, 1, 1, 6]
+dias cubiertos: 155 con solo 5 repasos

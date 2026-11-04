@@ -1,0 +1,3 @@
+FALLO pedido_id: hay duplicados (1)
+FALLO importe_centimos: 1 valores por debajo de 0
+FALLO estado: valores fuera del dominio ['devuelto']

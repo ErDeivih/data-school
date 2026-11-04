@@ -1,0 +1,113 @@
+{
+  "contract_id": "muestra:redesign-20261101-v1",
+  "base": "web/ generado por npm run setup",
+  "recorridos": [
+    {
+      "id": "J1",
+      "title": "Localizar un concepto y comprobar prerrequisitos",
+      "steps": [
+        {
+          "action": "escribir en #campo-busqueda",
+          "value": "varianza",
+          "observed": {
+            "resultados": [
+              {
+                "href": "#/c/covarianza-y-correlacion",
+                "texto": "F1 · básicoCovarianza y correlación"
+              },
+              {
+                "href": "#/c/varianza-y-desviacion",
+                "texto": "F1 · básicoVarianza y desviación típica"
+              },
+              {
+                "href": "#/c/sesgo-varianza-mse",
+                "texto": "F2 · intermedioSesgo, varianza y ECM"
+              },
+              {
+                "href": "#/c/sesgo-varianza",
+                "texto": "F6 · intermedioCompromiso sesgo-varianza"
+              },
+              {
+                "href": "#/c/distribucion-normal-multivariante",
+                "texto": "F1 · intermedioDistribución normal multivariante"
+              }
+            ]
+          }
+        },
+        {
+          "action": "pulsar el primer resultado",
+          "selector": "#resultados-busqueda a[href^='#/c/']",
+          "observed": {
+            "hash": "#/c/covarianza-y-correlacion",
+            "h1": "Covarianza y correlación",
+            "prerrequisitos": [
+              {
+                "href": "#/c/varianza-y-desviacion",
+                "texto": "Varianza y desviación típica"
+              },
+              {
+                "href": "#/c/valor-esperado",
+                "texto": "Valor esperado"
+              }
+            ]
+          }
+        }
+      ],
+      "status": "pass",
+      "conclusion": "Buscar «varianza» devolvió 5 resultados y abrió #/c/covarianza-y-correlacion; la ficha muestra 2 prerrequisitos enlazados."
+    },
+    {
+      "id": "J2",
+      "title": "Seguir la siguiente actividad y registrar progreso",
+      "steps": [
+        {
+          "action": "pulsar la acción de Hoy",
+          "selector": "#bloque-hoy a.boton",
+          "observed": {
+            "href": "#/c/covarianza-y-correlacion",
+            "progresoAntes": "0/438 vistos · 0 %"
+          }
+        },
+        {
+          "action": "pulsar «Marcar como visto»",
+          "selector": "[data-marcar='visto']",
+          "observed": {
+            "progresoDespues": "1/438 vistos · 0 %"
+          }
+        },
+        {
+          "action": "abrir Progreso",
+          "selector": "#/progreso",
+          "observed": {
+            "hash": "#/progreso",
+            "h1": "Mi progreso"
+          }
+        }
+      ],
+      "status": "pass",
+      "conclusion": "La acción de Hoy abrió #/c/covarianza-y-correlacion; marcar visto cambió el lateral de «0/438 vistos · 0 %» a «1/438 vistos · 0 %» y Progreso se abrió en #/progreso."
+    },
+    {
+      "id": "J3",
+      "title": "Retomar un tema y navegar a un concepto relacionado",
+      "steps": [
+        {
+          "action": "abrir la ficha de partida",
+          "observed": {
+            "hash": "#/c/varianza-y-desviacion"
+          }
+        },
+        {
+          "action": "pulsar un concepto relacionado",
+          "selector": "#/c/valor-esperado",
+          "observed": {
+            "hash": "#/c/valor-esperado",
+            "h1": "Valor esperado"
+          }
+        }
+      ],
+      "status": "pass",
+      "conclusion": "Desde #/c/varianza-y-desviacion se llegó a #/c/valor-esperado por «Valor esperado»; la ficha destino tiene h1."
+    }
+  ]
+}

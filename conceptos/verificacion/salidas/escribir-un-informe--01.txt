@@ -1,0 +1,3 @@
+umbral 0.50: 40 impagos concedidos, 45 buenos rechazados, coste 173,500 EUR por 1.000 solicitudes
+umbral 0.30: 15 impagos concedidos, 120 buenos rechazados, coste 96,000 EUR por 1.000 solicitudes
+ahorro al bajar el umbral: 77,500 EUR

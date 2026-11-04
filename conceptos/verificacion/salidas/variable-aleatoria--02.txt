@@ -1,0 +1,4 @@
+P(X <= 2) por integral = 0.6321
+1 - exp(-lam * 2)      = 0.6321
+densidad en x = 2      = 0.1839
+P(X = 2)               = 0.0000

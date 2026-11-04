@@ -1,0 +1,12 @@
+d=   1  lado para el 10 % del volumen: 0.1000
+d=   2  lado para el 10 % del volumen: 0.3162
+d=   3  lado para el 10 % del volumen: 0.4642
+d=   5  lado para el 10 % del volumen: 0.6310
+d=  10  lado para el 10 % del volumen: 0.7943
+d=  50  lado para el 10 % del volumen: 0.9550
+d= 100  lado para el 10 % del volumen: 0.9772
+d=1000  lado para el 10 % del volumen: 0.9977
+d=  2  esfera inscrita / cubo: 7.854e-01
+d=  3  esfera inscrita / cubo: 5.236e-01
+d= 10  esfera inscrita / cubo: 2.490e-03
+d=100  esfera inscrita / cubo: 1.868e-70

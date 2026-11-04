@@ -1,0 +1,3 @@
+anclaje 1/1  fiel True  Tienes 14 dias naturales desde la entreg
+anclaje 0/1  fiel False  Tienes 30 dias naturales segun la normat
+anclaje 1/2  fiel False  Tienes 14 dias, o 10 si el producto es p

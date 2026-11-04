@@ -1,0 +1,4 @@
+sin presupuesto, un bucle ciego daria 1000 pasos
+presupuesto   5 ->   5 llamadas y se detiene
+presupuesto  20 ->  20 llamadas y se detiene
+presupuesto 100 -> 100 llamadas y se detiene

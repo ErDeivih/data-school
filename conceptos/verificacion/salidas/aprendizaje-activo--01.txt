@@ -1,0 +1,2 @@
+     aleatorio: accuracy con 12 etiquetas = 0.776
+ incertidumbre: accuracy con 12 etiquetas = 0.850

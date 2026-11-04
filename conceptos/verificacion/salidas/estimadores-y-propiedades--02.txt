@@ -1,0 +1,5 @@
+correlacion entre predictores 0.99
+OLS    media [ 1.472 -0.772]  desv tipica [1.348 1.353]
+ridge  media [ 0.732 -0.04 ]  desv tipica [0.474 0.479]
+OLS    ECM 3.6481
+ridge  ECM 1.6200

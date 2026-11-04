@@ -1,0 +1,4 @@
+facil   8.9 -> z 2.0
+facil   4.1 -> z -2.0
+dificil 7.5 -> z 3.125
+dificil 8.9 -> z 4.875

@@ -1,0 +1,3 @@
+1000 al principio: 499500
+100000 al principio: 4999950000
+100000 al final: 131071

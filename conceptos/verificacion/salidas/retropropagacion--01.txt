@@ -1,0 +1,2 @@
+perdida inicial           0.251452
+gradiente dW2             [0.022698 0.02383 ]

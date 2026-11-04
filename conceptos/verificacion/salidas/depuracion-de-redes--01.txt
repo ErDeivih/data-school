@@ -1,0 +1,3 @@
+ln(10) con logits casi nulos   2.3026
+logits ~ N(0, 0.01)            2.3031
+logits ~ N(0, 4.0)             6.5759

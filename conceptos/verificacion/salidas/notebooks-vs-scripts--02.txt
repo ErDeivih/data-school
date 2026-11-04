@@ -1,0 +1,5 @@
+celdas totales: 4
+celdas de codigo: 3
+sin ejecutar: 1
+kernel: python3
+el kernel no viaja en el codigo, solo el nombre: False

@@ -1,0 +1,3 @@
+parejas ganadas 12 de 15
+AUC a mano  0.800
+AUC sklearn 0.800

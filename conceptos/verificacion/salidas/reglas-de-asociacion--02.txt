@@ -1,0 +1,5 @@
+x | y | soporte | confianza | lift
+cafe | leche | 0.2 | 1.0 | 1.667
+mantequilla | pan | 0.6 | 1.0 | 1.25
+leche | pan | 0.4 | 0.667 | 0.833
+leche | mantequilla | 0.2 | 0.333 | 0.556

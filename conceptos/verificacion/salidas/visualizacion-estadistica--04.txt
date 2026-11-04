@@ -1,0 +1,5 @@
+forma de la matriz: (3, 3)
+simetrica: True
+diagonal: [1.0, 1.0, 1.0]
+r(altura, peso): 0.858
+r(altura, sueno): 0.012

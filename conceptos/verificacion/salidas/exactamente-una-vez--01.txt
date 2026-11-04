@@ -1,0 +1,4 @@
+entregas recibidas: 4
+mensajes distintos: 3
+suma sin deduplicar: 27.00
+suma correcta     : 17.00

@@ -1,0 +1,3 @@
+P(p < 0,05) sin efecto:  0.051
+P(p < 0,10) sin efecto:  0.105
+P(p < 0,05) con efecto:  0.475

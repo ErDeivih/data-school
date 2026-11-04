@@ -1,0 +1,4 @@
+filas: 5000
+CSV     : 180803 bytes
+Parquet : 57746 bytes
+factor  : 3.1

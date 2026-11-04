@@ -1,0 +1,4 @@
+euler 138.0540
+exacto 138.1202
+error 0.0662
+error relativo 0.0479%

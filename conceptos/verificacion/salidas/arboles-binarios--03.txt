@@ -1,0 +1,2 @@
+claves entre 30 y 60: [30, 35, 40, 45, 50, 55, 60]
+nodos visitados: 11 de 15

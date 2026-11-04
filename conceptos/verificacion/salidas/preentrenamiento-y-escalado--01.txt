@@ -1,0 +1,4 @@
+FLOPs totales      1.200e+20
+horas en una GPU   111.1
+horas en 64 GPUs   1.74
+para 1e+20 FLOPs -> N = 9.129e+08 parametros, D = 1.826e+10 tokens

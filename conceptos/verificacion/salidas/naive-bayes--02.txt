@@ -1,0 +1,3 @@
+alpha 1e-09    P(spam) 0.573  P(no spam) 0.427  predice 1
+alpha 0.1      P(spam) 0.603  P(no spam) 0.397  predice 1
+alpha 1        P(spam) 0.703  P(no spam) 0.297  predice 1

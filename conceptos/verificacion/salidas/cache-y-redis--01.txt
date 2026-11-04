@@ -1,0 +1,9 @@
+pido a -> cache ['a']
+pido b -> cache ['a', 'b']
+pido c -> cache ['a', 'b', 'c']
+pido a -> cache ['b', 'c', 'a']
+pido d -> cache ['c', 'a', 'd']
+pido a -> cache ['c', 'd', 'a']
+pido b -> cache ['d', 'a', 'b']
+aciertos 2 fallos 5
+tasa de acierto 0.29

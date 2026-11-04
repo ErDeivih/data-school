@@ -1,0 +1,3 @@
+conversion 5.90% -> 5.72%
+pedidos 12400 -> 11900 (-500)
+efecto trafico -118  efecto conversion -382

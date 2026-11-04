@@ -1,0 +1,3 @@
+delta  6.20  d 0.554  n por grupo    52.2
+delta  3.10  d 0.277  n por grupo   205.9
+delta  1.55  d 0.138  n por grupo   820.6

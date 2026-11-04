@@ -1,0 +1,3 @@
+suma de margenes fila a fila: 1.536
+margen real                 : 0.289
+ingreso total: 281.35 coste total: 200.0

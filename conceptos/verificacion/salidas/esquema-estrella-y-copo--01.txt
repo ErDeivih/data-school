@@ -1,0 +1,3 @@
+estrella (1 union)  : {'accesorios': 72.4, 'imagen': 179.0}
+copo     (3 uniones): {'accesorios': 72.4, 'imagen': 179.0}
+mismo resultado     : True

@@ -1,0 +1,6 @@
+tarifa con el alcance previsto 100.00 EUR/h
+horas maximas antes del limite 150 h
+  120 h facturadas  tarifa real 100.00 EUR/h
+  138 h facturadas  tarifa real  86.96 EUR/h
+  154 h facturadas  tarifa real  77.92 EUR/h
+  190 h facturadas  tarifa real  63.16 EUR/h

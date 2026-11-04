@@ -1,0 +1,3 @@
+movil      sin funcion 26.0%  con funcion 25.0%
+escritorio sin funcion 11.0%  con funcion 10.0%
+total      sin funcion 13.1%  con funcion 20.0%

@@ -1,0 +1,3 @@
+movil       -1.41
+escritorio  +1.41
+Yates:      0.0282

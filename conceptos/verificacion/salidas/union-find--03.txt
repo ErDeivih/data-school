@@ -1,0 +1,2 @@
+comprimir = False saltos totales: 99800
+comprimir = True saltos totales: 698

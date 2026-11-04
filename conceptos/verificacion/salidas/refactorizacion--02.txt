@@ -1,0 +1,5 @@
+basica       0.04
+plus         0.02
+premium      0.01
+desconocida  0.06
+tipos comprobados: 4

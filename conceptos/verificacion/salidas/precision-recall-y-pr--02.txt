@@ -1,0 +1,3 @@
+AUC 0.920
+AP  0.1483
+azar (prevalencia) 0.0100

@@ -1,0 +1,6 @@
+{"coste": 0.02727, "llamadas_al_modelo": 2, "ms_total": 4155, "span_mas_lento": "reenviar"}
+recuperar     42 ms
+modelo      1180 ms
+validar        3 ms
+reenviar    1840 ms
+modelo      1090 ms

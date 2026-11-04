@@ -1,0 +1,3 @@
+filas antes 2 filas despues 3
+suma correcta 150.0
+suma tras unir 250.0

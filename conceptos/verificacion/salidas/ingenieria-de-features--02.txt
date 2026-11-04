@@ -1,0 +1,2 @@
+visitas medias clase 0 25.0  clase 1 30.0
+tasa media     clase 0 0.20  clase 1 0.50

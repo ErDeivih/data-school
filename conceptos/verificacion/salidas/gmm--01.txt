@@ -1,0 +1,4 @@
+medias: [0.0, 5.0]
+varianzas: [0.6667, 0.6667]
+pesos: [0.5, 0.5]
+log-verosimilitud: -11.456

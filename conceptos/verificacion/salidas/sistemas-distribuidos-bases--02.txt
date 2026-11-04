@@ -1,0 +1,5 @@
+   1 h ->    0.36 s de desfase
+  24 h ->    8.64 s de desfase
+ 168 h ->   60.48 s de desfase
+en un dia: 8.64 s
+resincronizando cada 64 s: 6.4 ms de desfase esperado

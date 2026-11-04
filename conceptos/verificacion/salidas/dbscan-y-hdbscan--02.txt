@@ -1,0 +1,4 @@
+k-means k=2  acuerdo con los grupos reales 0.743
+DBSCAN eps=0.1   grupos 11  ruido  15 de 300  acuerdo 0.937
+DBSCAN eps=0.12  grupos 2  ruido   5 de 300  acuerdo 1.000
+DBSCAN eps=0.3   grupos 1  ruido   0 de 300  acuerdo 0.500

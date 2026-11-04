@@ -1,0 +1,55 @@
+{
+  "contract_id": "muestra:redesign-20261101-v1",
+  "id": "J1",
+  "name": "Localizar un concepto y comprobar prerrequisitos",
+  "result": "passed",
+  "steps": [
+    {
+      "action": "escribir en #campo-busqueda",
+      "value": "varianza",
+      "observed": {
+        "resultados": [
+          {
+            "href": "#/c/covarianza-y-correlacion",
+            "texto": "F1 · básicoCovarianza y correlación"
+          },
+          {
+            "href": "#/c/varianza-y-desviacion",
+            "texto": "F1 · básicoVarianza y desviación típica"
+          },
+          {
+            "href": "#/c/sesgo-varianza-mse",
+            "texto": "F2 · intermedioSesgo, varianza y ECM"
+          },
+          {
+            "href": "#/c/sesgo-varianza",
+            "texto": "F6 · intermedioCompromiso sesgo-varianza"
+          },
+          {
+            "href": "#/c/distribucion-normal-multivariante",
+            "texto": "F1 · intermedioDistribución normal multivariante"
+          }
+        ]
+      }
+    },
+    {
+      "action": "pulsar el primer resultado",
+      "selector": "#resultados-busqueda a[href^='#/c/']",
+      "observed": {
+        "hash": "#/c/covarianza-y-correlacion",
+        "h1": "Covarianza y correlación",
+        "prerrequisitos": [
+          {
+            "href": "#/c/varianza-y-desviacion",
+            "texto": "Varianza y desviación típica"
+          },
+          {
+            "href": "#/c/valor-esperado",
+            "texto": "Valor esperado"
+          }
+        ]
+      }
+    }
+  ],
+  "conclusion": "Buscar «varianza» devolvió 5 resultados y abrió #/c/covarianza-y-correlacion; la ficha muestra 2 prerrequisitos enlazados."
+}

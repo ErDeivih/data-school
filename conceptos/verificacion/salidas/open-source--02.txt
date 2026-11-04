@@ -1,0 +1,1 @@
+ahora falla con ValueError: columna 'moneda' no existe; disponibles: ['importe', 'pais']

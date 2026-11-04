@@ -1,0 +1,3 @@
+diferencia observada  0.5073
+permutaciones extremas 0 de 5000
+p-valor Monte Carlo   0.0002

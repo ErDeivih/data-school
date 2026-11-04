@@ -1,0 +1,6 @@
+una factura                    imagen   3969  audio      0  total    4569  cabe
+diez facturas                  imagen   7840  audio      0  total    8640  cabe
+factura y llamada de 10 min    imagen   1764  audio  30000  total   32364  cabe
+reunion de una hora            imagen      0  audio 180000  total  180600  NO CABE
+diez facturas                  imagen 90.7%  audio  0.0%  texto  9.3%
+factura y llamada de 10 min    imagen  5.5%  audio 92.7%  texto  1.9%

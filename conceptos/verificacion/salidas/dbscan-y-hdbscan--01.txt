@@ -1,0 +1,4 @@
+eps=0.5  etiquetas [-1, -1, -1, -1, -1, -1, -1, -1, -1]  ruido 9
+eps=1.5  etiquetas [0, 0, 0, 1, 1, 1, 2, 2, 2]  ruido 0
+eps=6.0  etiquetas [0, 0, 0, 0, 0, 0, 1, 1, 1]  ruido 0
+vecinos por punto (incluyendo el propio): [2, 3, 2, 2, 3, 2, 2, 3, 2]

@@ -1,0 +1,3 @@
+valores singulares de delta W: [50.1984 26.6556  0.      0.      0.      0.      0.      0.    ]
+valores singulares no nulos: 2 de 8
+norma de Frobenius con alpha/r=8.0: 56.8366

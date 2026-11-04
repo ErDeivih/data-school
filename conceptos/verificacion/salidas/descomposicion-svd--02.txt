@@ -1,0 +1,5 @@
+valores singulares: [25.4624, 1.2907, 0.0]
+rango: 2
+k=1 error relativo: 0.0506
+k=2 error relativo: 0.0
+numeros con k=10 en 1000x1000: 20010 de 1000000

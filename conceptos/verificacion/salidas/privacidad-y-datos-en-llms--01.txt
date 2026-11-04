@@ -1,0 +1,3 @@
+Soy [cliente] ([correo]), pedido [ref], no me llega el pedido.
+caracteres originales: 71
+caracteres enviados  : 62

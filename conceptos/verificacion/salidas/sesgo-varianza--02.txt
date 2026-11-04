@@ -1,0 +1,15 @@
+grado  error train  error validacion
+    1        0.529             0.588
+    2        0.524             0.610
+    3        0.223             0.297
+    4        0.223             0.286
+    5        0.222             0.276
+    6        0.222             0.277
+    7        0.221             0.290
+    8        0.219             0.363
+    9        0.209             0.600
+   10        0.198             1.040
+   11        0.194             0.722
+   12        0.194             0.862
+desviacion del ruido 0.30
+puntos: 32 entrenamiento, 8 validacion

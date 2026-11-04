@@ -1,0 +1,3 @@
+cortando por x silueta 0.802 davies 0.2 calinski 50.0
+cortando por y silueta -0.39 davies 5.0 calinski 0.08
+silueta punto a punto: [-0.3901 -0.3901 -0.3901 -0.3901]

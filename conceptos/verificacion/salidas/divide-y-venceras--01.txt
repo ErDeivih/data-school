@@ -1,0 +1,3 @@
+ordenado: [1, 3, 9, 10, 27, 38, 43, 82]
+comparaciones: 17 de un maximo teorico de 24
+niveles de particion: 3

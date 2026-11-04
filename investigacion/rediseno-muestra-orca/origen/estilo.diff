@@ -1,0 +1,59 @@
+@@ -2013,3 +2013,58 @@
+ [data-offline-id] { display: block; }
+ .panel-offline > p { margin: 0 0 .25rem; }
+ .panel-offline > details > summary { min-height: 44px; padding-top: .5rem; }
++
++/* ══ REDISEÑO 2026-11 ═════════════════════════════════════════════════════════════════════════
++   Una capa al final, sin tocar las reglas de las tareas anteriores: así el cambio visual es
++   reversible y se puede medir contra las capturas de antes.
++
++   1. La sección actual se marca en los TRES sitios donde se navega (cabecera, barra inferior y
++      pie) con el mismo `aria-current="page"` que escribe app.js. Sin esto, la barra inferior
++      tenía un color para el enlace actual que nunca se activaba: no había ningún `aria-current`
++      en el documento. El subrayado sustituye a la clase `.activo`, que solo existía en algunas
++      vistas y dejaba el resto del menú sin señal.
++   2. El foco visible ya estaba definido para todos los controles; aquí se refuerza en los enlaces
++      de navegación, que son los que más se usan con teclado y los que se quedaban con un anillo
++      de 2 px pegado al borde.
++   3. La lectura: el cuerpo ya tiene 1.7 de interlineado; los párrafos largos se limitan para que
++      la línea no pase de ~72 caracteres en pantallas anchas. Las tablas y el código conservan su
++      scroll interno (regla T56) y no imponen ancho a la página.
++   4. Las tarjetas del rediseño no llevan sombra: un filete superior de 2 px y el fondo del panel
++      bastan para separarlas, y el filete no compite con el texto. */
++.barra-nav a[aria-current="page"] {
++  color: var(--acento);
++  box-shadow: inset 0 -2px 0 var(--acento);
++  border-radius: 0;
++  font-weight: 600;
++}
++.barra-nav a[aria-current="page"]:hover { background: transparent; color: var(--acento); }
++
++.pie-nav a[aria-current="page"] {
++  color: var(--texto);
++  font-weight: 600;
++  box-shadow: inset 2px 0 0 var(--acento);
++  padding-left: var(--e-2);
++}
++
++@media (max-width: 720px) {
++  .barra-inferior a[aria-current="page"] { color: var(--acento); font-weight: 700; }
++  .barra-inferior a[aria-current="page"] span[aria-hidden="true"] { transform: translateY(-1px); }
++}
++
++#barra-superior nav a:focus-visible,
++.pie-nav a:focus-visible {
++  outline: 3px solid var(--foco-color);
++  outline-offset: -3px;
++  border-radius: 4px;
++}
++
++#principal > p,
++#principal > ul,
++#principal > ol,
++#principal .prosa > p { max-width: 72ch; }
++
++@media (prefers-reduced-motion: reduce) {
++  .barra-inferior a,
++  .tarjeta,
++  #barra-superior { transition: none !important; }
++}

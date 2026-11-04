@@ -1,0 +1,9 @@
+WIP  4 -> tiempo de ciclo 1.1 semanas
+WIP  6 -> tiempo de ciclo 1.7 semanas
+WIP 12 -> tiempo de ciclo 3.4 semanas
+WIP 20 -> tiempo de ciclo 5.7 semanas
+utilizacion 50 % -> espera 1.0 veces el tiempo de servicio
+utilizacion 70 % -> espera 2.3 veces el tiempo de servicio
+utilizacion 80 % -> espera 4.0 veces el tiempo de servicio
+utilizacion 90 % -> espera 9.0 veces el tiempo de servicio
+utilizacion 95 % -> espera 19.0 veces el tiempo de servicio

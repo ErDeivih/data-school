@@ -1,0 +1,5 @@
+total 120 h -> 20 semanas a 6 h/semana
+modelo_con_validacion_temporal    45 h  7.5 semanas
+experimento_ab                    30 h  5.0 semanas
+sql_ventanas                      25 h  4.2 semanas
+informe_defendido                 20 h  3.3 semanas

@@ -1,0 +1,4 @@
+varianza por componente: [1.284, 0.049]
+1a componente explica  : 0.963
+error de reconstruccion: 0.0491
+varianza descartada    : 0.0491

@@ -1,0 +1,2 @@
+segunda derivada numerica: 6.0
+todas positivas          : True

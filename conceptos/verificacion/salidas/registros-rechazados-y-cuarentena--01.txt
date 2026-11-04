@@ -1,0 +1,7 @@
+tanda sucia: 4 rechazados de 8 (50.0%)
+  -> por encima del umbral: 0 filas escritas y el pipeline se para
+
+tanda normal: 1 rechazados de 8 (12.5%)
+  -> por debajo del umbral: 7 filas a la tabla y 1 a cuarentena
+pedido_id                     motivo
+       P4 precio vacio o no positivo

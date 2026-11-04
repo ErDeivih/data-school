@@ -1,0 +1,4 @@
+filas: 4
+pedido_id duplicados: 1
+claves nulas: 0
+el pipeline debe parar aqui antes de agregar nada

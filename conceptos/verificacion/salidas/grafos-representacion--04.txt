@@ -1,0 +1,3 @@
+n=   100  m=   500  matriz=       10000  lista=    1100  factor=9
+n=  1000  m=  5000  matriz=     1000000  lista=   11000  factor=91
+n= 10000  m= 50000  matriz=   100000000  lista=  110000  factor=909

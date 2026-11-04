@@ -15,18 +15,38 @@ Fecha de la sesión: **2026-11-04**.
 | D-007 | Los datos no comprobados se marcan «no comprobado» y **no se usan para decidir**: precios de DataCamp, Dataquest y los packs de roadmap.sh, y las cifras de captura archivada | La investigación vale por lo verificado; un número de una captura de 2026 no es un dato de hoy | 1 | sí |
 | D-008 | El sistema de diseño **no lleva componentes todavía**; el primer lote (LinkStatus, ResourceRow, TramoCard, ProgressBar) se construirá con la primera pantalla | Un sistema mínimo sin productos que lo consuman se llena de componentes inventados; mejor crecerlo con uso real | 2 | sí |
 | D-009 | Se trabaja en `main`, sin abrir ramas | Lo pide el encargo de la sesión; abrir rama es nivel 3 (cambio de flujo de trabajo) | 1 | sí |
+| D-010 | La carpeta se organiza en `fuentes/`, `conceptos/`, `proyectos/`, `datasets/` e `investigacion/`; los documentos de producto (`ESPECIFICACION`, `AGENTE`, `BACKLOG`, `DECISIONES`, `ESTADO`) se quedan en la raíz | Es la estructura que ya define `AGENTE.md`; separa catálogo de contenido de los documentos de gestión | 2 | sí (mover carpetas) |
+| D-011 | Se importan los **459** conceptos de la viva, no los 438 de Orca | Superconjunto verificado con hash: 438/438 idénticos + 21 nuevos, 0 conceptos solo-en-Orca, y 459/459 con código | 2 | sí (borrar ficheros) |
+| D-012 | Se versionan las **370 figuras SVG** (20,58 MB) además de sus **350 fuentes `.py`**; los 351 `.pyc` se descartan | 349 bloques `:::figura` referencian figuras; sin SVG el archivo queda ciego. Es material propio generado, no ajeno. Reversible con `git rm` | 2 | sí |
+| D-013 | Se importa la evidencia de ejecución completa de `.verificacion/` (913 `.py`, 33 `.sql`, 946 salidas `.txt`; 1.893 ficheros) | Es la prueba de «todo concepto lleva código ejecutado»; sin las salidas no se puede auditar. Orca no las tiene | 2 | sí |
+| D-014 | Los **10 datasets sintéticos propios** se alojan (CC0-1.0 con checksum SHA-256 y generador); los datasets externos (Kaggle, Hugging Face, data.gov, datos.gob.es, UCI, IMDb) se **enlazan**, nunca se copian | Licencia y procedencia verificables; los ajenos tienen licencia por ítem y no se redistribuyen | 2 | sí |
+| D-015 | De Orca se trae **solo el registro de decisión del rediseño** (10 ficheros, ~90 KB: `REDISENO.json`, `REDISENO.base.json`, manifiestos, diffs y recorridos), no las 156 capturas (15,9 MB) | Es lo único exclusivo de Orca y no es contenido de datos e IA; las capturas son interfaz del portal y se quedan en el archivo | 2 | sí |
+| D-016 | Se corrige de **11 a 15** el número de fuentes que solo admiten enlace | Conteo fila a fila de `FUENTES.md`: la clase «solo enlace» tiene 15; el propio documento enumeraba 14 y decía 11 | 1 | sí (dato) |
+| D-017 | Una fuente «solo enlace» **puede** ser principal de un tramo; la licencia decide qué se puede copiar, no qué se puede recomendar | El producto enlaza; el criterio anterior («ninguna restringida como principal») confundía recomendación con copia. Se aplica en `fuentes/POR-TRAMO.md` | 2 | sí |
+| D-018 | `C:\Users\David\orca\preview-data` no se importa | Medido: 4 ficheros, base SQLite de `opofuente` con 76 tablas y **0 filas de contenido**; no es el portal de datos | 1 | sí |
+| D-019 | Se ejecutan aquí los **16 bloques `python verificable`** de los conceptos que el verificador del portal no cubría, y se guarda su salida en `conceptos/verificacion/` | La evidencia del portal cubría 438 de 459 conceptos (`.verificacion` desfasada tras añadir 21); sin este paso la regla «todo concepto lleva código ejecutado» no se cumpliría en 16. Ejecutado con el Python del sistema, 0 fallos. Reversible (borrar 32 ficheros) | 2 | sí |
+
+## Sesión de consolidación (2026-11-04)
+
+- La decisión 1 de la especificación (**un tronco común y tres salidas**) ya está cerrada por David el 2026-11-04 y recogida en `ESPECIFICACION.md`; deja de figurar como pendiente.
+- Se corrige la lista de pendientes: quedan **4** decisiones de producto (progreso, apuntes, datasets enlazados o locales, catálogo público o privado), no 5.
 
 ## Decisiones que **no** toma el agente (nivel 3, esperando)
 
-Las cinco de la especificación. La primera decide el modelo entero:
+Decisiones de producto que siguen abiertas para el portal (no para este archivo):
 
-1. ¿Tres rutas separadas o una sola con tres salidas?
-2. ¿El progreso es por recurso, por tramo o por proyecto?
-3. ¿Los apuntes son texto propio dentro de la plataforma, o enlaces a un cuaderno externo?
-4. ¿Los datasets se enlazan o se descargan a un almacén local?
-5. ¿El catálogo es privado o público?
+1. ¿El progreso es por recurso, por tramo o por proyecto?
+2. ¿Los apuntes son texto propio dentro de la plataforma, o enlaces a un cuaderno externo?
+3. ¿Los datasets se enlazan o se descargan a un almacén local?
+4. ¿El catálogo es privado o público?
 
-Propuesta del agente si no hay respuesta: 2) progreso por tramo demostrado con proyecto; 3) enlace externo con nota corta propia; 4) enlazar, nunca alojar; 5) privado en la primera versión. La 1 queda abierta.
+Propuesta del agente si no hay respuesta: 1) progreso por tramo demostrado con proyecto; 2) enlace externo con nota corta propia; 3) enlazar, nunca alojar; 4) privado en la primera versión.
+
+### Dudas de nivel 3 abiertas por la consolidación
+
+5. **¿Cómo se sincroniza esta carpeta con el portal (Muestra)?** ¿El portal la consume como fuente, o se sigue copiando a mano? Afecta al flujo entre dos proyectos y a quién manda cuando cambian. **No se decide aquí**; mientras tanto, la copia canónica del contenido pasa a ser esta carpeta y el portal no se toca.
+6. **¿Se publica este archivo tal cual** (conceptos completos, incluido el código) o el portal es el único que publica? Es una decisión de alcance y de producto, no de contenido.
+7. **Diferencia de versiones entre viva y Orca en código de portal** (`app.js`, `estilo.css`, `proyectos.js`, `plan-hoy.js` difieren): no es contenido de datos y no se decide desde aquí; la otra sesión es la dueña del portal.
 
 ## Descartado de momento (y por qué)
 

@@ -1,0 +1,7 @@
+dias en tension 30%
+acierto del filtro      0.681
+acierto de decir calma  0.705
+precision en tension    0.473
+episodios 108  retardo mediano 2 dias
+retorno medio primeros 4 dias -0.00043
+retorno medio del resto       -0.00054

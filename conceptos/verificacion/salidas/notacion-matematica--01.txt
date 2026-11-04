@@ -1,0 +1,4 @@
+sumatorio  x_i = 24.0
+producto   x_i = 945.0
+media      x_i = 6.0
+parcial en x=2 ~ 60.0

@@ -1,0 +1,4 @@
+particion 1: A1 A2 B1 C1 A3 B2 C2
+particion 5: D1
+particiones de la clave A: 1
+particiones usadas: 2

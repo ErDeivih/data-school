@@ -1,0 +1,7 @@
+pendiente OLS 1.0119
+lambda =  0.0  pendiente 1.0119
+lambda =  0.5  pendiente 0.9649
+lambda =  1.0  pendiente 0.9220
+lambda =  2.0  pendiente 0.8468
+lambda = 10.0  pendiente 0.5123
+lambda equivalente 4.0

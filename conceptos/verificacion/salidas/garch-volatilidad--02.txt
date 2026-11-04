@@ -1,0 +1,6 @@
+persistencia 0.98
+varianza de largo plazo 0.000500  vol diaria 2.24%
+volatilidad anualizada 35.5%
+vida media de un shock en dias 34.3
+shock 3%  varianza manana 0.000462  vol diaria 2.15%
+shock 5%  varianza manana 0.000654  vol diaria 2.56%

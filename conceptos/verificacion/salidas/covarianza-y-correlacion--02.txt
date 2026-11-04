@@ -1,0 +1,3 @@
+covarianza(x, x^2)  = 0.0000
+correlacion(x, x^2) = 0.0000
+correlacion lineal negativa = -1.0000

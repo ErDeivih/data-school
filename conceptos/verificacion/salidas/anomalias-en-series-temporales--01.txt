@@ -1,0 +1,4 @@
+desviacion de la serie 39.48  desviacion del ruido 2.60
+z global maximo 2.23  marcas 0
+diferencia estacional: aciertos 7 de 8  marcas totales 15
+dias marcados: [41, 42, 48, 49, 50, 118, 125, 171, 178, 229, 230, 236, 237, 275, 282]

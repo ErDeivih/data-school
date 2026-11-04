@@ -1,0 +1,3 @@
+registros con un unico candidato: 8 de 8
+k sin generalizar: 1
+k por provincia y sexo: 3

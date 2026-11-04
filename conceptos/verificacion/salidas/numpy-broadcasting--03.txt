@@ -1,0 +1,3 @@
+(3, 4) (3,)
+ValueError: no se puede alinear (3,4) con (3,)
+(3, 4)

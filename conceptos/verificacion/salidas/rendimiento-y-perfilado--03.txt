@@ -1,0 +1,4 @@
+llamadas a recorrer: 30
+llamadas a transformar: 1
+lineas del informe: 11
+el informe ordena por tiempo propio: recorrer encabeza la lista

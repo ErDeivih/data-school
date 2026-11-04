@@ -1,0 +1,2 @@
+clientes sin pedidos  NOT IN 0  NOT EXISTS 1
+dias 5  de 2024-01-01 a 2024-01-05

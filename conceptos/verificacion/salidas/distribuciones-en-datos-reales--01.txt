@@ -1,0 +1,2 @@
+normal media 49908 mediana 49891 maximo 138127 fuera de 3 sigma 163
+lognormal media 58667 mediana 49055 maximo 580674 fuera de 3 sigma 1713

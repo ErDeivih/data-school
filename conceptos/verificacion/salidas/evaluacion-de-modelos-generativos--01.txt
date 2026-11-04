@@ -1,0 +1,3 @@
+desplazado 0,5 en un eje     0.2500
+con un 50 % mas de varianza  0.1010
+las dos cosas a la vez       0.3510

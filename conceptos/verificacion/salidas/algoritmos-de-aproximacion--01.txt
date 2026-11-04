@@ -1,0 +1,4 @@
+voraz: ['A', 'B', 'C'] -> 3 conjuntos
+optimo: B y C -> 2 conjuntos
+cociente observado: 1.50
+cota teorica H(6) = 2.45

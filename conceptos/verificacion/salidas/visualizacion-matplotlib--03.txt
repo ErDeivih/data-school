@@ -1,0 +1,3 @@
+media A 100.0  desv A 1.4
+media B 100.0  desv B 53.8
+rango A: 4  rango B: 120

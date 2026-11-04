@@ -1,0 +1,7 @@
+parametros 1e+08  perdida 4.4050
+parametros 1e+09  perdida 4.1000
+parametros 1e+10  perdida 3.8281
+parametros 1e+11  perdida 3.5858
+1e+08 -> 1e+09: baja 0.3050
+1e+09 -> 1e+10: baja 0.2719
+1e+10 -> 1e+11: baja 0.2423

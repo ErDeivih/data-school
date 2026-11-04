@@ -1,0 +1,5 @@
+capas=  1  coseno medio entre pares de nodos=-0.0625
+capas=  2  coseno medio entre pares de nodos=-0.0415
+capas=  4  coseno medio entre pares de nodos=0.0979
+capas=  8  coseno medio entre pares de nodos=0.7973
+capas= 32  coseno medio entre pares de nodos=0.9999

@@ -1,0 +1,7 @@
+k=1  log-verosimilitud   -594.9  BIC   1200.4
+k=2  log-verosimilitud   -556.9  BIC   1140.5
+k=3  log-verosimilitud   -517.0  BIC   1076.8
+k=4  log-verosimilitud   -517.0  BIC   1092.9
+k=5  log-verosimilitud   -515.3  BIC   1105.5
+medias ordenadas: [0.11, 5.11, 9.9]
+pertenencia ordenada del punto 2.5: [0.0, 0.41, 0.59]

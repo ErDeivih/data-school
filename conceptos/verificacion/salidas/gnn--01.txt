@@ -1,0 +1,10 @@
+capa 0:
+[[1. 0.]
+ [0. 1.]
+ [1. 1.]
+ [2. 0.]]
+capa 1 (cada nodo agrega los mensajes de sus vecinos):
+[[0.5   0.408]
+ [0.742 0.667]
+ [1.15  0.667]
+ [1.408 0.408]]

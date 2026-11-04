@@ -1,0 +1,3 @@
+peor coste amortizado con n=1024: 3
+suma de costes con n=1024: 3071
+suma de costes con n=100000: 299999

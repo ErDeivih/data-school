@@ -1,0 +1,4 @@
+densidades: [5.0, 4.8, 4.8]
+voraz:   ([0], 30)
+optimo:  (6, 48)
+el voraz pierde: 18 de 48

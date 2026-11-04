@@ -1,0 +1,5 @@
+A y B iguales: True
+A y C iguales: False
+prefijo de A: aac552446269
+prefijo de C: ad1fc903434d
+caracteres distintos: 1

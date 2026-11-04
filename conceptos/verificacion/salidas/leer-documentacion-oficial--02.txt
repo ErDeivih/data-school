@@ -1,0 +1,4 @@
+inner por defecto: 2
+outer explicito : 4
+nulos del outer : 2
+sin argumentos  : DataFrame.merge() missing 1 required positional argument: 'right'

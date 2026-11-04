@@ -1,0 +1,4 @@
+q(correcta) = 0.99  coste = 0.0145 bits
+q(correcta) = 0.5   coste = 1.0000 bits
+q(correcta) = 0.01  coste = 6.6439 bits
+KL con soporte imposible = inf

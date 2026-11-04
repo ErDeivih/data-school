@@ -1,0 +1,3 @@
+lambda  0.0  ganancia del mejor corte  8.00
+lambda  4.0  ganancia del mejor corte  2.67
+lambda 16.0  ganancia del mejor corte  0.89

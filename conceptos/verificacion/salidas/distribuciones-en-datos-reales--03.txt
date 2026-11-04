@@ -1,0 +1,4 @@
+media real:       3.741
+media registrada: 3.506
+proporcion censurada: 0.0515
+media de los censurados: 14.553

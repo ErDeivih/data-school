@@ -1,0 +1,2 @@
+desviacion de la serie       13.16
+desviacion de la media movil 7.79

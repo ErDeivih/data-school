@@ -1,0 +1,5 @@
+fin: 2026-03-11 13:30:00
+duracion: 10 days, 4:30:00
+fecha suelta: 2026-03-11  hora suelta: 13:30:00
+formateado: 11/03/2026 13:30
+dias hasta el 20 de marzo: 8

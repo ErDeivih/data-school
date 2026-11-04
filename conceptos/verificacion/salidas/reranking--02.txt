@@ -1,0 +1,4 @@
+candidatos  50  reordenar   25.0 ms  total   50.0 ms  coste relativo 2.0x
+candidatos 100  reordenar   50.0 ms  total   75.0 ms  coste relativo 3.0x
+candidatos 200  reordenar  100.0 ms  total  125.0 ms  coste relativo 5.0x
+candidatos 500  reordenar  250.0 ms  total  275.0 ms  coste relativo 11.0x

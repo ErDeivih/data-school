@@ -1,0 +1,2 @@
+R2 con 5 variables reales 0.63
+R2 con 45 ruido anadido   -7.53

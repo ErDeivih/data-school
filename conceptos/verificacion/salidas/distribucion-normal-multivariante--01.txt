@@ -1,0 +1,4 @@
+det 18.36  rho 0.70
+[0.0, 0.0]  mahalanobis2 0.000  densidad 0.037144
+[2.0, 3.0]  mahalanobis2 1.176  densidad 0.020626
+[4.0, 6.0]  mahalanobis2 4.706  densidad 0.003532

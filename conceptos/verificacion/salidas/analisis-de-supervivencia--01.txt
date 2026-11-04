@@ -1,0 +1,4 @@
+t=1 n=15 d=1 S=0.9333  t=2 n=14 d=1 S=0.8667  t=3 n=13 d=1 S=0.8000  t=5 n=10 d=1 S=0.7200  t=6 n=9 d=1 S=0.6400  t=7 n=8 d=1 S=0.5600  t=10 n=5 d=1 S=0.4480  t=12 n=3 d=1 S=0.2987
+supervivencia al final 0.2987
+1 - eventos/total 0.4667
+mediana 10

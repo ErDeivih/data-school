@@ -1,0 +1,6 @@
+reintento 1: espera 5 min
+reintento 2: espera 10 min
+reintento 3: espera 20 min
+espera acumulada: 35 min
+acaba la extraccion: 05:55
+acaba el DAG: 06:11

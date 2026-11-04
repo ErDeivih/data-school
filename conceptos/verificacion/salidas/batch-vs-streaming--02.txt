@@ -1,0 +1,3 @@
+eventos en el lote de las 10:00: 2
+eventos que van al lote siguiente: 1
+retraso en segundos: 480

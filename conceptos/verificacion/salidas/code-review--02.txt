@@ -1,0 +1,6 @@
+src/pagos.py            320 lineas
+tests/test_pagos.py     140 lineas
+CHANGELOG.md             12 lineas
+lineas cambiadas: 472
+dentro del limite: False
+mayor bloque: src/pagos.py

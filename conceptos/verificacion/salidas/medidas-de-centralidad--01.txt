@@ -1,0 +1,3 @@
+media       3057
+mediana     2100
+por debajo de la media: 6 de 7

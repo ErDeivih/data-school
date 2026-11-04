@@ -1,0 +1,4 @@
+tamano total 0.95 GB
+ficheros objetivo 8
+amplificacion 13107
+bytes por fichero 10240

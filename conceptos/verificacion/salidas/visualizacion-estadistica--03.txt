@@ -1,0 +1,2 @@
+r de x con x^2: -0.0
+y siempre vale x^2: True

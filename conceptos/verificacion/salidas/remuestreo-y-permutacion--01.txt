@@ -1,0 +1,3 @@
+diferencia observada  -8.0
+repartos extremos     2 de 20
+p-valor exacto        0.10

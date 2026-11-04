@@ -1,0 +1,4 @@
+escala del MASE: 7.328
+ingenuo     MAE 12.913  MASE 1.762  sMAPE 0.108
+estacional  MAE  5.466  MASE 0.746  sMAPE 0.047
+deriva      MAE 12.807  MASE 1.748  sMAPE 0.107

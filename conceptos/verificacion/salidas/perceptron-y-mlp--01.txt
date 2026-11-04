@@ -1,0 +1,4 @@
+regresion logistica: 0.425
+una capa de 2 neuronas: 0.775  parametros: 9
+una capa de 8 neuronas: 1.0  parametros: 33
+XOR con capa oculta: [0 1 1 0]  (esperado [0 1 1 0])

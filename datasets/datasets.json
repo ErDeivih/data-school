@@ -1,0 +1,443 @@
+{
+ "version": 1,
+ "generadoPor": "datos/generar-datasets.mjs",
+ "semilla": "fija por conjunto",
+ "licencia": "CC0-1.0 (datos sinteticos)",
+ "conjuntos": [
+  {
+   "id": "ventas-mensuales",
+   "titulo": "Ventas mensuales por tienda",
+   "fichero": "datos/datasets/ventas-mensuales.csv",
+   "filas": 180,
+   "columnas": [
+    {
+     "nombre": "fecha",
+     "tipo": "fecha",
+     "unidad": "ISO 8601"
+    },
+    {
+     "nombre": "tienda",
+     "tipo": "texto",
+     "unidad": ""
+    },
+    {
+     "nombre": "unidades",
+     "tipo": "entero",
+     "unidad": "uds"
+    },
+    {
+     "nombre": "ingresos",
+     "tipo": "decimal",
+     "unidad": "EUR"
+    }
+   ],
+   "descripcion": "Una serie de ventas diarias con estacionalidad semanal y una tendencia suave.",
+   "origen": "sintetico",
+   "licencia": "CC0-1.0",
+   "checksum": "sha256:afa71a0b0ae0189e863247ff5a25f4ebe1836742ac7686f929d6a42565ecf7f6"
+  },
+  {
+   "id": "clientes-churn",
+   "titulo": "Clientes y baja",
+   "fichero": "datos/datasets/clientes-churn.csv",
+   "filas": 200,
+   "columnas": [
+    {
+     "nombre": "id_cliente",
+     "tipo": "texto",
+     "unidad": ""
+    },
+    {
+     "nombre": "antiguedad_meses",
+     "tipo": "entero",
+     "unidad": "meses"
+    },
+    {
+     "nombre": "uso_mensual",
+     "tipo": "entero",
+     "unidad": "sesiones"
+    },
+    {
+     "nombre": "reclamaciones",
+     "tipo": "entero",
+     "unidad": "uds"
+    },
+    {
+     "nombre": "baja",
+     "tipo": "booleano",
+     "unidad": "0/1"
+    }
+   ],
+   "descripcion": "Clientes sintéticos con antigüedad, uso mensual y si se dieron de baja.",
+   "origen": "sintetico",
+   "licencia": "CC0-1.0",
+   "checksum": "sha256:5290b89e3ecf746e378b01af2e73bb9e39a4297541e5ccbedae19bfc97a9839c"
+  },
+  {
+   "id": "precios-accion",
+   "titulo": "Precios diarios de una acción",
+   "fichero": "datos/datasets/precios-accion.csv",
+   "filas": 250,
+   "columnas": [
+    {
+     "nombre": "fecha",
+     "tipo": "fecha",
+     "unidad": "ISO 8601"
+    },
+    {
+     "nombre": "apertura",
+     "tipo": "decimal",
+     "unidad": "EUR"
+    },
+    {
+     "nombre": "cierre",
+     "tipo": "decimal",
+     "unidad": "EUR"
+    },
+    {
+     "nombre": "maximo",
+     "tipo": "decimal",
+     "unidad": "EUR"
+    },
+    {
+     "nombre": "minimo",
+     "tipo": "decimal",
+     "unidad": "EUR"
+    },
+    {
+     "nombre": "volumen",
+     "tipo": "entero",
+     "unidad": "acciones"
+    }
+   ],
+   "descripcion": "Paseo aleatorio con deriva, apertura, cierre, máximo, mínimo y volumen.",
+   "origen": "sintetico",
+   "licencia": "CC0-1.0",
+   "checksum": "sha256:15c9d071f65b8e34061f757405bb3a74021bd4cb7d8b333364fe215038911de7"
+  },
+  {
+   "id": "sensores-planta",
+   "titulo": "Sensores de planta",
+   "fichero": "datos/datasets/sensores-planta.csv",
+   "filas": 240,
+   "columnas": [
+    {
+     "nombre": "hora",
+     "tipo": "entero",
+     "unidad": "h desde el inicio"
+    },
+    {
+     "nombre": "temperatura",
+     "tipo": "decimal",
+     "unidad": "°C"
+    },
+    {
+     "nombre": "presion",
+     "tipo": "decimal",
+     "unidad": "bar"
+    },
+    {
+     "nombre": "estado",
+     "tipo": "texto",
+     "unidad": ""
+    }
+   ],
+   "descripcion": "Lecturas de temperatura y presión con un episodio de avería.",
+   "origen": "sintetico",
+   "licencia": "CC0-1.0",
+   "checksum": "sha256:151ed407852ef5ae874afeb18302fa9300a58f090f1302c876422f30732617aa"
+  },
+  {
+   "id": "encuestas-satisfaccion",
+   "titulo": "Encuestas de satisfacción",
+   "fichero": "datos/datasets/encuestas-satisfaccion.csv",
+   "filas": 160,
+   "columnas": [
+    {
+     "nombre": "id",
+     "tipo": "texto",
+     "unidad": ""
+    },
+    {
+     "nombre": "segmento",
+     "tipo": "texto",
+     "unidad": ""
+    },
+    {
+     "nombre": "puntuacion",
+     "tipo": "entero",
+     "unidad": "0-10"
+    },
+    {
+     "nombre": "recomienda",
+     "tipo": "booleano",
+     "unidad": "0/1"
+    }
+   ],
+   "descripcion": "Puntuaciones de 0 a 10 por segmento, con una cola de insatisfechos.",
+   "origen": "sintetico",
+   "licencia": "CC0-1.0",
+   "checksum": "sha256:da16c0e54b3c37555f51947ff9d605aeb07a8051495d23aa708859a12f2e63db"
+  },
+  {
+   "id": "algoritmos-tiempos",
+   "titulo": "Tiempos de algoritmos",
+   "fichero": "datos/datasets/algoritmos-tiempos.csv",
+   "filas": 180,
+   "columnas": [
+    {
+     "nombre": "algoritmo",
+     "tipo": "texto",
+     "unidad": ""
+    },
+    {
+     "nombre": "n",
+     "tipo": "entero",
+     "unidad": "elementos"
+    },
+    {
+     "nombre": "milisegundos",
+     "tipo": "decimal",
+     "unidad": "ms"
+    }
+   ],
+   "descripcion": "Tiempo de ejecución de seis algoritmos de ordenación con tamaños crecientes.",
+   "origen": "sintetico",
+   "licencia": "CC0-1.0",
+   "checksum": "sha256:b1965e63ca0a4987ded90cc2d71cb22167c11fa2041673de9484f5f3cdc8cbe7"
+  },
+  {
+   "id": "telemetria-f1",
+   "titulo": "Telemetria de una carrera",
+   "fichero": "datos/datasets/telemetria-f1.csv",
+   "filas": 180,
+   "columnas": [
+    {
+     "nombre": "carrera",
+     "tipo": "texto",
+     "unidad": ""
+    },
+    {
+     "nombre": "piloto",
+     "tipo": "texto",
+     "unidad": ""
+    },
+    {
+     "nombre": "vuelta",
+     "tipo": "entero",
+     "unidad": "vueltas"
+    },
+    {
+     "nombre": "compuesto",
+     "tipo": "texto",
+     "unidad": ""
+    },
+    {
+     "nombre": "edad_neumatico",
+     "tipo": "entero",
+     "unidad": "vueltas"
+    },
+    {
+     "nombre": "sector1_s",
+     "tipo": "decimal",
+     "unidad": "s"
+    },
+    {
+     "nombre": "sector2_s",
+     "tipo": "decimal",
+     "unidad": "s"
+    },
+    {
+     "nombre": "sector3_s",
+     "tipo": "decimal",
+     "unidad": "s"
+    },
+    {
+     "nombre": "tiempo_vuelta_s",
+     "tipo": "decimal",
+     "unidad": "s"
+    },
+    {
+     "nombre": "parada",
+     "tipo": "booleano",
+     "unidad": "0/1"
+    }
+   ],
+   "descripcion": "Tres carreras, dos pilotos y treinta vueltas por piloto, con compuesto, desgaste y una parada por piloto y carrera.",
+   "origen": "sintetico",
+   "licencia": "CC0-1.0",
+   "checksum": "sha256:c232e767dc95184fddeb329f6a7c4c72ccb13423a2961bea717cd464150c2c3b"
+  },
+  {
+   "id": "cartera-acciones",
+   "titulo": "Cartera de acciones frente a un indice",
+   "fichero": "datos/datasets/cartera-acciones.csv",
+   "filas": 360,
+   "columnas": [
+    {
+     "nombre": "mes",
+     "tipo": "fecha",
+     "unidad": "ISO 8601"
+    },
+    {
+     "nombre": "activo",
+     "tipo": "texto",
+     "unidad": ""
+    },
+    {
+     "nombre": "retorno",
+     "tipo": "decimal",
+     "unidad": "tanto por uno"
+    }
+   ],
+   "descripcion": "Sesenta meses de retornos de cinco acciones y un indice, con un factor de mercado comun y ruido propio.",
+   "origen": "sintetico",
+   "licencia": "CC0-1.0",
+   "checksum": "sha256:62ccc9a7355a27559024f7e4b725792d2be58a379fad4b4740a8a6fd25eacd51"
+  },
+  {
+   "id": "f1-clasificacion",
+   "titulo": "Clasificacion y carrera de F1",
+   "fichero": "datos/datasets/f1-clasificacion.csv",
+   "filas": 400,
+   "columnas": [
+    {
+     "nombre": "carrera",
+     "tipo": "texto",
+     "unidad": ""
+    },
+    {
+     "nombre": "piloto",
+     "tipo": "texto",
+     "unidad": ""
+    },
+    {
+     "nombre": "equipo",
+     "tipo": "texto",
+     "unidad": ""
+    },
+    {
+     "nombre": "posicion_quali",
+     "tipo": "entero",
+     "unidad": "puesto"
+    },
+    {
+     "nombre": "vuelta_quali_s",
+     "tipo": "decimal",
+     "unidad": "s"
+    },
+    {
+     "nombre": "sector1_s",
+     "tipo": "decimal",
+     "unidad": "s"
+    },
+    {
+     "nombre": "sector2_s",
+     "tipo": "decimal",
+     "unidad": "s"
+    },
+    {
+     "nombre": "sector3_s",
+     "tipo": "decimal",
+     "unidad": "s"
+    },
+    {
+     "nombre": "compuesto",
+     "tipo": "texto",
+     "unidad": ""
+    },
+    {
+     "nombre": "temperatura_c",
+     "tipo": "decimal",
+     "unidad": "C"
+    },
+    {
+     "nombre": "posicion_final",
+     "tipo": "entero",
+     "unidad": "puesto"
+    },
+    {
+     "nombre": "puntos",
+     "tipo": "entero",
+     "unidad": "puntos"
+    }
+   ],
+   "descripcion": "Veinte carreras con veinte pilotos: tiempos de clasificacion, compuesto, temperatura y posicion final.",
+   "origen": "sintetico",
+   "licencia": "CC0-1.0",
+   "checksum": "sha256:2cd5b45e02b14ad12bae786880bf4a175cfc8d2a2ea13d286e28384779054a93"
+  },
+  {
+   "id": "futbol-partidos",
+   "titulo": "Partidos de liga con tiros y xG",
+   "fichero": "datos/datasets/futbol-partidos.csv",
+   "filas": 380,
+   "columnas": [
+    {
+     "nombre": "jornada",
+     "tipo": "entero",
+     "unidad": "jornada"
+    },
+    {
+     "nombre": "local",
+     "tipo": "texto",
+     "unidad": ""
+    },
+    {
+     "nombre": "visitante",
+     "tipo": "texto",
+     "unidad": ""
+    },
+    {
+     "nombre": "goles_local",
+     "tipo": "entero",
+     "unidad": "goles"
+    },
+    {
+     "nombre": "goles_visitante",
+     "tipo": "entero",
+     "unidad": "goles"
+    },
+    {
+     "nombre": "tiros_local",
+     "tipo": "entero",
+     "unidad": "tiros"
+    },
+    {
+     "nombre": "tiros_visitante",
+     "tipo": "entero",
+     "unidad": "tiros"
+    },
+    {
+     "nombre": "xg_local",
+     "tipo": "decimal",
+     "unidad": "goles esperados"
+    },
+    {
+     "nombre": "xg_visitante",
+     "tipo": "decimal",
+     "unidad": "goles esperados"
+    },
+    {
+     "nombre": "posesion_local",
+     "tipo": "entero",
+     "unidad": "%"
+    },
+    {
+     "nombre": "amarillas",
+     "tipo": "entero",
+     "unidad": "tarjetas"
+    },
+    {
+     "nombre": "resultado",
+     "tipo": "texto",
+     "unidad": "1 X 2"
+    }
+   ],
+   "descripcion": "Una liga de veinte equipos: goles, tiros, xG, posesion y tarjetas por partido.",
+   "origen": "sintetico",
+   "licencia": "CC0-1.0",
+   "checksum": "sha256:5cbc8977b6c9d4f7ae66bfcc7642c93a6655faf7b6e6524a6d40480e2e66a12e"
+  }
+ ]
+}

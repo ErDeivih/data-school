@@ -1,0 +1,4 @@
+media 2.50  varianza 1.25  desviacion 1.118
+normalizado   [-1.342 -0.447  0.447  1.342]
+con gamma y beta  [-1.683  0.106  1.894  3.683]
+media de la salida 0.0000  desviacion 1.0000

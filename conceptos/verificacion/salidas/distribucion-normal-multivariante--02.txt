@@ -1,0 +1,3 @@
+P(mahalanobis2 < 5.991)  simulada 0.950  teorica 0.950
+proporcion de puntos fuera de la elipse del 95 %: 0.050
+sd de la suma 4.6260  suma de sd 5.0000

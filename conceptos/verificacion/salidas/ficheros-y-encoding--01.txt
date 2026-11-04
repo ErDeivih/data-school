@@ -1,0 +1,4 @@
+columnas mal : ['producto;importe'] filas 2
+tipo mal     : str en vez de float
+columnas bien: ['producto', 'importe']
+media        : 21.225

@@ -1,0 +1,4 @@
+media poblacional      2790
+media del estratificado        2790
+desviacion del muestreo simple 376
+desviacion del estratificado   19

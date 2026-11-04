@@ -1,0 +1,4 @@
+c=0.8652 phi=0.3957 media implicita=1.432
+recursiva h=1,2,12: 1.909 1.620 1.432
+formula cerrada h=1,2,12: 1.909 1.620 1.432
+directa h=1,2,12: 1.909 1.339 1.490

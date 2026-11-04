@@ -1,0 +1,5 @@
+P(llueve) = 0.45  P(paraguas) = 0.50
+informacion mutua = 0.3973 bits
+H(X) = 0.9928  H(Y) = 1.0000
+H(X) + H(Y) - MI = 1.5955
+uniforme 8 simbolos = 3.0000 bits

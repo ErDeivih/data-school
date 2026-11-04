@@ -1,0 +1,3 @@
+antes   974.61
+despues 931.53
+caida   -4.42 %

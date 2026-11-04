@@ -1,0 +1,5 @@
+ancla lambda   error en origen   error en destino
+        0.0            1.386             0.000
+       0.05            1.256             0.136
+        0.5            0.687             0.720
+        5.0            0.128             1.260

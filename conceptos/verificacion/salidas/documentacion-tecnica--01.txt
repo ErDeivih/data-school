@@ -1,0 +1,4 @@
+firma:         ['serie', 'ventana']
+docstring:     ['serie', 'ventana']
+sin documentar: []
+resultado media_movil([1, 2, 3, 4], 2): [1.5, 2.5, 3.5]

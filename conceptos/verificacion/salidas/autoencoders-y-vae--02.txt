@@ -1,0 +1,6 @@
+mu=0, log_var= 0: 0.0
+mu=1, log_var= 0: 0.5
+mu=2, log_var= 0: 2.0
+mu=0, log_var=-3: 1.0249
+mu=0, log_var= 3: 8.0428
+sigma: 0.223 4.482

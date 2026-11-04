@@ -1,0 +1,2 @@
+sma3 ultimo 13.00
+rsi3 ultimo 80.00

@@ -1,0 +1,3 @@
+v1: 3 ficheros, 300 filas, importe 451500
+v2: 3 ficheros, 300 filas, importe 461600
+v3: 3 ficheros, 250 filas, importe 446300

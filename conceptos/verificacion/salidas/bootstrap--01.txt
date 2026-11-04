@@ -1,0 +1,5 @@
+media    23.9
+mediana  13.8
+proporcion de remuestras con el 96    0.65
+error tipico bootstrap de la mediana  4.50
+IC 95 % percentil  [12.80, 15.10]

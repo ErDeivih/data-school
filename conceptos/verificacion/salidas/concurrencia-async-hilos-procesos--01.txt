@@ -1,0 +1,3 @@
+una tras otra 0.62 s
+con gather    0.31 s
+aceleracion: 2.0 x

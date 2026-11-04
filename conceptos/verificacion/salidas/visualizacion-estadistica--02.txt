@@ -1,0 +1,4 @@
+media  153.5
+p50    74
+p95    494
+mediciones por debajo de la media: 12 de 15

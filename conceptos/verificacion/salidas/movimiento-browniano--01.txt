@@ -1,0 +1,4 @@
+ABM media 104.96 desviacion 19.87
+GBM media 105.06 desviacion 21.05
+ABM negativo 0.00%
+log GBM desviacion 0.1987

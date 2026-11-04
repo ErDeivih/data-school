@@ -1,0 +1,4 @@
+modulo 1024, potencia de 2  colisiones: 5
+modulo 1009, primo         colisiones: 0
+cubos ocupados con 1024: 1
+cubos ocupados con 1009: 6

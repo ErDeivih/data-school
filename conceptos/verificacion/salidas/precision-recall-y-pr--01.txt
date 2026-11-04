@@ -1,0 +1,3 @@
+AP          0.7222
+prevalencia 0.3000
+veces mejor que el azar 2.4

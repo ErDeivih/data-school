@@ -1,0 +1,4 @@
+csv                    : 22517 bytes
+misma tabla como codigos: 12025 bytes
+factor                 : 1.9
+codigos de la columna nombre: [0, 1, 2, 3]

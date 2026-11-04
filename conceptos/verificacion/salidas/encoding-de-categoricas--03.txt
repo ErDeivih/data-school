@@ -1,0 +1,3 @@
+media global (prior)  0.61
+medias crudas        {'A': 0.6, 'B': 0.75}
+medias suavizadas    {'A': 0.6, 'B': 0.65}

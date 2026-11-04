@@ -1,0 +1,3 @@
+  lineal  Pearson +1.0000  Spearman +1.0000
+ atipico  Pearson +0.8165  Spearman +1.0000
+   curva  Pearson +0.9762  Spearman +1.0000

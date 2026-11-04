@@ -1,0 +1,3 @@
+ carga completa:  2400 llamadas,    480.0 s
+ solo cambiados:    16 llamadas,      3.2 s
+factor: 150

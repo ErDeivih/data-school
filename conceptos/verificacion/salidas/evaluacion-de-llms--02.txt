@@ -1,0 +1,4 @@
+acuerdo observado: 0.92
+acuerdo por azar : 0.52
+kappa            : 0.83
+desacuerdos      : 4 de 50

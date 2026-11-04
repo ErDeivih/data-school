@@ -1,0 +1,8 @@
+MA(4) escondida -> Ljung-Box p 1.06e-13
+  ACF de los residuos 1..5 [-0.024 -0.135  0.015  0.403 -0.004]
+  banda del 95% 0.098
+  ARCH-LM p 0.211
+GARCH escondido -> Ljung-Box p 0.662
+  Jarque-Bera p 2.65e-03
+  ARCH-LM p 4.25e-06
+  ACF de los cuadrados 1..5 [ 0.234 -0.004 -0.015  0.131  0.002]

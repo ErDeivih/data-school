@@ -1,0 +1,3 @@
+buscar 'bom'      : ['bom-en-la-primera-columna']
+buscar 'va lento' : []
+buscar 'tarda'    : ['leer-400-csv-tarda-9-minutos']

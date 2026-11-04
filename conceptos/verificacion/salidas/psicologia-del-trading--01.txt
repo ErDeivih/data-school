@@ -1,0 +1,4 @@
+racha de  5 perdidas en 200 ops:  99.4%   en 1000 ops: 100.0%
+racha de  7 perdidas en 200 ops:  75.6%   en 1000 ops:  99.9%
+racha de 10 perdidas en 200 ops:  19.9%   en 1000 ops:  68.2%
+racha de 12 perdidas en 200 ops:   6.4%   en 1000 ops:  29.0%

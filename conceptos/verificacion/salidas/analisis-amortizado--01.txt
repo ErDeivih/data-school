@@ -1,0 +1,6 @@
+n=    8  duplicando        7  sumando uno       28
+n=   16  duplicando       15  sumando uno      120
+n=   32  duplicando       31  sumando uno      496
+n= 1024  duplicando     1023  sumando uno   523776
+copias con n=1024 y duplicacion: 1023
+copias con n=100000 y duplicacion: 131071

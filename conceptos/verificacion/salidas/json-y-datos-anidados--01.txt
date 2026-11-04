@@ -1,0 +1,5 @@
+list 2
+S1
+21.0
+08:00
+total de lecturas: 3

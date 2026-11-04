@@ -1,0 +1,3 @@
+exactitud real      0.9010
+exactitud medida    0.7411
+exactitud corregida 0.9014

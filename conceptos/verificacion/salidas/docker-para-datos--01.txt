@@ -1,0 +1,2 @@
+mal orden:  45 s
+buen orden: 0 s

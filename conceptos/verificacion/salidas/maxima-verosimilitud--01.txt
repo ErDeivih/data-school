@@ -1,0 +1,6 @@
+p MLE                  0.6000
+log-verosimilitud      -33.651
+derivada en el maximo  0.000000
+error tipico asintotico 0.0693
+desviacion simulada del MLE 0.0691
+media simulada del MLE      0.5995

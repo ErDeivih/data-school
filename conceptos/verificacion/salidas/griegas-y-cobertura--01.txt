@@ -1,0 +1,5 @@
+pesos -41.43 28.57
+gamma cubierta 60.00 vega cubierta 100.00
+delta residual +9.07
+spot -9.07 acciones
+condicion 32.33

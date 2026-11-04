@@ -1,0 +1,3 @@
+media completa  49.95
+media con MCAR  49.78
+media con MNAR  44.96

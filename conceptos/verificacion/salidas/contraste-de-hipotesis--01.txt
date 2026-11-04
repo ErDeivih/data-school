@@ -1,0 +1,5 @@
+media muestral    5.450
+desv muestral     0.568
+estadistico t     -0.249
+p-valor           0.811
+decision: no rechazar

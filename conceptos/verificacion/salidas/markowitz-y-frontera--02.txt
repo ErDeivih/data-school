@@ -1,0 +1,4 @@
+error tipico de la media 8.66% sobre una media de 8%
+error tipico de la volatilidad 1.77% sobre 15%
+error relativo de la media 108%
+error relativo de la volatilidad 12%

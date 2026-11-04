@@ -1,0 +1,4 @@
+al dia a 12 meses 0.4545
+impago a 12 meses 0.4406
+meses hasta impago 20.00
+filas suman [1. 1. 1.]

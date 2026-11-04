@@ -1,0 +1,2 @@
+paseo aleatorio  H = 0.506
+con memoria AR1  H = 0.577

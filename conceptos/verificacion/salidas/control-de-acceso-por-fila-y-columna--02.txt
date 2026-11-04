@@ -1,0 +1,2 @@
+importes que ve el visitante: ['***', 300, 800, '***']
+celdas tapadas: 2

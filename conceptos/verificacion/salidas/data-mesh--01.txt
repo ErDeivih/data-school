@@ -1,0 +1,3 @@
+ 3 personas -> capacidad   30, utilizacion  267%
+ 6 personas -> capacidad   60, utilizacion  133%
+12 personas -> capacidad  120, utilizacion   67%

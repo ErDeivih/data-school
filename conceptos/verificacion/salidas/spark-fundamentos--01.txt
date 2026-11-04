@@ -1,0 +1,3 @@
+antes de la accion: {'filtro': 0, 'map': 0}
+despues de la accion: {'filtro': 142857, 'map': 142857}
+suma: 142857857142

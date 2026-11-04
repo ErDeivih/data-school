@@ -1,0 +1,5 @@
+media poblacional: 2000.0
+numero de muestras: 15
+menor media muestral: 1350.0
+mayor media muestral: 2700.0
+media de las 15 medias: 2000.0

@@ -1,0 +1,4 @@
+rejilla: alfa 0.50  beta 0.05  gamma 0.30  SSE 36.8
+nivel final 73.80  tendencia final 1.30
+pronostico 4 trimestres [65.9 78.8 74.5 88.1]
+RMSE dentro de la muestra 1.75

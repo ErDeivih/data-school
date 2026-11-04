@@ -1,0 +1,5 @@
+lote de 2     media 1.50  desviacion 0.50
+lote de 1000  media 1.002  desviacion 0.063
+lote de media 3.0  media movil 0.300
+lote de media 5.0  media movil 0.770
+lote de media 7.0  media movil 1.393

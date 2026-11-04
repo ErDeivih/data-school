@@ -1,0 +1,4 @@
+sin filtro  E[R] +0.733  operaciones 12
+sin filtro  total +8.8R
+con filtro  E[R] +1.022  operaciones 9
+con filtro  total +9.2R

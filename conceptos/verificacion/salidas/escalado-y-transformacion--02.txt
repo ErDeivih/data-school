@@ -1,0 +1,4 @@
+asimetria original  1.38
+asimetria con log1p 0.31
+asimetria Box-Cox   0.04
+lambda estimada     -0.07

@@ -1,0 +1,2 @@
+['Juan Perez', 'Maria Gomez', 'Marta Ruiz-', 'Luis']
+[('ana@x.com', True), ('ana@x.com', True), ('ana@x', False), ('no-es-un-email', False), ('ana@x.com', True)]

@@ -1,0 +1,5 @@
+bytes de la enye: c3b1
+longitud utf-8  : 8
+longitud latin1 : 7
+caracteres distintos: 8 en vez de 7
+puntos de codigo: U+0053 U+0061 U+00C3 U+00B1 U+0063 U+0068 U+0065 U+007A

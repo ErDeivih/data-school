@@ -1,0 +1,3 @@
+log-verosimilitud modelo -31.662
+log-verosimilitud base   -61.086
+2*(ll - ll_base)         58.850

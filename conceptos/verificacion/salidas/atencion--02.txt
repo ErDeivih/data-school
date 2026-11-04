@@ -1,0 +1,4 @@
+d_k=   4  desviacion tipica  2.04  sqrt(d_k)  2.00
+d_k=  16  desviacion tipica  3.95  sqrt(d_k)  4.00
+d_k=  64  desviacion tipica  8.10  sqrt(d_k)  8.00
+d_k= 256  desviacion tipica 15.80  sqrt(d_k) 16.00

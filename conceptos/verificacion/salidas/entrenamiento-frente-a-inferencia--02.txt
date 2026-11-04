@@ -1,0 +1,3 @@
+diferencia maxima 0.00e+00
+desplazamiento por variable 0.2836
+z correcto de 100 m2 -0.2836   z con la media a mano 0.0000

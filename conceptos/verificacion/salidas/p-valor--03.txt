@@ -1,0 +1,3 @@
+hallazgos con p < 0,05  25
+de ellos, falsos        9
+proporcion de falsos    36%

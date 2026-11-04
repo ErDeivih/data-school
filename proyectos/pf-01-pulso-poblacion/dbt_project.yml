@@ -1,0 +1,10 @@
+﻿name: pf_01_pulso
+version: "1.0"
+profile: pf_01_pulso
+model-paths: ["models"]
+models:
+  pf_01_pulso:
+    staging:
+      +materialized: view
+    marts:
+      +materialized: table

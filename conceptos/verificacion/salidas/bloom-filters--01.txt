@@ -1,0 +1,4 @@
+bits por elemento: 8.0
+falsos negativos: 0
+falsos positivos: 23 de 1000
+tasa teorica: 0.022

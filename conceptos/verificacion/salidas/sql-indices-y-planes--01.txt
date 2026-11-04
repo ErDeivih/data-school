@@ -1,0 +1,4 @@
+sin indice  : SCAN pedidos
+con indice  : SEARCH pedidos USING INDEX idx_pedidos_cliente (cliente_id=?)
+con funcion : SCAN pedidos
+comodin     : SCAN pedidos

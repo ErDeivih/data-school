@@ -1,0 +1,4 @@
+   1 ms: coste adverso 0.0005 EUR de 0.0500 EUR de edge, queda 99.0 %
+   5 ms: coste adverso 0.0025 EUR de 0.0500 EUR de edge, queda 95.0 %
+  20 ms: coste adverso 0.0100 EUR de 0.0500 EUR de edge, queda 80.0 %
+ 100 ms: coste adverso 0.0500 EUR de 0.0500 EUR de edge, queda 0.0 %

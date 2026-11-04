@@ -1,0 +1,2 @@
+filas 6  con_importe 5  total 680.00  media 136.00
+media por pedido 113.33

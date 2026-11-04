@@ -1,0 +1,5 @@
+columnas de enero: ['id', 'importe']
+columnas de marzo: ['id', 'importe', 'canal']
+enero.parquet no trae canal: KeyError
+pandas concatena con nulos: {'id': [1, 2, 3], 'importe': [10.5, 20.0, 7.25], 'canal': [nan, nan, 'web']}
+arrow si puede: {'id': [1, 2, 3], 'importe': [10.5, 20.0, 7.25], 'canal': [None, None, 'web']}

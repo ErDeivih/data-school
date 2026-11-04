@@ -1,0 +1,2 @@
+falso positivo con 3 t-tests: 0.124
+cota si los tests fueran independientes: 0.143

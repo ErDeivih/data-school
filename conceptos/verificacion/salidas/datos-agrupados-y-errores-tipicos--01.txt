@@ -1,0 +1,3 @@
+n 120  k 5  media 57.33  s 21.68  s2 470.1
+EE correcto (raiz de n) 1.98   EE con raiz de k 9.70
+factor del error 4.90  Sheppard suma 33.3

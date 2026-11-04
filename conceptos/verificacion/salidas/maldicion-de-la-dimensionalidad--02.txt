@@ -1,0 +1,4 @@
+d=   2  cercano 0.035  lejano 1.023  cociente min/max 0.0351
+d=  10  cercano 0.633  lejano 1.841  cociente min/max 0.3442
+d= 100  cercano 3.437  lejano 4.647  cociente min/max 0.7397
+d=1000  cercano 12.260  lejano 13.506  cociente min/max 0.9078

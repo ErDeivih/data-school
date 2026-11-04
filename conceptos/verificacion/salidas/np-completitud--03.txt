@@ -1,0 +1,5 @@
+n=10  combinaciones=       1,024  sumas para verificar= 10
+n=20  combinaciones=   1,048,576  sumas para verificar= 20
+n=30  combinaciones=1,073,741,824  sumas para verificar= 30
+verificacion de 6 indices: True en 9.7 us
+es polinomica: True

@@ -1,0 +1,2 @@
+ paseo aleatorio  desv en t=50  7.16   t=200 14.15   t=400 20.20
+   AR(1) phi=0.8  desv en t=50  1.65   t=200  1.67   t=400  1.64
