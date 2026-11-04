@@ -103,3 +103,26 @@ El agente **no puede copiar el temario de un curso**: enlaza, resume con sus pal
 ## Primera tarea
 
 **Investigar y verificar fuentes.** Antes de escribir una sola pantalla: comprobar las candidatas de arriba, descartar las muertas o de pago sin avisar, y escribir `FUENTES.md` con licencia, idioma, coste y estado de cada una. Solo después se decide el modelo de datos.
+
+## Decisión de David (2026-11-04): una ruta, tres salidas
+
+La pregunta era «¿tres rutas separadas o una sola con tres salidas?». **Resuelto: un tronco común y tres salidas.**
+
+### Qué significa, en claro
+
+No son tres itinerarios independientes. Es **un camino común** (la base que comparten los tres perfiles: Python, SQL, estadística, git, tratamiento de datos) y, al terminarlo, **tres puertas**: data engineer, data scientist y AI engineer.
+
+### Por qué
+
+Data engineer, data scientist y AI comparten la mayor parte de la base. Tres rutas separadas **duplicarían esa base tres veces** y obligarían a mantener tres catálogos de recursos que se solapan. Un tronco con tres salidas enseña lo común una vez y no obliga a elegir perfil antes de saber si te gusta.
+
+### Consecuencias en el modelo y en la interfaz
+
+- Un **tronco** con sus hitos, requisito para abrir las salidas.
+- **Tres salidas** especializadas, cada una con sus recursos y proyectos.
+- Un recurso o un proyecto puede servir al tronco **y** a una o varias salidas: misma tabla, relaciones.
+- La portada enseña el tronco y las tres salidas; el progreso se mide **en el tronco y en la salida elegida**.
+- El semáforo de estados del sistema de diseño (`verified` / `pending` / `broken`) se mantiene.
+
+Con esto, la decisión 1 queda cerrada y se desbloquea el modelo de datos. Las otras cuatro decisiones (progreso por recurso/tramo/proyecto, apuntes dentro o fuera, datasets enlazados o locales, catálogo público o privado) se resuelven en la siguiente sesión **con criterio del agente**: recomienda y sigue.
+
