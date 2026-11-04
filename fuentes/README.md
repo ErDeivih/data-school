@@ -11,6 +11,8 @@ Ficheros:
 |---|---|
 | [`FUENTES.md`](FUENTES.md) | El catálogo verificado: 32 fuentes con licencia, coste, idioma, estado y tramo, más descartes y recuento. |
 | [`POR-TRAMO.md`](POR-TRAMO.md) | Un principal y dos alternativas por tramo (F, DE, DS, AI), con el motivo de cada elección. |
+| [`PLANTILLA-RESUMEN.md`](PLANTILLA-RESUMEN.md) | La plantilla obligatoria para dar de alta una fuente: campos, fórmula del resumen y puerta de entrada. |
+| [`RESUMENES-EJEMPLO.md`](RESUMENES-EJEMPLO.md) | Diez fuentes reescritas con la plantilla, para ver el tono y el nivel de detalle. |
 | `README.md` | Este documento: leyenda, reglas de entrada, clases de licencia y método de comprobación. |
 
 Comprobación hecha el **2026-11-04 (UTC)**. Cada fila del catálogo lleva su fecha, su enlace y la
@@ -81,23 +83,28 @@ ML, IMDb y YouTube. La medición hecha en esta carpeta da **15**: las 14 listada
 Skills**, que la tabla del propio `FUENTES.md` describe como «Contenido © Google: solo enlace» y que
 la lista del recuento omite.
 
-La cifra operativa es **15** (clase «solo enlace + resumen propio»). Se deja constancia aquí porque
-`FUENTES.md` no se modifica en esta tarea: la discrepancia queda registrada y reportada, no
-escondida. Las otras dos clases sí cuadran con su lista: 7 por ítem y 9 reutilizables.
+La cifra operativa es **15** (clase «solo enlace + resumen propio»). `FUENTES.md` ya se ha corregido
+en la cabecera de esta sesión, pero su apartado «Recuento» sigue diciendo 11 y enumerando 14: la
+discrepancia queda registrada y reportada, no escondida. Las otras dos clases sí cuadran con su
+lista: 7 por ítem y 9 reutilizables.
 
 ## Cómo se comprueba
 
 La comprobación es mixta: automática para los enlaces y manual para licencias y precios.
 
-- **Enlaces**: `npm run check:links` recorre las URLs del catálogo con una petición HTTP real
-  (código de estado, redirección final) y deja el informe en
-  [`INFORMES/enlaces-2026-11-04.md`](../INFORMES/enlaces-2026-11-04.md). Resultado de la última
-  pasada: 60 enlaces comprobados, **58 vivos y 2 redirigen**, 0 caídos, 0 bloqueados. Un «redirige»
-  no es un fallo: se anota el destino nuevo y se actualiza la URL. (En `FUENTES.md` ese mismo
-  informe aparece enlazado como `INFORMES/…`; desde esta carpeta la ruta correcta es `../INFORMES/…`.)
+- **Enlaces**: `npm run check:links` (o `tools/comprobar-enlaces.ps1`, que además falla si hay
+  caídos) recorre las URLs del catálogo con una petición HTTP real (código de estado, redirección
+  final) y deja el informe en [`INFORMES/enlaces-2026-11-04.md`](../INFORMES/enlaces-2026-11-04.md).
+  Resultado de la última pasada: **82 enlaces comprobados, 79 vivos y 3 redirigen, 0 caídos,
+  0 bloqueados**. Un «redirige» no es un fallo: se anota el destino nuevo y se actualiza la URL.
+- **Periódicamente**, sin GitHub Actions: `tools/comprobar-enlaces.ps1` es la puerta y
+  `tools/programar-enlaces.ps1` registra una tarea semanal de Windows que la ejecuta sola (se lanza
+  una vez; se quita con `-Quitar`). El informe fechado se sobrescribe cada día de ejecución.
 - **Licencia y precio**: se leen a mano, por fuente, en su página de licencia o en el `LICENSE` del
   repositorio y en su página de precios. Esa lectura queda como enlace de evidencia en cada fila.
   El chequeo automático no puede decidir si una licencia permite reutilizar: eso se lee.
+- **Altas nuevas**: pasan por [`PLANTILLA-RESUMEN.md`](PLANTILLA-RESUMEN.md) y su puerta; hay diez
+  ejemplos hechos en [`RESUMENES-EJEMPLO.md`](RESUMENES-EJEMPLO.md).
 
 ## Material de terceros
 

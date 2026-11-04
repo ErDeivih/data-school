@@ -43,6 +43,50 @@ Fecha: **2026-11-04**. Esta sesión consolida en `F:\Proyectos\data-school` el m
 | Material de las 15 fuentes «solo enlace» (temarios, PDFs, vídeos, figuras) | Origen 2 / internet | Sus licencias prohíben copiar; se enlazan y se resumen con palabras propias, nunca se copia el contenido. |
 | Datasets externos (Kaggle, Hugging Face, data.gov, datos.gob.es, UCI, IMDb) | Origen 2 | Se enlazan; cada uno tiene su licencia y no se aloja. Solo entran los 10 sintéticos propios (CC0). |
 
+### Anexo A — Descartes con rutas y tamaños (medido el 2026-11-04)
+
+Para que «se descarta» no sea una palabra vacía, esto es lo que se queda fuera y cuánto pesa. Los
+tamaños son del origen, no de esta carpeta; ninguno se ha copiado.
+
+| Material descartado | Origen | Ficheros | Tamaño | Motivo |
+|---|---|---:|---:|---|
+| `.git/` | portal vivo | 740 | 61,07 MB | Historial del repositorio del portal; viaja con su proyecto, no con el catálogo. |
+| `_revision/` | portal vivo | 471 | 56,56 MB | Revisiones y capturas de sesiones anteriores; no es contenido. |
+| `web/` (app Muestra: `index.html`, `todo.html`, `assets/`, bundles `datos/*.js`) | portal vivo | 441 | 44,62 MB | Es el producto **Muestra**; de `web/` solo se importan las figuras (20,58 MB) y los datasets (0,09 MB). |
+| `_mirar/` | portal vivo | 152 | 24,33 MB | Material de revisión visual de sesiones; no es contenido. |
+| `node_modules/` | portal vivo | 182 | 17,83 MB | Dependencias instaladas. |
+| `_olor/` | portal vivo | 575 | 12,39 MB | Pruebas de estilo y detección de texto generado; andamiaje. |
+| `docs/` raíz (bundles del sitio y capturas) | portal vivo | 16 | ~1,3 MB | Artefactos de construcción y capturas; de `docs/` solo se importa `integracion/` (23 ficheros). |
+| `docs/entregas/` | portal vivo | 122 | 5,19 MB | Evidencia de entregas de sesiones anteriores del portal. |
+| `sitio/` | portal vivo | 32 | 0,97 MB | Código de la web. |
+| `plataforma/` | portal vivo | 38 | 3,34 MB | Backend del portal, con bases (`academia.db`, `analitica.db`, `cobro.db`), `clave-ip` y `legal/titular.json`: datos operativos que no deben viajar. |
+| `android/` + `ios/` | portal vivo | 18 | 0,06 MB | Apps del portal. |
+| `especificaciones/` | portal vivo | 21 | 0,45 MB | Especificación del producto v2 (Muestra), no del catálogo de contenido. |
+| `figuras/__pycache__/` | portal vivo | 351 | 1,76 MB | Caché de bytecode (`.pyc`), no fuente. |
+| `_plan/`, `_plan2/`, `_plan3/`, `_plan4/` | portal vivo | 172 | 0,33 MB | Planes de trabajo de sesiones anteriores. |
+| `_verify_out/`, `_rev_tmp/`, `_verif_tmp/` | portal vivo | 225 | 0,30 MB | Salidas temporales de verificación. |
+| `_determinismo/`, `_fixture/` | portal vivo | 7 | 0,42 MB | Utilidades de prueba. |
+| `.capturas-t16/` | portal vivo | 12 | 1,86 MB | Capturas de una tanda concreta. |
+| `.github/` | portal vivo | 1 | 0,00 MB | CI del portal; aquí no se usa GitHub Actions. |
+| `docs/diseno/capturas/` (156 PNG del rediseño) | archivo de Orca | 156 | 15,88 MB | Capturas de interfaz del portal Muestra; el registro de decisión sí se importa (10 ficheros, ~90 KB). |
+| `actividades.js` (en `web/assets/` y `sitio/`) | archivo de Orca | 2 | 0,02 MB | Módulo JS del portal que la viva no tiene; es producto, no contenido. Anotado para la otra sesión. |
+| Base SQLite y log de `opofuente` | `preview-data` | 4 | 1,20 MB | 76 tablas y **0 filas de contenido**; no es el portal de datos. |
+
+Comprobación: el origen del portal suma 271,41 MB; estos descartes explican los 171,2 MB que no
+viajan, más el historial de `.git` (61,07 MB) y lo que sí se importó (~34 MB de contenido).
+
+### Anexo B — Se queda en el origen, pero documentado aquí
+
+- **21 SVG sin bloque `:::figura`** y **3 módulos `.py` que no son figuras** (`comun.py`,
+  `_medir.py`, `_tanteo.py`) del portal: se conservan en `conceptos/figuras/` y
+  `conceptos/figuras-fuente/` como material de apoyo, explicados en `conceptos/figuras/LEEME.md`.
+  No se borran: son fuente de variantes y utilidades compartidas, y su coste es pequeño.
+- **Fichas de proyecto:** 4 fichas que cubren los **12 proyectos** de los 4 CSV nuevos (P11–P22).
+  Quedan pendientes las **10 fichas de P01–P10** (el encargo hablaba de 18, pero la cuenta real es
+  10: las 4 fichas agrupan 12 proyectos). No se descartan: están en `BACKLOG.md`.
+- **Contenido del portal que no se duplica:** los conceptos, figuras y datasets existen en el
+  portal y en esta carpeta con hash idéntico; la copia canónica es esta y el portal es quien publica.
+
 ## Notas para la otra sesión (portal Muestra) — **no se toca el portal**
 
 La consolidación no requiere ningún cambio en el portal. Observaciones medidas que la otra sesión puede revisar cuando quiera:
@@ -53,6 +97,8 @@ La consolidación no requiere ningún cambio en el portal. Observaciones medidas
 4. **Duplicación deliberada:** `docs/data-school-import/` del portal y esta carpeta comparten los mismos ficheros (hash idéntico). La copia canónica pasa a ser la de esta carpeta; la del portal es histórica.
 5. **Última entrega del portal:** `docs/entregas/RECORRIDO-UNICO-2026-11-04/` (4 ficheros) no se importa; es evidencia del trabajo del portal.
 6. **La verificación del portal está desfasada:** `.verificacion/` cubre 438 de los 459 conceptos. Hay **16 conceptos con bloque `python verificable` sin script ni salida** (`cadenas-de-markov`, `correccion-point-in-time`, `ecuaciones-diferenciales-estocasticas`, `enmascarado-y-retencion`, `eventos-push-y-webhooks`, `expansion-karhunen-loeve`, `flink-y-procesamiento-de-eventos`, `griegas-y-cobertura`, `indicadores-tecnicos`, `lema-de-ito`, `medir-tu-progreso`, `movimiento-browniano`, `problema-de-ficheros-pequenos`, `registro-de-esquemas`, `valoracion-de-opciones`, `volatility-drag`) y 5 sin código ejecutable (`fuentes-y-canales`, `rutas-de-aprendizaje`, `terminal-y-shell`, `iam-y-permisos-cloud`, `certificaciones-de-datos`). Aquí se ejecutaron los 16 y se guardó su salida; **en el portal conviene volver a lanzar `generar.mjs --ejemplos` + `verificar-ejemplos.ps1`** para que su `.verificacion` y su `manifiesto.json` queden al día. No se ha tocado el portal.
+7. **`ventas-mensuales` no es un panel tienda × día:** el CSV tiene una fila por día con la tienda rotando (cada tienda 60 días alternos), así que no se pueden comparar tiendas del mismo día. Si el portal lo describe como panel, la descripción hay que corregirla allí; aquí queda advertido en `datasets/FICHAS.md` y `datasets/VERIFICACION.md`.
+8. **Figuras duplicadas por tilde:** 20 de los 370 SVG son variantes con tilde de una figura ya referenciada (el script guarda con el nombre acentuado y el bloque `:::figura` enlaza el no acentuado). Se conservan y se explican en `conceptos/figuras/LEEME.md`; en el portal se podría dejar una sola variante por figura si se quiere ahorrar peso.
 
 ## Decisiones tomadas en esta consolidación (nivel 2)
 
@@ -67,29 +113,52 @@ Están desarrolladas en `DECISIONES.md` con sus IDs:
 - **D-016** — Se corrige de 11 a 15 el número de fuentes que solo admiten enlace. Motivo: conteo fila a fila; el propio documento enumeraba 14.
 - **D-017** — Una fuente «solo enlace» **puede** ser principal de un tramo; la licencia decide qué se puede copiar, no qué se puede recomendar. Motivo: el producto enlaza; el criterio antiguo («ninguna restringida como principal») confundía recomendación con copia.
 - **D-018** — `preview-data` no aporta nada (0 filas de contenido) y no se importa. Motivo: medido.
+- **D-019** — Se ejecutan los 16 bloques de código que el verificador del portal no cubría y se guarda su salida. Motivo: la evidencia del portal cubría 438 de 459.
+- **D-020** — Comprobación de enlaces periódica en local: puerta (`comprobar-enlaces.ps1`) y tarea semanal opcional (`programar-enlaces.ps1`), sin GitHub Actions.
+- **D-021** — Plantilla de resumen obligatoria para altas, con 10 fuentes reescritas como muestra.
+- **D-022** — Ficha homogénea y verificación ejecutada de los 10 datasets (`data_profile`), sin tocar el manifiesto del portal.
+- **D-023** — 4 fichas de proyecto para los CSV nuevos (cubren P11–P22); las 10 fichas de P01–P10 quedan en backlog.
+- **D-024** — Se conservan y documentan los 21 SVG sin `:::figura` y los 3 módulos de apoyo; criterio de uso = tener bloque `:::figura`.
+- **D-025** — El orden de lectura por fase es una recomendación derivada de los `prerequisitos`, no una regla.
+
+### Bloque de mejora cerrado en esta sesión (backlog)
+
+- **Comprobador periódico:** `tools/comprobar-enlaces.ps1` (sale 1 si hay caídos) y
+  `tools/programar-enlaces.ps1` (registra la tarea semanal; no se ejecuta aquí porque cambia el
+  sistema). Sin GitHub Actions.
+- **Plantilla de fuentes:** `fuentes/PLANTILLA-RESUMEN.md` + `fuentes/RESUMENES-EJEMPLO.md` con 10
+  fuentes reescritas con sus campos y su puerta.
+- **Fichas de datasets:** `datasets/FICHAS.md` (10 fichas homogéneas) y `datasets/VERIFICACION.md`
+  con `data_profile` real; comprobador reproducible `datasets/_verificar-fichas.ps1` (85 criterios,
+  verde). Medido: 10/10 cargan, 63/63 columnas y tipos, 0 nulos, 0 duplicados.
+- **Fichas de proyecto:** `proyectos/fichas/` con 4 fichas que cubren los 12 proyectos de los 4 CSV
+  nuevos (P11–P22), con criterios de terminado y rúbrica.
+- **Orden de lectura:** `conceptos/INDICE-LECTURA.md` (459 filas, 0 ciclos) y
+  `conceptos/figuras/LEEME.md` (349 figuras en uso, 21 variantes/sonda, 3 módulos de apoyo).
 
 ## Dudas de nivel 3 (anotadas, no decididas aquí)
 
 1. **Sincronización archivo ↔ portal.** ¿El portal (Muestra) consume esta carpeta como fuente, o se sigue copiando a mano? Es una decisión de producto y de flujo entre dos proyectos; afecta a la otra sesión. Anotada en `DECISIONES.md`.
 2. **Publicación del catálogo.** ¿Esta carpeta se publica tal cual (conceptos completos) o el portal es el único que publica? Toca alcance, no contenido. Anotada.
-3. **Las cinco decisiones de `ESPECIFICACION.md`** (progreso, apuntes, datasets enlazados o locales, catálogo público o privado) siguen abiertas para el producto. El archivo las resuelve **solo para sí mismo** (datasets propios locales; contenido público/privado no aplica a un repositorio). No se cierran desde aquí.
+3. **Las 4 decisiones de producto abiertas de `ESPECIFICACION.md`** (progreso, apuntes, datasets enlazados o locales, catálogo público o privado) siguen abiertas; la primera (un tronco y tres salidas) ya la cerró David el 2026-11-04. El archivo las resuelve **solo para sí mismo** (datasets propios locales; contenido público/privado no aplica a un repositorio). No se cierran desde aquí.
 
-## Resultado y verificación
+## Resultado y verificación (cierre de la sesión 2)
 
-Resultado medido al cerrar la sesión (sin contar `.git`): **3.221 ficheros, 33,64 MB**.
+Resultado medido al cerrar (sin contar `.git`): **3.235 ficheros, 33,84 MB**.
 
 | Puerta | Comprobación | Resultado |
 |---|---|---|
 | Contenido | 459 `.md` en `conceptos/f00`…`f12`, idénticos byte a byte al origen | **459/459**, 0 distintos |
 | Código ejecutado | 454 de 459 conceptos con script y salida (los otros 5 no tienen bloque ejecutable) | 929 `.py` + 33 `.sql` + 962 salidas = **1.925 ficheros**, 16 ejecutados aquí, **0 fallos** |
 | Figuras | Las 349 referencias `:::figura` resuelven a un SVG | **349/349**, 0 ausencias |
-| Índice | Filas de `conceptos/INDICE.md` | **459** |
-| Datasets | Licencia y procedencia por conjunto; checksum SHA-256 | **10/10 coinciden**, CC0-1.0, generador incluido |
-| Proyectos | 2 completos + catálogo | **22 proyectos + 8 laboratorios** |
-| Enlaces | `npm run check:links` sobre `fuentes/FUENTES.md`, `fuentes/POR-TRAMO.md` e `investigacion/INVESTIGACION.md` | **82 comprobados: 79 vivos, 3 redirigen, 0 caídos, 0 bloqueados** |
-| Pruebas | `npm test` (comprobador de enlaces) | **8/8 en verde** |
+| Índices | Filas de `conceptos/INDICE.md` y de `conceptos/INDICE-LECTURA.md` | **459 y 459**, 0 ciclos topológicos |
+| Datasets | `data_profile` de los 10 CSV + `datasets/_verificar-fichas.ps1` | **10/10 cargan**, 63/63 columnas y tipos, 0 nulos, 0 duplicados, **85/85 criterios** |
+| Proyectos | 2 completos + catálogo + 4 fichas | **22 proyectos + 8 laboratorios**, 12 con ficha |
+| Fuentes | Catálogo + plantilla + resúmenes de ejemplo | **32 fuentes**, 15 solo enlace, 10 reescritas |
+| Enlaces | `npm run check:links` sobre `FUENTES.md`, `POR-TRAMO.md` e `INVESTIGACION.md` | **82 comprobados: 79 vivos, 3 redirigen, 0 caídos, 0 bloqueados** |
+| Pruebas | `npm test` + puerta de enlaces | **8/8 en verde** y puerta en 0 caídos |
 | Orígenes | Sin escrituras en el portal ni en el archivo de Orca | **solo lectura** |
 
-- Sin GitHub Actions: todo se ejecuta en local. Commit local y **un solo push** al final.
+- Sin GitHub Actions: todo se ejecuta en local. Commit local y push al final de la sesión.
 - El detalle de la medición previa está en `INFORMES/medicion-origenes-2026-11-04.txt`; el informe
   de enlaces, en `INFORMES/enlaces-2026-11-04.md`.

@@ -13,8 +13,16 @@ los produce. Los datasets de terceros **no se copian ni se alojan**: se enlazan 
 | [`datasets.json`](datasets.json) | Manifiesto: id, título, fichero, filas, columnas con tipo y unidad, origen, licencia y `sha256` de cada conjunto. | Sí |
 | [`generar-datasets.mjs`](generar-datasets.mjs) | Generador determinista con semilla fija por conjunto; copia literal del proyecto de origen. | Sí (es la procedencia) |
 | [`CATALOGO.md`](CATALOGO.md) | Catálogo legible, generado desde `datasets.json`, con la tabla de verificación sha256 (10/10). | Sí (generado) |
+| [`FICHAS.md`](FICHAS.md) | Una ficha por dataset con los mismos 12 campos: id, título, fichero, licencia, procedencia, tamaño, columnas y tipos, checksum, dificultad, preguntas que permite responder, proyectos que lo usan y limitaciones. | Sí |
+| [`VERIFICACION.md`](VERIFICACION.md) | Los 10 CSV perfilados uno a uno (`data_profile`) y contrastados con `datasets.json`: filas, columnas, tipos, nulos, duplicados, outliers y desajustes. | Sí |
+| [`_verificar-fichas.ps1`](_verificar-fichas.ps1) | Comprobador reproducible de esta carpeta: 10 fichas × 12 campos, 10 perfiles, cifras de tipos y filas contra `datasets.json`, 30 citas de proyecto contra `proyectos/CATALOGO.md`, enlaces relativos, cabeceras y checksums. Imprime el recuento de criterios; exit 0 solo si pasan todos. | Sí (auxiliar) |
 | [`FUENTES-EXTERNAS.md`](FUENTES-EXTERNAS.md) | Catálogos externos de datasets: solo enlace y licencia por ítem. | No (no se copia nada) |
 | `README.md` | Este documento. | — |
+
+**Documentación de los 10 conjuntos**: una ficha por dataset en [FICHAS.md](FICHAS.md) (id, título,
+fichero, licencia, procedencia, tamaño, columnas y tipos, checksum, dificultad, preguntas, proyectos y
+limitaciones) y el resultado de cargar y contrastar los 10 CSV en
+[VERIFICACION.md](VERIFICACION.md) (filas, columnas, tipos, nulos, duplicados, outliers y desajustes).
 
 ## Criterio de admisión
 

@@ -2,39 +2,40 @@
 
 Ordenado **por valor para el producto**, no por facilidad. La regla del protocolo: nunca menos de cinco tareas listas; una tarea bloqueada se marca y se sigue con la siguiente.
 
-**Estado de la sesión (2026-11-04)**: la consolidación está hecha. Las tareas 1, 2, 3, 6, 7, 8 y 9 del backlog anterior se cerraron al importar el material; quedan las de abajo.
+**Estado (2026-11-04, sesión 2)**: la consolidación está hecha y las 7 tareas que quedaron en el backlog se han cerrado. Detalle en `CONSOLIDACION.md` y `DECISIONES.md` (D-020 a D-025).
 
 ## Hecho en esta sesión
 
-- Medición de los cinco orígenes con números (`INVENTARIO.md`) y plan de consolidación (`CONSOLIDACION.md`).
-- Importados **459 conceptos** en 13 fases, **370 SVG** + **350 fuentes** de figura y **1.925 ficheros** de verificación (la evidencia del portal cubría 438 conceptos; se ejecutaron los 16 que faltaban, 0 fallos).
-- Catálogo de **32 fuentes** con clases de licencia medidas y **principal + 2 alternativas por tramo** (`fuentes/POR-TRAMO.md`).
-- **10 datasets** sintéticos CC0-1.0 con checksum verificado 10/10, manifiesto y generador; catálogo de los externos que solo se enlazan.
-- **2 proyectos completos** y **catálogo de 22 proyectos + 8 laboratorios** (`proyectos/`).
-- Investigación (`investigacion/`): estudio de plataformas, 23 ficheros de integración del portal y el registro de rediseño exclusivo de Orca.
-- Puerta de enlaces: **82 comprobados, 79 vivos, 3 redirigen, 0 caídos**.
-- Corregida la cifra de fuentes «solo enlace»: de 11 a **15** (D-016).
+| # | Tarea | Resultado |
+|---|---|---|
+| 1 | Comprobador periódico de enlaces | `tools/comprobar-enlaces.ps1` (puerta que falla con caídos) + `tools/programar-enlaces.ps1` (tarea semanal de Windows, sin GitHub Actions). Verificado: 82 enlaces, 0 caídos. |
+| 2 | Plantilla de resumen de fuentes | `fuentes/PLANTILLA-RESUMEN.md` con campos y puerta, y `fuentes/RESUMENES-EJEMPLO.md` con 10 fuentes reescritas. |
+| 3 | Fichas de datasets | `datasets/FICHAS.md` (10 fichas con licencia, procedencia, dificultad, uso y proyectos) y `datasets/VERIFICACION.md` con `data_profile` real: 10/10 cargan, 63/63 columnas y tipos, 0 nulos, 0 duplicados. Comprobador reproducible `datasets/_verificar-fichas.ps1` (85 criterios, verde). |
+| 4 | Fichas de los 4 CSV nuevos | `proyectos/fichas/` con 4 fichas que cubren los 12 proyectos P11–P22, con criterios de terminado y rúbrica. |
+| 5 | Cierre de `CONSOLIDACION.md` | Anexos A y B con descartes, rutas y tamaños; corrección 18→10 fichas pendientes; hallazgos del portal anotados (ventas-mensuales no es panel; verificación desfasada). |
+| 6 | Orden de lectura por fase | `conceptos/INDICE-LECTURA.md`: 459 filas, 0 ciclos, 0 prerequisitos inexistentes. |
+| 7 | Decisión sobre figuras de apoyo | `conceptos/figuras/LEEME.md`: 370 SVG = 349 en uso + 21 variantes/sonda; 3 módulos base documentados y conservados. |
 
 ## Listas ahora
 
 | # | Tarea | Por qué vale | Nivel | Estado |
 |---|---|---|---|---|
-| 1 | Repetir `npm run check:links` y `tools/medir-origenes.ps1` cuando cambien los orígenes | El catálogo se pudre si no se comprueba; la medición debe seguir siendo reproducible | 1 | lista |
-| 2 | Plantilla de resumen propio para las 32 fuentes y reescribir 10 con ella | Evita copiar temarios por accidente: la regla de oro necesita forma | 2 | lista |
-| 3 | Ficha de dificultad y uso para cada uno de los 10 datasets (filas, columnas, preguntas que permite) | El dataset sin «para qué sirve» no ayuda a elegir proyecto | 2 | lista |
-| 4 | Cuatro fichas de proyecto para los 4 CSV nuevos de la viva (`cartera-acciones`, `f1-clasificacion`, `futbol-partidos`, `telemetria-f1`) | El catálogo tiene proyectos P11–P22 para ellos, pero faltan criterios de terminado escritos | 2 | lista |
-| 5 | Decidir qué hacer con los 21 SVG que ningún `:::figura` enlaza y con `comun.py`/`_medir.py`/`_tanteo.py` | Material de apoyo sin dueño: o se documenta para qué está o se retira | 2 | lista |
-| 6 | Índice de lectura por fase (orden recomendado dentro de f00–f12) a partir de `prerequisitos` | El temario existe, pero no dice por dónde empezar dentro de cada fase | 1 | lista |
-| 7 | Comprobar con `data_profile` que los 10 CSV cargan y que sus tipos coinciden con `datasets.json` | La puerta de datos del protocolo; una ingesta que no se ha probado es una hipótesis | 1 | lista |
+| 1 | Escribir las 10 fichas de proyecto que faltan (P01–P10) | Cierra la cobertura de los 22 proyectos; las 4 fichas actuales ya cubren P11–P22 | 2 | lista |
+| 2 | Revisión trimestral de fuentes: licencias, precios y enlaces redirigidos | Las licencias y los precios cambian; el comprobador automático no los lee por ti | 1 | lista |
+| 3 | Mapa concepto ↔ fuente del catálogo | Saber qué fuente del catálogo respalda cada concepto evita altas improvisadas y enlaza las dos carpetas | 2 | lista |
+| 4 | Ampliar la cobertura en español | 30 de las 32 fuentes son en inglés; falta una cantera verificada en español para F y DS | 2 | lista |
+| 5 | Ficha de 3 datasets externos con licencia (Kaggle, datos.gob.es, UCI) | Demuestra el criterio de admisión con material ajeno: enlazar, no copiar, y comprobar la licencia por ítem | 2 | lista |
+| 6 | Unificar las puertas en `npm run verify` (tests + datasets + enlaces) | Una sola orden para la puerta previa al commit; hoy son tres comandos | 1 | lista |
+| 7 | Revisar con el portal los 3 matices de los datasets (ventas no es panel; 3 columnas booleanas; `resultado` mixed) | Son datos del portal: aquí solo se documentan; si el portal los describe mal, hay que corregirlo allí | 2 | lista |
 
 **Tareas listas ahora**: 1–7 (siete, cumple la regla de cinco).
 
 ## Esperando decisión (Nivel 3)
 
-1. **¿Cómo se sincroniza este archivo con el portal Muestra?** ¿El portal consume esta carpeta como fuente o se sigue copiando a mano? Afecta al flujo entre dos proyectos y a quién manda cuando cambian. Mientras no se responda, la copia canónica del contenido es esta carpeta y el portal no se toca.
+1. **¿Cómo se sincroniza este archivo con el portal Muestra?** ¿El portal consume esta carpeta como fuente o se sigue copiando a mano? Afecta al flujo entre dos proyectos. Mientras no se responda, la copia canónica es esta carpeta y el portal no se toca.
 2. **¿Se publica este archivo tal cual** (conceptos completos, con código) o el portal es el único que publica? Es una decisión de alcance y de producto.
-3. **¿Cómo se regenera la verificación del portal** (`generar.mjs --ejemplos` + `verificar-ejemplos.ps1`) para que su `.verificacion` cubra los 459? Aquí se ejecutaron los 16 huecos, pero la carpeta del portal sigue desfasada y no se toca desde esta sesión.
-4. Las **4 decisiones de producto** que siguen abiertas en `ESPECIFICACION.md` (progreso, apuntes, datasets enlazados o locales, catálogo público o privado) son de la otra sesión; este archivo las resuelve solo para sí mismo.
+3. **Regenerar la verificación del portal** (`generar.mjs --ejemplos` + `verificar-ejemplos.ps1`) para que su `.verificacion` cubra los 459: aquí se ejecutaron los 16 huecos, pero la carpeta del portal sigue desfasada y no se toca desde esta sesión.
+4. Las **4 decisiones de producto** de `ESPECIFICACION.md` (progreso, apuntes, datasets enlazados o locales, catálogo público o privado) son de la otra sesión; este archivo las resuelve solo para sí mismo.
 
 ## Cómo se genera trabajo cuando el backlog baja de cinco
 

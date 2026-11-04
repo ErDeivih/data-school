@@ -8,6 +8,9 @@ enunciados para leer. Se importó el **2026-11-04** desde el portal vivo (`apren
   (código, modelos, datos y README propio).
 - `CATALOGO.md`: el **catálogo de 22 proyectos (P01–P22) y 8 laboratorios (L01–L08)** del portal,
   con nivel, rutas y dataset asignado.
+- `fichas/`: las **4 fichas de proyecto** de los datasets nuevos — telemetría de F1, cartera de
+  acciones, clasificación de F1 y fútbol —, que agrupan los **12 proyectos P11–P22** que usan esos
+  CSV. Ver [`fichas/`](fichas/).
 
 ---
 

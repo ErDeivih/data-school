@@ -6,6 +6,8 @@
   "description": "Academia de datos: catálogo curado de recursos enlazados, resumidos y comprobados.",
   "scripts": {
     "test": "node --test \"tools/**/*.test.mjs\"",
-    "check:links": "node tools/check-links.mjs --file fuentes/FUENTES.md --file fuentes/POR-TRAMO.md --file investigacion/INVESTIGACION.md"
+    "check:links": "node tools/check-links.mjs --file fuentes/FUENTES.md --file fuentes/POR-TRAMO.md --file investigacion/INVESTIGACION.md",
+    "check:links:strict": "node tools/check-links.mjs --file fuentes/FUENTES.md --file fuentes/POR-TRAMO.md --file investigacion/INVESTIGACION.md --strict",
+    "verify:datasets": "powershell -NoProfile -ExecutionPolicy Bypass -File datasets/_verificar-fichas.ps1"
   }
 }

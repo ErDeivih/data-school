@@ -12,7 +12,8 @@ No se copia material de terceros: cuando un concepto cita a alguien, la cita est
 `fuentes` como referencia bibliográfica, no como texto reproducido.
 
 El índice navegable, con una tabla por fase y las 459 filas de conceptos, está en
-[INDICE.md](INDICE.md).
+[INDICE.md](INDICE.md). El orden de lectura recomendado, derivado de los prerequisitos de cada
+fase, está en [INDICE-LECTURA.md](INDICE-LECTURA.md).
 
 ## Las 13 fases y sus 459 conceptos
 
@@ -51,6 +52,7 @@ conceptos/
 ├── verificacion/          929 .py + 33 .sql + 1 .json (los ejemplos ejecutables)
 │   └── salidas/           962 ficheros .txt (la salida real de cada ejemplo)
 ├── INDICE.md              tabla por fase: id | título | nivel | rutas | resumen
+├── INDICE-LECTURA.md      orden de lectura recomendado por fase (derivado de los prerequisitos)
 └── README.md              este fichero
 ```
 
@@ -65,6 +67,9 @@ Recuentos exactos medidos sobre esta carpeta:
 
 En `verificacion/`, la raíz guarda los 962 scripts y el manifiesto, y la subcarpeta `salidas/` los
 962 volcados de texto. El total ocupa ~1,15 MB.
+
+El detalle de las figuras — cuáles están en uso (349), cuáles son variantes o material de apoyo
+(21) y qué son los 3 módulos de `figuras-fuente/` — está en [figuras/LEEME.md](figuras/LEEME.md).
 
 ## Esquema del frontmatter
 

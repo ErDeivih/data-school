@@ -15,12 +15,12 @@ Data School dejó de ser un producto aparte: el portal es **Muestra**. Esta carp
 
 | Carpeta | Qué va | Estado 2026-11-04 |
 |---|---|---|
-| `fuentes/` | catálogo de fuentes con licencia, coste, idioma y estado, y el trío principal + alternativas por tramo | **32 fuentes** (31 vivas, 1 muerta) |
-| `conceptos/` | conceptos de datos e IA, con definición, ejemplo, código ejecutado, figuras y evidencia de ejecución | **459 conceptos** en 13 fases |
-| `proyectos/` | proyectos prácticos con enunciado, nivel y criterio de terminado | **2 completos + 22 de catálogo + 8 labs** |
-| `datasets/` | conjuntos de datos con licencia y procedencia; los externos, enlazados | **10 CSV CC0-1.0** |
+| `fuentes/` | catálogo de fuentes con licencia, coste, idioma y estado, trío principal + alternativas por tramo y plantilla de alta | **32 fuentes** (31 vivas, 1 muerta) + plantilla y 10 ejemplos |
+| `conceptos/` | conceptos de datos e IA, con definición, código ejecutado, figuras, evidencia de ejecución e índices de consulta y lectura | **459 conceptos** en 13 fases, 2 índices |
+| `proyectos/` | proyectos prácticos con enunciado, nivel y criterio de terminado | **2 completos + 22 de catálogo + 8 labs + 4 fichas** (12 proyectos) |
+| `datasets/` | conjuntos de datos con licencia y procedencia, ficha de uso y perfil verificado; los externos, enlazados | **10 CSV CC0-1.0** con ficha y verificación |
 | `investigacion/` | cómo lo hacen otros, APIs gratuitas, qué adoptamos y qué no | 1 estudio + 23 ficheros + registro de diseño |
-| `tools/` | comprobador de enlaces (sin dependencias) y medidor de los orígenes | `check-links.mjs`, su test y `medir-origenes.ps1` |
+| `tools/` | comprobador de enlaces, puerta y programador periódico, medidor de orígenes y verificador de conceptos | 6 herramientas |
 
 ## La tarea de consolidar: hecha (2026-11-04)
 
@@ -39,7 +39,7 @@ Confirmado con números: **la viva va por delante** (459 vs 438 conceptos, +21; 
 
 - **Los orígenes son de solo lectura.** No se escribe en el portal ni en el archivo de Orca: se lee y se trae aquí.
 - Hay **otra sesión trabajando en el portal (Muestra)**. Si algo hay que cambiar allí, se anota en `CONSOLIDACION.md`; no se toca.
-- **Se enlaza y se resume, no se copia**: 11 de las 32 fuentes solo admiten enlace.
+- **Se enlaza y se resume, no se copia**: **15** de las 32 fuentes solo admiten enlace (la cifra «11» de la primera sesión estaba mal medida; corregida en D-016).
 - Todo concepto lleva **código ejecutado**, no código de ejemplo sin probar.
 - Todo dataset lleva **licencia y procedencia**.
 - Sin GitHub Actions. Commit local; push selectivo.
@@ -49,11 +49,14 @@ Confirmado con números: **la viva va por delante** (459 vs 438 conceptos, +21; 
 Lee y sigue `F:\EspacioCodigo\_flujo-dsh\PROTOCOLO-AUTONOMIA.md` y `DOCTRINA-CALIDAD.md`.
 Nivel 1 decides solo, nivel 2 anotas en `DECISIONES.md`, nivel 3 preguntas y sigues con otra tarea.
 
-## Estado de la sesión de consolidación (2026-11-04)
+## Estado de la sesión (2026-11-04, sesión 2)
 
-Medición e inventario hechos (`INVENTARIO.md`), plan escrito (`CONSOLIDACION.md`) e importación
-completada. Queda pendiente lo de nivel 3 (sincronización archivo ↔ portal) y el mantenimiento:
-repetir `npm run check:links` y `tools/medir-origenes.ps1` cuando cambien los orígenes.
+Consolidación cerrada (`INVENTARIO.md`, `CONSOLIDACION.md`) y las 7 tareas del backlog ejecutadas:
+comprobador periódico de enlaces, plantilla de fuentes, fichas y verificación de datasets, fichas
+de proyecto de los CSV nuevos, cierre de descartes, orden de lectura por fase y figuras de apoyo.
+Queda pendiente lo de nivel 3 (sincronización archivo ↔ portal) y las 10 fichas de proyecto P01–P10.
+Mantenimiento: `tools/programar-enlaces.ps1` (semanal) y `tools/medir-origenes.ps1` al cambiar los
+orígenes.
 
 ## Al terminar cada sesión
 

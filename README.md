@@ -12,12 +12,12 @@ números, está en [`INVENTARIO.md`](INVENTARIO.md) y [`CONSOLIDACION.md`](CONSO
 
 | Carpeta | Qué hay | Cuánto |
 |---|---|---|
-| [`fuentes/`](fuentes/) | Catálogo de fuentes comprobadas: licencia, coste, idioma, estado y tramo; y el trío principal + dos alternativas por tramo | **32 fuentes** (31 vivas, 1 muerta) |
-| [`conceptos/`](conceptos/) | Los 459 conceptos en 13 fases, con su definición, código ejecutado, figuras y la evidencia de ejecución | **459 conceptos**, 350 fuentes de figura, 370 SVG, 1.925 ficheros de verificación |
-| [`proyectos/`](proyectos/) | Los 2 proyectos completos (código, datos, verificación y criterios) y el catálogo de práctica | **2 completos + 22 proyectos + 8 laboratorios** |
-| [`datasets/`](datasets/) | 10 datasets sintéticos propios con licencia CC0-1.0, checksum y generador; catálogo de los externos que solo se enlazan | **10 CSV** |
+| [`fuentes/`](fuentes/) | Catálogo de fuentes comprobadas, el trío principal + alternativas por tramo y la plantilla para dar de alta una fuente | **32 fuentes** (31 vivas, 1 muerta), **10 resúmenes de ejemplo** |
+| [`conceptos/`](conceptos/) | Los 459 conceptos en 13 fases, con su definición, código ejecutado, figuras, evidencia de ejecución e índices de consulta y lectura | **459 conceptos**, 350 fuentes de figura, 370 SVG, 1.925 ficheros de verificación |
+| [`proyectos/`](proyectos/) | Los 2 proyectos completos (código, datos, verificación y criterios), el catálogo de práctica y las fichas de los CSV nuevos | **2 completos + 22 proyectos + 8 laboratorios + 4 fichas** |
+| [`datasets/`](datasets/) | 10 datasets sintéticos propios con licencia CC0-1.0, checksum, generador, fichas de uso y verificación ejecutada; catálogo de los externos que solo se enlazan | **10 CSV** con ficha y perfil |
 | [`investigacion/`](investigacion/) | Cómo presentan su catálogo seis plataformas, investigación del portal (NotebookLM, APIs, certificaciones…) y el registro del rediseño de Muestra | **1 estudio + 23 ficheros + 10 de diseño** |
-| [`tools/`](tools/) | Comprobador de enlaces con pruebas (sin dependencias), medidor reproducible de los orígenes y verificador del código de los conceptos | 4 herramientas |
+| [`tools/`](tools/) | Comprobador de enlaces con pruebas, puerta y programador semanal, medidor de orígenes y verificador del código de los conceptos | 6 herramientas |
 | [`designs/`](designs/) | Sistema de diseño (tokens, tema claro/oscuro y preview de componente) | 1 sistema |
 
 ## Documentos de la raíz
@@ -35,22 +35,32 @@ números, está en [`INVENTARIO.md`](INVENTARIO.md) y [`CONSOLIDACION.md`](CONSO
 - **Se enlaza y se resume, no se copia.** Las fuentes de terceros se enlazan; su licencia decide
   qué se puede citar y qué no. **15** de las 32 fuentes solo admiten enlace + resumen propio.
 - **Todo concepto lleva código ejecutado**, no código de ejemplo: la prueba está en
-  `conceptos/verificacion/` (913 `.py`, 33 `.sql` y 946 salidas).
+  `conceptos/verificacion/` (929 `.py`, 33 `.sql` y 962 salidas).
 - **Todo dataset lleva licencia y procedencia**: los 10 propios son CC0-1.0, sintéticos, con
-  checksum SHA-256 y generador; los externos se enlazan y se comprueba su licencia por ítem.
+  checksum SHA-256 y generador, ficha de uso y perfil de `data_profile`; los externos se enlazan y
+  se comprueba su licencia por ítem.
 - **La viva es la fuente de verdad del contenido.** El archivo de Orca era una foto anterior
   (438 conceptos, 6 CSV, 0 salidas de ejecución); no se pierde nada al no duplicarlo.
-- **Sin GitHub Actions.** Pruebas y comprobaciones en local.
-- **Commit local y push selectivo**: un solo push al final de la sesión.
+- **Sin GitHub Actions.** Pruebas, comprobaciones y comprobador periódico, todo en local.
+- **Commit local y push selectivo**: un solo push al final de cada sesión de trabajo.
 
 ## Cómo se comprueba
 
 ```powershell
-npm test                  # pruebas del comprobador de enlaces (Node 20+, sin instalar nada)
-npm run check:links       # comprueba fuentes e investigación y escribe INFORMES/enlaces-<fecha>.md
+npm test                         # pruebas del comprobador de enlaces (Node 20+, sin instalar nada)
+npm run check:links              # comprueba fuentes e investigación y escribe INFORMES/enlaces-<fecha>.md
+npm run check:links:strict       # igual, pero sale con código 1 si hay enlaces caídos
+powershell -NoProfile -ExecutionPolicy Bypass -File tools/comprobar-enlaces.ps1   # puerta de enlaces
 powershell -NoProfile -ExecutionPolicy Bypass -File tools/medir-origenes.ps1
 powershell -NoProfile -ExecutionPolicy Bypass -File tools/verificar-conceptos.ps1   # ejecuta el código sin evidencia
 ```
+
+- **Comprobación periódica sin GitHub Actions:** `tools/programar-enlaces.ps1` registra una tarea
+  semanal de Windows que ejecuta la puerta y deja el informe fechado en `INFORMES/`. Se lanza una
+  vez (`-Quitar` para deshacerla); no se ha ejecutado en esta sesión porque cambia el sistema.
+- **Datos:** cada CSV tiene su ficha en [`datasets/FICHAS.md`](datasets/FICHAS.md) y su perfil real
+  en [`datasets/VERIFICACION.md`](datasets/VERIFICACION.md) (10/10 cargan, 63/63 columnas y tipos,
+  0 nulos, 0 duplicados).
 
 La medición de los orígenes y el informe de enlaces de esta consolidación están en
 [`INFORMES/`](INFORMES/).
