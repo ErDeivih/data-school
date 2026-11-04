@@ -1,47 +1,35 @@
-# Data School
+# Data School — la carpeta que aglutina todo
 
-Academia de datos: **data engineer**, **data scientist** y **AI engineer** en una sola casa.
+Aquí va **todo lo de datos e IA junto**: lo que había en Muestra, lo que era Data School,
+y el material de Orca. Primero se reúne; después se decide qué se queda.
 
-Los recursos de internet se **enlazan y se resumen**, no se copian.
+## Qué se trae aquí
 
-## Documentos
+| Origen | Qué aporta |
+|---|---|
+| `F:\Proyectos\ProyectoServidor\aprender` | el portal vivo: 438 conceptos en 13 fases, datasets, proyectos |
+| `F:\Proyectos\ProyectoServidor\aprender\docs\data-school-import` | lo importado de Data School: 32 fuentes verificadas, comprobador de enlaces, sistema de diseño |
+| `E:\orca-workspaces-archivo-2026-11-03\aprender\equipo-ia` | el workspace archivado de Orca: 13 fases, 6 CSV, figuras |
+| `C:\Users\David\orca\preview-data` | la vista previa de Orca |
+| `F:\Proyectos\data-school` (esta carpeta) | el proyecto Data School original y esta consolidación |
 
-- `ESPECIFICACION.md` — qué se construye, pantallas y decisiones pendientes.
-- `AGENTE.md` — misión, reglas de autonomía y primera tarea.
-- `ESTADO-AGENTE.md` — estado que lee el panel de proyectos.
-- `FUENTES.md` — las 32 fuentes candidatas verificadas una a una (licencia, coste, idioma, estado, tramo) y los descartes.
-- `INVESTIGACION.md` — cómo presentan su catálogo seis plataformas y qué se adopta aquí.
-- `BACKLOG.md` — tareas ordenadas por valor; nunca menos de cinco listas.
-- `DECISIONES.md` — decisiones de nivel 2 con su motivo.
-- `INFORMES/` — informes automáticos de enlaces, con fecha.
+## Estructura de esta carpeta
 
-## Sistema de diseño
+- `fuentes/` — el catálogo de fuentes con licencia, coste, idioma y estado (32 ya verificadas).
+- `conceptos/` — los conceptos de datos e IA, con su definición, ejemplo, código y errores típicos.
+- `proyectos/` — proyectos prácticos con su enunciado, nivel y criterio de terminado.
+- `datasets/` — conjuntos de datos reales con licencia y para qué sirven.
+- `investigacion/` — lo investigado: cómo lo hacen otros, APIs gratuitas, qué adoptamos.
 
-Vive en `designs/data-school/` y se creó **antes de la primera pantalla**:
+## Reglas
 
-- `project/tokens.json` — color (claro y oscuro), tipografía, espacio, forma y elevación.
-- `project/README.md` — el brand book: voz, fundamentos, contraste verificado y estados `verified` / `pending` / `broken`.
-- `project/components/Cover/preview.html` — la portada del sistema.
+- **Se enlaza y se resume, no se copia**: 11 de las 32 fuentes solo admiten enlace.
+- Todo concepto lleva **código verificado** (ejecutado), no código de ejemplo sin probar.
+- Todo dataset lleva **licencia** y **procedencia**.
+- Nada de GitHub Actions. Commit local; push selectivo.
 
-Se abre con el visor del sistema de diseño (servidor local):
+## Cómo arrancar
 
-```
-node "C:\Users\David\.dsh\profiles\desktop\node_modules\dsh-claude-design-system\skills\claude-design-system\scripts\artifact.mjs" open "F:\Proyectos\data-school\designs\data-school"
-```
-
-## Herramientas
-
-Node 20 o superior, **sin dependencias**:
-
-```
-npm test              # pruebas del comprobador (8)
-npm run check:links   # comprueba FUENTES.md y escribe INFORMES/enlaces-AAAA-MM-DD.md
-```
-
-El comprobador clasifica los enlaces en `vivo`, `redirige`, `bloqueado`, `caído` y `error`; un sitio que rechaza bots no se declara muerto.
-
-## Panel de proyectos
-
-```
-& F:\\EspacioCodigo\\_flujo-dsh\\Estado-Proyectos.ps1
-```
+David pega el prompt de consolidación en un workspace con esta carpeta. El agente mide los cinco
+orígenes, dice con números qué hay en cada uno, importa lo que falte y escribe `CONSOLIDACION.md`
+con lo que se queda, lo que se descarta y por qué.
