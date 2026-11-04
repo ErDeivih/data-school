@@ -2,7 +2,7 @@
 
 Comprobación hecha el **2026-11-04 (UTC)**. Método: petición HTTP real a cada sitio (código de estado y redirección final), lectura de su página de licencia o del `LICENSE` del repositorio, y comprobación de la página de precio cuando aplica. Cada fila lleva el enlace a la evidencia de la licencia.
 
-Informe automático de esta misma comprobación: [`INFORMES/enlaces-2026-11-04.md`](INFORMES/enlaces-2026-11-04.md) — 60 enlaces comprobados: 57 vivos, 3 redirigen (sin caídos). Se regenera con `npm run check:links`.
+Informe automático de esta misma comprobación: [`INFORMES/enlaces-2026-11-04.md`](INFORMES/enlaces-2026-11-04.md) — 60 enlaces comprobados: 58 vivos, 2 redirigen (sin caídos). Se regenera con `npm run check:links`.
 
 Las fuentes de la especificación entran como **candidatas**; aquí se quedan solo las que se han podido comprobar. Ninguna se da por buena «porque es famosa».
 
